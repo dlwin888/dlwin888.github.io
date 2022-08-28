@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2022-08-28T23:04:43.550Z</updated>
+  <updated>2022-08-28T23:55:36.304Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2-border</title>
+    <link href="https://dlwin888.github.io/posts/5652.html"/>
+    <id>https://dlwin888.github.io/posts/5652.html</id>
+    <published>2022-08-28T23:50:34.000Z</published>
+    <updated>2022-08-28T23:55:36.304Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;边框&quot;&gt;&lt;a href=&quot;#边框&quot; class=&quot;headerlink&quot; title=&quot;边框&quot;&gt;&lt;/a&gt;边框&lt;/h1&gt;&lt;h2 id=&quot;边框的语法规则、边框的单一方向条件设置&quot;&gt;&lt;a href=&quot;#边框的语法规则、边框的单一方向条件设置&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="css" scheme="https://dlwin888.github.io/categories/css/"/>
+    
+    
+    <category term="css" scheme="https://dlwin888.github.io/tags/css/"/>
+    
+  </entry>
   
   <entry>
     <title>样式表</title>
