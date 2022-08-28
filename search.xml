@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>样式表</title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-行间样式、内联样式表、外联样式表"><a href="#1-行间样式、内联样式表、外联样式表" class="headerlink" title="1-行间样式、内联样式表、外联样式表"></a>1-行间样式、内联样式表、外联样式表</h1><p><strong>行间样式</strong>：给单独的标签添加样式</p><p>语法：<code>&lt;div style="……"&gt;&lt;/div&gt;</code></p><p><strong>内部样式表</strong>：写在style标签内,针对当前html文件有效</p><p>语法：</p><pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">&lt;style type="text/css">        div </span><span class="token punctuation">{</span>            <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>            <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>            <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>        <span class="token punctuation">}</span>    &lt;/style><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><strong>外部样式表</strong>：写在外部css文件中，通过link标签引入</p><p>语法：</p><p><code>&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/posts/3eeb.html"/>
       <url>/posts/3eeb.html</url>
