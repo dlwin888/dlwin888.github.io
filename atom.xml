@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2022-08-29T20:38:24.838Z</updated>
+  <updated>2022-08-30T19:40:16.040Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>3-background</title>
+    <title>文本</title>
+    <link href="https://dlwin888.github.io/posts/25fe.html"/>
+    <id>https://dlwin888.github.io/posts/25fe.html</id>
+    <published>2022-08-30T18:34:05.000Z</published>
+    <updated>2022-08-30T19:40:16.040Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;文本&quot;&gt;&lt;a href=&quot;#文本&quot; class=&quot;headerlink&quot; title=&quot;文本&quot;&gt;&lt;/a&gt;文本&lt;/h1&gt;&lt;h2 id=&quot;文字颜色&quot;&gt;&lt;a href=&quot;#文字颜色&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="css" scheme="https://dlwin888.github.io/categories/css/"/>
+    
+    
+    <category term="css" scheme="https://dlwin888.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文字</title>
+    <link href="https://dlwin888.github.io/posts/90a6.html"/>
+    <id>https://dlwin888.github.io/posts/90a6.html</id>
+    <published>2022-08-30T18:04:24.000Z</published>
+    <updated>2022-08-30T18:33:40.201Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;文字&quot;&gt;&lt;a href=&quot;#文字&quot; class=&quot;headerlink&quot; title=&quot;文字&quot;&gt;&lt;/a&gt;文字&lt;/h1&gt;&lt;h2 id=&quot;文字着重&quot;&gt;&lt;a href=&quot;#文字着重&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="css" scheme="https://dlwin888.github.io/categories/css/"/>
+    
+    
+    <category term="css" scheme="https://dlwin888.github.io/tags/css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>背景</title>
     <link href="https://dlwin888.github.io/posts/6c5e.html"/>
     <id>https://dlwin888.github.io/posts/6c5e.html</id>
     <published>2022-08-29T20:31:35.000Z</published>
-    <updated>2022-08-29T20:38:24.838Z</updated>
+    <updated>2022-08-30T18:00:43.664Z</updated>
     
     
       
@@ -42,11 +92,11 @@
   </entry>
   
   <entry>
-    <title>2-border</title>
+    <title>边框</title>
     <link href="https://dlwin888.github.io/posts/5652.html"/>
     <id>https://dlwin888.github.io/posts/5652.html</id>
     <published>2022-08-28T23:50:34.000Z</published>
-    <updated>2022-08-29T00:06:53.908Z</updated>
+    <updated>2022-08-30T18:00:20.701Z</updated>
     
     
       
@@ -96,7 +146,7 @@
     <link href="https://dlwin888.github.io/posts/3eeb.html"/>
     <id>https://dlwin888.github.io/posts/3eeb.html</id>
     <published>2019-12-07T14:15:57.000Z</published>
-    <updated>2022-08-28T22:28:40.970Z</updated>
+    <updated>2022-08-30T18:01:19.600Z</updated>
     
     
       

@@ -4,7 +4,57 @@
   
     
     <entry>
-      <title>3-background</title>
+      <title>文本</title>
+      <link href="/posts/25fe.html"/>
+      <url>/posts/25fe.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h1><h2 id="文字颜色"><a href="#文字颜色" class="headerlink" title="文字颜色"></a>文字颜色</h2><p>color</p><h2 id="文本对齐方式"><a href="#文本对齐方式" class="headerlink" title="文本对齐方式"></a>文本对齐方式</h2><p>text-align</p><ul><li>left 默认值 </li><li>right</li><li>center</li></ul><h2 id="首行缩进"><a href="#首行缩进" class="headerlink" title="首行缩进"></a>首行缩进</h2><p>text-indent:2em;</p><p>em 是根据字体大小来进行计算的</p><p>1em=当前字体大小</p><h2 id="文本修饰"><a href="#文本修饰" class="headerlink" title="文本修饰"></a>文本修饰</h2><p>text-decoration</p><ul><li>underline 下划线</li><li>none</li></ul><h2 id="字母间距"><a href="#字母间距" class="headerlink" title="字母间距"></a>字母间距</h2><p>letter-spacing：10px;</p><h2 id="单词间距"><a href="#单词间距" class="headerlink" title="单词间距"></a>单词间距</h2><p>word-spacing: 2px; </p><p>以空格为解析单位</p><h2 id="强制不换行"><a href="#强制不换行" class="headerlink" title="强制不换行"></a>强制不换行</h2><p>white-space</p><ul><li>nowrap 不换行</li><li>normal</li></ul><h2 id="空格大小的测量"><a href="#空格大小的测量" class="headerlink" title="空格大小的测量"></a>空格大小的测量</h2><p>测量文字时最好是使用<strong>从上到下</strong>的方式</p><p><strong>一个空格有多大？</strong></p><p><strong>宋体字体下文字大小的一半</strong></p><p>全角，半角？</p><p>字体格式不一样时，空格大小不同</p><pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">div </span><span class="token punctuation">{</span>        <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">200</span>px<span class="token punctuation">;</span>        <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span>px solid red<span class="token punctuation">;</span>        <span class="token property">font-size</span><span class="token punctuation">:</span><span class="token number">24</span>px<span class="token punctuation">;</span>        <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>        <span class="token property">text-align</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>        <span class="token property">text-indent</span><span class="token punctuation">:</span> <span class="token number">2</span>em<span class="token punctuation">;</span>        <span class="token property">text-decoration</span><span class="token punctuation">:</span> underline<span class="token punctuation">;</span>        <span class="token property">letter-spacing</span><span class="token punctuation">:</span> <span class="token number">2</span>px<span class="token punctuation">;</span>        <span class="token property">word-spacing</span><span class="token punctuation">:</span> <span class="token number">20</span>px<span class="token punctuation">;</span>        <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="文本（font）属性练习"><a href="#文本（font）属性练习" class="headerlink" title="文本（font）属性练习"></a>文本（font）属性练习</h2><ol><li>模块、单词间距、行高要与设计图一致</li><li>思考题：每一行的前方粉色带三角的区域该如何实现?</li></ol><p><img src="/../images/img/image-20220831033731239.png" alt="image-20220831033731239"></p><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token number">15</span>px<span class="token punctuation">;</span>    <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"宋体"</span><span class="token punctuation">;</span>    <span class="token property">line-height</span><span class="token punctuation">:</span> <span class="token number">40</span>px<span class="token punctuation">;</span>    <span class="token property">text-align</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>    <span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">353</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">40</span>px<span class="token punctuation">;</span>    <span class="token property">word-spacing</span><span class="token punctuation">:</span> <span class="token number">43</span>px<span class="token punctuation">;</span>    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode">#fefafb</span> <span class="token url">url(../images/img/pink_bg.png)</span> no-repeat <span class="token number">0</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token property">border-bottom</span><span class="token punctuation">:</span> <span class="token number">10</span>px solid <span class="token hexcode">#c6cad7</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文字</title>
+      <link href="/posts/90a6.html"/>
+      <url>/posts/90a6.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="文字"><a href="#文字" class="headerlink" title="文字"></a>文字</h1><h2 id="文字着重"><a href="#文字着重" class="headerlink" title="文字着重"></a>文字着重</h2><p>font-weight </p><ul><li>bold 加粗</li><li>normal 正常</li></ul><h2 id="文字倾斜"><a href="#文字倾斜" class="headerlink" title="文字倾斜"></a>文字倾斜</h2><p>font-style </p><ul><li>talic 斜体</li><li>normal 正常</li></ul><h2 id="文字大小"><a href="#文字大小" class="headerlink" title="文字大小"></a>文字大小</h2><p>font-size</p><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>font-family</p><h2 id="行高"><a href="#行高" class="headerlink" title="行高"></a>行高</h2><p>line-height：文字在一行里所占用的位置</p><p>当行高的值与高度一致时，文字会<strong>垂直居中</strong></p><p><strong>多行文字测量行高的方法</strong>：</p><ol><li><p>确认文字大小</p></li><li><p>确认两行文字之间的大小</p></li><li><p>空隙大小除以2，得出来的值就是每行文字的上下的空隙大小</p><ol><li>当行高为奇数时，那么文字的上方要比下方少一个像素</li><li>当行高为偶数时，上下空隙值一致</li></ol></li><li><p>画辅助线测量</p></li></ol><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">font-weight</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>    <span class="token property">font-style</span><span class="token punctuation">:</span> italic<span class="token punctuation">;</span>    <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token number">16</span>px<span class="token punctuation">;</span>    <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"微软雅黑"</span><span class="token punctuation">;</span>    <span class="token property">line-height</span><span class="token punctuation">:</span> <span class="token number">16</span>px<span class="token punctuation">;</span>    <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span>px solid red<span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">/*复合样式 要注意书写顺序*/</span><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">font</span><span class="token punctuation">:</span> bold italic <span class="token number">26</span>px/<span class="token number">32</span>px <span class="token string">"楷体"</span>；<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>背景</title>
       <link href="/posts/6c5e.html"/>
       <url>/posts/6c5e.html</url>
       
@@ -29,7 +79,7 @@
     
     
     <entry>
-      <title>2-border</title>
+      <title>边框</title>
       <link href="/posts/5652.html"/>
       <url>/posts/5652.html</url>
       

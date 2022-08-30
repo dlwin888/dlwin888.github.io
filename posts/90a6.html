@@ -4,9 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="边框, 观海听涛">
-    <meta name="description" content="边框边框的语法规则、边框的单一方向条件设置语法：
-边框的语法规则        1.边框的粗细        2.边框的样式        3.边框的颜色    边框的方向        top right bottom left    b">
+    <meta name="keywords" content="文字, 观海听涛">
+    <meta name="description" content="文字着重、文字倾斜、文字大小、字体、行高">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>边框 | 观海听涛</title>
+    <title>文字 | 观海听涛</title>
     <link rel="icon" type="image/png" href="/medias/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -308,12 +307,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">边框</h1>
+                    <h1 class="description center-align post-title">文字</h1>
                 </div>
             </div>
         </div>
@@ -360,7 +359,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-08-29
+                    2022-08-31
                 </div>
                 
 
@@ -374,7 +373,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    251
+                    209
                 </div>
                 
 
@@ -397,47 +396,49 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="边框"><a href="#边框" class="headerlink" title="边框"></a>边框</h1><h2 id="边框的语法规则、边框的单一方向条件设置"><a href="#边框的语法规则、边框的单一方向条件设置" class="headerlink" title="边框的语法规则、边框的单一方向条件设置"></a>边框的语法规则、边框的单一方向条件设置</h2><p><strong>语法</strong>：</p>
-<p><strong>边框的语法规则</strong><br>        1.边框的粗细<br>        2.边框的样式<br>        3.边框的颜色<br>    边框的方向<br>        top right bottom left<br>    border<br>        border<br>            border-top<br>                border-top-width<br>                border-top-style<br>                border-top-color<br>            border-right<br>                border-right-width<br>                border-right-style<br>                border-right-color<br>            border-bottom<br>                border-bottom-width<br>                border-bottom-style<br>                border-bottom-color<br>            border-left<br>                border-left-width<br>                border-left-style<br>                border-left-color</p>
-<pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">&lt;style type="text/css">
-        div </span><span class="token punctuation">{</span>
-            <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>
-            <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>
-            <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span>px solid red<span class="token punctuation">;</span>
-            <span class="token property">border-right</span><span class="token punctuation">:</span> <span class="token number">5</span>px dashed blue<span class="token punctuation">;</span>
-            <span class="token property">border-top-color</span><span class="token punctuation">:</span> blue<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    &lt;/style>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="边框的特性、使用边框实现三角形"><a href="#边框的特性、使用边框实现三角形" class="headerlink" title="边框的特性、使用边框实现三角形"></a>边框的特性、使用边框实现三角形</h2><p><strong>边框的形状</strong>：非矩形</p>
-<pre><code>#div1 {
-    width: 0;
-    height: 0;
-    border: 20px solid red;
-    border-color: black blue green red;
-}
-</code></pre>
-<img src="/images/loading.gif" data-original="../images/img/image-20220828184404871.png" alt="image-20220828184404871" style="zoom:200%;">
-
-<pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token id">#div2</span> </span><span class="token punctuation">{</span>
-    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">10</span>px solid <span class="token hexcode">#fff</span><span class="token punctuation">;</span>
-    <span class="token comment" spellcheck="true">/*border-top-color: #ccc;*/</span>
-    <span class="token property">border-left-color</span><span class="token punctuation">:</span> <span class="token hexcode">#ccc</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<img src="/images/loading.gif" data-original="../images/img/image-20220828184832604.png" alt="image-20220828184832604" style="zoom:200%;">
-
-
-
-<h2 id="边框样式练习"><a href="#边框样式练习" class="headerlink" title="边框样式练习"></a>边框样式练习</h2><ol>
-<li>先分析设计图的结构</li>
-<li>根据所分析的结构，进行结构编码</li>
-<li>根据所书写的结构，进行css编码</li>
-<li>利用ps工具，对设计图上的模块进行测量以及颜色的拾取</li>
-<li>样式添加</li>
+                <h1 id="文字"><a href="#文字" class="headerlink" title="文字"></a>文字</h1><h2 id="文字着重"><a href="#文字着重" class="headerlink" title="文字着重"></a>文字着重</h2><p>font-weight </p>
+<ul>
+<li>bold 加粗</li>
+<li>normal 正常</li>
+</ul>
+<h2 id="文字倾斜"><a href="#文字倾斜" class="headerlink" title="文字倾斜"></a>文字倾斜</h2><p>font-style </p>
+<ul>
+<li>talic 斜体</li>
+<li>normal 正常</li>
+</ul>
+<h2 id="文字大小"><a href="#文字大小" class="headerlink" title="文字大小"></a>文字大小</h2><p>font-size</p>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>font-family</p>
+<h2 id="行高"><a href="#行高" class="headerlink" title="行高"></a>行高</h2><p>line-height：文字在一行里所占用的位置</p>
+<p>当行高的值与高度一致时，文字会<strong>垂直居中</strong></p>
+<p><strong>多行文字测量行高的方法</strong>：</p>
+<ol>
+<li><p>确认文字大小</p>
+</li>
+<li><p>确认两行文字之间的大小</p>
+</li>
+<li><p>空隙大小除以2，得出来的值就是每行文字的上下的空隙大小</p>
+<ol>
+<li>当行高为奇数时，那么文字的上方要比下方少一个像素</li>
+<li>当行高为偶数时，上下空隙值一致</li>
 </ol>
+</li>
+<li><p>画辅助线测量</p>
+</li>
+</ol>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>
+    <span class="token property">font-weight</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>
+    <span class="token property">font-style</span><span class="token punctuation">:</span> italic<span class="token punctuation">;</span>
+    <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token number">16</span>px<span class="token punctuation">;</span>
+    <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"微软雅黑"</span><span class="token punctuation">;</span>
+    <span class="token property">line-height</span><span class="token punctuation">:</span> <span class="token number">16</span>px<span class="token punctuation">;</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span>px solid red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment" spellcheck="true">/*复合样式 要注意书写顺序*/</span>
+<span class="token selector">div </span><span class="token punctuation">{</span>
+    <span class="token property">font</span><span class="token punctuation">:</span> bold italic <span class="token number">26</span>px/<span class="token number">32</span>px <span class="token string">"楷体"</span>；
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
             </div>
             <hr/>
@@ -463,7 +464,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://dlwin888.github.io/posts/5652.html">https://dlwin888.github.io/posts/5652.html</a>
+                    <a href="https://dlwin888.github.io/posts/90a6.html">https://dlwin888.github.io/posts/90a6.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -547,33 +548,34 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/6c5e.html">
+                <a href="/posts/25fe.html">
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/11.jpg" class="responsive-img" alt="背景">
+                        <img src="/images/loading.gif" data-original="/medias/featureimages/5.jpg" class="responsive-img" alt="文本">
                         
-                        <span class="card-title">背景</span>
+                        <span class="card-title">文本</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            背景背景和内容的区别内容是会撑开容器宽高
-背景不会占用容器宽高
-背景颜色background-color 背景颜色
+                            文本文字颜色color
+文本对齐方式text-align
 
-英文关键字
-RGB
-十六进制
+left 默认值 
+right
+center
 
-背景图、背景图是否重复background-image 背景图片
-​	url(../img
+首行缩进text-indent:2em;
+em 是根据字体大小来进行计算的
+1em=当前字体大小
+文本修饰text-decorati
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-30
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-31
                         </span>
                         <span class="publish-author">
                             
@@ -605,28 +607,33 @@ RGB
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/0.html">
+                <a href="/posts/6c5e.html">
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/8.jpg" class="responsive-img" alt="样式表">
+                        <img src="/images/loading.gif" data-original="/medias/featureimages/11.jpg" class="responsive-img" alt="背景">
                         
-                        <span class="card-title">样式表</span>
+                        <span class="card-title">背景</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            1-行间样式、内联样式表、外联样式表行间样式：给单独的标签添加样式
-语法：&lt;div style="……"&gt;&lt;/div&gt;
-内部样式表：写在style标签内,针对当前html文件有效
-语法：
-    &lt;style 
+                            背景背景和内容的区别内容是会撑开容器宽高
+背景不会占用容器宽高
+背景颜色background-color 背景颜色
+
+英文关键字
+RGB
+十六进制
+
+背景图、背景图是否重复background-image 背景图片
+​	url(../img
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-29
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-30
                             </span>
                         <span class="publish-author">
                             
