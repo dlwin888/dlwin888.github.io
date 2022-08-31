@@ -4,17 +4,18 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="背景, 观海听涛">
-    <meta name="description" content="背景背景和内容的区别内容是会撑开容器宽高
-背景不会占用容器宽高
-背景颜色background-color 背景颜色
+    <meta name="keywords" content="盒模型, 观海听涛">
+    <meta name="description" content="盒模型内边距padding 内填充
 
-英文关键字
-RGB
-十六进制
+padding-top
+padding-right
+padding-bottom
+padding-left
 
-背景图、背景图是否重复background-image 背景图片
-​	url(../img">
+设置padding后会撑大容器的大小
+padding复合写法：
+
+只有一个属性值时：4个方向">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +23,7 @@ RGB
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>背景 | 观海听涛</title>
+    <title>盒模型 | 观海听涛</title>
     <link rel="icon" type="image/png" href="/medias/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -316,12 +317,12 @@ RGB
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">背景</h1>
+                    <h1 class="description center-align post-title">盒模型</h1>
                 </div>
             </div>
         </div>
@@ -368,21 +369,21 @@ RGB
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-08-30
+                    2022-09-01
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-08-31
+                    2022-09-01
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    292
+                    316
                 </div>
                 
 
@@ -405,62 +406,67 @@ RGB
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><h2 id="背景和内容的区别"><a href="#背景和内容的区别" class="headerlink" title="背景和内容的区别"></a>背景和内容的区别</h2><p>内容是会撑开容器宽高</p>
-<p>背景不会占用容器宽高</p>
-<h2 id="背景颜色"><a href="#背景颜色" class="headerlink" title="背景颜色"></a>背景颜色</h2><p>background-color 背景颜色</p>
+                <h1 id="盒模型"><a href="#盒模型" class="headerlink" title="盒模型"></a>盒模型</h1><h2 id="内边距"><a href="#内边距" class="headerlink" title="内边距"></a>内边距</h2><p>padding 内填充</p>
 <ul>
-<li>英文关键字</li>
-<li>RGB</li>
-<li>十六进制</li>
+<li>padding-top</li>
+<li>padding-right</li>
+<li>padding-bottom</li>
+<li>padding-left</li>
 </ul>
-<h2 id="背景图、背景图是否重复"><a href="#背景图、背景图是否重复" class="headerlink" title="背景图、背景图是否重复"></a>背景图、背景图是否重复</h2><p>background-image 背景图片</p>
-<p>​	url(../img/bg.png);</p>
-<p>background-repeat   背景是否重复</p>
+<p><strong>设置padding后会撑大容器的大小</strong></p>
+<p>padding复合写法：</p>
 <ul>
-<li><p>​	repeat </p>
-<ul>
-<li>repeat-x  X轴重复</li>
-<li>repeat-y   Y轴重复</li>
+<li>只有一个属性值时：4个方向是一个值 </li>
+<li>两个属性值时：第一个是上下，第二个是左右</li>
+<li>三个属性值时：第一个是上，第二个是左右，第三个是下</li>
+<li>四个属性值：上 右 下 左</li>
 </ul>
-</li>
-<li><p>​    no-repeat 不重复</p>
-</li>
-</ul>
-<h2 id="背景图位置调整"><a href="#背景图位置调整" class="headerlink" title="背景图位置调整"></a>背景图位置调整</h2><p>background-position ：x y; 背景图位置</p>
-<ul>
-<li>数值</li>
-<li>left right center top bottom</li>
-</ul>
-<p>第二个属性不写，默认是center</p>
-<h2 id="背景图是否跟随滚条滚动"><a href="#背景图是否跟随滚条滚动" class="headerlink" title="背景图是否跟随滚条滚动"></a>背景图是否跟随滚条滚动</h2><p>background-attachment: fixed 背景是否滚动</p>
-<ul>
-<li>fixed 固定在浏览器可视区域内</li>
-<li>scroll 跟随滚动条滚动</li>
-</ul>
-<h2 id="background复合样式"><a href="#background复合样式" class="headerlink" title="background复合样式"></a>background复合样式</h2><p>background : red url(“../images/img/20220817010850.jpg”) no-repeat center top scroll;</p>
 <pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>
-    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>
-    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>
-    <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">10</span>px solid pink<span class="token punctuation">;</span>
-    <span class="token property">background-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
-    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url">url("../images/img/20220817010850.jpg")</span><span class="token punctuation">;</span>
-    <span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span>
-    <span class="token property">background-position</span><span class="token punctuation">:</span> <span class="token number">10</span>px center<span class="token punctuation">;</span>
-    <span class="token property">background-attachment</span><span class="token punctuation">:</span> fixed<span class="token punctuation">;</span>
-    <span class="token property">background-size</span><span class="token punctuation">:</span> <span class="token number">25%</span><span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-
-<span class="token selector">//复合样式
-    div </span><span class="token punctuation">{</span>
-        <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>
-        <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>
-        <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">10</span>px solid pink<span class="token punctuation">;</span>
-        <span class="token property">background</span> <span class="token punctuation">:</span> red <span class="token url">url("../images/img/20220817010850.jpg")</span> no-repeat center top scroll<span class="token punctuation">;</span>
-        <span class="token property">background-size</span><span class="token punctuation">:</span> <span class="token number">100%</span><span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p><img src="/images/loading.gif" data-original="/../images/img/image-20220830033745660.png" alt="image-20220830033745660"></p>
-<h2 id="background练习"><a href="#background练习" class="headerlink" title="background练习"></a>background练习</h2><p>1、头部区域（第一个块）直接切一张完整的图片<br>2、内容区域里的每一个小块需要有ico并且还有背景颜色</p>
+<span class="token comment" spellcheck="true">/* 复合写法 上右下左 */</span>
+<span class="token selector">div </span><span class="token punctuation">{</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">10</span>px <span class="token number">20</span>px <span class="token number">10</span>px <span class="token number">20</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="外边距"><a href="#外边距" class="headerlink" title="外边距"></a>外边距</h2><p>margin 外边距</p>
+<ul>
+<li>margin -top</li>
+<li>margin -right</li>
+<li>margin -bottom</li>
+<li>margin -left</li>
+</ul>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>
+    <span class="token property">margin-top</span><span class="token punctuation">:</span><span class="token number">100</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment" spellcheck="true">/* 复合写法 上右下左 */</span>
+<span class="token selector">div </span><span class="token punctuation">{</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">10</span>px <span class="token number">10</span>px <span class="token number">20</span>px <span class="token number">30</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>margin的常见问题：</p>
+<ol>
+<li><p>margin-top会传递给父级</p>
+<p>解决方法：仅用已学知识可使用border解决</p>
+</li>
+<li><p>margin的上下边距会叠压</p>
+<p>解决技巧：</p>
+<ol>
+<li>还是使用margin, 叠压会使用两者中较大的值，将其中一个值设置为预想的值</li>
+<li>如果元素没有特殊特征，也可以使用padding代替</li>
+</ol>
+</li>
+</ol>
+<h2 id="盒模型-1"><a href="#盒模型-1" class="headerlink" title="盒模型"></a>盒模型</h2><p><img src="/images/loading.gif" data-original="/../images/img/image-20220901010358377.png" alt="image-20220901010358377"></p>
+<p><strong>练习要求：</strong><br>1、两个线框图都得做<br>2、利用margin完成<br>3、利用padding完成<br>4、混合使用margin和padding同时完成</p>
+<p><strong>注意</strong>：<br>不管是结构还是样式的编码<br>从外往里（从大往小）进行编码</p>
+<p><img src="/images/loading.gif" data-original="/../images/img/image-20220901015048462.png" alt="image-20220901015048462"></p>
 
             </div>
             <hr/>
@@ -486,7 +492,7 @@ RGB
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://dlwin888.github.io/posts/6c5e.html">https://dlwin888.github.io/posts/6c5e.html</a>
+                    <a href="https://dlwin888.github.io/posts/3079.html">https://dlwin888.github.io/posts/3079.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -566,29 +572,40 @@ RGB
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/90a6.html">
+                <a href="/posts/3079.html">
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/0.jpg" class="responsive-img" alt="文字">
+                        <img src="/images/loading.gif" data-original="/medias/featureimages/12.jpg" class="responsive-img" alt="盒模型">
                         
-                        <span class="card-title">文字</span>
+                        <span class="card-title">盒模型</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            文字着重、文字倾斜、文字大小、字体、行高
+                            盒模型内边距padding 内填充
+
+padding-top
+padding-right
+padding-bottom
+padding-left
+
+设置padding后会撑大容器的大小
+padding复合写法：
+
+只有一个属性值时：4个方向
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-08-31
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-01
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -601,6 +618,7 @@ RGB
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -619,25 +637,34 @@ RGB
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/5652.html">
+                <a href="/posts/25fe.html">
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/13.jpg" class="responsive-img" alt="边框">
+                        <img src="/images/loading.gif" data-original="/medias/featureimages/5.jpg" class="responsive-img" alt="文本">
                         
-                        <span class="card-title">边框</span>
+                        <span class="card-title">文本</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            边框边框的语法规则、边框的单一方向条件设置语法：
-边框的语法规则        1.边框的粗细        2.边框的样式        3.边框的颜色    边框的方向        top right bottom left    b
+                            文本文字颜色color
+文本对齐方式text-align
+
+left 默认值 
+right
+center
+
+首行缩进text-indent:2em;
+em 是根据字体大小来进行计算的
+1em=当前字体大小
+文本修饰text-decorati
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-29
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-31
                             </span>
                         <span class="publish-author">
                             

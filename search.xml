@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>盒模型</title>
+      <link href="/posts/3079.html"/>
+      <url>/posts/3079.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="盒模型"><a href="#盒模型" class="headerlink" title="盒模型"></a>盒模型</h1><h2 id="内边距"><a href="#内边距" class="headerlink" title="内边距"></a>内边距</h2><p>padding 内填充</p><ul><li>padding-top</li><li>padding-right</li><li>padding-bottom</li><li>padding-left</li></ul><p><strong>设置padding后会撑大容器的大小</strong></p><p>padding复合写法：</p><ul><li>只有一个属性值时：4个方向是一个值 </li><li>两个属性值时：第一个是上下，第二个是左右</li><li>三个属性值时：第一个是上，第二个是左右，第三个是下</li><li>四个属性值：上 右 下 左</li></ul><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">/* 复合写法 上右下左 */</span><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">10</span>px <span class="token number">20</span>px <span class="token number">10</span>px <span class="token number">20</span>px<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="外边距"><a href="#外边距" class="headerlink" title="外边距"></a>外边距</h2><p>margin 外边距</p><ul><li>margin -top</li><li>margin -right</li><li>margin -bottom</li><li>margin -left</li></ul><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>    <span class="token property">margin-top</span><span class="token punctuation">:</span><span class="token number">100</span>px<span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">/* 复合写法 上右下左 */</span><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">10</span>px <span class="token number">10</span>px <span class="token number">20</span>px <span class="token number">30</span>px<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>margin的常见问题：</p><ol><li><p>margin-top会传递给父级</p><p>解决方法：仅用已学知识可使用border解决</p></li><li><p>margin的上下边距会叠压</p><p>解决技巧：</p><ol><li>还是使用margin, 叠压会使用两者中较大的值，将其中一个值设置为预想的值</li><li>如果元素没有特殊特征，也可以使用padding代替</li></ol></li></ol><h2 id="盒模型-1"><a href="#盒模型-1" class="headerlink" title="盒模型"></a>盒模型</h2><p><img src="/../images/img/image-20220901010358377.png" alt="image-20220901010358377"></p><p><strong>练习要求：</strong><br>1、两个线框图都得做<br>2、利用margin完成<br>3、利用padding完成<br>4、混合使用margin和padding同时完成</p><p><strong>注意</strong>：<br>不管是结构还是样式的编码<br>从外往里（从大往小）进行编码</p><p><img src="/../images/img/image-20220901015048462.png" alt="image-20220901015048462"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>文本</title>
       <link href="/posts/25fe.html"/>
       <url>/posts/25fe.html</url>
