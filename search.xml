@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>7-HTML 初体验---a标签</title>
+      <link href="/posts/6ee1.html"/>
+      <url>/posts/6ee1.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="a标签"><a href="#a标签" class="headerlink" title="a标签"></a>a标签</h1><h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><p><code>&lt;a href="http://www.baidu.com"&gt;这是百度的超链接&lt;/a&gt;</code></p><ul><li><p>链接</p></li><li><p>下载</p></li><li><p>锚点</p></li></ul><h2 id="伪类是什么"><a href="#伪类是什么" class="headerlink" title="伪类是什么"></a>伪类是什么</h2><p>给元素添加特殊的效果</p><ul><li>：link 未访问过的效果，默认的</li><li>：visited 访问过后的效果</li><li>：hover 鼠标移入的效果（悬停）</li><li>：active 鼠标按下时链接的颜色</li></ul><h2 id="a标签的伪类"><a href="#a标签的伪类" class="headerlink" title="a标签的伪类"></a>a标签的伪类</h2><pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">a<span class="token pseudo-class">:link</span> </span><span class="token punctuation">{</span>        <span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token selector">a<span class="token pseudo-class">:visited</span> </span><span class="token punctuation">{</span>        <span class="token property">color</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token selector">a<span class="token pseudo-class">:hover</span> </span><span class="token punctuation">{</span>        <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token selector">a<span class="token pseudo-class">:active</span> </span><span class="token punctuation">{</span>        <span class="token property">color</span><span class="token punctuation">:</span> plum<span class="token punctuation">;</span>    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="伪类的顺序"><a href="#伪类的顺序" class="headerlink" title="伪类的顺序"></a>伪类的顺序</h2><p><strong>L V H A</strong></p><blockquote><p>看到ＬＶ ＨＡＨＡ大笑</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>盒模型</title>
       <link href="/posts/3079.html"/>
       <url>/posts/3079.html</url>
