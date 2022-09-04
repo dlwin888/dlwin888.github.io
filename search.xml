@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>常用标签</title>
+      <link href="/posts/7048.html"/>
+      <url>/posts/7048.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="HTML5常用标签"><a href="#HTML5常用标签" class="headerlink" title="HTML5常用标签"></a>HTML5常用标签</h1><h2 id="span标签"><a href="#span标签" class="headerlink" title="span标签"></a>span标签</h2><p>span 区分样式</p><h2 id="header-页眉"><a href="#header-页眉" class="headerlink" title="header 页眉"></a>header 页眉</h2><p>主要用于页面的头部信息，也可用于板块头部</p><h2 id="nav-导航"><a href="#nav-导航" class="headerlink" title="nav 导航"></a>nav 导航</h2><p>包含链接的一个列表</p><h2 id="footer-页脚"><a href="#footer-页脚" class="headerlink" title="footer 页脚"></a>footer 页脚</h2><p>页面的底部或者版本底部</p><h2 id="section-页面上的版块"><a href="#section-页面上的版块" class="headerlink" title="section 页面上的版块"></a>section 页面上的版块</h2><p>用于划分页面上不同的区域，或者划分文章里不同的节</p><h2 id="article"><a href="#article" class="headerlink" title="article"></a>article</h2><p>用来在页面中表示一套结构完整且独立的内容部分</p><h2 id="aside"><a href="#aside" class="headerlink" title="aside"></a>aside</h2><p>可以包含与当前页面或主要内容相关的引用、侧边栏、广告、nav元素组，以及其他类似的有别与主要内容的部分</p><h2 id="time"><a href="#time" class="headerlink" title="time"></a>time</h2><p>用来表示时间或日期</p><p><a href="http://www.w3school.com.cn/tags/index.asp">HTML 参考手册</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>7-HTML 初体验---a标签</title>
       <link href="/posts/6ee1.html"/>
       <url>/posts/6ee1.html</url>
