@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2022-09-04T18:16:57.876Z</updated>
+  <updated>2022-09-05T18:02:36.395Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>标签样式初始化</title>
+    <link href="https://dlwin888.github.io/posts/17e2.html"/>
+    <id>https://dlwin888.github.io/posts/17e2.html</id>
+    <published>2022-09-05T17:47:08.000Z</published>
+    <updated>2022-09-05T18:02:36.395Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;标签样式初始化&quot;&gt;&lt;a href=&quot;#标签样式初始化&quot; class=&quot;headerlink&quot; title=&quot;标签样式初始化&quot;&gt;&lt;/a&gt;标签样式初始化&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;css reset</summary>
+        
+      
+    
+    
+    
+    <category term="html" scheme="https://dlwin888.github.io/categories/html/"/>
+    
+    
+    <category term="html css" scheme="https://dlwin888.github.io/tags/html-css/"/>
+    
+  </entry>
   
   <entry>
     <title>常用标签</title>

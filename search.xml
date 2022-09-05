@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>标签样式初始化</title>
+      <link href="/posts/17e2.html"/>
+      <url>/posts/17e2.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="标签样式初始化"><a href="#标签样式初始化" class="headerlink" title="标签样式初始化"></a>标签样式初始化</h1><p><strong>css reset 原则：</strong></p><p>但凡是浏览器默认的样式，都不要使用。</p><p>因为每个浏览器下标签的默认样式可能会出现不一致的情况。</p><p>人为的将所有样式全部统一（清除），再根据实际情况（设计稿）统一设置。</p><p>哪些样式是需要重置的</p><p>​与盒模型相关的样式</p><ul><li>margin</li><li>padding</li><li>border</li></ul><p>标签特有的样式</p><ul><li><p>​ul&gt;li</p></li><li><p>​ol&gt;li</p><p>  书写原则：<br>  用到什么标签就清除所用标签的默认样式<br>  建议不要直接将所有标签全部加上。<br>  不要将所有标签全部统一设置一致的reset，需根据标签默认样式特征来分类设置。</p></li></ul><pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">&lt;style>        body, h1, h2, h3, h4, h5, h6, p, dl, dd</span><span class="token punctuation">{</span>            <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token selector">ul, ol</span><span class="token punctuation">{</span>            <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>            <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>            <span class="token property">list-style</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token selector">img</span><span class="token punctuation">{</span>            <span class="token property">border</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>            <span class="token property">vertical-align</span><span class="token punctuation">:</span> top<span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token selector">a</span><span class="token punctuation">{</span>            <span class="token property">text-decoration</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>        <span class="token punctuation">}</span>    &lt;/style><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>常用标签</title>
       <link href="/posts/7048.html"/>
       <url>/posts/7048.html</url>
