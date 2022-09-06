@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>选择器</title>
+      <link href="/posts/a05a.html"/>
+      <url>/posts/a05a.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h1><h2 id="id选择器"><a href="#id选择器" class="headerlink" title="id选择器"></a>id选择器</h2><p>唯一</p><p><code>&lt;div id="box"&gt;&lt;/div&gt;</code></p><p><code>#box {</code></p><p><code>}</code></p><h2 id="类选择器"><a href="#类选择器" class="headerlink" title="类选择器"></a>类选择器</h2><p><code>&lt;div class="box"&gt;&lt;/div&gt;</code></p><p><code>.box {</code></p><p><code>}</code></p><p>可以是多个class加在同一个元素上</p><h2 id="标签选择器"><a href="#标签选择器" class="headerlink" title="标签选择器"></a>标签选择器</h2><p><code>div {</code></p><p>​<code>width:100px;</code></p><p>​<code>height:100px;</code></p><p><code>}</code></p><p>当前页面上所有标签为xxx的元素</p><h2 id="群组选择器"><a href="#群组选择器" class="headerlink" title="群组选择器"></a>群组选择器</h2><p><code>div,p,h1 {</code></p><p>​<code>width:100px;</code></p><p>​<code>height:100px;</code></p><p>​<code>color:pink;</code></p><p><code>}</code></p><p>用逗号分隔，被逗号分隔的元素统一使用相同的样式</p><h2 id="包含选择器"><a href="#包含选择器" class="headerlink" title="包含选择器"></a>包含选择器</h2><p>.box div {</p><p>}</p><p>目标范围 目标元素</p><h2 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h2><p><code> body *  {</code></p><p>​<code>margin:10px;</code></p><p>​<code>pading:10px;</code></p><p>​<code>border:1px solid #fff;</code></p><p><code>}</code></p><p>找到页面上符合规则的所有元素</p><p><strong>不建议使用</strong></p><h2 id="选择器的优先级"><a href="#选择器的优先级" class="headerlink" title="选择器的优先级"></a>选择器的优先级</h2><p>代码执行生效的顺序：</p><blockquote><p>行间样式&gt; id选择器 &gt; 类选择器 &gt; 元素选择器</p></blockquote><blockquote><p>行间样式 1000</p><p>id选择器 100</p><p>类选择器10</p><p>元素选择器1</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>标签样式初始化</title>
       <link href="/posts/17e2.html"/>
       <url>/posts/17e2.html</url>
