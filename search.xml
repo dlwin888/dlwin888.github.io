@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>块元素和内联元素</title>
+      <link href="/posts/d054.html"/>
+      <url>/posts/d054.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="块元素和内联元素"><a href="#块元素和内联元素" class="headerlink" title="块元素和内联元素"></a>块元素和内联元素</h1><h2 id="块元素特征"><a href="#块元素特征" class="headerlink" title="块元素特征"></a>块元素特征</h2><ol><li>默认独占一行</li><li>没有宽度时，默认撑满一行</li><li>支持所有css命令</li></ol><h2 id="内联元素特征"><a href="#内联元素特征" class="headerlink" title="内联元素特征"></a>内联元素特征</h2><ol><li>同排可以继续跟相同类型的标签</li><li>内容撑开高度</li><li>不支持宽高</li><li>不支持上下的margin</li><li>代码换行被解析–空格</li></ol><h2 id="块和内联的转换"><a href="#块和内联的转换" class="headerlink" title="块和内联的转换"></a>块和内联的转换</h2><p>display</p><ul><li>block        显示为块，使行块属性标签具备内联元素的特性</li><li>inline        显示为内联，使内联元素具备块属性标签的特性</li></ul><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>    <span class="token property">display</span><span class="token punctuation">:</span> inline<span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token selector">span </span><span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>    <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>选择器</title>
       <link href="/posts/a05a.html"/>
       <url>/posts/a05a.html</url>

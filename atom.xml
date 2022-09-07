@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2022-09-06T16:46:52.464Z</updated>
+  <updated>2022-09-07T15:57:27.043Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>块元素和内联元素</title>
+    <link href="https://dlwin888.github.io/posts/d054.html"/>
+    <id>https://dlwin888.github.io/posts/d054.html</id>
+    <published>2022-09-07T15:46:17.000Z</published>
+    <updated>2022-09-07T15:57:27.043Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;块元素和内联元素&quot;&gt;&lt;a href=&quot;#块元素和内联元素&quot; class=&quot;headerlink&quot; title=&quot;块元素和内联元素&quot;&gt;&lt;/a&gt;块元素和内联元素&lt;/h1&gt;&lt;h2 id=&quot;块元素特征&quot;&gt;&lt;a href=&quot;#块元素特征&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="html" scheme="https://dlwin888.github.io/categories/html/"/>
+    
+    
+    <category term="html css" scheme="https://dlwin888.github.io/tags/html-css/"/>
+    
+  </entry>
+  
+  <entry>
     <title>选择器</title>
     <link href="https://dlwin888.github.io/posts/a05a.html"/>
     <id>https://dlwin888.github.io/posts/a05a.html</id>
     <published>2022-09-06T16:20:03.000Z</published>
-    <updated>2022-09-06T16:46:52.464Z</updated>
+    <updated>2022-09-06T16:47:45.580Z</updated>
     
     
       
