@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>浮动</title>
+      <link href="/posts/1dcc.html"/>
+      <url>/posts/1dcc.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="浮动介绍及基本语法"><a href="#浮动介绍及基本语法" class="headerlink" title="浮动介绍及基本语法"></a>浮动介绍及基本语法</h1><p>float:</p><ul><li>left</li><li>right</li><li>none</li><li>inherit</li></ul><p><strong>文档流是文档中可显示对象在排列时所占用的位置</strong></p><h2 id="浮动的定义"><a href="#浮动的定义" class="headerlink" title="浮动的定义"></a>浮动的定义</h2><p>使元素脱离文档流，按照指定方向发生移动，遇到父级边界或者相邻的浮动元素停了下来</p><h2 id="浮动清除"><a href="#浮动清除" class="headerlink" title="浮动清除"></a>浮动清除</h2><p>clear: </p><ul><li>left</li><li>right</li><li>none</li><li>inherit</li><li>both 左右两侧都不能有浮动</li></ul><p>元素的某个方向不能有浮动</p><h2 id="float特征"><a href="#float特征" class="headerlink" title="float特征"></a>float特征</h2><ol><li>块在一行显示</li><li>内联支持宽高</li><li>默认内容撑开宽度</li><li>脱离文档流</li><li>提升层级半层</li></ol><h2 id="清除浮动的方法"><a href="#清除浮动的方法" class="headerlink" title="清除浮动的方法"></a>清除浮动的方法</h2><ol><li><p>加高</p><ul><li>扩展性不好</li></ul></li><li><p>父级加浮动</p><ul><li>页面中所有元素加浮动，margin左右自动失效(float bad!)</li></ul></li><li><p>inline-block清浮动</p><ul><li>margin左右自动失效</li></ul></li><li><p>空标签清除浮动</p><ul><li>ie6下最小高度19px,解决后还有2px偏差</li></ul></li><li><p>.br清浮动</p><ul><li>不符合工作中：结构、样式、行为三者分离的要求</li></ul></li><li><p>after伪类</p><p><strong>最优雅的解决方案</strong></p><pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.clearfix</span> </span><span class="token punctuation">{</span>    *<span class="token property">zoom</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token selector"><span class="token class">.clearfix</span><span class="token pseudo-element">:after</span></span><span class="token punctuation">{</span>     <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">;</span>     <span class="token property">display</span><span class="token punctuation">:</span>block<span class="token punctuation">;</span>     <span class="token property">clear</span><span class="token punctuation">:</span>both<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>overflow:hidden清除浮动</p><ul><li>需要配合宽度或者zoom兼容IE6 7</li><li>溢出隐藏</li></ul><h2 id="BFC-haslayout"><a href="#BFC-haslayout" class="headerlink" title="BFC haslayout"></a>BFC haslayout</h2><p>BFC(Block formatting context) 标准浏览器</p><ol><li>float的值不为none</li><li>overflow的值不为visible</li><li>display的值为table-cell、table-caption,inline-block中的任何一个</li><li>position的值不为relative和static</li><li>width|height|min-width|min-height:(!auto)</li></ol><p>haslayout IE浏览器</p><ol><li>writing-mode:tb-rl</li><li>-ms-writting-model:rb-rl</li><li>zoom:(!normal)</li></ol><p>只要触发了bfc/haslayout那么这个区域就是一个独立的渲染区域，不受外界影响</p></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> css </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>内联块</title>
       <link href="/posts/d995.html"/>
       <url>/posts/d995.html</url>
       
-        <content type="html"><![CDATA[<h1 id="inline-block"><a href="#inline-block" class="headerlink" title="inline-block"></a>inline-block</h1><h2 id="inline-block特点"><a href="#inline-block特点" class="headerlink" title="inline-block特点"></a>inline-block特点</h2><ol><li>块元素能在一行上显示</li><li>内联元素支持宽高</li><li>没有宽度时由内容撑开宽度</li></ol><h2 id="块和内嵌的转换"><a href="#块和内嵌的转换" class="headerlink" title="块和内嵌的转换"></a>块和内嵌的转换</h2><p>display: block 显示为块</p><p>使内联元素具备块属性标签的特性</p><p>display: inline 显示为内嵌</p><p>使块属性标签具备内联元素的特性</p><h2 id="翻页按钮组布局"><a href="#翻页按钮组布局" class="headerlink" title="翻页按钮组布局"></a>翻页按钮组布局</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="inline-block"><a href="#inline-block" class="headerlink" title="inline-block"></a>inline-block</h1><h2 id="inline-block特点"><a href="#inline-block特点" class="headerlink" title="inline-block特点"></a>inline-block特点</h2><ol><li>块元素能在一行上显示</li><li>内联元素支持宽高</li><li>没有宽度时由内容撑开宽度</li><li>标签之间的换行被解析（问题）</li><li>ie6 /7 不支持块属性标签的inline-block</li></ol><h2 id="块和内嵌的转换"><a href="#块和内嵌的转换" class="headerlink" title="块和内嵌的转换"></a>块和内嵌的转换</h2><p>display: block 显示为块</p><p>使内联元素具备块属性标签的特性</p><p>display: inline 显示为内嵌</p><p>使块属性标签具备内联元素的特性</p><h2 id="翻页按钮组布局"><a href="#翻页按钮组布局" class="headerlink" title="翻页按钮组布局"></a>翻页按钮组布局</h2>]]></content>
       
       
       <categories>

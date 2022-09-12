@@ -4,18 +4,17 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="文本, 观海听涛">
-    <meta name="description" content="文本文字颜色color
-文本对齐方式text-align
+    <meta name="keywords" content="浮动, 观海听涛">
+    <meta name="description" content="浮动介绍及基本语法float:
 
-left 默认值 
+left
 right
-center
+none
+inherit
 
-首行缩进text-indent:2em;
-em 是根据字体大小来进行计算的
-1em=当前字体大小
-文本修饰text-decorati">
+文档流是文档中可显示对象在排列时所占用的位置
+浮动的定义使元素脱离文档流，按照指定方向发生移动，遇到父级边界或者相邻的浮动元素停了下来
+浮动清除clear:">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -23,7 +22,7 @@ em 是根据字体大小来进行计算的
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>文本 | 观海听涛</title>
+    <title>浮动 | 观海听涛</title>
     <link rel="icon" type="image/png" href="/medias/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -317,12 +316,12 @@ em 是根据字体大小来进行计算的
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">文本</h1>
+                    <h1 class="description center-align post-title">浮动</h1>
                 </div>
             </div>
         </div>
@@ -369,21 +368,21 @@ em 是根据字体大小来进行计算的
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-08-31
+                    2022-09-13
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-08-31
+                    2022-09-13
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    268
+                    375
                 </div>
                 
 
@@ -406,65 +405,91 @@ em 是根据字体大小来进行计算的
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h1><h2 id="文字颜色"><a href="#文字颜色" class="headerlink" title="文字颜色"></a>文字颜色</h2><p>color</p>
-<h2 id="文本对齐方式"><a href="#文本对齐方式" class="headerlink" title="文本对齐方式"></a>文本对齐方式</h2><p>text-align</p>
+                <h1 id="浮动介绍及基本语法"><a href="#浮动介绍及基本语法" class="headerlink" title="浮动介绍及基本语法"></a>浮动介绍及基本语法</h1><p>float:</p>
 <ul>
-<li>left 默认值 </li>
+<li>left</li>
 <li>right</li>
-<li>center</li>
-</ul>
-<h2 id="首行缩进"><a href="#首行缩进" class="headerlink" title="首行缩进"></a>首行缩进</h2><p>text-indent:2em;</p>
-<p>em 是根据字体大小来进行计算的</p>
-<p>1em=当前字体大小</p>
-<h2 id="文本修饰"><a href="#文本修饰" class="headerlink" title="文本修饰"></a>文本修饰</h2><p>text-decoration</p>
-<ul>
-<li>underline 下划线</li>
 <li>none</li>
+<li>inherit</li>
 </ul>
-<h2 id="字母间距"><a href="#字母间距" class="headerlink" title="字母间距"></a>字母间距</h2><p>letter-spacing：10px;</p>
-<h2 id="单词间距"><a href="#单词间距" class="headerlink" title="单词间距"></a>单词间距</h2><p>word-spacing: 2px; </p>
-<p>以空格为解析单位</p>
-<h2 id="强制不换行"><a href="#强制不换行" class="headerlink" title="强制不换行"></a>强制不换行</h2><p>white-space</p>
+<p><strong>文档流是文档中可显示对象在排列时所占用的位置</strong></p>
+<h2 id="浮动的定义"><a href="#浮动的定义" class="headerlink" title="浮动的定义"></a>浮动的定义</h2><p>使元素脱离文档流，按照指定方向发生移动，遇到父级边界或者相邻的浮动元素停了下来</p>
+<h2 id="浮动清除"><a href="#浮动清除" class="headerlink" title="浮动清除"></a>浮动清除</h2><p>clear: </p>
 <ul>
-<li>nowrap 不换行</li>
-<li>normal</li>
+<li>left</li>
+<li>right</li>
+<li>none</li>
+<li>inherit</li>
+<li>both 左右两侧都不能有浮动</li>
 </ul>
-<h2 id="空格大小的测量"><a href="#空格大小的测量" class="headerlink" title="空格大小的测量"></a>空格大小的测量</h2><p>测量文字时最好是使用<strong>从上到下</strong>的方式</p>
-<p><strong>一个空格有多大？</strong></p>
-<p><strong>宋体字体下文字大小的一半</strong></p>
-<p>全角，半角？</p>
-<p>字体格式不一样时，空格大小不同</p>
-<pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">div </span><span class="token punctuation">{</span>
-        <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">200</span>px<span class="token punctuation">;</span>
-        <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span>px solid red<span class="token punctuation">;</span>
-        <span class="token property">font-size</span><span class="token punctuation">:</span><span class="token number">24</span>px<span class="token punctuation">;</span>
-        <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>
-        <span class="token property">text-align</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
-        <span class="token property">text-indent</span><span class="token punctuation">:</span> <span class="token number">2</span>em<span class="token punctuation">;</span>
-        <span class="token property">text-decoration</span><span class="token punctuation">:</span> underline<span class="token punctuation">;</span>
-        <span class="token property">letter-spacing</span><span class="token punctuation">:</span> <span class="token number">2</span>px<span class="token punctuation">;</span>
-        <span class="token property">word-spacing</span><span class="token punctuation">:</span> <span class="token number">20</span>px<span class="token punctuation">;</span>
-        <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="文本（font）属性练习"><a href="#文本（font）属性练习" class="headerlink" title="文本（font）属性练习"></a>文本（font）属性练习</h2><ol>
-<li>模块、单词间距、行高要与设计图一致</li>
-<li>思考题：每一行的前方粉色带三角的区域该如何实现?</li>
+<p>元素的某个方向不能有浮动</p>
+<h2 id="float特征"><a href="#float特征" class="headerlink" title="float特征"></a>float特征</h2><ol>
+<li>块在一行显示</li>
+<li>内联支持宽高</li>
+<li>默认内容撑开宽度</li>
+<li>脱离文档流</li>
+<li>提升层级半层</li>
 </ol>
-<p><img src="/images/loading.gif" data-original="/../images/img/image-20220831033731239.png" alt="image-20220831033731239"></p>
-<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>
-    <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token number">15</span>px<span class="token punctuation">;</span>
-    <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"宋体"</span><span class="token punctuation">;</span>
-    <span class="token property">line-height</span><span class="token punctuation">:</span> <span class="token number">40</span>px<span class="token punctuation">;</span>
-    <span class="token property">text-align</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
-    <span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>
-    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">353</span>px<span class="token punctuation">;</span>
-    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">40</span>px<span class="token punctuation">;</span>
-    <span class="token property">word-spacing</span><span class="token punctuation">:</span> <span class="token number">43</span>px<span class="token punctuation">;</span>
-    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode">#fefafb</span> <span class="token url">url(../images/img/pink_bg.png)</span> no-repeat <span class="token number">0</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token property">border-bottom</span><span class="token punctuation">:</span> <span class="token number">10</span>px solid <span class="token hexcode">#c6cad7</span><span class="token punctuation">;</span>
+<h2 id="清除浮动的方法"><a href="#清除浮动的方法" class="headerlink" title="清除浮动的方法"></a>清除浮动的方法</h2><ol>
+<li><p>加高</p>
+<ul>
+<li>扩展性不好</li>
+</ul>
+</li>
+<li><p>父级加浮动</p>
+<ul>
+<li>页面中所有元素加浮动，margin左右自动失效(float bad!)</li>
+</ul>
+</li>
+<li><p>inline-block清浮动</p>
+<ul>
+<li>margin左右自动失效</li>
+</ul>
+</li>
+<li><p>空标签清除浮动</p>
+<ul>
+<li>ie6下最小高度19px,解决后还有2px偏差</li>
+</ul>
+</li>
+<li><p>.br清浮动</p>
+<ul>
+<li>不符合工作中：结构、样式、行为三者分离的要求</li>
+</ul>
+</li>
+<li><p>after伪类</p>
+<p><strong>最优雅的解决方案</strong></p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.clearfix</span> </span><span class="token punctuation">{</span>
+    *<span class="token property">zoom</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token selector"><span class="token class">.clearfix</span><span class="token pseudo-element">:after</span></span><span class="token punctuation">{</span>
+     <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">;</span>
+     <span class="token property">display</span><span class="token punctuation">:</span>block<span class="token punctuation">;</span>
+     <span class="token property">clear</span><span class="token punctuation">:</span>both<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+<li><p>overflow:hidden清除浮动</p>
+<ul>
+<li>需要配合宽度或者zoom兼容IE6 7</li>
+<li>溢出隐藏</li>
+</ul>
+<h2 id="BFC-haslayout"><a href="#BFC-haslayout" class="headerlink" title="BFC haslayout"></a>BFC haslayout</h2><p>BFC(Block formatting context) 标准浏览器</p>
+<ol>
+<li>float的值不为none</li>
+<li>overflow的值不为visible</li>
+<li>display的值为table-cell、table-caption,inline-block中的任何一个</li>
+<li>position的值不为relative和static</li>
+<li>width|height|min-width|min-height:(!auto)</li>
+</ol>
+<p>haslayout IE浏览器</p>
+<ol>
+<li>writing-mode:tb-rl</li>
+<li>-ms-writting-model:rb-rl</li>
+<li>zoom:(!normal)</li>
+</ol>
+<p>只要触发了bfc/haslayout那么这个区域就是一个独立的渲染区域，不受外界影响</p>
+</li>
+</ol>
 
             </div>
             <hr/>
@@ -490,7 +515,7 @@ em 是根据字体大小来进行计算的
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://dlwin888.github.io/posts/25fe.html">https://dlwin888.github.io/posts/25fe.html</a>
+                    <a href="https://dlwin888.github.io/posts/1dcc.html">https://dlwin888.github.io/posts/1dcc.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -570,39 +595,39 @@ em 是根据字体大小来进行计算的
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/3079.html">
+                <a href="/posts/1dcc.html">
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/12.jpg" class="responsive-img" alt="盒模型">
+                        <img src="/images/loading.gif" data-original="/medias/featureimages/10.jpg" class="responsive-img" alt="浮动">
                         
-                        <span class="card-title">盒模型</span>
+                        <span class="card-title">浮动</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            盒模型内边距padding 内填充
+                            浮动介绍及基本语法float:
 
-padding-top
-padding-right
-padding-bottom
-padding-left
+left
+right
+none
+inherit
 
-设置padding后会撑大容器的大小
-padding复合写法：
-
-只有一个属性值时：4个方向
+文档流是文档中可显示对象在排列时所占用的位置
+浮动的定义使元素脱离文档流，按照指定方向发生移动，遇到父级边界或者相邻的浮动元素停了下来
+浮动清除clear:
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-09-01
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-13
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -615,6 +640,7 @@ padding复合写法：
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -633,31 +659,38 @@ padding复合写法：
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/90a6.html">
+                <a href="/posts/d995.html">
                     <div class="card-image">
                         
                         
-                        <img src="/images/loading.gif" data-original="/medias/featureimages/0.jpg" class="responsive-img" alt="文字">
+                        <img src="/images/loading.gif" data-original="/medias/featureimages/0.jpg" class="responsive-img" alt="内联块">
                         
-                        <span class="card-title">文字</span>
+                        <span class="card-title">内联块</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            文字着重、文字倾斜、文字大小、字体、行高
+                            inline-blockinline-block特点
+块元素能在一行上显示
+内联元素支持宽高
+没有宽度时由内容撑开宽度
+标签之间的换行被解析（问题）
+ie6 /7 不支持块属性标签的inline-block
+
+块和内嵌的转换display:
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-08-31
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-11
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/css/" class="post-category">
-                                    css
+                            <a href="/categories/html/" class="post-category">
+                                    html
                                 </a>
                             
                             
@@ -667,8 +700,8 @@ padding复合写法：
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/css/">
-                        <span class="chip bg-color">css</span>
+                    <a href="/tags/html-css/">
+                        <span class="chip bg-color">html css</span>
                     </a>
                     
                 </div>
