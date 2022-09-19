@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>表单</title>
+      <link href="/posts/593e.html"/>
+      <url>/posts/593e.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Form表单"><a href="#Form表单" class="headerlink" title="Form表单"></a>Form表单</h1><input type="...." name="" value=""><ul><li><p>text 文本框</p></li><li><p>password 密码</p></li><li><p>radio 单选</p></li><li><p>checkbox 复选</p></li><li><p>submit 提交</p></li><li><p>reset 重置</p></li><li><p>button 按钮</p></li><li><p>image 图片</p></li><li><p>file 上传</p></li><li><p>hidden 隐藏</p></li><li><p>label 标注 为input元素定义标注</p><blockquote><input type="checkbox" name="" id="a"><p><label for="a">…..</label></p></blockquote></li></ul><p>checked 在页面加载时默认选定元素</p><p>disabled 属性规定应该禁用input元素</p><ul><li><p>select/option 下拉选框</p><blockquote><p>对高度的支持不兼容</p></blockquote></li><li><p>textarea 文本域</p><blockquote><p>各个浏览器下的默认滚动条显示不兼容</p><p>css3 新增resize 调整尺寸属性</p></blockquote></li></ul><p></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>表格</title>
+      <link href="/posts/d712.html"/>
+      <url>/posts/d712.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><h2 id="表格的组成"><a href="#表格的组成" class="headerlink" title="表格的组成"></a>表格的组成</h2><p>table表格</p><p>thead表格头</p><p>tbody表格主体</p><p>tr 表格行</p><p>th 元素定义表头</p><p>td 元素定义表格单元</p><h2 id="表格样式重置"><a href="#表格样式重置" class="headerlink" title="表格样式重置"></a>表格样式重置</h2><p>table{border-collapse:collapse;} 单元格间隙合并</p><p>th,td {padding:0;} 重置单元格默认填充</p><h2 id="单元格合并"><a href="#单元格合并" class="headerlink" title="单元格合并"></a>单元格合并</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>定位</title>
       <link href="/posts/3720.html"/>
       <url>/posts/3720.html</url>

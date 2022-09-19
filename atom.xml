@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2022-09-15T19:09:33.735Z</updated>
+  <updated>2022-09-19T19:07:39.833Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>表单</title>
+    <link href="https://dlwin888.github.io/posts/593e.html"/>
+    <id>https://dlwin888.github.io/posts/593e.html</id>
+    <published>2022-09-19T18:25:32.000Z</published>
+    <updated>2022-09-19T19:07:39.833Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Form表单&quot;&gt;&lt;a href=&quot;#Form表单&quot; class=&quot;headerlink&quot; title=&quot;Form表单&quot;&gt;&lt;/a&gt;Form表单&lt;/h1&gt;&lt;input type=&quot;....&quot; name=&quot;&quot; value=&quot;&quot;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;text</summary>
+        
+      
+    
+    
+    
+    <category term="html" scheme="https://dlwin888.github.io/categories/html/"/>
+    
+    
+    <category term="html css" scheme="https://dlwin888.github.io/tags/html-css/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>表格</title>
+    <link href="https://dlwin888.github.io/posts/d712.html"/>
+    <id>https://dlwin888.github.io/posts/d712.html</id>
+    <published>2022-09-19T18:08:11.000Z</published>
+    <updated>2022-09-19T18:24:52.909Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;表格&quot;&gt;&lt;a href=&quot;#表格&quot; class=&quot;headerlink&quot; title=&quot;表格&quot;&gt;&lt;/a&gt;表格&lt;/h1&gt;&lt;h2 id=&quot;表格的组成&quot;&gt;&lt;a href=&quot;#表格的组成&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="html" scheme="https://dlwin888.github.io/categories/html/"/>
+    
+    
+    <category term="html" scheme="https://dlwin888.github.io/tags/html/"/>
+    
+  </entry>
   
   <entry>
     <title>定位</title>
