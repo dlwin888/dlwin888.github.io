@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>浏览器兼容性</title>
+      <link href="/posts/5b9.html"/>
+      <url>/posts/5b9.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="浏览器兼容性"><a href="#浏览器兼容性" class="headerlink" title="浏览器兼容性"></a>浏览器兼容性</h1><ul><li><p>H5标签兼容</p></li><li><p>元素浮动后，能设置宽度的话就给元素加宽度，如果需要宽度是内容撑开，就给它里面的块元素加上浮动</p></li><li><p>第一块元素浮动，第二块元素加margin值等于第一块元素，在IE6下会有间隙问题</p></li><li></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html css </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>表单</title>
       <link href="/posts/593e.html"/>
       <url>/posts/593e.html</url>
       
-        <content type="html"><![CDATA[<h1 id="Form表单"><a href="#Form表单" class="headerlink" title="Form表单"></a>Form表单</h1><input type="...." name="" value=""><ul><li><p>text 文本框</p></li><li><p>password 密码</p></li><li><p>radio 单选</p></li><li><p>checkbox 复选</p></li><li><p>submit 提交</p></li><li><p>reset 重置</p></li><li><p>button 按钮</p></li><li><p>image 图片</p></li><li><p>file 上传</p></li><li><p>hidden 隐藏</p></li><li><p>label 标注 为input元素定义标注</p><blockquote><input type="checkbox" name="" id="a"><p><label for="a">…..</label></p></blockquote></li></ul><p>checked 在页面加载时默认选定元素</p><p>disabled 属性规定应该禁用input元素</p><ul><li><p>select/option 下拉选框</p><blockquote><p>对高度的支持不兼容</p></blockquote></li><li><p>textarea 文本域</p><blockquote><p>各个浏览器下的默认滚动条显示不兼容</p><p>css3 新增resize 调整尺寸属性</p></blockquote></li></ul><p></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Form表单"><a href="#Form表单" class="headerlink" title="Form表单"></a>Form表单</h1><p><code>&lt;input type="...." name="" value="" /&gt;</code></p><ul><li><p>text 文本框</p></li><li><p>password 密码</p></li><li><p>radio 单选</p></li><li><p>checkbox 复选</p></li><li><p>submit 提交</p></li><li><p>reset 重置</p></li><li><p>button 按钮</p></li><li><p>image 图片</p></li><li><p>file 上传</p></li><li><p>hidden 隐藏</p></li><li><p>label 标注 为input元素定义标注</p><blockquote><p><code>&lt;input type="checkbox" name="" id="a" /&gt;</code></p><p><code>&lt;label for="a"&gt;.....&lt;/label&gt;</code></p></blockquote></li></ul><p>checked 在页面加载时默认选定元素</p><p>disabled 属性规定应该禁用input元素</p><ul><li><p>select/option 下拉选框</p><blockquote><p>对高度的支持不兼容</p></blockquote></li><li><p>textarea 文本域</p><blockquote><p>各个浏览器下的默认滚动条显示不兼容</p><p>css3 新增resize 调整尺寸属性</p></blockquote></li></ul><p></p>]]></content>
       
       
       <categories>

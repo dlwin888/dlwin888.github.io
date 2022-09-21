@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2022-09-19T19:07:39.833Z</updated>
+  <updated>2022-09-21T18:52:59.851Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -17,21 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>浏览器兼容性</title>
+    <link href="https://dlwin888.github.io/posts/5b9.html"/>
+    <id>https://dlwin888.github.io/posts/5b9.html</id>
+    <published>2022-09-21T18:48:42.000Z</published>
+    <updated>2022-09-21T18:52:59.851Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;浏览器兼容性&quot;&gt;&lt;a href=&quot;#浏览器兼容性&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="html" scheme="https://dlwin888.github.io/categories/html/"/>
+    
+    
+    <category term="html css" scheme="https://dlwin888.github.io/tags/html-css/"/>
+    
+  </entry>
+  
+  <entry>
     <title>表单</title>
     <link href="https://dlwin888.github.io/posts/593e.html"/>
     <id>https://dlwin888.github.io/posts/593e.html</id>
     <published>2022-09-19T18:25:32.000Z</published>
-    <updated>2022-09-19T19:07:39.833Z</updated>
+    <updated>2022-09-21T18:53:33.020Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Form表单&quot;&gt;&lt;a href=&quot;#Form表单&quot; class=&quot;headerlink&quot; title=&quot;Form表单&quot;&gt;&lt;/a&gt;Form表单&lt;/h1&gt;&lt;input type=&quot;....&quot; name=&quot;&quot; value=&quot;&quot;&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;text</summary>
+    <summary type="html">&lt;h1 id=&quot;Form表单&quot;&gt;&lt;a href=&quot;#Form表单&quot; class=&quot;headerlink&quot; title=&quot;Form表单&quot;&gt;&lt;/a&gt;Form表单&lt;/h1&gt;&lt;p&gt;&lt;code&gt;&amp;lt;input type=&quot;....&quot; name=&quot;&quot; value=&quot;&quot;</summary>
         
       
     
@@ -49,7 +71,7 @@
     <link href="https://dlwin888.github.io/posts/d712.html"/>
     <id>https://dlwin888.github.io/posts/d712.html</id>
     <published>2022-09-19T18:08:11.000Z</published>
-    <updated>2022-09-19T18:24:52.909Z</updated>
+    <updated>2022-09-19T19:08:00.149Z</updated>
     
     
       
