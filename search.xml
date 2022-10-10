@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>常见布局方案</title>
+      <link href="/posts/104f.html"/>
+      <url>/posts/104f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="常见布局方案"><a href="#常见布局方案" class="headerlink" title="常见布局方案"></a>常见布局方案</h1><ul><li>上中下一栏式</li><li>左右两栏式</li><li>左右两栏加页眉页脚</li><li>左中右三栏</li><li>左中右三栏之双飞翼</li><li>7左中右三栏加页眉页脚</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>浏览器兼容性</title>
       <link href="/posts/5b9.html"/>
       <url>/posts/5b9.html</url>
