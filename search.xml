@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>常见布局模块实现</title>
+      <link href="/posts/7577.html"/>
+      <url>/posts/7577.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="常见布局模块实现"><a href="#常见布局模块实现" class="headerlink" title="常见布局模块实现"></a>常见布局模块实现</h1><h2 id="1-全球通业务布局分析、盒子模型，背景、文本属性"><a href="#1-全球通业务布局分析、盒子模型，背景、文本属性" class="headerlink" title="1-全球通业务布局分析、盒子模型，背景、文本属性"></a>1-全球通业务布局分析、盒子模型，背景、文本属性</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>常见布局方案</title>
       <link href="/posts/104f.html"/>
       <url>/posts/104f.html</url>
       
-        <content type="html"><![CDATA[<h1 id="常见布局方案"><a href="#常见布局方案" class="headerlink" title="常见布局方案"></a>常见布局方案</h1><ul><li>上中下一栏式</li><li>左右两栏式</li><li>左右两栏加页眉页脚</li><li>左中右三栏</li><li>左中右三栏之双飞翼</li><li>7左中右三栏加页眉页脚</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="常见布局方案"><a href="#常见布局方案" class="headerlink" title="常见布局方案"></a>常见布局方案</h1><ul><li>上中下一栏式</li><li>左右两栏式</li><li>左右两栏加页眉页脚</li><li>左中右三栏</li><li>左中右三栏之双飞翼</li><li>左中右三栏加页眉页脚</li></ul>]]></content>
       
       
       <categories>
