@@ -389,52 +389,57 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
+</code></pre>
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
+</code></pre>
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
+</code></pre>
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
+</code></pre>
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 <h2 id="sitemap-rss"><a href="#sitemap-rss" class="headerlink" title="sitemap &amp; rss"></a>sitemap &amp; rss</h2><p>切换到blog根目录下，输入：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-feed</span><br><span class="line">$ npm install hexo-generator-sitemap</span><br></pre></td></tr></table></figure>
-
+<pre><code class="javascript">$ npm install hexo-generator-feed
+$ npm install hexo-generator-sitemap
+</code></pre>
 <p>之后重启博客，访问<code>/atom.xml</code>和<code>/sitemap.xml</code>，会发现已经生成了。可以把sitemap提交到搜索引擎的站长平台来增加收录。</p>
 <h3 id="2-1-Google-版本"><a href="#2-1-Google-版本" class="headerlink" title="2.1 Google 版本"></a>2.1 Google 版本</h3><p>进入到根目录下，打开<code>CMD</code>，运行下面的命令：</p>
-<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo<span class="literal">-generator-sitemap</span> <span class="literal">--save</span></span><br></pre></td></tr></table></figure>
-
+<pre><code class="powershell">npm install hexo-generator-sitemap --save
+</code></pre>
 <h3 id="2-2-Baidu-版本"><a href="#2-2-Baidu-版本" class="headerlink" title="2.2 Baidu 版本"></a>2.2 <a target="_blank" rel="noopener" href="https://zhida.zhihu.com/search?content_id=121687672&content_type=Article&match_order=1&q=Baidu+%E7%89%88%E6%9C%AC&zhida_source=entity">Baidu 版本</a></h3><p>进入到根目录下，打开<code>CMD</code>，运行下面的命令：</p>
-<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
-
-
-
+<pre><code class="text">npm install hexo-generator-baidu-sitemap --save
+</code></pre>
 <h1 id="给博客增加-Sitemap-和-Robots（Hexo）"><a href="#给博客增加-Sitemap-和-Robots（Hexo）" class="headerlink" title="给博客增加 Sitemap 和 Robots（Hexo）"></a>给博客增加 Sitemap 和 Robots（Hexo）</h1><p>Hexo 生成的静态网站，默认没有集成 Sitemap 功能。而我们的网站，如果想要更好的被搜索引擎收录，建议给站点增加 Sitemap。下面是操作步骤：</p>
 <h2 id="1-安装-hexo-generator-sitemap"><a href="#1-安装-hexo-generator-sitemap" class="headerlink" title="1. 安装 hexo-generator-sitemap"></a>1. 安装 hexo-generator-sitemap</h2><p>在 Hexo 生成站点的根目录下执行以下命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure>
-
+<pre><code>npm install hexo-generator-sitemap --save
+</code></pre>
 <p>因为我用的是 <code>pnpm</code> 包管理工具，所以我这里执行的命令是：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pnpm add hexo-generator-sitemap</span><br></pre></td></tr></table></figure>
-
+<pre><code>pnpm add hexo-generator-sitemap
+</code></pre>
 <h2 id="2-配置-sitemap-xml"><a href="#2-配置-sitemap-xml" class="headerlink" title="2. 配置 sitemap.xml"></a>2. 配置 sitemap.xml</h2><p>安装完插件后，编辑站点根目录下的 <code>_config.yml</code> 配置文件，寻找是否有 sitemap 字样，如果没有则增加配置：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Sitemap</span><br><span class="line">sitemap:</span><br><span class="line">  path:</span><br><span class="line">    - sitemap.xml</span><br><span class="line">  tags: true</span><br></pre></td></tr></table></figure>
-
+<pre><code># Sitemap
+sitemap:
+  path:
+    - sitemap.xml
+  tags: true
+</code></pre>
 <p>我这里配置了在 sitemap 中显示标签，如果不想显示标签，可以把 <code>tags: true</code> 删掉。</p>
 <h2 id="3-配置站点-URL"><a href="#3-配置站点-URL" class="headerlink" title="3. 配置站点 URL"></a>3. 配置站点 URL</h2><p>还是在 <code>_config.yml</code> 中，查看 <code>url</code> 字段是否配置正确。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">url: https://www.guozhenyi.com</span><br></pre></td></tr></table></figure>
-
+<pre><code>url: https://www.guozhenyi.com
+</code></pre>
 <p>如果没有正确配置 <code>url</code>，生成的 <code>sitemap.xml</code> 可能会缺少正确的链接结构。</p>
 <h2 id="4-生成-Sitemap"><a href="#4-生成-Sitemap" class="headerlink" title="4. 生成 Sitemap"></a>4. 生成 Sitemap</h2><p>在站点根目录下执行：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g</span><br></pre></td></tr></table></figure>
-
+<pre><code>hexo clean &amp;&amp; hexo g
+</code></pre>
 <p>生成完成后，即可在 <code>public/</code> 目录下看到 <code>sitemap.xml</code> 文件。</p>
 <h2 id="5-增加-robots-txt"><a href="#5-增加-robots-txt" class="headerlink" title="5. 增加 robots.txt"></a>5. 增加 robots.txt</h2><p>同样的，Hexo 没有自带 <code>robots.txt</code> 文件，为了对搜索引擎更友好，建议在 <code>source/</code> 目录下创建 <code>robots.txt</code> 文件，内容为：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Disallow:</span><br><span class="line">Sitemap: https://www.guozhenyi.com/sitemap.xml</span><br></pre></td></tr></table></figure>
-
+<pre><code>User-agent: *
+Disallow:
+Sitemap: https://www.guozhenyi.com/sitemap.xml
+</code></pre>
 <p>请把里面的域名换成你自己的域名。</p>
 
                 
@@ -1074,9 +1079,25 @@ $(function () {
     
 
     <!-- 雪花特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
+            }
+        </script>
     
 
     <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
     
 
      
@@ -1116,6 +1137,11 @@ $(function () {
 
     <!--腾讯兔小巢-->
     
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
     
 
     

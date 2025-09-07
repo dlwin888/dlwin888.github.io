@@ -315,7 +315,7 @@
             <div class="description center-align">
                 
                 <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script src="/libs/typed/typed.js"></script>
                 <script>
                     var typed = new Typed("#subtitle", {
                         strings: ['从来没有真正的绝境，只有心灵的迷途',''],
@@ -606,13 +606,6 @@ $(function () {
             document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>'); }
     </script>
 
-<script type="text/javascript">
-    //只在桌面版网页启用天气
-    WIDGET = {FID: 'vwB3EHDqWF'}
-    var windowWidth = $(window).width();
-    if (windowWidth > 768) {
-        document.write('<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"><\/script>'); }
-</script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -645,7 +638,7 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-        <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.3.0/base64.min.js"></script>
         <script>
         const hasAttr = (e,a) => a.some(_=> e.attr(_)!==undefined);
         $('a').each(function() {

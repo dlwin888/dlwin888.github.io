@@ -394,11 +394,22 @@
 <h3 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h3><ol>
 <li><p><strong>写入剪贴板</strong>： 使用 <code>navigator.clipboard.writeText()</code> 方法可以将文本写入剪贴板。</p>
 <p>javascript复制</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">navigator.<span class="property">clipboard</span>.<span class="title function_">writeText</span>(<span class="string">&#x27;要复制的文本&#x27;</span>).<span class="title function_">then</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;文本已复制到剪贴板&#x27;</span>);</span><br><span class="line">&#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">error</span>(<span class="string">&#x27;复制失败&#x27;</span>, err);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<pre><code class="javascript">navigator.clipboard.writeText(&#39;要复制的文本&#39;).then(() =&gt; &#123;
+    console.log(&#39;文本已复制到剪贴板&#39;);
+&#125;).catch(err =&gt; &#123;
+    console.error(&#39;复制失败&#39;, err);
+&#125;);
+</code></pre>
 </li>
 <li><p><strong>读取剪贴板</strong>： 使用 <code>navigator.clipboard.readText()</code> 方法可以从剪贴板读取文本。</p>
 <p>javascript复制</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">navigator.<span class="property">clipboard</span>.<span class="title function_">readText</span>().<span class="title function_">then</span>(<span class="function"><span class="params">text</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&#x27;从剪贴板读取的文本:&#x27;</span>, text);</span><br><span class="line">&#125;).<span class="title function_">catch</span>(<span class="function"><span class="params">err</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="variable language_">console</span>.<span class="title function_">error</span>(<span class="string">&#x27;读取失败&#x27;</span>, err);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></li>
+<pre><code class="javascript">navigator.clipboard.readText().then(text =&gt; &#123;
+    console.log(&#39;从剪贴板读取的文本:&#39;, text);
+&#125;).catch(err =&gt; &#123;
+    console.error(&#39;读取失败&#39;, err);
+&#125;);
+</code></pre>
+</li>
 </ol>
 <h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul>
 <li><strong>安全性</strong>：由于剪贴板操作涉及用户的隐私和安全，通常这样的方法在网页的上下文中需要用户的主动操作（例如在 click 事件的回调中）。</li>
@@ -1054,9 +1065,25 @@ $(function () {
     
 
     <!-- 雪花特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
+            }
+        </script>
     
 
     <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
     
 
      
@@ -1096,6 +1123,11 @@ $(function () {
 
     <!--腾讯兔小巢-->
     
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
     
 
     

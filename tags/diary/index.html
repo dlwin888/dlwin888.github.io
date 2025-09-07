@@ -377,11 +377,11 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/diary/" title="diary: 11">
+                <a href="/tags/diary/" title="diary: 12">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
                             data-tagname="diary" style="background-color: #F9EBEA;">diary
-                        <span class="tag-length">11</span>
+                        <span class="tag-length">12</span>
                     </span>
                 </a>
                 
@@ -395,29 +395,20 @@
                 </a>
                 
                 
-                <a href="/tags/hexo/" title="hexo: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="hexo" style="background-color: #D5F5E3;">hexo
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/seo/" title="seo: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="seo" style="background-color: #E8F8F5;">seo
+                            data-tagname="seo" style="background-color: #D5F5E3;">seo
                         <span class="tag-length">2</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/js/" title="js: 1">
+                <a href="/tags/hexo/" title="hexo: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="js" style="background-color: #FEF9E7;">js
-                        <span class="tag-length">1</span>
+                            data-tagname="hexo" style="background-color: #E8F8F5;">hexo
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
@@ -425,7 +416,16 @@
                 <a href="/tags/invest/" title="invest: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="invest" style="background-color: #F8F9F9;">invest
+                            data-tagname="invest" style="background-color: #FEF9E7;">invest
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/js/" title="js: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="js" style="background-color: #F8F9F9;">js
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -439,6 +439,38 @@
 
     <article id="articles" class="container articles">
         <div class="row tags-posts">
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="diary" data-aos="fade-up">
+                <div class="card">
+                    <a href="/2025/09/07/0907-diary/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="0907-diary-日记">
+                            
+                            <span class="card-title">0907-diary-日记</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-09-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/diary/" class="post-category">
+                                diary
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
             
             <div class="article tag-post col s12 m6 l4" data-tags="diary" data-aos="fade-up">
@@ -1080,9 +1112,25 @@ $(function () {
     
 
     <!-- 雪花特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
+            }
+        </script>
     
 
     <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
     
 
      
@@ -1122,6 +1170,11 @@ $(function () {
 
     <!--腾讯兔小巢-->
     
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
     
 
     
