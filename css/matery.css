@@ -1674,7 +1674,9 @@ thead {
     margin: 8px 0;
     font-size: 0.9rem;
     font-weight: 400;
-    color: #777;
+    background-image: linear-gradient(to right, #BF4643 0%, #6C9D8F 100%);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 #aboutme .profile .social-link {
@@ -1684,7 +1686,8 @@ thead {
 #aboutme .introduction {
     margin: 1.5rem auto 3rem;
     max-width: 600px;
-    color: #999;
+    color: rebeccapurple;
+    font-size: medium;
 }
 
 .post-charts,
