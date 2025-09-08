@@ -921,6 +921,7 @@ article .article-content .summary {
 
 article .article-content .publish-author {
     float: right;
+    color: #BF4643;
 }
 
 .publish-date .icon-date {
@@ -1070,21 +1071,22 @@ article .article-tags .chip {
 
 #artDetail .tag_share .article-tag .chip:hover {
     color: #fff;
-    background: #BF4643;
+    background: #b96f429c;
 }
 
 #artDetail .post-cate {
     float: right;
-    color: #BF4643;
+    color: #b96f429c;
 }
 
 #artDetail .post-cate a {
     padding-right: 5px;
-    color: #BF4643;
+    color: #b96f429c;
     font-weight: 500;
 }
 
 #artDetail .post-cate a:hover {
+    color: #BF4643;
     text-decoration: underline;
 }
 
@@ -1162,7 +1164,7 @@ article .article-tags .chip {
 
 #artDetail .reprint a {
     font-size: 1.05rem;
-    color: #BF4643;
+    color: #b96f429c;
     font-weight: 500;
 }
 
