@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2025-09-08T08:19:04.338Z</updated>
+  <updated>2025-09-08T15:03:33.838Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0909-diary</title>
+    <link href="https://dlwin888.github.io/2025/09/09/0909-diary/"/>
+    <id>https://dlwin888.github.io/2025/09/09/0909-diary/</id>
+    <published>2025-09-09T14:58:56.000Z</published>
+    <updated>2025-09-08T15:03:33.838Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="0909-日记"><a href="#0909-日记" class="headerlink" title="0909-日记"></a>0909-日记</h3><ol><li>2025 年前端开发人员路线图：<a href="https://zhuanlan.zhihu.com/p/23329981874">完整指南</a></li><li><a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development">MDN学习 Web 开发</a></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;0909-日记&quot;&gt;&lt;a href=&quot;#0909-日记&quot; class=&quot;headerlink&quot; title=&quot;0909-日记&quot;&gt;&lt;/a&gt;0909-日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;2025 年前端开发人员路线图：&lt;a href=&quot;https://zhuanlan.zh</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>code-top</title>
@@ -507,31 +532,6 @@
     
     
     <category term="js" scheme="https://dlwin888.github.io/tags/js/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>new article</title>
-    <link href="https://dlwin888.github.io/2025/08/27/new-article/"/>
-    <id>https://dlwin888.github.io/2025/08/27/new-article/</id>
-    <published>2025-08-27T02:12:29.000Z</published>
-    <updated>2025-08-27T13:07:05.429Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="发布新文章"><a href="#发布新文章" class="headerlink" title="发布新文章"></a>发布新文章</h2><ul><li>在博客根目录下执行：hexo new “我的第一篇文章”，会在 source&#x2F;_posts 文件夹内生成一个 .md 文件。</li><li>编辑该文件，修改起始字段为：</li></ul><blockquote><p>title: 文章的标题<br>date: 创建日期 （文件的创建日期 ）<br>updated: 修改日期 （ 文件的修改日期）<br>comments: 是否开启评论 true<br>tags: 标签<br>categories: 分类<br>permalink: url中的名字（文件名）</p></blockquote><h5 id="编写正文内容-遵循-Markdown-规则"><a href="#编写正文内容-遵循-Markdown-规则" class="headerlink" title="编写正文内容(遵循 Markdown 规则)"></a>编写正文内容(遵循 Markdown 规则)</h5>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;发布新文章&quot;&gt;&lt;a href=&quot;#发布新文章&quot; class=&quot;headerlink&quot; title=&quot;发布新文章&quot;&gt;&lt;/a&gt;发布新文章&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;在博客根目录下执行：hexo new “我的第一篇文章”，会在 source&amp;#x2F;_posts 文</summary>
-      
-    
-    
-    
-    <category term="hexo" scheme="https://dlwin888.github.io/categories/hexo/"/>
-    
-    
-    <category term="hexo" scheme="https://dlwin888.github.io/tags/hexo/"/>
     
   </entry>
   
