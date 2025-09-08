@@ -51,7 +51,8 @@
 }
 
 #toc-content .toc-link:hover {
-    color: #42b983;
+    /*color: #42b983;*/
+    color: #BF4643;
     font-weight: 700;
     text-decoration: underline;
 }
