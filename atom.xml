@@ -42,6 +42,32 @@
   </entry>
   
   <entry>
+    <title>How does the network operate</title>
+    <link href="https://dlwin888.github.io/2025/09/09/How-does-the-network-operate/"/>
+    <id>https://dlwin888.github.io/2025/09/09/How-does-the-network-operate/</id>
+    <published>2025-09-09T03:16:46.000Z</published>
+    <updated>2025-09-09T03:28:53.519Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-网络是如何运作的"><a href="#1-网络是如何运作的" class="headerlink" title="1. 网络是如何运作的"></a>1. 网络是如何运作的</h3><p>了解浏览器和服务器通信的基础知识。重点关注：</p><ul><li>HTTP&#x2F;HTTPS：了解数据如何在网络上移动。</li><li>DNS 和域名：了解网站如何连接到 IP 地址。</li></ul><p>大约花1-2 天时间。了解网页如何传递给用户的流程</p><blockquote><p><strong>HTTP&#x2F;HTTPS</strong>是指超文本传输协议及其安全版本。具体来说，HTTP（超文本传输协议）是互联网上应用最广泛的一种网络协议，用于从WWW服务器传输超文本到本地浏览器的传输协议，它是一个客户端和服务器端请求和应答的标准。而HTTPS（HTTP Secure）则是HTTP的安全版本，它在HTTP和TCP之间加入SSL&#x2F;TLS协议，确保数据传输的安全性。HTTPS通过加密数据，防止信息被窃听、篡改和冒充，广泛用于需要保护用户隐私和数据安全的网站，如电商、银行和社交平台。</p><p><strong>DNS</strong>是指域名系统（Domain Name System），它是一种用于将易于记忆的域名（如<a href="https://www.example.com/">www.example.com</a>）转换成计算机可识别的IP地址（如192.0.2.1）的分布式数据库系统。DNS的工作原理可以类比为互联网的电话簿，当你输入一个网站的域名时，DNS会负责解析这个域名并返回相应的IP地址，这样你的设备就能通过这个IP地址访问到对应的网站服务器。DNS不仅简化了网络地址管理，还支持域名的层级结构，允许一个域名对应多个IP地址，实现了域名与IP地址的动态映射。此外，DNS还支持多种记录类型，如A记录、CNAME记录等，用于不同的解析需求。DNS的分层结构包括根服务器、顶级域名服务器、二级域名服务器等，共同协作完成全球范围内的域名解析任务。</p><p><strong>域名</strong>（Domain Name）是由一串用点分隔的字符组成的互联网标识符，用于唯一标识网络上的计算机、服务器或服务资源（如网站、邮箱）。其本质是将复杂的IP地址（如192.0.2.1）转换为人类可记忆的字符形式（如 example.com），通过DNS系统实现映射解析。</p><ol><li>➠ <strong>类比</strong>：域名相当于互联网的“门牌号”，IP地址是地理坐标，DNS是导航系统</li><li><strong>核心功能</strong><ul><li><strong>寻址定位</strong>：用户输入域名后，DNS将其解析为IP地址，实现设备与目标服务器的连接。</li><li><strong>品牌标识</strong>：域名与企业名称、商标强关联（如 apple.com），成为线上身份的核心载体</li><li><strong>服务入口</strong>：支持网站访问（www）、邮箱配置（mail）、子服务划分（shop.example.com）。</li></ul></li></ol></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;1-网络是如何运作的&quot;&gt;&lt;a href=&quot;#1-网络是如何运作的&quot; class=&quot;headerlink&quot; title=&quot;1. 网络是如何运作的&quot;&gt;&lt;/a&gt;1. 网络是如何运作的&lt;/h3&gt;&lt;p&gt;了解浏览器和服务器通信的基础知识。重点关注：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;</summary>
+      
+    
+    
+    
+    <category term="web" scheme="https://dlwin888.github.io/categories/web/"/>
+    
+    
+    <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
     <title>code-top</title>
     <link href="https://dlwin888.github.io/2025/09/08/code-top10/"/>
     <id>https://dlwin888.github.io/2025/09/08/code-top10/</id>
@@ -507,31 +533,6 @@
     
     
     <category term="md" scheme="https://dlwin888.github.io/tags/md/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>复制代码js</title>
-    <link href="https://dlwin888.github.io/2025/08/27/%E5%A4%8D%E5%88%B6%E4%BB%A3%E7%A0%81js%E7%94%A8%E6%B3%95/"/>
-    <id>https://dlwin888.github.io/2025/08/27/%E5%A4%8D%E5%88%B6%E4%BB%A3%E7%A0%81js%E7%94%A8%E6%B3%95/</id>
-    <published>2025-08-27T02:32:07.000Z</published>
-    <updated>2025-08-27T08:38:35.393Z</updated>
-    
-    <content type="html"><![CDATA[<p><code>navigator.clipboard</code> 是一种用于访问剪贴板的 Web API，允许你在网页中读取和写入剪贴板内容。这个 API 提供了一个简单的方法来与用户的剪贴板进行交互。</p><h3 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h3><ol><li><p><strong>写入剪贴板</strong>： 使用 <code>navigator.clipboard.writeText()</code> 方法可以将文本写入剪贴板。</p><p>javascript复制</p><pre><code class="javascript">navigator.clipboard.writeText(&#39;要复制的文本&#39;).then(() =&gt; &#123;    console.log(&#39;文本已复制到剪贴板&#39;);&#125;).catch(err =&gt; &#123;    console.error(&#39;复制失败&#39;, err);&#125;);</code></pre></li><li><p><strong>读取剪贴板</strong>： 使用 <code>navigator.clipboard.readText()</code> 方法可以从剪贴板读取文本。</p><p>javascript复制</p><pre><code class="javascript">navigator.clipboard.readText().then(text =&gt; &#123;    console.log(&#39;从剪贴板读取的文本:&#39;, text);&#125;).catch(err =&gt; &#123;    console.error(&#39;读取失败&#39;, err);&#125;);</code></pre></li></ol><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul><li><strong>安全性</strong>：由于剪贴板操作涉及用户的隐私和安全，通常这样的方法在网页的上下文中需要用户的主动操作（例如在 click 事件的回调中）。</li><li><strong>浏览器支持</strong>：并非所有的浏览器都支持 <code>navigator.clipboard</code> API。在使用前请确保目标浏览器支持该功能。</li><li><strong>HTTPS</strong>：在大多数情况下，<code>navigator.clipboard</code> API 只能在 HTTPS 连接的上下文中使用。</li></ul><p>如果你在使用 <code>navigator.clipboard</code> 时遇到未定义（undefined）的情况，可能是由于以下几个原因：</p><ol><li><strong>浏览器不支持</strong>：并不是所有的浏览器都支持 <code>navigator.clipboard</code> API。你可以通过访问 <a href="https://caniuse.com/#feat=clipboard">Can I use</a> 网站来检查你的浏览器是否支持该功能。如果你的浏览器较旧或者不在支持列表中，考虑更新浏览器或使用兼容的浏览器。</li><li><strong>HTTPS 环境</strong>：在大多数情况下，<code>navigator.clipboard</code> API 只能在安全的上下文中使用，这意味着你需要在HTTPS网站上调用它。如果你是在本地文件（file:&#x2F;&#x2F;）或HTTP环境下运行的，可能会遇到此问题。</li><li><strong>权限问题</strong>：某些浏览器可能会要求用户权限才能访问剪贴板。在某些情况下，用户的操作（如点击事件）必须触发这个 API 的调用。</li><li><strong>开发者模式</strong>：在某些开发者工具的模拟环境或特定的设置中，可能会导致 API 是未定义的，你可以尝试在正常的浏览器窗口中访问。</li></ol><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><ul><li><strong>确认浏览器版本</strong>：确保使用的是现代浏览器版本（如 Chrome、Firefox、Edge 等），并检查其支持情况。</li><li><strong>使用 HTTPS</strong>：确保你是在 HTTPS 网页下运行代码，或者在本地使用本地服务器（如使用 <code>http-server</code>、<code>live-server</code> 等）。</li><li><strong>检查触发条件</strong>：确保你的剪贴板代码是在用户交互事件（例如按钮点击）内部触发的。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;code&gt;navigator.clipboard&lt;/code&gt; 是一种用于访问剪贴板的 Web API，允许你在网页中读取和写入剪贴板内容。这个 API 提供了一个简单的方法来与用户的剪贴板进行交互。&lt;/p&gt;
-&lt;h3 id=&quot;基本用法&quot;&gt;&lt;a href=&quot;#基本用法&quot; c</summary>
-      
-    
-    
-    
-    <category term="js" scheme="https://dlwin888.github.io/categories/js/"/>
-    
-    
-    <category term="js" scheme="https://dlwin888.github.io/tags/js/"/>
     
   </entry>
   
