@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>常见布局模块实现</title>
-      <link href="/posts/7577.html"/>
-      <url>/posts/7577.html</url>
+      <title>0909-diary</title>
+      <link href="/2025/09/09/0909-diary/"/>
+      <url>/2025/09/09/0909-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="常见布局模块实现"><a href="#常见布局模块实现" class="headerlink" title="常见布局模块实现"></a>常见布局模块实现</h1><h2 id="1-全球通业务布局分析、盒子模型，背景、文本属性"><a href="#1-全球通业务布局分析、盒子模型，背景、文本属性" class="headerlink" title="1-全球通业务布局分析、盒子模型，背景、文本属性"></a>1-全球通业务布局分析、盒子模型，背景、文本属性</h2>]]></content>
+        <content type="html"><![CDATA[<h3 id="0909-日记"><a href="#0909-日记" class="headerlink" title="0909-日记"></a>0909-日记</h3><ol><li>2025 年前端开发人员路线图：<a href="https://zhuanlan.zhihu.com/p/23329981874">完整指南</a></li><li><a href="https://developer.mozilla.org/zh-CN/docs/Learn_web_development">MDN学习 Web 开发</a></li><li>博客增加search功能，使用插件<a href="https://hexo.io/plugins/">https://hexo.io/plugins/</a></li></ol><p><img src="/../uploads/image-20250909204658830.png" alt="对酒当歌，人生几何"></p>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -29,23 +29,23 @@
     
     
     <entry>
-      <title>常见布局方案</title>
-      <link href="/posts/104f.html"/>
-      <url>/posts/104f.html</url>
+      <title>How is a webpage delivered to the user</title>
+      <link href="/2025/09/09/How-is-a-webpage-delivered-to-the-user/"/>
+      <url>/2025/09/09/How-is-a-webpage-delivered-to-the-user/</url>
       
-        <content type="html"><![CDATA[<h1 id="常见布局方案"><a href="#常见布局方案" class="headerlink" title="常见布局方案"></a>常见布局方案</h1><ul><li>上中下一栏式</li><li>左右两栏式</li><li>左右两栏加页眉页脚</li><li>左中右三栏</li><li>左中右三栏之双飞翼</li><li>左中右三栏加页眉页脚</li></ul>]]></content>
+        <content type="html"><![CDATA[<h3 id="网页传递给用户的流程"><a href="#网页传递给用户的流程" class="headerlink" title="网页传递给用户的流程"></a>网页传递给用户的流程</h3><p>网页传递给用户的流程一般包括以下几个步骤：</p><ol><li><strong>用户输入网址</strong>：用户在浏览器中输入网址（URL），或者点击链接。</li><li><strong>DNS解析</strong>：浏览器向DNS服务器发送请求，将网址解析为服务器的IP地址。</li><li><strong>发送请求</strong>：浏览器使用HTTP或HTTPS协议向服务器发送请求，请求网页的内容。</li><li><strong>服务器处理请求</strong>：服务器接收到请求后，处理请求并生成相应的网页内容。</li><li><strong>发送响应</strong>：服务器将网页内容（HTML文件、图像等资源）以HTTP响应的形式发送回浏览器。</li><li><strong>浏览器接收响应</strong>：浏览器接收到服务器的响应，开始解析HTML文件。</li><li><strong>渲染页面</strong>：浏览器根据HTML、CSS和JavaScript渲染网页，最终呈现给用户。</li><li><strong>页面交互</strong>：用户可以与网页进行交互，比如点击按钮、填写表单等，浏览器会根据用户的操作再次与服务器进行交互。</li></ol><p>这一流程使得用户能够在浏览器中访问和使用网页。</p>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> web </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html </tag>
+            <tag> web </tag>
             
         </tags>
       
@@ -54,23 +54,23 @@
     
     
     <entry>
-      <title>浏览器兼容性</title>
-      <link href="/posts/5b9.html"/>
-      <url>/posts/5b9.html</url>
+      <title>How does the network operate</title>
+      <link href="/2025/09/09/How-does-the-network-operate/"/>
+      <url>/2025/09/09/How-does-the-network-operate/</url>
       
-        <content type="html"><![CDATA[<h1 id="浏览器兼容性"><a href="#浏览器兼容性" class="headerlink" title="浏览器兼容性"></a>浏览器兼容性</h1><ul><li><p>H5标签兼容</p></li><li><p>元素浮动后，能设置宽度的话就给元素加宽度，如果需要宽度是内容撑开，就给它里面的块元素加上浮动</p></li><li><p>第一块元素浮动，第二块元素加margin值等于第一块元素，在IE6下会有间隙问题</p></li><li><p>IE6 下子元素超出父级宽高，会把父级的宽高撑开</p></li><li><p>P包含块元素嵌套规则 td h标签</p></li><li><p>margin传递 叠压</p></li><li><p>元素浮动后再加margin，IE6 7 会产生双倍边距</p><blockquote><p>添加 *display:inline;</p></blockquote></li><li><p>li浮动元素4px问题 IE6</p><blockquote><p>*vertical-alin: top</p></blockquote></li><li><p>IE6文字复制问题 </p><ul><li>两个浮动元素中间有注释或者内联元素</li><li>和父级宽度相差不超过3px</li><li>解决方案：两个浮动元素避免注释或者内联元素</li><li>和父级宽度相差超过3px以上</li></ul></li><li><p>IE6父级元素的overflow:hidden是包不住子级的relative</p></li><li><p>IE6下绝对定位元素父级宽高是奇数，绝对定位元素的right和bottom值会有1px的偏差</p></li><li><p>IE6下input的空隙</p></li><li><p>IE6下输入类型表单控件背景问题 </p></li><li><p>CSS Hack</p><ul><li>\9 所有的IE10以下的</li><li>+ * IE7及以下的</li><li>_ IE6及以下的</li></ul></li></ul><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">background-color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>    <span class="token property">background-color</span><span class="token punctuation">:</span>blue<span class="token entity" title="\9">\9</span><span class="token punctuation">;</span>    *<span class="token property">background-color</span><span class="token punctuation">:</span>green<span class="token punctuation">;</span>    <span class="token property">_background-color</span><span class="token punctuation">:</span>yellow<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ul><li>IE6不支持png24图片<ul><li>js插件</li><li>滤镜</li></ul></li><li>！important 提升样式优先级权重</li></ul>]]></content>
+        <content type="html"><![CDATA[<h3 id="1-网络是如何运作的"><a href="#1-网络是如何运作的" class="headerlink" title="1. 网络是如何运作的"></a>1. 网络是如何运作的</h3><p>了解浏览器和服务器通信的基础知识。重点关注：</p><ul><li>HTTP&#x2F;HTTPS：了解数据如何在网络上移动。</li><li>DNS 和域名：了解网站如何连接到 IP 地址。</li></ul><p>大约花1-2 天时间，了解<a href="https://dlwin888.github.io/2025/09/09/How-is-a-webpage-delivered-to-the-user/">网页如何传递给用户的流程</a>。</p><blockquote><p><strong>HTTP&#x2F;HTTPS</strong>是指超文本传输协议及其安全版本。具体来说，HTTP（超文本传输协议）是互联网上应用最广泛的一种网络协议，用于从WWW服务器传输超文本到本地浏览器的传输协议，它是一个客户端和服务器端请求和应答的标准。而HTTPS（HTTP Secure）则是HTTP的安全版本，它在HTTP和TCP之间加入SSL&#x2F;TLS协议，确保数据传输的安全性。HTTPS通过加密数据，防止信息被窃听、篡改和冒充，广泛用于需要保护用户隐私和数据安全的网站，如电商、银行和社交平台。</p><p><strong>DNS</strong>是指域名系统（Domain Name System），它是一种用于将易于记忆的域名（如<a href="https://www.example.com/">www.example.com</a>）转换成计算机可识别的IP地址（如192.0.2.1）的分布式数据库系统。DNS的工作原理可以类比为互联网的电话簿，当你输入一个网站的域名时，DNS会负责解析这个域名并返回相应的IP地址，这样你的设备就能通过这个IP地址访问到对应的网站服务器。DNS不仅简化了网络地址管理，还支持域名的层级结构，允许一个域名对应多个IP地址，实现了域名与IP地址的动态映射。此外，DNS还支持多种记录类型，如A记录、CNAME记录等，用于不同的解析需求。DNS的分层结构包括根服务器、顶级域名服务器、二级域名服务器等，共同协作完成全球范围内的域名解析任务。</p><p><strong>域名</strong>（Domain Name）是由一串用点分隔的字符组成的互联网标识符，用于唯一标识网络上的计算机、服务器或服务资源（如网站、邮箱）。其本质是将复杂的IP地址（如192.0.2.1）转换为人类可记忆的字符形式（如 example.com），通过DNS系统实现映射解析。</p><ol><li><strong>类比</strong>：域名相当于互联网的“门牌号”，IP地址是地理坐标，DNS是导航系统</li><li><strong>核心功能</strong><ul><li><strong>寻址定位</strong>：用户输入域名后，DNS将其解析为IP地址，实现设备与目标服务器的连接。</li><li><strong>品牌标识</strong>：域名与企业名称、商标强关联（如 apple.com），成为线上身份的核心载体</li><li><strong>服务入口</strong>：支持网站访问（www）、邮箱配置（mail）、子服务划分（shop.example.com）。</li></ul></li></ol></blockquote>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> web </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html css </tag>
+            <tag> web </tag>
             
         </tags>
       
@@ -79,23 +79,23 @@
     
     
     <entry>
-      <title>表单</title>
-      <link href="/posts/593e.html"/>
-      <url>/posts/593e.html</url>
+      <title>code-top</title>
+      <link href="/2025/09/08/code-top10/"/>
+      <url>/2025/09/08/code-top10/</url>
       
-        <content type="html"><![CDATA[<h1 id="Form表单"><a href="#Form表单" class="headerlink" title="Form表单"></a>Form表单</h1><p><code>&lt;input type="...." name="" value="" /&gt;</code></p><ul><li><p>text 文本框</p></li><li><p>password 密码</p></li><li><p>radio 单选</p></li><li><p>checkbox 复选</p></li><li><p>submit 提交</p></li><li><p>reset 重置</p></li><li><p>button 按钮</p></li><li><p>image 图片</p></li><li><p>file 上传</p></li><li><p>hidden 隐藏</p></li><li><p>label 标注 为input元素定义标注</p><blockquote><p><code>&lt;input type="checkbox" name="" id="a" /&gt;</code></p><p><code>&lt;label for="a"&gt;.....&lt;/label&gt;</code></p></blockquote></li></ul><p>checked 在页面加载时默认选定元素</p><p>disabled 属性规定应该禁用input元素</p><ul><li><p>select/option 下拉选框</p><blockquote><p>对高度的支持不兼容</p></blockquote></li><li><p>textarea 文本域</p><blockquote><p>各个浏览器下的默认滚动条显示不兼容</p><p>css3 新增resize 调整尺寸属性</p></blockquote></li></ul><p></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="源码交易平台"><a href="#源码交易平台" class="headerlink" title="源码交易平台"></a>源码交易平台</h3><ol><li><strong>CodeCanyon</strong><br>作为Envato Market的一部分，<a href="https://codecanyon.net/">CodeCanyon</a>是一个国际知名的源码交易平台。这里提供了大量的高质量插件、脚本、应用程序和其他Web开发资源。无论是寻找WordPress插件还是JavaScript脚本，CodeCanyon都是开发者们的首选之一。</li><li><strong>GitHub Marketplace</strong><br><a href="https://github.com/topics/marketplace">GitHub Marketplace</a>是一个基于GitHub生态系统的市场，用户可以在其中找到各种扩展工具和服务，包括自动化构建工具、代码审查工具等。虽然它主要面向开发者，但对于寻找特定功能的源码或插件也非常有用。</li><li><strong>ThemeForest</strong><br>  同样是Envato Market的一部分，<a href="https://themeforest.net/category/wordpress?irgwc=1&clickid=1j5Rb1UeQxycRhiV6TTzWXUIUkpwmHzpa0rexc0&iradid=275988&irpid=1291339&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=0&utm_campaign=af_impact_radius_1291339&utm_medium=affiliate&utm_source=impact_radius&sort=sales">ThemeForest</a>专注于提供网站模板和主题。这里有适用于几乎所有主流CMS系统的模板，如WordPress、Joomla、Drupal等，是寻找美观且功能强大的网站设计的好去处。</li></ol><p>以上介绍的这些平台都有各自的优势和特色，在选择时可以根据自己的具体需求来进行考量。无论你是开发者还是企业家，在寻找合适的源码资源时，都可以参考这些平台，找到最适合自己的解决方案。</p>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> md </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html css </tag>
+            <tag> md </tag>
             
         </tags>
       
@@ -104,23 +104,23 @@
     
     
     <entry>
-      <title>表格</title>
-      <link href="/posts/d712.html"/>
-      <url>/posts/d712.html</url>
+      <title>0908-diary</title>
+      <link href="/2025/09/08/0908-diary/"/>
+      <url>/2025/09/08/0908-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><h2 id="表格的组成"><a href="#表格的组成" class="headerlink" title="表格的组成"></a>表格的组成</h2><p>table表格</p><p>thead表格头</p><p>tbody表格主体</p><p>tr 表格行</p><p>th 元素定义表头</p><p>td 元素定义表格单元</p><h2 id="表格样式重置"><a href="#表格样式重置" class="headerlink" title="表格样式重置"></a>表格样式重置</h2><p>table{border-collapse:collapse;} 单元格间隙合并</p><p>th,td {padding:0;} 重置单元格默认填充</p><h2 id="单元格合并"><a href="#单元格合并" class="headerlink" title="单元格合并"></a>单元格合并</h2>]]></content>
+        <content type="html"><![CDATA[<h3 id="0908-日记"><a href="#0908-日记" class="headerlink" title="0908-日记"></a>0908-日记</h3><ol><li><p>申请闪电贷%3的消费券</p></li><li><p><a href="https://dlwin888.github.io/">博客</a>风格调整</p></li><li><p>hexo网站突然可以访问了，找回原来的一些记录，</p></li><li><p>发现一条时间轴里有用的信息</p><blockquote><p>会点 php 的，可以去<a href="https://codecanyon.net/page/top_sellers">codecanyon</a>上面卖程序</p><p>上面这个网址就是这个星期最热销的程序</p><p>我们主要看需求，看看这些程序到底是哪些人在要</p><p>然后再开始写，这个好就好在，你连推广都不用</p><p>只要专心写程序，多为客户考虑，出些功能顾客需要的</p><p>里面很多产品都是好几年了都还在更新的，不要想着被人破解或者分享就没钱赚了</p><p>老外大部分人版权意识很好，而且大多都愿意花点钱买正版，破解版后门那么多</p><p>专心做站，当然愿意买正版，还可以更新。</p><p>码的好的，一个月几千刀的都有，码的一般的一个月几百刀的很多。</p><p>可以多去看看那些作者都有什么产品，模仿模仿。</p></blockquote></li></ol>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -129,23 +129,23 @@
     
     
     <entry>
-      <title>定位</title>
-      <link href="/posts/3720.html"/>
-      <url>/posts/3720.html</url>
+      <title>0907-diary-日记</title>
+      <link href="/2025/09/07/0907-diary/"/>
+      <url>/2025/09/07/0907-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="定位"><a href="#定位" class="headerlink" title="定位"></a>定位</h1><h2 id="定位的思考"><a href="#定位的思考" class="headerlink" title="定位的思考"></a>定位的思考</h2><h2 id="相对定位的特征"><a href="#相对定位的特征" class="headerlink" title="相对定位的特征"></a>相对定位的特征</h2><p>position:<code>relative</code>;</p><ul><li>不影响元素本身的特性</li><li>不使元素脱离文档流（元素移动之后原始位置被保留）</li><li>如果没有定位偏移量，对元素本身没有任何影响</li><li>提升层级</li></ul><h2 id="绝对定位的特征"><a href="#绝对定位的特征" class="headerlink" title="绝对定位的特征"></a>绝对定位的特征</h2><p><code>position</code>:absolute;</p><ul><li>使元素完全脱离文档流</li><li>使内联元素支持宽高</li><li>块属性标签内容撑开宽度</li><li>如果有定位父级相对于定位父级发生偏移，没有定位父级相对于document发生偏移</li><li>相对定位一般都是配合绝对定位使用</li><li>提升层级</li></ul><h2 id="z-index-number-定位层级"><a href="#z-index-number-定位层级" class="headerlink" title="z-index:[number] 定位层级"></a>z-index:[number] 定位层级</h2><h2 id="固定定位"><a href="#固定定位" class="headerlink" title="固定定位"></a>固定定位</h2><p>与绝对定位的特性基本一致，但差别是始终相对于整个文档进行定位</p><p>问题; IE6不支持固定定位</p><h2 id="定位其它值"><a href="#定位其它值" class="headerlink" title="定位其它值"></a>定位其它值</h2><ul><li>static默认值</li><li>inherit 从父元素继承定位属性的值（不兼容）</li></ul><h2 id="定位清浮动"><a href="#定位清浮动" class="headerlink" title="定位清浮动"></a>定位清浮动</h2><p>position:absolute;绝对定位子元素子级的浮动可以不用写清浮动的方法</p><p>position:fixed;  固定定位元素子级的浮动可以不用写清浮动的方法</p><h2 id="遮罩弹窗（优酷弹窗）"><a href="#遮罩弹窗（优酷弹窗）" class="headerlink" title="遮罩弹窗（优酷弹窗）"></a>遮罩弹窗（优酷弹窗）</h2><p>标准 不透明度 ： opacity: 0~1;</p><p>IE滤镜： filter: alpha(opacity=0~100)；</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="0907-日记"><a href="#0907-日记" class="headerlink" title="0907-日记"></a>0907-日记</h3><ol><li>原来的工程md文件没找到，等着回家电脑上再找</li><li>合并了<a href="https://dlwin888.github.io/">博客</a>，历史的技术文章放<a href="https://dlwin888.github.io/archives/">归档</a>里</li><li>这个代码的高亮显示很丑，得找个办法解决</li><li>给博客加了<a href="https://umami.m3u8player.com.cn/">网站访问统计</a></li></ol><blockquote><p><em>保持适当的焦虑，它会一直鞭策你进步。</em></p></blockquote>]]></content>
       
       
       <categories>
           
-          <category> css </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html css </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -154,23 +154,23 @@
     
     
     <entry>
-      <title>浮动</title>
-      <link href="/posts/1dcc.html"/>
-      <url>/posts/1dcc.html</url>
+      <title>0906-diary</title>
+      <link href="/2025/09/06/0906-diary/"/>
+      <url>/2025/09/06/0906-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="浮动介绍及基本语法"><a href="#浮动介绍及基本语法" class="headerlink" title="浮动介绍及基本语法"></a>浮动介绍及基本语法</h1><p>float:</p><ul><li>left</li><li>right</li><li>none</li><li>inherit</li></ul><p><strong>文档流是文档中可显示对象在排列时所占用的位置</strong></p><h2 id="浮动的定义"><a href="#浮动的定义" class="headerlink" title="浮动的定义"></a>浮动的定义</h2><p>使元素脱离文档流，按照指定方向发生移动，遇到父级边界或者相邻的浮动元素停了下来</p><h2 id="浮动清除"><a href="#浮动清除" class="headerlink" title="浮动清除"></a>浮动清除</h2><p>clear: </p><ul><li>left</li><li>right</li><li>none</li><li>inherit</li><li>both 左右两侧都不能有浮动</li></ul><p>元素的某个方向不能有浮动</p><h2 id="float特征"><a href="#float特征" class="headerlink" title="float特征"></a>float特征</h2><ol><li>块在一行显示</li><li>内联支持宽高</li><li>默认内容撑开宽度</li><li>脱离文档流</li><li>提升层级半层</li></ol><h2 id="清除浮动的方法"><a href="#清除浮动的方法" class="headerlink" title="清除浮动的方法"></a>清除浮动的方法</h2><ol><li><p>加高</p><ul><li>扩展性不好</li></ul></li><li><p>父级加浮动</p><ul><li>页面中所有元素加浮动，margin左右自动失效(float bad!)</li></ul></li><li><p>inline-block清浮动</p><ul><li>margin左右自动失效</li></ul></li><li><p>空标签清除浮动</p><ul><li>ie6下最小高度19px,解决后还有2px偏差</li></ul></li><li><p>.br清浮动</p><ul><li>不符合工作中：结构、样式、行为三者分离的要求</li></ul></li><li><p>after伪类</p><p><strong>最优雅的解决方案</strong></p><pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.clearfix</span> </span><span class="token punctuation">{</span>    *<span class="token property">zoom</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token selector"><span class="token class">.clearfix</span><span class="token pseudo-element">:after</span></span><span class="token punctuation">{</span>     <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">;</span>     <span class="token property">display</span><span class="token punctuation">:</span>block<span class="token punctuation">;</span>     <span class="token property">clear</span><span class="token punctuation">:</span>both<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>overflow:hidden清除浮动</p><ul><li>需要配合宽度或者zoom兼容IE6 7</li><li>溢出隐藏</li></ul><h2 id="BFC-haslayout"><a href="#BFC-haslayout" class="headerlink" title="BFC haslayout"></a>BFC haslayout</h2><p>BFC(Block formatting context) 标准浏览器</p><ol><li>float的值不为none</li><li>overflow的值不为visible</li><li>display的值为table-cell、table-caption,inline-block中的任何一个</li><li>position的值不为relative和static</li><li>width|height|min-width|min-height:(!auto)</li></ol><p>haslayout IE浏览器</p><ol><li>writing-mode:tb-rl</li><li>-ms-writting-model:rb-rl</li><li>zoom:(!normal)</li></ol><p>只要触发了bfc/haslayout那么这个区域就是一个独立的渲染区域，不受外界影响</p></li></ol>]]></content>
+        <content type="html"><![CDATA[<h3 id="0906-日记"><a href="#0906-日记" class="headerlink" title="0906-日记"></a>0906-日记</h3><ol><li>双币赢怒收377块</li><li>目前ETH价格下来了，就等涨上去，先停几天，再接着搞</li><li>找回博客源文件，把最近的文章更新上去</li></ol><blockquote><p><em>工作就是拿自己的灵魂做典当，然后去换取一些银两。</em></p><p><em>下班以后，又渴望用这些银两花在自己的爱好上，把自己的灵魂赎回来。</em></p></blockquote>]]></content>
       
       
       <categories>
           
-          <category> css </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> css </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -179,23 +179,23 @@
     
     
     <entry>
-      <title>内联块</title>
-      <link href="/posts/d995.html"/>
-      <url>/posts/d995.html</url>
+      <title>0905-diary</title>
+      <link href="/2025/09/04/0905-diary/"/>
+      <url>/2025/09/04/0905-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="inline-block"><a href="#inline-block" class="headerlink" title="inline-block"></a>inline-block</h1><h2 id="inline-block特点"><a href="#inline-block特点" class="headerlink" title="inline-block特点"></a>inline-block特点</h2><ol><li>块元素能在一行上显示</li><li>内联元素支持宽高</li><li>没有宽度时由内容撑开宽度</li><li>标签之间的换行被解析（问题）</li><li>ie6 /7 不支持块属性标签的inline-block</li></ol><h2 id="块和内嵌的转换"><a href="#块和内嵌的转换" class="headerlink" title="块和内嵌的转换"></a>块和内嵌的转换</h2><p>display: block 显示为块</p><p>使内联元素具备块属性标签的特性</p><p>display: inline 显示为内嵌</p><p>使块属性标签具备内联元素的特性</p><h2 id="翻页按钮组布局"><a href="#翻页按钮组布局" class="headerlink" title="翻页按钮组布局"></a>翻页按钮组布局</h2>]]></content>
+        <content type="html"><![CDATA[<h3 id="0905-日记"><a href="#0905-日记" class="headerlink" title="0905-日记"></a>0905-日记</h3><ol><li>补票暗黑2，国服重制版，消费168块，周末耍耍</li><li><a href="https://exam.m3u8player.com.cn/">更新题库</a>, 增加30道VONR题目</li><li>双币赢怒收312块</li></ol><p><img src="/../uploads/B10B4ECA-DF7D-4F03-AA07-B7126D19335F.png" alt="大玩家"></p>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html css </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -204,23 +204,23 @@
     
     
     <entry>
-      <title>块元素和内联元素</title>
-      <link href="/posts/d054.html"/>
-      <url>/posts/d054.html</url>
+      <title>0904-diary</title>
+      <link href="/2025/09/04/0904-diary/"/>
+      <url>/2025/09/04/0904-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="块元素和内联元素"><a href="#块元素和内联元素" class="headerlink" title="块元素和内联元素"></a>块元素和内联元素</h1><h2 id="块元素特征"><a href="#块元素特征" class="headerlink" title="块元素特征"></a>块元素特征</h2><ol><li>默认独占一行</li><li>没有宽度时，默认撑满一行</li><li>支持所有css命令</li></ol><h2 id="内联元素特征"><a href="#内联元素特征" class="headerlink" title="内联元素特征"></a>内联元素特征</h2><ol><li>同排可以继续跟相同类型的标签</li><li>内容撑开高度</li><li>不支持宽高</li><li>不支持上下的margin</li><li>代码换行被解析–空格</li></ol><h2 id="块和内联的转换"><a href="#块和内联的转换" class="headerlink" title="块和内联的转换"></a>块和内联的转换</h2><p>display</p><ul><li>block        显示为块，使行块属性标签具备内联元素的特性</li><li>inline        显示为内联，使内联元素具备块属性标签的特性</li></ul><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>    <span class="token property">display</span><span class="token punctuation">:</span> inline<span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token selector">span </span><span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>    <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+        <content type="html"><![CDATA[<h3 id="0904-日记"><a href="#0904-日记" class="headerlink" title="0904-日记"></a>0904-日记</h3><ol><li>双币赢大赚217块，车轮策略持有现金9400$</li><li>调整m3u8导航，工具类合并到一个下拉菜单</li><li>加了<a href="https://umami.m3u8player.com.cn/">网站统计工具</a></li></ol><blockquote><p><strong>这4个条件，中国一个都不具备</strong></p><p><img src="/../uploads/clip_image001-17570546332721.png"></p><p><img src="/../uploads/clip_image001-17570546749182.png"></p></blockquote>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html css </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -229,23 +229,23 @@
     
     
     <entry>
-      <title>选择器</title>
-      <link href="/posts/a05a.html"/>
-      <url>/posts/a05a.html</url>
+      <title>0903-diary</title>
+      <link href="/2025/09/03/0903-diary/"/>
+      <url>/2025/09/03/0903-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h1><h2 id="id选择器"><a href="#id选择器" class="headerlink" title="id选择器"></a>id选择器</h2><p>唯一</p><p><code>&lt;div id="box"&gt;&lt;/div&gt;</code></p><p><code>#box {</code></p><p><code>}</code></p><h2 id="类选择器"><a href="#类选择器" class="headerlink" title="类选择器"></a>类选择器</h2><p><code>&lt;div class="box"&gt;&lt;/div&gt;</code></p><p><code>.box {</code></p><p><code>}</code></p><p>可以是多个class加在同一个元素上</p><h2 id="标签选择器"><a href="#标签选择器" class="headerlink" title="标签选择器"></a>标签选择器</h2><p><code>div {</code></p><p>​<code>width:100px;</code></p><p>​<code>height:100px;</code></p><p><code>}</code></p><p>当前页面上所有标签为xxx的元素</p><h2 id="群组选择器"><a href="#群组选择器" class="headerlink" title="群组选择器"></a>群组选择器</h2><p><code>div,p,h1 {</code></p><p>​<code>width:100px;</code></p><p>​<code>height:100px;</code></p><p>​<code>color:pink;</code></p><p><code>}</code></p><p>用逗号分隔，被逗号分隔的元素统一使用相同的样式</p><h2 id="包含选择器"><a href="#包含选择器" class="headerlink" title="包含选择器"></a>包含选择器</h2><p>.box div {</p><p>}</p><p>目标范围 目标元素</p><h2 id="通配符"><a href="#通配符" class="headerlink" title="通配符"></a>通配符</h2><p><code> body *  {</code></p><p>​<code>margin:10px;</code></p><p>​<code>pading:10px;</code></p><p>​<code>border:1px solid #fff;</code></p><p><code>}</code></p><p>找到页面上符合规则的所有元素</p><p><strong>不建议使用</strong></p><h2 id="选择器的优先级"><a href="#选择器的优先级" class="headerlink" title="选择器的优先级"></a>选择器的优先级</h2><p>代码执行生效的顺序：</p><blockquote><p>行间样式&gt; id选择器 &gt; 类选择器 &gt; 元素选择器</p></blockquote><blockquote><p>行间样式 1000</p><p>id选择器 100</p><p>类选择器10</p><p>元素选择器1</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h3 id="0903-日记"><a href="#0903-日记" class="headerlink" title="0903-日记"></a>0903-日记</h3><ol><li>做了个<a href="https://exam.m3u8player.com.cn/">刷题网站</a>，解析到了子域名下</li><li>主要涉及题库格式转换，得用python脚本处理</li><li>改了下页面显示问题，提交后显示答案及原始勾选</li><li>google adsense还是没审核</li><li>双币赢到账222</li></ol><blockquote><p><em>君不密则失臣，臣不密则失身，几事不密则害成。</em></p><p>君说话如果不慎密，就会失去臣子的拥护；臣子说话如果不慎密，就会失去生命；进行中的事情如果不慎密就会办不成功。</p></blockquote>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html css </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -254,23 +254,23 @@
     
     
     <entry>
-      <title>标签样式初始化</title>
-      <link href="/posts/17e2.html"/>
-      <url>/posts/17e2.html</url>
+      <title>0902-diary</title>
+      <link href="/2025/09/02/0902-diary/"/>
+      <url>/2025/09/02/0902-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="标签样式初始化"><a href="#标签样式初始化" class="headerlink" title="标签样式初始化"></a>标签样式初始化</h1><p><strong>css reset 原则：</strong></p><p>但凡是浏览器默认的样式，都不要使用。</p><p>因为每个浏览器下标签的默认样式可能会出现不一致的情况。</p><p>人为的将所有样式全部统一（清除），再根据实际情况（设计稿）统一设置。</p><p>哪些样式是需要重置的</p><p>​与盒模型相关的样式</p><ul><li>margin</li><li>padding</li><li>border</li></ul><p>标签特有的样式</p><ul><li><p>​ul&gt;li</p></li><li><p>​ol&gt;li</p><p>  书写原则：<br>  用到什么标签就清除所用标签的默认样式<br>  建议不要直接将所有标签全部加上。<br>  不要将所有标签全部统一设置一致的reset，需根据标签默认样式特征来分类设置。</p></li></ul><pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">&lt;style>        body, h1, h2, h3, h4, h5, h6, p, dl, dd</span><span class="token punctuation">{</span>            <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token selector">ul, ol</span><span class="token punctuation">{</span>            <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>            <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>            <span class="token property">list-style</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token selector">img</span><span class="token punctuation">{</span>            <span class="token property">border</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>            <span class="token property">vertical-align</span><span class="token punctuation">:</span> top<span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token selector">a</span><span class="token punctuation">{</span>            <span class="token property">text-decoration</span><span class="token punctuation">:</span> none<span class="token punctuation">;</span>        <span class="token punctuation">}</span>    &lt;/style><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+        <content type="html"><![CDATA[<h3 id="0902-日记"><a href="#0902-日记" class="headerlink" title="0902-日记"></a>0902-日记</h3><ol><li><p>双币赢到账228</p></li><li><p>期货日内收入1605</p></li><li><p>理发</p></li><li><p><a href="https://www.wetools.com/gzip">检测开启GZIP的网站</a></p><p><img src="/../uploads/clip_image001.png" alt="台下的观众都走光了，台上的脱衣舞娘还在一颗一颗的解扣子"></p></li></ol>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html css </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -279,23 +279,23 @@
     
     
     <entry>
-      <title>常用标签</title>
-      <link href="/posts/7048.html"/>
-      <url>/posts/7048.html</url>
+      <title>如何寻找 m3u8 资源</title>
+      <link href="/2025/09/02/find-m3u8-resouse/"/>
+      <url>/2025/09/02/find-m3u8-resouse/</url>
       
-        <content type="html"><![CDATA[<h1 id="HTML常用标签"><a href="#HTML常用标签" class="headerlink" title="HTML常用标签"></a>HTML常用标签</h1><h2 id="span标签"><a href="#span标签" class="headerlink" title="span标签"></a>span标签</h2><p>span 区分样式</p><h2 id="header-页眉"><a href="#header-页眉" class="headerlink" title="header 页眉"></a>header 页眉</h2><p>主要用于页面的头部信息，也可用于板块头部</p><h2 id="nav-导航"><a href="#nav-导航" class="headerlink" title="nav 导航"></a>nav 导航</h2><p>包含链接的一个列表</p><h2 id="footer-页脚"><a href="#footer-页脚" class="headerlink" title="footer 页脚"></a>footer 页脚</h2><p>页面的底部或者版本底部</p><h2 id="section-页面上的版块"><a href="#section-页面上的版块" class="headerlink" title="section 页面上的版块"></a>section 页面上的版块</h2><p>用于划分页面上不同的区域，或者划分文章里不同的节</p><h2 id="article"><a href="#article" class="headerlink" title="article"></a>article</h2><p>用来在页面中表示一套结构完整且独立的内容部分</p><h2 id="aside"><a href="#aside" class="headerlink" title="aside"></a>aside</h2><p>可以包含与当前页面或主要内容相关的引用、侧边栏、广告、nav元素组，以及其他类似的有别与主要内容的部分</p><h2 id="time"><a href="#time" class="headerlink" title="time"></a>time</h2><p>用来表示时间或日期</p><p><a href="http://www.w3school.com.cn/tags/index.asp">HTML 参考手册</a></p><h2 id="h1-h6-标题"><a href="#h1-h6-标题" class="headerlink" title="h1~h6 标题"></a>h1~h6 标题</h2><p>h1在页面上最好只有一个</p><h2 id="p-段落"><a href="#p-段落" class="headerlink" title="p 段落"></a>p 段落</h2><h2 id="strong-强调（粗体）"><a href="#strong-强调（粗体）" class="headerlink" title="strong 强调（粗体）"></a>strong 强调（粗体）</h2><h2 id="em-强调（斜体）"><a href="#em-强调（斜体）" class="headerlink" title="em 强调（斜体）"></a>em 强调（斜体）</h2><h2 id="ul-无序列表"><a href="#ul-无序列表" class="headerlink" title="ul 无序列表"></a>ul 无序列表</h2><h2 id="ol-有序列表"><a href="#ol-有序列表" class="headerlink" title="ol 有序列表"></a>ol 有序列表</h2><h2 id="li-列表项"><a href="#li-列表项" class="headerlink" title="li 列表项"></a>li 列表项</h2><p>ul、ol的子集只能是li</p><h2 id="dl-定义列表"><a href="#dl-定义列表" class="headerlink" title="dl 定义列表"></a>dl 定义列表</h2><h2 id="dt-定义列表标题"><a href="#dt-定义列表标题" class="headerlink" title="dt 定义列表标题"></a>dt 定义列表标题</h2><h2 id="dd-定义列表项"><a href="#dd-定义列表项" class="headerlink" title="dd 定义列表项"></a>dd 定义列表项</h2><pre class="line-numbers language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dl</span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dt</span><span class="token punctuation">></span></span>自定义列表标题<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dt</span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dd</span><span class="token punctuation">></span></span>自定义列表项<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dd</span><span class="token punctuation">></span></span>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dd</span><span class="token punctuation">></span></span>自定义列表项<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dd</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dl</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="mark-标记"><a href="#mark-标记" class="headerlink" title="mark 标记"></a>mark 标记</h2><h2 id="img-图片"><a href="#img-图片" class="headerlink" title="img 图片"></a>img 图片</h2><p><code>&lt;img src="img/1.png"/&gt;</code></p><p>相对地址</p><p><code>&lt;img src="http://www.baidu.com/img/1.png"/&gt;</code></p><p>绝对地址</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="如何寻找-m3u8-资源"><a href="#如何寻找-m3u8-资源" class="headerlink" title="如何寻找 m3u8 资源"></a>如何寻找 m3u8 资源</h3><p>可以通过以下几种方式寻找 m3u8 资源：</p><ol><li><p><strong>在线视频平台</strong>：一些视频网站在播放视频时会生成 m3u8 链接，您可以查看网页源代码或者使用开发者工具查看网络请求。</p></li><li><p><strong>论坛和社区</strong>：一些专门讨论影视资源的论坛或社交媒体群组中，可能会有人分享 m3u8 链接。</p></li><li><p><strong>爬虫工具</strong>：使用编写爬虫程序抓取特定网站上的视频资源，提取 m3u8 链接。</p></li><li><p><strong>直播平台</strong>：许多直播平台也使用 m3u8 格式，您可以在直播的页面中查找相应的链接。</p></li></ol><p>请注意，获取和使用视频资源时要遵循相关的法律法规，确保不会侵犯版权。</p>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> seo </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html </tag>
+            <tag> seo </tag>
             
         </tags>
       
@@ -304,23 +304,23 @@
     
     
     <entry>
-      <title>7-HTML 初体验---a标签</title>
-      <link href="/posts/6ee1.html"/>
-      <url>/posts/6ee1.html</url>
+      <title>0901-diary</title>
+      <link href="/2025/09/01/0901-diary/"/>
+      <url>/2025/09/01/0901-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="a标签"><a href="#a标签" class="headerlink" title="a标签"></a>a标签</h1><h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><p><code>&lt;a href="http://www.baidu.com"&gt;这是百度的超链接&lt;/a&gt;</code></p><ul><li><p>链接</p></li><li><p>下载</p></li><li><p>锚点</p></li></ul><h2 id="伪类是什么"><a href="#伪类是什么" class="headerlink" title="伪类是什么"></a>伪类是什么</h2><p>给元素添加特殊的效果</p><ul><li>：link 未访问过的效果，默认的</li><li>：visited 访问过后的效果</li><li>：hover 鼠标移入的效果（悬停）</li><li>：active 鼠标按下时链接的颜色</li></ul><h2 id="a标签的伪类"><a href="#a标签的伪类" class="headerlink" title="a标签的伪类"></a>a标签的伪类</h2><pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">a<span class="token pseudo-class">:link</span> </span><span class="token punctuation">{</span>        <span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token selector">a<span class="token pseudo-class">:visited</span> </span><span class="token punctuation">{</span>        <span class="token property">color</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token selector">a<span class="token pseudo-class">:hover</span> </span><span class="token punctuation">{</span>        <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token selector">a<span class="token pseudo-class">:active</span> </span><span class="token punctuation">{</span>        <span class="token property">color</span><span class="token punctuation">:</span> plum<span class="token punctuation">;</span>    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="伪类的顺序"><a href="#伪类的顺序" class="headerlink" title="伪类的顺序"></a>伪类的顺序</h2><p><strong>L V H A</strong></p><blockquote><p>看到ＬＶ ＨＡＨＡ大笑</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<h3 id="0901-日记"><a href="#0901-日记" class="headerlink" title="0901-日记"></a>0901-日记</h3><ol><li>8月加班申请提交</li><li><a href="https://adsense.google.com/">google adsense</a>还是没有申请下来</li><li>儿子开学</li><li>双币赢到账210块</li><li><a href="https://github.com/izackwu/TeachYourselfCS-CN">中文计算机学习指南</a></li><li>自己的<a href="https://m3u8player.com.cn/freePS/">在线PS工具</a></li></ol><blockquote><p><em>“有时候，简单的出路就是正确的出路”，这就是我所说的可用的洞察：一句令人难忘的话，不仅阐明了问题，还激发了建设性的行动。</em></p><p><em>by马克·郭士顿 菲利普·戈德堡《我们为什么做出不利于自己的行为》</em></p></blockquote>]]></content>
       
       
       <categories>
           
-          <category> html </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> html </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -329,23 +329,23 @@
     
     
     <entry>
-      <title>盒模型</title>
-      <link href="/posts/3079.html"/>
-      <url>/posts/3079.html</url>
+      <title>双币赢8月总结</title>
+      <link href="/2025/08/31/%E5%8F%8C%E5%B8%81%E8%B5%A28%E6%9C%88%E6%80%BB%E7%BB%93/"/>
+      <url>/2025/08/31/%E5%8F%8C%E5%B8%81%E8%B5%A28%E6%9C%88%E6%80%BB%E7%BB%93/</url>
       
-        <content type="html"><![CDATA[<h1 id="盒模型"><a href="#盒模型" class="headerlink" title="盒模型"></a>盒模型</h1><h2 id="内边距"><a href="#内边距" class="headerlink" title="内边距"></a>内边距</h2><p>padding 内填充</p><ul><li>padding-top</li><li>padding-right</li><li>padding-bottom</li><li>padding-left</li></ul><p><strong>设置padding后会撑大容器的大小</strong></p><p>padding复合写法：</p><ul><li>只有一个属性值时：4个方向是一个值 </li><li>两个属性值时：第一个是上下，第二个是左右</li><li>三个属性值时：第一个是上，第二个是左右，第三个是下</li><li>四个属性值：上 右 下 左</li></ul><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">/* 复合写法 上右下左 */</span><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">10</span>px <span class="token number">20</span>px <span class="token number">10</span>px <span class="token number">20</span>px<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="外边距"><a href="#外边距" class="headerlink" title="外边距"></a>外边距</h2><p>margin 外边距</p><ul><li>margin -top</li><li>margin -right</li><li>margin -bottom</li><li>margin -left</li></ul><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>    <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>    <span class="token property">margin-top</span><span class="token punctuation">:</span><span class="token number">100</span>px<span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">/* 复合写法 上右下左 */</span><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">10</span>px <span class="token number">10</span>px <span class="token number">20</span>px <span class="token number">30</span>px<span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>margin的常见问题：</p><ol><li><p>margin-top会传递给父级</p><p>解决方法：仅用已学知识可使用border解决</p></li><li><p>margin的上下边距会叠压</p><p>解决技巧：</p><ol><li>还是使用margin, 叠压会使用两者中较大的值，将其中一个值设置为预想的值</li><li>如果元素没有特殊特征，也可以使用padding代替</li></ol></li></ol><h2 id="盒模型-1"><a href="#盒模型-1" class="headerlink" title="盒模型"></a>盒模型</h2><p><img src="/../images/img/image-20220901010358377.png" alt="image-20220901010358377"></p><p><strong>练习要求：</strong><br>1、两个线框图都得做<br>2、利用margin完成<br>3、利用padding完成<br>4、混合使用margin和padding同时完成</p><p><strong>注意</strong>：<br>不管是结构还是样式的编码<br>从外往里（从大往小）进行编码</p><p><img src="/../images/img/image-20220901015048462.png" alt="image-20220901015048462"></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="双币赢8月总结"><a href="#双币赢8月总结" class="headerlink" title="双币赢8月总结"></a>双币赢8月总结</h3><p>合计：4024.42</p><p>日均：160.98</p><p>实际投入7000$</p><p>预期投入10000$， 每日收入20$</p><p>每月600$ 600*7.29&#x3D;4374</p><p><img src="/../uploads/8480d84bfd59e333058cfac172b69b79a3bae1ab.jpg" alt="img"></p>]]></content>
       
       
       <categories>
           
-          <category> css </category>
+          <category> invest </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> css </tag>
+            <tag> invest </tag>
             
         </tags>
       
@@ -354,23 +354,23 @@
     
     
     <entry>
-      <title>文本</title>
-      <link href="/posts/25fe.html"/>
-      <url>/posts/25fe.html</url>
+      <title>0831-diary</title>
+      <link href="/2025/08/31/0831-diary/"/>
+      <url>/2025/08/31/0831-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h1><h2 id="文字颜色"><a href="#文字颜色" class="headerlink" title="文字颜色"></a>文字颜色</h2><p>color</p><h2 id="文本对齐方式"><a href="#文本对齐方式" class="headerlink" title="文本对齐方式"></a>文本对齐方式</h2><p>text-align</p><ul><li>left 默认值 </li><li>right</li><li>center</li></ul><h2 id="首行缩进"><a href="#首行缩进" class="headerlink" title="首行缩进"></a>首行缩进</h2><p>text-indent:2em;</p><p>em 是根据字体大小来进行计算的</p><p>1em=当前字体大小</p><h2 id="文本修饰"><a href="#文本修饰" class="headerlink" title="文本修饰"></a>文本修饰</h2><p>text-decoration</p><ul><li>underline 下划线</li><li>none</li></ul><h2 id="字母间距"><a href="#字母间距" class="headerlink" title="字母间距"></a>字母间距</h2><p>letter-spacing：10px;</p><h2 id="单词间距"><a href="#单词间距" class="headerlink" title="单词间距"></a>单词间距</h2><p>word-spacing: 2px; </p><p>以空格为解析单位</p><h2 id="强制不换行"><a href="#强制不换行" class="headerlink" title="强制不换行"></a>强制不换行</h2><p>white-space</p><ul><li>nowrap 不换行</li><li>normal</li></ul><h2 id="空格大小的测量"><a href="#空格大小的测量" class="headerlink" title="空格大小的测量"></a>空格大小的测量</h2><p>测量文字时最好是使用<strong>从上到下</strong>的方式</p><p><strong>一个空格有多大？</strong></p><p><strong>宋体字体下文字大小的一半</strong></p><p>全角，半角？</p><p>字体格式不一样时，空格大小不同</p><pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">div </span><span class="token punctuation">{</span>        <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">200</span>px<span class="token punctuation">;</span>        <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span>px solid red<span class="token punctuation">;</span>        <span class="token property">font-size</span><span class="token punctuation">:</span><span class="token number">24</span>px<span class="token punctuation">;</span>        <span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span>        <span class="token property">text-align</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>        <span class="token property">text-indent</span><span class="token punctuation">:</span> <span class="token number">2</span>em<span class="token punctuation">;</span>        <span class="token property">text-decoration</span><span class="token punctuation">:</span> underline<span class="token punctuation">;</span>        <span class="token property">letter-spacing</span><span class="token punctuation">:</span> <span class="token number">2</span>px<span class="token punctuation">;</span>        <span class="token property">word-spacing</span><span class="token punctuation">:</span> <span class="token number">20</span>px<span class="token punctuation">;</span>        <span class="token property">white-space</span><span class="token punctuation">:</span> nowrap<span class="token punctuation">;</span>    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="文本（font）属性练习"><a href="#文本（font）属性练习" class="headerlink" title="文本（font）属性练习"></a>文本（font）属性练习</h2><ol><li>模块、单词间距、行高要与设计图一致</li><li>思考题：每一行的前方粉色带三角的区域该如何实现?</li></ol><p><img src="/../images/img/image-20220831033731239.png" alt="image-20220831033731239"></p><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token number">15</span>px<span class="token punctuation">;</span>    <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"宋体"</span><span class="token punctuation">;</span>    <span class="token property">line-height</span><span class="token punctuation">:</span> <span class="token number">40</span>px<span class="token punctuation">;</span>    <span class="token property">text-align</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>    <span class="token property">color</span><span class="token punctuation">:</span> black<span class="token punctuation">;</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">353</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">40</span>px<span class="token punctuation">;</span>    <span class="token property">word-spacing</span><span class="token punctuation">:</span> <span class="token number">43</span>px<span class="token punctuation">;</span>    <span class="token property">background</span><span class="token punctuation">:</span> <span class="token hexcode">#fefafb</span> <span class="token url">url(../images/img/pink_bg.png)</span> no-repeat <span class="token number">0</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token property">border-bottom</span><span class="token punctuation">:</span> <span class="token number">10</span>px solid <span class="token hexcode">#c6cad7</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+        <content type="html"><![CDATA[<h3 id="0831-diary"><a href="#0831-diary" class="headerlink" title="0831-diary"></a>0831-diary</h3><ol><li>吃早餐，洗衣服</li><li>捣鼓一下<a href="http://m3u8player.com.cn/">个人网站</a>，Title&#x2F;description&#x2F;keywords</li><li><a href="https://www.cz4k.com/">厂长资源</a>看个电影，不错的电影站，做了我一直想的<a href="https://www.cz4k.com/dbtop250">豆瓣电影TOP250</a></li><li>疯狂动物城</li><li>开了一个sol的抄底止盈策略，100刀，看看效果</li></ol>]]></content>
       
       
       <categories>
           
-          <category> css </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> css </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -379,23 +379,23 @@
     
     
     <entry>
-      <title>文字</title>
-      <link href="/posts/90a6.html"/>
-      <url>/posts/90a6.html</url>
+      <title>0830-diary</title>
+      <link href="/2025/08/30/0830-diary/"/>
+      <url>/2025/08/30/0830-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="文字"><a href="#文字" class="headerlink" title="文字"></a>文字</h1><h2 id="文字着重"><a href="#文字着重" class="headerlink" title="文字着重"></a>文字着重</h2><p>font-weight </p><ul><li>bold 加粗</li><li>normal 正常</li></ul><h2 id="文字倾斜"><a href="#文字倾斜" class="headerlink" title="文字倾斜"></a>文字倾斜</h2><p>font-style </p><ul><li>talic 斜体</li><li>normal 正常</li></ul><h2 id="文字大小"><a href="#文字大小" class="headerlink" title="文字大小"></a>文字大小</h2><p>font-size</p><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>font-family</p><h2 id="行高"><a href="#行高" class="headerlink" title="行高"></a>行高</h2><p>line-height：文字在一行里所占用的位置</p><p>当行高的值与高度一致时，文字会<strong>垂直居中</strong></p><p><strong>多行文字测量行高的方法</strong>：</p><ol><li><p>确认文字大小</p></li><li><p>确认两行文字之间的大小</p></li><li><p>空隙大小除以2，得出来的值就是每行文字的上下的空隙大小</p><ol><li>当行高为奇数时，那么文字的上方要比下方少一个像素</li><li>当行高为偶数时，上下空隙值一致</li></ol></li><li><p>画辅助线测量</p></li></ol><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">font-weight</span><span class="token punctuation">:</span> normal<span class="token punctuation">;</span>    <span class="token property">font-style</span><span class="token punctuation">:</span> italic<span class="token punctuation">;</span>    <span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token number">16</span>px<span class="token punctuation">;</span>    <span class="token property">font-family</span><span class="token punctuation">:</span> <span class="token string">"微软雅黑"</span><span class="token punctuation">;</span>    <span class="token property">line-height</span><span class="token punctuation">:</span> <span class="token number">16</span>px<span class="token punctuation">;</span>    <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span>px solid red<span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token comment" spellcheck="true">/*复合样式 要注意书写顺序*/</span><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">font</span><span class="token punctuation">:</span> bold italic <span class="token number">26</span>px/<span class="token number">32</span>px <span class="token string">"楷体"</span>；<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+        <content type="html"><![CDATA[<h3 id="0830-日记"><a href="#0830-日记" class="headerlink" title="0830-日记"></a>0830-日记</h3><ol><li>周六加班，漏扫、弱口令整改</li></ol>]]></content>
       
       
       <categories>
           
-          <category> css </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> css </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -404,23 +404,23 @@
     
     
     <entry>
-      <title>背景</title>
-      <link href="/posts/6c5e.html"/>
-      <url>/posts/6c5e.html</url>
+      <title>0829-diary</title>
+      <link href="/2025/08/29/0829-diary/"/>
+      <url>/2025/08/29/0829-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><h2 id="背景和内容的区别"><a href="#背景和内容的区别" class="headerlink" title="背景和内容的区别"></a>背景和内容的区别</h2><p>内容是会撑开容器宽高</p><p>背景不会占用容器宽高</p><h2 id="背景颜色"><a href="#背景颜色" class="headerlink" title="背景颜色"></a>背景颜色</h2><p>background-color 背景颜色</p><ul><li>英文关键字</li><li>RGB</li><li>十六进制</li></ul><h2 id="背景图、背景图是否重复"><a href="#背景图、背景图是否重复" class="headerlink" title="背景图、背景图是否重复"></a>背景图、背景图是否重复</h2><p>background-image 背景图片</p><p>​url(../img/bg.png);</p><p>background-repeat   背景是否重复</p><ul><li><p>​repeat </p><ul><li>repeat-x  X轴重复</li><li>repeat-y   Y轴重复</li></ul></li><li><p>​    no-repeat 不重复</p></li></ul><h2 id="背景图位置调整"><a href="#背景图位置调整" class="headerlink" title="背景图位置调整"></a>背景图位置调整</h2><p>background-position ：x y; 背景图位置</p><ul><li>数值</li><li>left right center top bottom</li></ul><p>第二个属性不写，默认是center</p><h2 id="背景图是否跟随滚条滚动"><a href="#背景图是否跟随滚条滚动" class="headerlink" title="背景图是否跟随滚条滚动"></a>背景图是否跟随滚条滚动</h2><p>background-attachment: fixed 背景是否滚动</p><ul><li>fixed 固定在浏览器可视区域内</li><li>scroll 跟随滚动条滚动</li></ul><h2 id="background复合样式"><a href="#background复合样式" class="headerlink" title="background复合样式"></a>background复合样式</h2><p>background : red url(“../images/img/20220817010850.jpg”) no-repeat center top scroll;</p><pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div </span><span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>    <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">10</span>px solid pink<span class="token punctuation">;</span>    <span class="token property">background-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>    <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url">url("../images/img/20220817010850.jpg")</span><span class="token punctuation">;</span>    <span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span>    <span class="token property">background-position</span><span class="token punctuation">:</span> <span class="token number">10</span>px center<span class="token punctuation">;</span>    <span class="token property">background-attachment</span><span class="token punctuation">:</span> fixed<span class="token punctuation">;</span>    <span class="token property">background-size</span><span class="token punctuation">:</span> <span class="token number">25%</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token selector">//复合样式    div </span><span class="token punctuation">{</span>        <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>        <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>        <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">10</span>px solid pink<span class="token punctuation">;</span>        <span class="token property">background</span> <span class="token punctuation">:</span> red <span class="token url">url("../images/img/20220817010850.jpg")</span> no-repeat center top scroll<span class="token punctuation">;</span>        <span class="token property">background-size</span><span class="token punctuation">:</span> <span class="token number">100%</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><img src="/../images/img/image-20220830033745660.png" alt="image-20220830033745660"></p><h2 id="background练习"><a href="#background练习" class="headerlink" title="background练习"></a>background练习</h2><p>1、头部区域（第一个块）直接切一张完整的图片<br>2、内容区域里的每一个小块需要有ico并且还有背景颜色</p>]]></content>
+        <content type="html"><![CDATA[<h3 id="0829-日记"><a href="#0829-日记" class="headerlink" title="0829-日记"></a>0829-日记</h3><ol><li><p>汇报准确性核对进展</p></li><li><p>出差邮件发送，电子流提交，下月酒店预定</p></li><li><p>家里电信宽带设备升级，充值360，免费更换路由器，光猫</p><p><img src="/../uploads/image-20250829112636290.png" alt="image-20250829112636290"></p></li></ol>]]></content>
       
       
       <categories>
           
-          <category> css </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> css </tag>
+            <tag> diary </tag>
             
         </tags>
       
@@ -429,23 +429,23 @@
     
     
     <entry>
-      <title>边框</title>
-      <link href="/posts/5652.html"/>
-      <url>/posts/5652.html</url>
+      <title>网站诊断清单</title>
+      <link href="/2025/08/28/2025-08-28-%E7%BD%91%E7%AB%99%E8%AF%8A%E6%96%AD%E6%B8%85%E5%8D%95/"/>
+      <url>/2025/08/28/2025-08-28-%E7%BD%91%E7%AB%99%E8%AF%8A%E6%96%AD%E6%B8%85%E5%8D%95/</url>
       
-        <content type="html"><![CDATA[<h1 id="边框"><a href="#边框" class="headerlink" title="边框"></a>边框</h1><h2 id="边框的语法规则、边框的单一方向条件设置"><a href="#边框的语法规则、边框的单一方向条件设置" class="headerlink" title="边框的语法规则、边框的单一方向条件设置"></a>边框的语法规则、边框的单一方向条件设置</h2><p><strong>语法</strong>：</p><p><strong>边框的语法规则</strong></p><p>​1.边框的粗细</p><p>​        2.边框的样式</p><p>​        3.边框的颜色</p><p>​边框的方向</p><p>​top right bottom left</p><p>border</p><ul><li>border-top<ul><li>border-top-width</li><li>border-top-style</li><li>border-top-color</li></ul></li><li>border-right<ul><li>border-right-width</li><li>border-right-style</li><li>border-right-color</li></ul></li><li>border-bottom<ul><li>border-bottom-width</li><li>border-bottom-style</li><li>border-bottom-color</li></ul></li><li>border-left<ul><li>border-left-width</li><li>border-left-style</li><li>border-left-color</li></ul></li></ul><pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">&lt;style type="text/css">        div </span><span class="token punctuation">{</span>            <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>            <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">400</span>px<span class="token punctuation">;</span>            <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span>px solid red<span class="token punctuation">;</span>            <span class="token property">border-right</span><span class="token punctuation">:</span> <span class="token number">5</span>px dashed blue<span class="token punctuation">;</span>            <span class="token property">border-top-color</span><span class="token punctuation">:</span> blue<span class="token punctuation">;</span>        <span class="token punctuation">}</span>    &lt;/style><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="边框的特性、使用边框实现三角形"><a href="#边框的特性、使用边框实现三角形" class="headerlink" title="边框的特性、使用边框实现三角形"></a>边框的特性、使用边框实现三角形</h2><p><strong>边框的形状</strong>：非矩形</p><pre><code>#div1 {    width: 0;    height: 0;    border: 20px solid red;    border-color: black blue green red;}</code></pre><img src="../images/img/image-20220828184404871.png" alt="image-20220828184404871" style="zoom:200%;"><pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token id">#div2</span> </span><span class="token punctuation">{</span>    <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">10</span>px solid <span class="token hexcode">#fff</span><span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">/*border-top-color: #ccc;*/</span>    <span class="token property">border-left-color</span><span class="token punctuation">:</span> <span class="token hexcode">#ccc</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><img src="../images/img/image-20220828184832604.png" alt="image-20220828184832604" style="zoom:200%;"><h2 id="边框样式练习"><a href="#边框样式练习" class="headerlink" title="边框样式练习"></a>边框样式练习</h2><ol><li>先分析设计图的结构</li><li>根据所分析的结构，进行结构编码</li><li>根据所书写的结构，进行css编码</li><li>利用ps工具，对设计图上的模块进行测量以及颜色的拾取</li><li>样式添加</li></ol>]]></content>
+        <content type="html"><![CDATA[<h3 id="网站诊断清单"><a href="#网站诊断清单" class="headerlink" title="网站诊断清单"></a>网站诊断清单</h3><ul><li>Robots.txt</li><li>Sitemap.xml</li><li>noindex</li><li>Canonical标记</li><li>Title&#x2F;description</li><li>H标签</li><li>图片优化</li><li>内链</li><li>结构化标记</li><li>https</li><li>手机端适配</li></ul>]]></content>
       
       
       <categories>
           
-          <category> css </category>
+          <category> seo </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> css </tag>
+            <tag> seo </tag>
             
         </tags>
       
@@ -454,23 +454,123 @@
     
     
     <entry>
-      <title>样式表</title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
+      <title>0828-diary</title>
+      <link href="/2025/08/28/0828-diary/"/>
+      <url>/2025/08/28/0828-diary/</url>
       
-        <content type="html"><![CDATA[<h1 id="1-行间样式、内联样式表、外联样式表"><a href="#1-行间样式、内联样式表、外联样式表" class="headerlink" title="1-行间样式、内联样式表、外联样式表"></a>1-行间样式、内联样式表、外联样式表</h1><p><strong>行间样式</strong>：给单独的标签添加样式</p><p>语法：<code>&lt;div style="……"&gt;&lt;/div&gt;</code></p><p><strong>内部样式表</strong>：写在style标签内,针对当前html文件有效</p><p>语法：</p><pre class="line-numbers language-css"><code class="language-css">    <span class="token selector">&lt;style type="text/css">        div </span><span class="token punctuation">{</span>            <span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>            <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>            <span class="token property">background</span><span class="token punctuation">:</span> pink<span class="token punctuation">;</span>        <span class="token punctuation">}</span>    &lt;/style><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><strong>外部样式表</strong>：写在外部css文件中，通过link标签引入</p><p>语法：</p><p><code>&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;</code></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="0828-日记"><a href="#0828-日记" class="headerlink" title="0828-日记"></a>0828-日记</h3><ol><li><a href="https://m3u8player.com.cn/">m3u8player.com.cn</a>审核通过，域名改为https</li><li>明天<del>是</del>否出差结束，回西安</li><li><a href="https://m3u8player.com.cn/tool/nav.html">导航页面</a>收录一些个人常用的网站</li><li>根据网站诊断清单，添加robots.txt和sitemap</li><li>整理项目文档，<del>准备发交接邮件</del></li><li>发下月出差通报，订酒店</li></ol>]]></content>
       
       
       <categories>
           
-          <category> css </category>
+          <category> diary </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> css </tag>
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>0827-diary</title>
+      <link href="/2025/08/27/0827diary/"/>
+      <url>/2025/08/27/0827diary/</url>
+      
+        <content type="html"><![CDATA[<h3 id="今天完成的一些事情"><a href="#今天完成的一些事情" class="headerlink" title="今天完成的一些事情"></a>今天完成的一些事情</h3><ul><li><a href="https://m3u8player.com.cn/">m3u8player.com.cn</a>继续等审核，大概一周<img src="/../uploads/image-20250827210336717.png" alt="image-20250827210336717"></li><li>个人网站本地编写工具hexo, 重新搭建起来，以后就用它来经常记录些日常的事情</li><li>谷歌adsense提交<a href="http://dlwin888.github.io/">博客网站</a>审核</li><li>银行卡限额的原因，GA系统反诈，被风控，临时的</li><li>USDT的购买计划，只能蚂蚁搬家，WX零钱通每天3K</li><li>期货，最近就少动多看</li><li>加密双币赢，持续积少成多</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> diary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown语法</title>
+      <link href="/2025/08/27/Markdown/"/>
+      <url>/2025/08/27/Markdown/</url>
+      
+        <content type="html"><![CDATA[<p>Markdown（md）是一种轻量级的标记语言，用于格式化文本下面是一些常用的Markdown法：</p><h3 id="1-标题使用-符号来创建标题。-的数量表示标题的层级（从1到6）。"><a href="#1-标题使用-符号来创建标题。-的数量表示标题的层级（从1到6）。" class="headerlink" title="1. 标题使用 # 符号来创建标题。# 的数量表示标题的层级（从1到6）。"></a>1. 标题使用 <code>#</code> 符号来创建标题。<code>#</code> 的数量表示标题的层级（从1到6）。</h3><pre><code class="markdown"># 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题</code></pre><h3 id="2-段落"><a href="#2-段落" class="headerlink" title="2. 段落"></a>2. 段落</h3><p>段落由一个或多个行组成，段落之间需要有一个空行。</p><pre><code class="markdown">这是一个段落。这是另一个段落。</code></pre><h3 id="3-强调"><a href="#3-强调" class="headerlink" title="3. 强调"></a>3. 强调</h3><p>使用 <code>*</code> 或 <code>_</code> 来添加强调。</p><pre><code class="markdown">*斜体文本* 或 _斜体文本_**粗体文本** 或 __粗体文本__***粗斜体文本*** 或 ___粗斜体文本___</code></pre><h3 id="4-列表"><a href="#4-列表" class="headerlink" title="4. 列表"></a>4. 列表</h3><p>无序列表使用 <code>*</code>、<code>-</code> 或 <code>+</code>。</p><pre><code class="markdown">- 项目一- 项目二  - 子项目一  - 子项目二</code></pre><p>有序列表使用数字加点。</p><pre><code class="markdown">1. 第一项2. 第二项   1. 子项一   2. 子项二</code></pre><h3 id="5-链接"><a href="#5-链接" class="headerlink" title="5. 链接"></a>5. 链接</h3><p>使用 <code>[]</code> 和 <code>()</code> 来创建链接。</p><pre><code class="markdown">[链接文本](http://example.com)</code></pre><h3 id="6-图片"><a href="#6-图片" class="headerlink" title="6. 图片"></a>6. 图片</h3><p>图片的语法与链接类似，在前面加一个 <code>!</code>。</p><pre><code class="markdown">![替代文本](http://example.com/image.jpg)</code></pre><h3 id="7-引用"><a href="#7-引用" class="headerlink" title="7. 引用"></a>7. 引用</h3><p>使用 <code>&gt;</code> 来添加引用。</p><pre><code class="markdown">&gt; 这是一个引用。</code></pre><h3 id="8-代码"><a href="#8-代码" class="headerlink" title="8. 代码"></a>8. 代码</h3><p>使用 &#96;&#96;&#96; 符号来标记行内代码。</p><pre><code class="markdown">这是 `行内代码` 示例。</code></pre><p>使用三个 &#96;&#96;&#96; 来创建代码块。</p><pre><code class="markdown"></code></pre><p>这是代码块。</p><p>text复制</p><pre><code></code></pre><h3 id="9-分隔线"><a href="#9-分隔线" class="headerlink" title="9. 分隔线"></a>9. 分隔线</h3><p>使用三个以上的 <code>*</code>、<code>-</code> 或 <code>_</code> 来创建分隔线。</p><pre><code class="markdown">---</code></pre><h3 id="10-表格"><a href="#10-表格" class="headerlink" title="10. 表格"></a>10. 表格</h3><p>使用 <code>|</code> 来创建表格。</p><pre><code class="markdown">| 列1 | 列2 ||-----|-----|| 数据1 | 数据2 || 数据3 | 数据4 |</code></pre><p>这是一些基本的Markdown语法，使用这些语法可以轻松地格式化文本。希望对你有帮助！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> md </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> md </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>复制代码js</title>
+      <link href="/2025/08/27/%E5%A4%8D%E5%88%B6%E4%BB%A3%E7%A0%81js%E7%94%A8%E6%B3%95/"/>
+      <url>/2025/08/27/%E5%A4%8D%E5%88%B6%E4%BB%A3%E7%A0%81js%E7%94%A8%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<p><code>navigator.clipboard</code> 是一种用于访问剪贴板的 Web API，允许你在网页中读取和写入剪贴板内容。这个 API 提供了一个简单的方法来与用户的剪贴板进行交互。</p><h3 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h3><ol><li><p><strong>写入剪贴板</strong>： 使用 <code>navigator.clipboard.writeText()</code> 方法可以将文本写入剪贴板。</p><p>javascript复制</p><pre><code class="javascript">navigator.clipboard.writeText(&#39;要复制的文本&#39;).then(() =&gt; &#123;    console.log(&#39;文本已复制到剪贴板&#39;);&#125;).catch(err =&gt; &#123;    console.error(&#39;复制失败&#39;, err);&#125;);</code></pre></li><li><p><strong>读取剪贴板</strong>： 使用 <code>navigator.clipboard.readText()</code> 方法可以从剪贴板读取文本。</p><p>javascript复制</p><pre><code class="javascript">navigator.clipboard.readText().then(text =&gt; &#123;    console.log(&#39;从剪贴板读取的文本:&#39;, text);&#125;).catch(err =&gt; &#123;    console.error(&#39;读取失败&#39;, err);&#125;);</code></pre></li></ol><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul><li><strong>安全性</strong>：由于剪贴板操作涉及用户的隐私和安全，通常这样的方法在网页的上下文中需要用户的主动操作（例如在 click 事件的回调中）。</li><li><strong>浏览器支持</strong>：并非所有的浏览器都支持 <code>navigator.clipboard</code> API。在使用前请确保目标浏览器支持该功能。</li><li><strong>HTTPS</strong>：在大多数情况下，<code>navigator.clipboard</code> API 只能在 HTTPS 连接的上下文中使用。</li></ul><p>如果你在使用 <code>navigator.clipboard</code> 时遇到未定义（undefined）的情况，可能是由于以下几个原因：</p><ol><li><strong>浏览器不支持</strong>：并不是所有的浏览器都支持 <code>navigator.clipboard</code> API。你可以通过访问 <a href="https://caniuse.com/#feat=clipboard">Can I use</a> 网站来检查你的浏览器是否支持该功能。如果你的浏览器较旧或者不在支持列表中，考虑更新浏览器或使用兼容的浏览器。</li><li><strong>HTTPS 环境</strong>：在大多数情况下，<code>navigator.clipboard</code> API 只能在安全的上下文中使用，这意味着你需要在HTTPS网站上调用它。如果你是在本地文件（file:&#x2F;&#x2F;）或HTTP环境下运行的，可能会遇到此问题。</li><li><strong>权限问题</strong>：某些浏览器可能会要求用户权限才能访问剪贴板。在某些情况下，用户的操作（如点击事件）必须触发这个 API 的调用。</li><li><strong>开发者模式</strong>：在某些开发者工具的模拟环境或特定的设置中，可能会导致 API 是未定义的，你可以尝试在正常的浏览器窗口中访问。</li></ol><h3 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h3><ul><li><strong>确认浏览器版本</strong>：确保使用的是现代浏览器版本（如 Chrome、Firefox、Edge 等），并检查其支持情况。</li><li><strong>使用 HTTPS</strong>：确保你是在 HTTPS 网页下运行代码，或者在本地使用本地服务器（如使用 <code>http-server</code>、<code>live-server</code> 等）。</li><li><strong>检查触发条件</strong>：确保你的剪贴板代码是在用户交互事件（例如按钮点击）内部触发的。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> js </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> js </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>new article</title>
+      <link href="/2025/08/27/new-article/"/>
+      <url>/2025/08/27/new-article/</url>
+      
+        <content type="html"><![CDATA[<h2 id="发布新文章"><a href="#发布新文章" class="headerlink" title="发布新文章"></a>发布新文章</h2><ul><li>在博客根目录下执行：hexo new “我的第一篇文章”，会在 source&#x2F;_posts 文件夹内生成一个 .md 文件。</li><li>编辑该文件，修改起始字段为：</li></ul><blockquote><p>title: 文章的标题<br>date: 创建日期 （文件的创建日期 ）<br>updated: 修改日期 （ 文件的修改日期）<br>comments: 是否开启评论 true<br>tags: 标签<br>categories: 分类<br>permalink: url中的名字（文件名）</p></blockquote><h5 id="编写正文内容-遵循-Markdown-规则"><a href="#编写正文内容-遵循-Markdown-规则" class="headerlink" title="编写正文内容(遵循 Markdown 规则)"></a>编写正文内容(遵循 Markdown 规则)</h5>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
             
         </tags>
       
@@ -480,22 +580,22 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/posts/3eeb.html"/>
-      <url>/posts/3eeb.html</url>
+      <link href="/2025/08/27/hello-world/"/>
+      <url>/2025/08/27/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h2 id="sitemap-rss"><a href="#sitemap-rss" class="headerlink" title="sitemap &amp; rss"></a>sitemap &amp; rss</h2><p>切换到blog根目录下，输入：</p><pre><code class="javascript">$ npm install hexo-generator-feed$ npm install hexo-generator-sitemap</code></pre><p>之后重启博客，访问<code>/atom.xml</code>和<code>/sitemap.xml</code>，会发现已经生成了。可以把sitemap提交到搜索引擎的站长平台来增加收录。</p><h3 id="2-1-Google-版本"><a href="#2-1-Google-版本" class="headerlink" title="2.1 Google 版本"></a>2.1 Google 版本</h3><p>进入到根目录下，打开<code>CMD</code>，运行下面的命令：</p><pre><code class="powershell">npm install hexo-generator-sitemap --save</code></pre><h3 id="2-2-Baidu-版本"><a href="#2-2-Baidu-版本" class="headerlink" title="2.2 Baidu 版本"></a>2.2 <a href="https://zhida.zhihu.com/search?content_id=121687672&content_type=Article&match_order=1&q=Baidu+%E7%89%88%E6%9C%AC&zhida_source=entity">Baidu 版本</a></h3><p>进入到根目录下，打开<code>CMD</code>，运行下面的命令：</p><pre><code class="text">npm install hexo-generator-baidu-sitemap --save</code></pre><h1 id="给博客增加-Sitemap-和-Robots（Hexo）"><a href="#给博客增加-Sitemap-和-Robots（Hexo）" class="headerlink" title="给博客增加 Sitemap 和 Robots（Hexo）"></a>给博客增加 Sitemap 和 Robots（Hexo）</h1><p>Hexo 生成的静态网站，默认没有集成 Sitemap 功能。而我们的网站，如果想要更好的被搜索引擎收录，建议给站点增加 Sitemap。下面是操作步骤：</p><h2 id="1-安装-hexo-generator-sitemap"><a href="#1-安装-hexo-generator-sitemap" class="headerlink" title="1. 安装 hexo-generator-sitemap"></a>1. 安装 hexo-generator-sitemap</h2><p>在 Hexo 生成站点的根目录下执行以下命令：</p><pre><code>npm install hexo-generator-sitemap --save</code></pre><p>因为我用的是 <code>pnpm</code> 包管理工具，所以我这里执行的命令是：</p><pre><code>pnpm add hexo-generator-sitemap</code></pre><h2 id="2-配置-sitemap-xml"><a href="#2-配置-sitemap-xml" class="headerlink" title="2. 配置 sitemap.xml"></a>2. 配置 sitemap.xml</h2><p>安装完插件后，编辑站点根目录下的 <code>_config.yml</code> 配置文件，寻找是否有 sitemap 字样，如果没有则增加配置：</p><pre><code># Sitemapsitemap:  path:    - sitemap.xml  tags: true</code></pre><p>我这里配置了在 sitemap 中显示标签，如果不想显示标签，可以把 <code>tags: true</code> 删掉。</p><h2 id="3-配置站点-URL"><a href="#3-配置站点-URL" class="headerlink" title="3. 配置站点 URL"></a>3. 配置站点 URL</h2><p>还是在 <code>_config.yml</code> 中，查看 <code>url</code> 字段是否配置正确。</p><pre><code>url: https://www.guozhenyi.com</code></pre><p>如果没有正确配置 <code>url</code>，生成的 <code>sitemap.xml</code> 可能会缺少正确的链接结构。</p><h2 id="4-生成-Sitemap"><a href="#4-生成-Sitemap" class="headerlink" title="4. 生成 Sitemap"></a>4. 生成 Sitemap</h2><p>在站点根目录下执行：</p><pre><code>hexo clean &amp;&amp; hexo g</code></pre><p>生成完成后，即可在 <code>public/</code> 目录下看到 <code>sitemap.xml</code> 文件。</p><h2 id="5-增加-robots-txt"><a href="#5-增加-robots-txt" class="headerlink" title="5. 增加 robots.txt"></a>5. 增加 robots.txt</h2><p>同样的，Hexo 没有自带 <code>robots.txt</code> 文件，为了对搜索引擎更友好，建议在 <code>source/</code> 目录下创建 <code>robots.txt</code> 文件，内容为：</p><pre><code>User-agent: *Disallow:Sitemap: https://www.guozhenyi.com/sitemap.xml</code></pre><p>请把里面的域名换成你自己的域名。</p>]]></content>
       
       
       <categories>
           
-          <category> hello-world </category>
+          <category> hexo </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hello-world </tag>
+            <tag> hexo </tag>
             
         </tags>
       
