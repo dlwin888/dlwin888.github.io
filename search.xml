@@ -4,6 +4,131 @@
   
     
     <entry>
+      <title>Search tips</title>
+      <link href="/2025/09/12/Search-tips/"/>
+      <url>/2025/09/12/Search-tips/</url>
+      
+        <content type="html"><![CDATA[<h3 id="搜索技巧"><a href="#搜索技巧" class="headerlink" title="搜索技巧"></a>搜索技巧</h3><ul><li>你应该在搜索词中包含你正在使用的语言，就像上面的例子所示。如果你只是输入了“如何打印出斐波那契数列”，你可能会得到 Python、C++、Java、Ruby 或其他语言的解决方案——当你正在学习 JavaScript 时，这就显得没什么帮助了！</li><li>当你找到有用的答案时，请在某个地方将其添加为书签或复制一份，以便以后再次找到它。你会惊讶于你遇到相同问题的次数的。</li><li>如果你的代码返回特定的错误消息，请尝试在搜索引擎或 AI 聊天中输入这个错误消息。在过去可能已经有其他人解决了同样的错误，并在某个地方公开记录了解决方案。</li><li>如果可能，坚持使用推荐的网站，如 <a href="https://developer.mozilla.org/zh-CN">MDN</a> 和 <a href="https://stackoverflow.com/">StackOverflow</a>。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3. HTML + CSS</title>
+      <link href="/2025/09/12/HTML-CSS/"/>
+      <url>/2025/09/12/HTML-CSS/</url>
+      
+        <content type="html"><![CDATA[<h3 id="3-HTML-CSS"><a href="#3-HTML-CSS" class="headerlink" title="3. HTML + CSS"></a><strong>3. HTML + CSS</strong></h3><h4 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a><strong>HTML</strong></h4><p>HTML 构建了网络上的内容，例如文本、链接和表单。可以将其视为网页的骨架。</p><p><strong>示例</strong>：使用<code>&lt;form&gt;</code>和<code>&lt;input&gt;</code>创建登录表单。</p><p><img src="/../uploads/v2-d2af95176ab3476912135553e94151b3_r.jpg" alt="HTML"></p><h4 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a><strong>CSS</strong></h4><p>CSS 设置 HTML 样式，控制布局、颜色和间距。</p><p><strong>示例</strong>：使用 Flexbox 将元素居中或使用 Grid 创建多列布局。</p><p><img src="/../uploads/v2-7943a1d90c02ac6e3664c663760de141_1440w.jpg" alt="CSS"></p><p><strong>时间表</strong>：花<strong>一个月</strong>时间掌握这两项技能。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2. Workspace Settings</title>
+      <link href="/2025/09/12/Workspace-Settings/"/>
+      <url>/2025/09/12/Workspace-Settings/</url>
+      
+        <content type="html"><![CDATA[<h3 id="2-工作区设置"><a href="#2-工作区设置" class="headerlink" title="2. 工作区设置"></a><strong>2. 工作区设置</strong></h3><p>设置编码工具：</p><ul><li><strong>代码编辑器</strong>：使用 <a href="https://code.visualstudio.com/">VS Code</a>。</li><li><strong>扩展</strong>：添加 <a href="https://www.prettier.cn/">Prettier</a>（用于格式化）和 <a href="https://eslint.nodejs.cn/">ESLint</a>（用于错误检测）等工具。</li><li><strong>可选</strong>：熟悉用于运行脚本和版本控制的终端。</li></ul><p>这种设置提高了生产效率。<strong>1天</strong>就足以开始。</p><p><img src="/../uploads/image-20250912103514034.png" alt="VS Code"></p><p><img src="/../uploads/image-20250912103347368.png" alt="Prettier是什么"></p><p><img src="/../uploads/image-20250912103706329.png" alt="ESlint"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>0912-diary</title>
+      <link href="/2025/09/12/0912-diary/"/>
+      <url>/2025/09/12/0912-diary/</url>
+      
+        <content type="html"><![CDATA[<h3 id="0912日记"><a href="#0912日记" class="headerlink" title="0912日记"></a>0912日记</h3><ol><li>期权太难了，亏钱容易</li><li></li></ol><p><img src="/../uploads/image-20250912100322822.png" alt="最后的程序员"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> diary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>0911-diary</title>
+      <link href="/2025/09/11/0911-diary/"/>
+      <url>/2025/09/11/0911-diary/</url>
+      
+        <content type="html"><![CDATA[<h3 id="0911日记"><a href="#0911日记" class="headerlink" title="0911日记"></a>0911日记</h3><ol><li><p>期权还是灵活，可随时平仓</p><blockquote><p><em>欧式期权的行权日是就是期权的到期日</em>，只能在到期的那一天进行行权，而美式期权可以在期权有效期内的任何一天行权</p></blockquote></li><li><p>adsense依然是正在准备</p></li></ol><blockquote><p><em>当感到愤怒时，不要被它吞噬</em>。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> diary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>0910-diary</title>
       <link href="/2025/09/10/0910-diary/"/>
       <url>/2025/09/10/0910-diary/</url>
@@ -79,7 +204,7 @@
     
     
     <entry>
-      <title>How does the network operate</title>
+      <title>1. How does the network operate</title>
       <link href="/2025/09/09/How-does-the-network-operate/"/>
       <url>/2025/09/09/How-does-the-network-operate/</url>
       
