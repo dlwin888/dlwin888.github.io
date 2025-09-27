@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2025-09-25T01:23:40.741Z</updated>
+  <updated>2025-09-27T03:19:12.874Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0926-diary</title>
+    <link href="https://dlwin888.github.io/2025/09/27/0926-diary/"/>
+    <id>https://dlwin888.github.io/2025/09/27/0926-diary/</id>
+    <published>2025-09-27T03:15:49.000Z</published>
+    <updated>2025-09-27T03:19:12.874Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="0926日记"><a href="#0926日记" class="headerlink" title="0926日记"></a>0926日记</h3><ol><li>坐上动车，踏上回家的旅程</li><li>打开提前下载好的美剧《匹兹堡医护前线》</li></ol><p><img src="/../uploads/resize,m_lfit,limit_1,h_1080.jpeg" alt="PITT"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;0926日记&quot;&gt;&lt;a href=&quot;#0926日记&quot; class=&quot;headerlink&quot; title=&quot;0926日记&quot;&gt;&lt;/a&gt;0926日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;坐上动车，踏上回家的旅程&lt;/li&gt;
+&lt;li&gt;打开提前下载好的美剧《匹兹堡医护前线》&lt;/li&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>0927-diary</title>
+    <link href="https://dlwin888.github.io/2025/09/27/0927-diary/"/>
+    <id>https://dlwin888.github.io/2025/09/27/0927-diary/</id>
+    <published>2025-09-27T03:12:17.000Z</published>
+    <updated>2025-09-27T03:15:04.706Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="0927日记"><a href="#0927日记" class="headerlink" title="0927日记"></a>0927日记</h3><ol><li>节前提保，准备空仓过节</li><li>节后请假三天，连休他12天，爽歪歪</li></ol><p><img src="/../uploads/image-20250927111443719.png" alt="生活亦是如此，正在吃姜丝的人，看不见自己的蒸笼。"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;0927日记&quot;&gt;&lt;a href=&quot;#0927日记&quot; class=&quot;headerlink&quot; title=&quot;0927日记&quot;&gt;&lt;/a&gt;0927日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;节前提保，准备空仓过节&lt;/li&gt;
+&lt;li&gt;节后请假三天，连休他12天，爽歪歪&lt;/li&gt;
+&lt;/ol</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>0925-diary</title>
@@ -479,59 +533,6 @@
     
     
     <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2. Workspace Settings</title>
-    <link href="https://dlwin888.github.io/2025/09/12/Workspace-Settings/"/>
-    <id>https://dlwin888.github.io/2025/09/12/Workspace-Settings/</id>
-    <published>2025-09-12T02:29:28.000Z</published>
-    <updated>2025-09-12T02:47:03.632Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="2-工作区设置"><a href="#2-工作区设置" class="headerlink" title="2. 工作区设置"></a><strong>2. 工作区设置</strong></h3><p>设置编码工具：</p><ul><li><strong>代码编辑器</strong>：使用 <a href="https://code.visualstudio.com/">VS Code</a>。</li><li><strong>扩展</strong>：添加 <a href="https://www.prettier.cn/">Prettier</a>（用于格式化）和 <a href="https://eslint.nodejs.cn/">ESLint</a>（用于错误检测）等工具。</li><li><strong>可选</strong>：熟悉用于运行脚本和版本控制的终端。</li></ul><p>这种设置提高了生产效率。<strong>1天</strong>就足以开始。</p><p><img src="/../uploads/image-20250912103514034.png" alt="VS Code"></p><p><img src="/../uploads/image-20250912103347368.png" alt="Prettier是什么"></p><p><img src="/../uploads/image-20250912103706329.png" alt="ESlint"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;2-工作区设置&quot;&gt;&lt;a href=&quot;#2-工作区设置&quot; class=&quot;headerlink&quot; title=&quot;2. 工作区设置&quot;&gt;&lt;/a&gt;&lt;strong&gt;2. 工作区设置&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;设置编码工具：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;代码</summary>
-      
-    
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/categories/web/"/>
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>0912-diary</title>
-    <link href="https://dlwin888.github.io/2025/09/12/0912-diary/"/>
-    <id>https://dlwin888.github.io/2025/09/12/0912-diary/</id>
-    <published>2025-09-12T01:11:07.000Z</published>
-    <updated>2025-09-12T22:35:17.581Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="0912日记"><a href="#0912日记" class="headerlink" title="0912日记"></a>0912日记</h3><ol><li>期权太难了，亏钱容易</li><li>昨日收益-74.65$</li><li>下班和同事烤肉大拍档，还打了会台球</li></ol><p><img src="/../uploads/image-20250912100322822.png" alt="最后的程序员"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;0912日记&quot;&gt;&lt;a href=&quot;#0912日记&quot; class=&quot;headerlink&quot; title=&quot;0912日记&quot;&gt;&lt;/a&gt;0912日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;期权太难了，亏钱容易&lt;/li&gt;
-&lt;li&gt;昨日收益-74.65$&lt;/li&gt;
-&lt;li&gt;下班和同事烤肉</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
     
   </entry>
   
