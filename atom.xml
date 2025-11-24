@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2025-11-22T05:56:57.635Z</updated>
+  <updated>2025-11-24T08:51:30.620Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1124-diary</title>
+    <link href="https://dlwin888.github.io/2025/11/24/1124-diary/"/>
+    <id>https://dlwin888.github.io/2025/11/24/1124-diary/</id>
+    <published>2025-11-24T08:13:41.000Z</published>
+    <updated>2025-11-24T08:51:30.620Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1124日记"><a href="#1124日记" class="headerlink" title="1124日记"></a>1124日记</h3><ol><li>创伤后应激障碍 PTSD（post-traumatic stress disorder）</li><li>Tech Scavengers”，科技拾荒者</li></ol><p><img src="/../uploads/image-20251124162302396.png" alt="商业模式"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;1124日记&quot;&gt;&lt;a href=&quot;#1124日记&quot; class=&quot;headerlink&quot; title=&quot;1124日记&quot;&gt;&lt;/a&gt;1124日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;创伤后应激障碍 PTSD（post-traumatic stress disorder）&lt;/li</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>1122-diary</title>
@@ -515,30 +540,6 @@
     
     
     <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>5. Use Git and GitHub for version control</title>
-    <link href="https://dlwin888.github.io/2025/09/17/5-Use-Git-and-GitHub-for-version-control/"/>
-    <id>https://dlwin888.github.io/2025/09/17/5-Use-Git-and-GitHub-for-version-control/</id>
-    <published>2025-09-17T08:35:06.000Z</published>
-    <updated>2025-09-17T08:35:47.753Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="5-使用-Git-和-GitHub-进行版本控制"><a href="#5-使用-Git-和-GitHub-进行版本控制" class="headerlink" title="5.使用 Git 和 GitHub 进行版本控制"></a><strong>5.使用 Git 和 GitHub 进行版本控制</strong></h3><p>学习跟踪代码的变化并与他人合作。</p><p><strong>示例</strong>：为您的项目创建一个 GitHub 存储库。</p><p><img src="/../uploads/v2-63bfe0675a9a470b1ce4c6e3c4f20788_1440w.jpg" alt="img"></p><p><strong>时间线</strong>：花<strong>1 周时间</strong>学习基本命令，例如初始化 repo、提交和推送代码。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;5-使用-Git-和-GitHub-进行版本控制&quot;&gt;&lt;a href=&quot;#5-使用-Git-和-GitHub-进行版本控制&quot; class=&quot;headerlink&quot; title=&quot;5.使用 Git 和 GitHub 进行版本控制&quot;&gt;&lt;/a&gt;&lt;strong&gt;5.使用 G</summary>
-      
-    
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/categories/web/"/>
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
     
   </entry>
   
