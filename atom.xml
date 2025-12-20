@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2025-12-11T08:30:44.379Z</updated>
+  <updated>2025-12-20T02:45:56.921Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1220-diary</title>
+    <link href="https://dlwin888.github.io/2025/12/20/1220-diary/"/>
+    <id>https://dlwin888.github.io/2025/12/20/1220-diary/</id>
+    <published>2025-12-20T02:42:43.000Z</published>
+    <updated>2025-12-20T02:45:56.921Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1220日记"><a href="#1220日记" class="headerlink" title="1220日记"></a>1220日记</h3><ol><li><p>SpringBoot-Learning (程序猿DD)</p><p><strong>地址：</strong> GitHub 上搜索 <code>dyc87112/SpringBoot-Learning</code></p><p><strong>特点：</strong> 这是一个非常经典的开源项目，包含了Spring Boot 2.x的基础教程，质量很高，可以作为工程脚手架参考</p></li><li><p>springBoot (集合类项目)</p><ul><li><strong>地址：</strong> GitHub 上搜索 <code>527515025/springBoot</code></li><li><strong>特点：</strong> 包含了大量组件的整合示例（如JPA, MyBatis, WebSocket, Security, Shiro, Cache等），拿来即用，非常适合遇到具体问题时查阅代码。</li></ul></li><li><p>springboot-project (点餐系统)</p><ul><li><strong>地址：</strong> GitHub 上搜索 <code>sqmax/springboot-project</code></li><li><strong>特点：</strong> 一个基于微信服务号的点餐系统后端，前后端分离，非常适合想做全栈开发或毕业设计的同学参考。</li></ul></li></ol><p><img src="/../uploads/image-20251220104537771.png" alt="摩托车D照"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;1220日记&quot;&gt;&lt;a href=&quot;#1220日记&quot; class=&quot;headerlink&quot; title=&quot;1220日记&quot;&gt;&lt;/a&gt;1220日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;SpringBoot-Learning (程序猿DD)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;地址</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>1211-diary</title>
@@ -511,32 +537,6 @@
 &lt;li&gt;这周五回西安，终于结束了呼和浩特长达4个月的出差&lt;/li&gt;
 &lt;/ol&gt;
 &lt;blockquote&gt;</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>0921-diary</title>
-    <link href="https://dlwin888.github.io/2025/09/21/0921-diary/"/>
-    <id>https://dlwin888.github.io/2025/09/21/0921-diary/</id>
-    <published>2025-09-21T04:08:44.000Z</published>
-    <updated>2025-09-21T09:13:22.960Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="0921日记"><a href="#0921日记" class="headerlink" title="0921日记"></a>0921日记</h3><ol><li>卖出31号符文一个，再次收获50元</li><li>酒店的网上不了，只能用自己的热点</li><li>有点小累，休息休息</li></ol><blockquote><p><em>后来你会发现，真正能治愈你的不是人类，而是睡觉、美食、可爱的小动物，以及有钱。</em></p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;0921日记&quot;&gt;&lt;a href=&quot;#0921日记&quot; class=&quot;headerlink&quot; title=&quot;0921日记&quot;&gt;&lt;/a&gt;0921日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;卖出31号符文一个，再次收获50元&lt;/li&gt;
-&lt;li&gt;酒店的网上不了，只能用自己的热点&lt;/li&gt;</summary>
       
     
     

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>1220-diary</title>
+      <link href="/2025/12/20/1220-diary/"/>
+      <url>/2025/12/20/1220-diary/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1220日记"><a href="#1220日记" class="headerlink" title="1220日记"></a>1220日记</h3><ol><li><p>SpringBoot-Learning (程序猿DD)</p><p><strong>地址：</strong> GitHub 上搜索 <code>dyc87112/SpringBoot-Learning</code></p><p><strong>特点：</strong> 这是一个非常经典的开源项目，包含了Spring Boot 2.x的基础教程，质量很高，可以作为工程脚手架参考</p></li><li><p>springBoot (集合类项目)</p><ul><li><strong>地址：</strong> GitHub 上搜索 <code>527515025/springBoot</code></li><li><strong>特点：</strong> 包含了大量组件的整合示例（如JPA, MyBatis, WebSocket, Security, Shiro, Cache等），拿来即用，非常适合遇到具体问题时查阅代码。</li></ul></li><li><p>springboot-project (点餐系统)</p><ul><li><strong>地址：</strong> GitHub 上搜索 <code>sqmax/springboot-project</code></li><li><strong>特点：</strong> 一个基于微信服务号的点餐系统后端，前后端分离，非常适合想做全栈开发或毕业设计的同学参考。</li></ul></li></ol><p><img src="/../uploads/image-20251220104537771.png" alt="摩托车D照"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> diary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>1211-diary</title>
       <link href="/2025/12/11/1211-diary/"/>
       <url>/2025/12/11/1211-diary/</url>
