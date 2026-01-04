@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2025-12-31T10:19:14.494Z</updated>
+  <updated>2026-01-04T08:57:11.002Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0104-diary</title>
+    <link href="https://dlwin888.github.io/2026/01/04/0104-diary/"/>
+    <id>https://dlwin888.github.io/2026/01/04/0104-diary/</id>
+    <published>2026-01-04T08:40:39.000Z</published>
+    <updated>2026-01-04T08:57:11.002Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="0104日记"><a href="#0104日记" class="headerlink" title="0104日记"></a>0104日记</h3><ol><li>Django 3.2 教程学习</li><li>基于Python开发的B2B企业英文网站</li></ol><p><img src="/../uploads/640.jpeg" alt="图片"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;0104日记&quot;&gt;&lt;a href=&quot;#0104日记&quot; class=&quot;headerlink&quot; title=&quot;0104日记&quot;&gt;&lt;/a&gt;0104日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Django 3.2 教程学习&lt;/li&gt;
+&lt;li&gt;基于Python开发的B2B企业英文网站&lt;/l</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>2026-predictions</title>
@@ -510,33 +536,6 @@
     
     
     <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>0928-diary</title>
-    <link href="https://dlwin888.github.io/2025/09/28/0928-diary/"/>
-    <id>https://dlwin888.github.io/2025/09/28/0928-diary/</id>
-    <published>2025-09-28T00:51:07.000Z</published>
-    <updated>2025-09-28T08:37:31.095Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="0928日记"><a href="#0928日记" class="headerlink" title="0928日记"></a>0928日记</h3><ol><li>回西安上班第一天，下雨，鞋都湿完了，烦</li><li>明天晚上培训，准备材料</li></ol><p><img src="/../uploads/clip_image001-17590485847901.png" alt=" 哪句话让你突然沉默了很久"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;0928日记&quot;&gt;&lt;a href=&quot;#0928日记&quot; class=&quot;headerlink&quot; title=&quot;0928日记&quot;&gt;&lt;/a&gt;0928日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;回西安上班第一天，下雨，鞋都湿完了，烦&lt;/li&gt;
-&lt;li&gt;明天晚上培训，准备材料&lt;/li&gt;
-&lt;/</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
     
   </entry>
   
