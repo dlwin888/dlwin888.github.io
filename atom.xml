@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-01-04T08:57:11.002Z</updated>
+  <updated>2026-01-07T07:54:34.127Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0107-diary</title>
+    <link href="https://dlwin888.github.io/2026/01/07/0107-diary/"/>
+    <id>https://dlwin888.github.io/2026/01/07/0107-diary/</id>
+    <published>2026-01-07T07:50:30.000Z</published>
+    <updated>2026-01-07T07:54:34.127Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="0107日记"><a href="#0107日记" class="headerlink" title="0107日记"></a>0107日记</h3><ol><li>05纯碱接近涨停，开了6手空，浮亏2000+，算是摸顶了</li><li>期货日内收4000块，全线大涨的日子不多见</li><li>继续学习can总线基础知识</li></ol><p><img src="/../uploads/image-20260107155426058.png" alt="OSI"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;0107日记&quot;&gt;&lt;a href=&quot;#0107日记&quot; class=&quot;headerlink&quot; title=&quot;0107日记&quot;&gt;&lt;/a&gt;0107日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;05纯碱接近涨停，开了6手空，浮亏2000+，算是摸顶了&lt;/li&gt;
+&lt;li&gt;期货日内收4000块</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>0104-diary</title>
@@ -512,30 +538,6 @@
     
     
     <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Extra skills</title>
-    <link href="https://dlwin888.github.io/2025/09/28/Extra-skills/"/>
-    <id>https://dlwin888.github.io/2025/09/28/Extra-skills/</id>
-    <published>2025-09-28T00:57:08.000Z</published>
-    <updated>2025-09-28T01:03:58.343Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="额外技能"><a href="#额外技能" class="headerlink" title="额外技能"></a>额外技能</h3><h4 id="CSS-相关的额外技能"><a href="#CSS-相关的额外技能" class="headerlink" title="CSS 相关的额外技能"></a>CSS 相关的额外技能</h4><ul><li>CSS 预处理器：学习<strong>Sass、Less和Stylus</strong>等工具，使编写 CSS 更高效、更易于维护。</li><li>CSS 框架：探索流行的框架，如Tailwind CSS和Bootstrap，以快速设计响应式、现代的布局，而无需从头开始编写每种样式。</li></ul><h4 id="JavaScript-相关额外技能"><a href="#JavaScript-相关额外技能" class="headerlink" title="JavaScript 相关额外技能"></a>JavaScript 相关额外技能</h4><ul><li>一旦您掌握了基础知识，这些高级 JavaScript 工具和概念就可以让您脱颖而出。</li><li>Linters 和 Formatters ：Prettier和ESLint等工具有助于确保一致的代码格式并捕获潜在的错误。</li><li>模块和模块捆绑器：了解 JavaScript 模块和工具（如Vite和Webpack），以优化和捆绑您的代码。</li><li>内存泄漏：了解如何识别和修复内存泄漏以提高应用程序性能。</li><li>浏览器 DevTools：使用浏览器内置工具掌握调试和性能分析。</li><li>Web API：发现内置浏览器 API，用于执行诸如获取数据、操作 DOM 或访问地理位置等任务。</li></ul><h4 id="TypeScript"><a href="#TypeScript" class="headerlink" title="TypeScript"></a>TypeScript</h4><p><img src="/../uploads/v2-67b4c7e3b10abe755ea9736975dbdaf8_1440w.jpg" alt="img"></p><p>深入研究 TypeScript 以增强代码质量和可扩展性。</p><h4 id="React-相关的额外技能"><a href="#React-相关的额外技能" class="headerlink" title="React 相关的额外技能"></a><strong>React 相关的额外技能</strong></h4><ul><li><strong>内置组件</strong>：有效使用 React 的内置组件来改善应用程序的结构。</li><li><strong>CSS-in-JS</strong>：学习在 React 组件内管理样式的技术。</li><li><strong>Hooks</strong>：超越基础并探索高级 React hooks。</li><li><strong>React 19 功能</strong>：了解 React 19 中的最新功能。</li><li><strong>高阶组件（HOC）</strong>：了解如何使用 HOC 重用组件逻辑。</li><li><strong>服务器端渲染（SSR）与单页应用程序（SPA）</strong>：了解何时使用 SSR 进行 SEO 和性能优化。</li><li><strong>高级状态管理</strong>：深入研究复杂的状态管理场景，可能使用 Redux 或 Zustand 等库。</li></ul><h4 id="框架"><a href="#框架" class="headerlink" title="框架"></a><strong>框架</strong></h4><p><img src="/../uploads/v2-67b4c7e3b10abe755ea9736975dbdaf8_1440w-17590213990114.jpg" alt="img"></p><p><strong>Next.js</strong>：超越 React，学习<strong>Next.js</strong>等框架，以使用 SSR、静态站点生成和 API 路由等功能构建全栈应用程序。</p><h4 id="自动化测试"><a href="#自动化测试" class="headerlink" title="自动化测试"></a><strong>自动化测试</strong></h4><p>自动测试可确保您的代码可靠运行。了解以下工具：</p><ul><li><strong>Jest</strong>、<strong>Vitest</strong>用于单元测试。</li><li><strong>Cypress</strong>、<strong>Playwright</strong>用于端到端测试。</li></ul><h4 id="托管和部署"><a href="#托管和部署" class="headerlink" title="托管和部署"></a><strong>托管和部署</strong></h4><p>了解你的应用的托管选项：</p><ul><li><strong>静态托管与动态托管</strong>：了解差异并根据您的应用要求选择正确的选项。</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;额外技能&quot;&gt;&lt;a href=&quot;#额外技能&quot; class=&quot;headerlink&quot; title=&quot;额外技能&quot;&gt;&lt;/a&gt;额外技能&lt;/h3&gt;&lt;h4 id=&quot;CSS-相关的额外技能&quot;&gt;&lt;a href=&quot;#CSS-相关的额外技能&quot; class=&quot;headerlink&quot; ti</summary>
-      
-    
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/categories/web/"/>
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
     
   </entry>
   
