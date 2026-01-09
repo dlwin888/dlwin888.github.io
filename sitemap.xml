@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://dlwin888.github.io/2026/01/10/0110-diary/</loc>
+    
+    <lastmod>2026-01-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://dlwin888.github.io/2026/01/09/0109-diary/</loc>
     
     <lastmod>2026-01-09</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://dlwin888.github.io/2026/01/01/my-resume/</loc>
     
     <lastmod>2026-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://dlwin888.github.io/2026/01/08/0108-diary/</loc>
-    
-    <lastmod>2026-01-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
