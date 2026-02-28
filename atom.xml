@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-02-27T03:32:46.976Z</updated>
+  <updated>2026-02-28T00:43:42.403Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Oat UI 实践项目</title>
+    <link href="https://dlwin888.github.io/2026/02/28/Oat-UI-%E5%AE%9E%E8%B7%B5%E9%A1%B9%E7%9B%AE/"/>
+    <id>https://dlwin888.github.io/2026/02/28/Oat-UI-%E5%AE%9E%E8%B7%B5%E9%A1%B9%E7%9B%AE/</id>
+    <published>2026-02-28T00:41:31.000Z</published>
+    <updated>2026-02-28T00:43:42.403Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="整体学习路径说明"><a href="#整体学习路径说明" class="headerlink" title="整体学习路径说明"></a>整体学习路径说明</h2><p><code>@knadh/oat</code> 是轻量级无依赖 UI 库，核心特点是：类名简洁（如 <code>oat-btn</code>&#x2F;<code>oat-input</code>）、仅提供基础样式、需结合原生 HTML&#x2F;CSS 实现复杂布局，非常适合新手聚焦「布局 + 样式」核心能力。</p><table><thead><tr><th align="center">梯度</th><th align="center">核心目标</th><th align="center">掌握的关键技能</th></tr></thead><tbody><tr><td align="center">入门级</td><td align="center">熟悉 Oat UI 基础组件使用</td><td align="center">组件引入、基础布局（Flex）、简单交互</td></tr><tr><td align="center">进阶级</td><td align="center">整合多组件实现完整功能</td><td align="center">组件组合、本地存储、条件渲染、事件处理</td></tr><tr><td align="center">综合级</td><td align="center">模拟真实开发场景</td><td align="center">复杂布局、响应式适配、生态整合（如图表）</td></tr></tbody></table>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;整体学习路径说明&quot;&gt;&lt;a href=&quot;#整体学习路径说明&quot; class=&quot;headerlink&quot; title=&quot;整体学习路径说明&quot;&gt;&lt;/a&gt;整体学习路径说明&lt;/h2&gt;&lt;p&gt;&lt;code&gt;@knadh/oat&lt;/code&gt; 是轻量级无依赖 UI 库，核心特点是：类名简</summary>
+      
+    
+    
+    
+    <category term="web" scheme="https://dlwin888.github.io/categories/web/"/>
+    
+    
+    <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Oat UI 实践项目 个人信息卡片</title>
+    <link href="https://dlwin888.github.io/2026/02/28/OatUI%E5%AE%9E%E8%B7%B5%E9%A1%B9%E7%9B%AE1/"/>
+    <id>https://dlwin888.github.io/2026/02/28/OatUI%E5%AE%9E%E8%B7%B5%E9%A1%B9%E7%9B%AE1/</id>
+    <published>2026-02-28T00:41:04.000Z</published>
+    <updated>2026-02-28T00:47:53.483Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="项目-1：个人信息卡片（核心：基础组件-Flex-布局）"><a href="#项目-1：个人信息卡片（核心：基础组件-Flex-布局）" class="headerlink" title="项目 1：个人信息卡片（核心：基础组件 + Flex 布局）"></a>项目 1：个人信息卡片（核心：基础组件 + Flex 布局）</h3><h4 id="1-核心目标"><a href="#1-核心目标" class="headerlink" title="1. 核心目标"></a>1. 核心目标</h4><p>用 Oat UI 搭建美观的个人信息卡片，掌握「卡片、头像、标签、文本」等基础组件的使用，练习 Flex 布局居中、间距控制。</p><h4 id="2-技术要点"><a href="#2-技术要点" class="headerlink" title="2. 技术要点"></a>2. 技术要点</h4><ul><li><code>@knadh/oat</code> 核心组件：<code>oat-card</code>&#x2F;<code>oat-avatar</code>&#x2F;<code>oat-badge</code>&#x2F;<code>oat-text</code></li><li>Flex 布局：<code>display: flex</code> 实现元素水平 &#x2F; 垂直居中</li><li>自定义样式：补充 Oat UI 基础样式的不足（如卡片阴影、间距）</li></ul><h4 id="3-完整可运行代码"><a href="#3-完整可运行代码" class="headerlink" title="3. 完整可运行代码"></a>3. 完整可运行代码</h4><pre><code class="html">&lt;!DOCTYPE html&gt;&lt;html lang=&quot;zh-CN&quot;&gt;&lt;head&gt;  &lt;meta charset=&quot;UTF-8&quot;&gt;  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;  &lt;title&gt;入门级1 - 个人信息卡片&lt;/title&gt;  &lt;!-- 引入 Oat UI 核心资源 --&gt;  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/@knadh/oat/oat.min.css&quot;&gt;  &lt;script src=&quot;https://unpkg.com/@knadh/oat/oat.min.js&quot; defer&gt;&lt;/script&gt;    &lt;style&gt;    /* 全局重置 + 基础样式 */    * &#123;      margin: 0;      padding: 0;      box-sizing: border-box;      font-family: &quot;Microsoft Yahei&quot;, sans-serif;    &#125;    body &#123;      background-color: #f5f7fa;      padding: 50px 20px;    &#125;    /* 卡片容器：居中 + 限制宽度 */    .card-container &#123;      max-width: 400px;      margin: 0 auto;    &#125;    /* Oat UI 卡片自定义样式（官方仅提供基础样式） */    .oat-card &#123;      padding: 25px;      border-radius: 12px;      box-shadow: 0 4px 12px rgba(0,0,0,0.05);      background: #fff;    &#125;    /* 头像区域：Flex 居中 */    .avatar-group &#123;      display: flex;      align-items: center;      margin-bottom: 20px;    &#125;    /* 头像大小控制 */    .oat-avatar &#123;      width: 80px;      height: 80px;      border-radius: 50%;      margin-right: 20px;      object-fit: cover;    &#125;    /* 信息文本样式 */    .info-item &#123;      margin-bottom: 10px;      color: #666;      line-height: 1.6;    &#125;    .info-item strong &#123;      color: #333;    &#125;    /* 标签间距 */    .oat-badge &#123;      margin-right: 8px;      margin-top: 5px;    &#125;  &lt;/style&gt;&lt;/head&gt;&lt;body&gt;  &lt;div class=&quot;card-container&quot;&gt;    &lt;div class=&quot;oat-card&quot;&gt;      &lt;!-- 头像 + 名称区域 --&gt;      &lt;div class=&quot;avatar-group&quot;&gt;        &lt;img src=&quot;https://picsum.photos/200/200?random=1&quot; alt=&quot;个人头像&quot; class=&quot;oat-avatar&quot;&gt;        &lt;div&gt;          &lt;h2 style=&quot;margin: 0 0 8px 0; color: #222;&quot;&gt;李四&lt;/h2&gt;          &lt;span class=&quot;oat-badge oat-badge-primary&quot;&gt;前端开发&lt;/span&gt;          &lt;span class=&quot;oat-badge oat-badge-secondary&quot;&gt;新手进阶&lt;/span&gt;        &lt;/div&gt;      &lt;/div&gt;            &lt;!-- 个人信息 --&gt;      &lt;div class=&quot;info-group&quot;&gt;        &lt;p class=&quot;info-item&quot;&gt;&lt;strong&gt;邮箱：&lt;/strong&gt;lisi@example.com&lt;/p&gt;        &lt;p class=&quot;info-item&quot;&gt;&lt;strong&gt;技能：&lt;/strong&gt;HTML、CSS、JavaScript、Oat UI&lt;/p&gt;        &lt;p class=&quot;info-item&quot;&gt;&lt;strong&gt;简介：&lt;/strong&gt;专注前端基础，从 0 开始学习 UI 组件库的使用&lt;/p&gt;      &lt;/div&gt;    &lt;/div&gt;  &lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</code></pre><p><img src="/../uploads/image-20260228084746660.png" alt="image-20260228084746660"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;项目-1：个人信息卡片（核心：基础组件-Flex-布局）&quot;&gt;&lt;a href=&quot;#项目-1：个人信息卡片（核心：基础组件-Flex-布局）&quot; class=&quot;headerlink&quot; title=&quot;项目 1：个人信息卡片（核心：基础组件 + Flex 布局）&quot;&gt;&lt;/a&gt;</summary>
+      
+    
+    
+    
+    <category term="web" scheme="https://dlwin888.github.io/categories/web/"/>
+    
+    
+    <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
+    
+  </entry>
   
   <entry>
     <title>260227</title>
@@ -461,58 +509,6 @@
       
     <summary type="html">&lt;h3 id=&quot;260120日记&quot;&gt;&lt;a href=&quot;#260120日记&quot; class=&quot;headerlink&quot; title=&quot;260120日记&quot;&gt;&lt;/a&gt;260120日记&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;开源节流，取消&lt;a href=&quot;https://www.playstation.</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>260116</title>
-    <link href="https://dlwin888.github.io/2026/01/16/260116/"/>
-    <id>https://dlwin888.github.io/2026/01/16/260116/</id>
-    <published>2026-01-16T02:32:32.000Z</published>
-    <updated>2026-01-16T02:34:54.278Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="260116日记"><a href="#260116日记" class="headerlink" title="260116日记"></a>260116日记</h3><ol><li>今日期货账户回撤，不完美的一周</li><li>下周三考摩托驾照，预约成功，明天去练车</li></ol><p><img src="/../uploads/bg2026011024.webp" alt="北京通州站"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;260116日记&quot;&gt;&lt;a href=&quot;#260116日记&quot; class=&quot;headerlink&quot; title=&quot;260116日记&quot;&gt;&lt;/a&gt;260116日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;今日期货账户回撤，不完美的一周&lt;/li&gt;
-&lt;li&gt;下周三考摩托驾照，预约成功，明</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>260115</title>
-    <link href="https://dlwin888.github.io/2026/01/15/260115/"/>
-    <id>https://dlwin888.github.io/2026/01/15/260115/</id>
-    <published>2026-01-15T01:18:38.000Z</published>
-    <updated>2026-01-15T01:22:01.468Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="260115日记"><a href="#260115日记" class="headerlink" title="260115日记"></a>260115日记</h3><ol><li>转了3w到港股账号，货币基金4%左右，试试水</li><li>报名参加大盘手网的期货实盘大赛，检验一下交易水平</li></ol><p><img src="/../uploads/image-20260115092102168.png" alt="image-20260115092102168"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;260115日记&quot;&gt;&lt;a href=&quot;#260115日记&quot; class=&quot;headerlink&quot; title=&quot;260115日记&quot;&gt;&lt;/a&gt;260115日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;转了3w到港股账号，货币基金4%左右，试试水&lt;/li&gt;
-&lt;li&gt;报名参加大盘手网</summary>
       
     
     
