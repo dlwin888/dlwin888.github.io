@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-03-05T02:11:41.611Z</updated>
+  <updated>2026-03-05T10:17:47.035Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>苹果M芯片到底强在哪</title>
+    <link href="https://dlwin888.github.io/2026/03/05/%E8%8B%B9%E6%9E%9CM%E8%8A%AF%E7%89%87%E5%88%B0%E5%BA%95%E5%BC%BA%E5%9C%A8%E5%93%AA/"/>
+    <id>https://dlwin888.github.io/2026/03/05/%E8%8B%B9%E6%9E%9CM%E8%8A%AF%E7%89%87%E5%88%B0%E5%BA%95%E5%BC%BA%E5%9C%A8%E5%93%AA/</id>
+    <published>2026-03-05T10:15:01.000Z</published>
+    <updated>2026-03-05T10:17:47.035Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="苹果M芯片到底强在哪？一个“盖房子”的比喻让你秒懂"><a href="#苹果M芯片到底强在哪？一个“盖房子”的比喻让你秒懂" class="headerlink" title="苹果M芯片到底强在哪？一个“盖房子”的比喻让你秒懂"></a>苹果M芯片到底强在哪？一个“盖房子”的比喻让你秒懂</h3><p>很多科技爱好者和普通用户都注意到，自从苹果公司开始为 Mac 电脑设计自己的 M 系列芯片以来，其性能和能效表现似乎总能超越同期的英特尔芯片。这背后究竟隐藏着怎样的工程与设计“魔法”？难道仅仅是因为硬件和 软件可以专门为 Mac 进行优化吗？<br>Reddit 论坛上有位用户用一个非常绝妙的“盖房子”的比喻，通俗易懂地解释了两者之间的根本差异。<br>想象一下，我们把处理器（processor）比作一栋房子。<br>英特尔的房子，是一栋有着30多年历史的老宅。<br>在这漫长的岁月里，无数个不同的家庭曾在这里居住。因此，英特尔并不知道下一个住进来的会是谁。为了满足所有潜在客户的需求，这栋房子必须面面俱到：<br>• 卫生间里有两个洗手池、一个淋浴、一个浴缸，甚至还有桑拿房和汗蒸房。<br>• 车库巨大无比，可以停两辆轿车、一艘船、一辆房车，外加五辆摩托车。<br>• 供电系统极其复杂，不仅有巨大的主水管、太阳能，还配备了备用发电机，以防万一。<br>• 房子里有婴儿房（万一有新生儿）、三间卧室和两间办公室。<br>所有这些房间和设施占用了大量空间，而且其中一些装修已经很旧了。但在不确定下一任房客是否会用上这些东西之前，英特尔不敢轻易升级它们。更要命的是，为了照顾那些可能回来探亲的“老住户”（保持向后兼容性），这些老旧的东西还不能随便拆。<br>而苹果公司呢，则是为一位特定的客户从零开始盖一栋全新的房子。<br>苹果非常清楚，即将住进来的这个家庭是什么样的：<br>• 他们是两个人，习惯了现代西式的生活方式，从不同时使用水槽。<br>• 他们不喜欢泡澡，只喜欢淋浴。<br>• 他们环保，只需要太阳能就足够了。<br>• 他们有两辆车和一辆摩托车，但都非常害怕船。<br>• 家里只有一个人需要在家办公，所以一间办公室就够了。<br>• 最特别的是，他们从不做饭，总是点外卖，所以连厨房都可以不要。<br>结果显而易见。<br>苹果的房子面积更小，夏天更容易降温（功耗低、散热好），所需的主水管更细（内存统一架构效率高），而且所有设施都是崭新的（最新的制程和架构）。<br>这栋房子对于苹果选定的这一家人来说是完美的，但对于其他人来说，可能完全不合适。<br>这个比喻生动地揭示了两者设计的核心理念差异：<br>• 英特尔 需要制造通用芯片，卖给戴尔、惠普、联想等所有PC厂商，还要支持 Windows、Linux 等多种操作系统，并确保几十年前的老 软件依然能运行。这就像是建造一个功能齐全但冗余繁杂的公共公寓。<br>• 苹果 则采用垂直整合的模式，芯片、硬件、操作系统（macOS）全都自己设计。他们可以精确地知道自己的软件需要什么样的硬件功能，从而进行“量身定制”，砍掉一切不必要的部分，将资源用在刀刃上，最终实现了性能和能效的巨大飞跃。</p><p><img src="/../uploads/f39ae6a5.jpg" alt="img"></p><p><img src="/../uploads/2106ab06.jpg" alt="img"></p><p><img src="/../uploads/eb7a7b65.jpg" alt="img"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;苹果M芯片到底强在哪？一个“盖房子”的比喻让你秒懂&quot;&gt;&lt;a href=&quot;#苹果M芯片到底强在哪？一个“盖房子”的比喻让你秒懂&quot; class=&quot;headerlink&quot; title=&quot;苹果M芯片到底强在哪？一个“盖房子”的比喻让你秒懂&quot;&gt;&lt;/a&gt;苹果M芯片到底强在哪？</summary>
+      
+    
+    
+    
+    <category term="software" scheme="https://dlwin888.github.io/categories/software/"/>
+    
+    
+    <category term="software" scheme="https://dlwin888.github.io/tags/software/"/>
+    
+  </entry>
   
   <entry>
     <title>260305</title>
@@ -483,31 +507,6 @@
       
       
     <summary type="html">&lt;h3 id=&quot;self-introduction&quot;&gt;&lt;a href=&quot;#self-introduction&quot; class=&quot;headerlink&quot; title=&quot;self-introduction&quot;&gt;&lt;/a&gt;self-introduction&lt;/h3&gt;&lt;p&gt;Good morni</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>260127</title>
-    <link href="https://dlwin888.github.io/2026/01/27/260127/"/>
-    <id>https://dlwin888.github.io/2026/01/27/260127/</id>
-    <published>2026-01-27T07:49:32.000Z</published>
-    <updated>2026-01-27T07:56:00.625Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="260127日记"><a href="#260127日记" class="headerlink" title="260127日记"></a>260127日记</h3><ol><li>把 ZA Bank 提供Visa 卡绑定到 WeChat HK 上消费，这样可以节省 1.95% 外币交易手续费，并且获得 3% StockBack 股票返现。</li><li>准备英文自我介绍</li></ol><p><img src="/../uploads/v2-dc872260c632cf3db1fdaa1b366dd5aa_1440w.jpg" alt="img"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;260127日记&quot;&gt;&lt;a href=&quot;#260127日记&quot; class=&quot;headerlink&quot; title=&quot;260127日记&quot;&gt;&lt;/a&gt;260127日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;把 ZA Bank 提供Visa 卡绑定到 WeChat HK 上消费，这样可以</summary>
       
     
     
