@@ -4,13 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="new article, 观海听涛">
-    <meta name="description" content="发布新文章
-在博客根目录下执行：hexo new “我的第一篇文章”，会在 source&amp;#x2F;_posts 文件夹内生成一个 .md 文件。
-编辑该文件，修改起始字段为：
-
-
-title: 文章的标题date: 创建日期 （文件的创建">
+    <meta name="keywords" content="浏览器自定义右键菜单插件, 观海听涛">
+    <meta name="description" content="案例二：自定义右键菜单插件功能描述在浏览器右键菜单中添加“搜索选中文字”自定义选项，当用户选中网页文本并右键点击该选项时，会在新标签页通过 Google 搜索引擎搜索选中的文本内容。
+核心技术
+使用chrome.contextMenus A">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +19,7 @@ title: 文章的标题date: 创建日期 （文件的创建">
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>new article | 观海听涛</title>
+    <title>浏览器自定义右键菜单插件 | 观海听涛</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -316,12 +313,12 @@ title: 文章的标题date: 创建日期 （文件的创建">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">new article</h1>
+                    <h1 class="description center-align post-title">浏览器自定义右键菜单插件</h1>
                 </div>
             </div>
         </div>
@@ -345,8 +342,8 @@ title: 文章的标题date: 创建日期 （文件的创建">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/software/">
+                                <span class="chip bg-color">software</span>
                             </a>
                         
                     </div>
@@ -357,8 +354,8 @@ title: 文章的标题date: 创建日期 （文件的创建">
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/hexo/" class="post-category">
-                                hexo
+                            <a href="/categories/software/" class="post-category">
+                                software
                             </a>
                         
                     </div>
@@ -370,28 +367,28 @@ title: 文章的标题date: 创建日期 （文件的创建">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2025-08-27
+                    2026-03-07
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2025-08-27
+                    2026-03-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    114
+                    886
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -411,14 +408,82 @@ title: 文章的标题date: 创建日期 （文件的创建">
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="发布新文章"><a href="#发布新文章" class="headerlink" title="发布新文章"></a>发布新文章</h2><ul>
-<li>在博客根目录下执行：hexo new “我的第一篇文章”，会在 source&#x2F;_posts 文件夹内生成一个 .md 文件。</li>
-<li>编辑该文件，修改起始字段为：</li>
+                <h3 id="案例二：自定义右键菜单插件"><a href="#案例二：自定义右键菜单插件" class="headerlink" title="案例二：自定义右键菜单插件"></a>案例二：自定义右键菜单插件</h3><h4 id="功能描述"><a href="#功能描述" class="headerlink" title="功能描述"></a>功能描述</h4><p>在浏览器右键菜单中添加<strong>“搜索选中文字”</strong>自定义选项，当用户选中网页文本并右键点击该选项时，会在新标签页通过 Google 搜索引擎搜索选中的文本内容。</p>
+<h4 id="核心技术"><a href="#核心技术" class="headerlink" title="核心技术"></a>核心技术</h4><ol>
+<li>使用<code>chrome.contextMenus</code> API 创建自定义右键菜单项、监听菜单点击事件；</li>
+<li>结合<code>chrome.tabs</code> API 实现新标签页的创建与搜索链接跳转；</li>
+<li>在<code>manifest.json</code>中声明<code>contextMenus</code>核心权限，配置后台脚本。</li>
+</ol>
+<h4 id="完整代码实现"><a href="#完整代码实现" class="headerlink" title="完整代码实现"></a>完整代码实现</h4><h5 id="1-核心配置文件：manifest-json（Manifest-V3-版本）"><a href="#1-核心配置文件：manifest-json（Manifest-V3-版本）" class="headerlink" title="1. 核心配置文件：manifest.json（Manifest V3 版本）"></a>1. 核心配置文件：<code>manifest.json</code>（Manifest V3 版本）</h5><pre><code class="json">&#123;
+  &quot;manifest_version&quot;: 3,
+  &quot;name&quot;: &quot;自定义右键搜索&quot;,
+  &quot;version&quot;: &quot;1.0&quot;,
+  &quot;description&quot;: &quot;右键选中文字，快速Google搜索&quot;,
+  &quot;icons&quot;: &#123;
+    &quot;16&quot;: &quot;icon16.png&quot;,
+    &quot;48&quot;: &quot;icon48.png&quot;,
+    &quot;128&quot;: &quot;icon128.png&quot;
+  &#125;,
+  &quot;permissions&quot;: [&quot;contextMenus&quot;, &quot;tabs&quot;],
+  &quot;background&quot;: &#123;
+    &quot;service_worker&quot;: &quot;background.js&quot;,
+    &quot;persistent&quot;: false
+  &#125;
+&#125;
+</code></pre>
+<p><strong>关键配置说明</strong>：</p>
+<ul>
+<li><code>permissions</code>：必须声明<code>contextMenus</code>（右键菜单权限）和<code>tabs</code>（标签页操作权限）；</li>
+<li><code>background</code>：指定后台脚本<code>background.js</code>，用于创建和监听右键菜单，V3 版本需用<code>service_worker</code>声明。</li>
 </ul>
-<blockquote>
-<p>title: 文章的标题<br>date: 创建日期 （文件的创建日期 ）<br>updated: 修改日期 （ 文件的修改日期）<br>comments: 是否开启评论 true<br>tags: 标签<br>categories: 分类<br>permalink: url中的名字（文件名）</p>
-</blockquote>
-<h5 id="编写正文内容-遵循-Markdown-规则"><a href="#编写正文内容-遵循-Markdown-规则" class="headerlink" title="编写正文内容(遵循 Markdown 规则)"></a>编写正文内容(遵循 Markdown 规则)</h5>
+<h5 id="2-后台脚本：background-js（核心逻辑）"><a href="#2-后台脚本：background-js（核心逻辑）" class="headerlink" title="2. 后台脚本：background.js（核心逻辑）"></a>2. 后台脚本：<code>background.js</code>（核心逻辑）</h5><pre><code class="javascript">// 插件安装/更新时创建右键菜单项，避免重复创建
+chrome.runtime.onInstalled.addListener(() =&gt; &#123;
+  chrome.contextMenus.create(&#123;
+    id: &quot;search-selected-text&quot;, // 菜单项唯一ID，用于后续判断点击事件
+    title: &quot;Google搜索“%s”&quot;, // %s会自动替换为用户选中的文本
+    contexts: [&quot;selection&quot;] // 仅当用户选中文本时，右键才显示该选项
+  &#125;);
+&#125;);
+
+// 监听右键菜单项的点击事件
+chrome.contextMenus.onClicked.addListener((info, tab) =&gt; &#123;
+  // 判断是否点击了“搜索选中文字”菜单项
+  if (info.menuItemId === &quot;search-selected-text&quot;) &#123;
+    // 拼接Google搜索链接，对选中的文本进行URL编码
+    const searchUrl = `https://www.google.com/search?q=$&#123;encodeURIComponent(info.selectionText)&#125;`;
+    // 在新标签页打开搜索链接
+    chrome.tabs.create(&#123; url: searchUrl, active: true &#125;);
+  &#125;
+&#125;);
+</code></pre>
+<p><strong>关键 API 说明</strong>：</p>
+<ul>
+<li><code>chrome.runtime.onInstalled</code>：插件安装 &#x2F; 更新时触发，确保菜单项仅创建一次；</li>
+<li><code>chrome.contextMenus.create</code>：创建右键菜单项，<code>contexts: [&quot;selection&quot;]</code>限制仅选中文本时显示；</li>
+<li><code>info.selectionText</code>：获取用户选中的文本内容；</li>
+<li><code>chrome.tabs.create</code>：创建新标签页并打开搜索链接，<code>active: true</code>表示新标签页自动激活。</li>
+</ul>
+<h5 id="3-图标文件"><a href="#3-图标文件" class="headerlink" title="3. 图标文件"></a>3. 图标文件</h5><p>准备 3 种尺寸的图标文件（<code>icon16.png</code>&#x2F;<code>icon48.png</code>&#x2F;<code>icon128.png</code>），放在插件根目录，与<code>manifest.json</code>同级，用于插件在浏览器扩展页、工具栏的展示。</p>
+<h4 id="插件目录结构"><a href="#插件目录结构" class="headerlink" title="插件目录结构"></a>插件目录结构</h4><pre><code class="tex">自定义右键搜索插件/
+├─ icon16.png
+├─ icon48.png
+├─ icon128.png
+├─ manifest.json
+└─ background.js
+</code></pre>
+<h4 id="测试与运行步骤"><a href="#测试与运行步骤" class="headerlink" title="测试与运行步骤"></a>测试与运行步骤</h4><ol>
+<li>打开 Chrome 浏览器，进入<strong>更多工具 &gt; 扩展程序</strong>，开启右上角<strong>开发者模式</strong>；</li>
+<li>点击<strong>加载已解压的扩展程序</strong>，选择插件根目录，完成加载；</li>
+<li>打开任意网页，选中一段文本，右键点击，即可看到<strong>“Google 搜索‘选中的文本’”</strong>选项；</li>
+<li>点击该选项，浏览器会自动打开新标签页并展示 Google 搜索结果。</li>
+</ol>
+<h4 id="扩展优化方向"><a href="#扩展优化方向" class="headerlink" title="扩展优化方向"></a>扩展优化方向</h4><ol>
+<li>支持多搜索引擎切换（如百度、必应），可在后台脚本中配置多个搜索链接；</li>
+<li>添加快捷键触发搜索，结合<code>chrome.commands</code> API 实现；</li>
+<li>对选中的特殊文本（如链接、数字）做针对性搜索优化；</li>
+<li>增加右键菜单图标，通过<code>chrome.contextMenus.create</code>的<code>icons</code>字段配置。</li>
+</ol>
+
                 
             </div>
             <hr/>
@@ -444,7 +509,7 @@ title: 文章的标题date: 创建日期 （文件的创建">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://dlwin888.github.io/2025/08/27/new-article/">https://dlwin888.github.io/2025/08/27/new-article/</a>
+                    <a href="https://dlwin888.github.io/2026/03/07/%E6%A1%88%E4%BE%8B%E4%BA%8C%EF%BC%9A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E6%8F%92%E4%BB%B6/">https://dlwin888.github.io/2026/03/07/%E6%A1%88%E4%BE%8B%E4%BA%8C%EF%BC%9A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E6%8F%92%E4%BB%B6/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -482,8 +547,8 @@ title: 文章的标题date: 创建日期 （文件的创建">
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
+                                <a href="/tags/software/">
+                                    <span class="chip bg-color">software</span>
                                 </a>
                             
                         </div>
@@ -529,17 +594,18 @@ title: 文章的标题date: 创建日期 （文件的创建">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2025/08/27/%E5%A4%8D%E5%88%B6%E4%BB%A3%E7%A0%81js%E7%94%A8%E6%B3%95/">
+                <a href="/2026/03/07/%E6%A1%88%E4%BE%8B%E4%BA%8C%EF%BC%9A%E8%87%AA%E5%AE%9A%E4%B9%89%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E6%8F%92%E4%BB%B6/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="复制代码js">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="浏览器自定义右键菜单插件">
                         
-                        <span class="card-title">复制代码js</span>
+                        <span class="card-title">浏览器自定义右键菜单插件</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -549,26 +615,27 @@ title: 文章的标题date: 创建日期 （文件的创建">
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2025-08-27
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2026-03-07
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/js/" class="post-category">
-                                    js
+                            <a href="/categories/software/" class="post-category">
+                                    software
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/js/">
-                        <span class="chip bg-color">js</span>
+                    <a href="/tags/software/">
+                        <span class="chip bg-color">software</span>
                     </a>
                     
                 </div>
@@ -582,13 +649,13 @@ title: 文章的标题date: 创建日期 （文件的创建">
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2025/08/27/hello-world/">
+                <a href="/2026/03/07/%E5%9F%BA%E4%BA%8EOAT-UI%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8F%96%E8%89%B2%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="浏览器取色插件开发">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">浏览器取色插件开发</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -599,14 +666,14 @@ title: 文章的标题date: 创建日期 （文件的创建">
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-08-27
+                                <i class="far fa-clock fa-fw icon-date"></i>2026-03-07
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/hexo/" class="post-category">
-                                    hexo
+                            <a href="/categories/software/" class="post-category">
+                                    software
                                 </a>
                             
                             
@@ -616,8 +683,8 @@ title: 文章的标题date: 创建日期 （文件的创建">
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
+                    <a href="/tags/software/">
+                        <span class="chip bg-color">software</span>
                     </a>
                     
                 </div>
