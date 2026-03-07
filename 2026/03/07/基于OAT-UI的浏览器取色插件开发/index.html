@@ -4,13 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="0927-diary, 观海听涛">
-    <meta name="description" content="0927日记
-节前提保，准备空仓过节
-节后请假三天，连休他12天，爽歪歪
-
-
-">
+    <meta name="keywords" content="浏览器取色插件开发, 观海听涛">
+    <meta name="description" content="浏览器取色插件开发一、屏幕取色器插件完整文件结构以下是基于新版 Oat UI（@knadh/oat）的浏览器取色插件的标准文件结构，清晰且符合 Chrome&amp;#x2F;Edge 扩展开发规范：
+屏幕取色器插件/          # 插件根">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>0927-diary | 观海听涛</title>
+    <title>浏览器取色插件开发 | 观海听涛</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -316,12 +312,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">0927-diary</h1>
+                    <h1 class="description center-align post-title">浏览器取色插件开发</h1>
                 </div>
             </div>
         </div>
@@ -345,8 +341,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/diary/">
-                                <span class="chip bg-color">diary</span>
+                            <a href="/tags/software/">
+                                <span class="chip bg-color">software</span>
                             </a>
                         
                     </div>
@@ -357,8 +353,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/diary/" class="post-category">
-                                diary
+                            <a href="/categories/software/" class="post-category">
+                                software
                             </a>
                         
                     </div>
@@ -370,28 +366,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2025-09-27
+                    2026-03-07
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2025-09-27
+                    2026-03-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    27
+                    887
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -411,11 +407,77 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="0927日记"><a href="#0927日记" class="headerlink" title="0927日记"></a>0927日记</h3><ol>
-<li>节前提保，准备空仓过节</li>
-<li>节后请假三天，连休他12天，爽歪歪</li>
+                <h3 id="浏览器取色插件开发"><a href="#浏览器取色插件开发" class="headerlink" title="浏览器取色插件开发"></a>浏览器取色插件开发</h3><h4 id="一、屏幕取色器插件完整文件结构"><a href="#一、屏幕取色器插件完整文件结构" class="headerlink" title="一、屏幕取色器插件完整文件结构"></a>一、屏幕取色器插件完整文件结构</h4><p>以下是基于新版 Oat UI（<code>@knadh/oat</code>）的浏览器取色插件的标准文件结构，清晰且符合 Chrome&#x2F;Edge 扩展开发规范：</p>
+<pre><code class="html">屏幕取色器插件/          # 插件根文件夹（名称可自定义）
+├── manifest.json         # 插件核心配置文件（必选）
+├── popup.html            # 插件弹窗界面（必选）
+├── popup.js              # 弹窗交互逻辑（必选）
+├── content.js            # 注入页面的取色脚本（必选）
+└── icon.png              # 插件图标（可选但建议配置，48x48/128x128像素）
+</code></pre>
+<h4 id="二、各文件说明"><a href="#二、各文件说明" class="headerlink" title="二、各文件说明"></a>二、各文件说明</h4><table>
+<thead>
+<tr>
+<th align="center">文件名</th>
+<th align="center">核心作用</th>
+<th align="center">是否必选</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">manifest.json</td>
+<td align="center">定义插件版本、权限、入口文件、图标等核心配置，是浏览器识别插件的关键</td>
+<td align="center">是</td>
+</tr>
+<tr>
+<td align="center">popup.html</td>
+<td align="center">插件点击图标后弹出的界面，集成 Oat UI 样式，展示颜色预览 &#x2F; 取值 &#x2F; 操作按钮</td>
+<td align="center">是</td>
+</tr>
+<tr>
+<td align="center">popup.js</td>
+<td align="center">处理弹窗的交互逻辑（取色指令发送、颜色显示、复制功能、Oat UI 提示等）</td>
+<td align="center">是</td>
+</tr>
+<tr>
+<td align="center">content.js</td>
+<td align="center">注入到网页中的脚本，实现屏幕取色核心逻辑（遮罩层、颜色拾取、格式转换）</td>
+<td align="center">是</td>
+</tr>
+<tr>
+<td align="center">icon.png</td>
+<td align="center">插件在浏览器工具栏显示的图标，提升辨识度，支持 48px&#x2F;128px 两种尺寸</td>
+<td align="center">否（建议）</td>
+</tr>
+</tbody></table>
+<h4 id="三、补充说明"><a href="#三、补充说明" class="headerlink" title="三、补充说明"></a>三、补充说明</h4><ol>
+<li><strong>文件层级</strong>：所有文件需放在<strong>同一根文件夹</strong>下，不可嵌套子文件夹（如需嵌套需修改<code>manifest.json</code>中路径配置）。</li>
+<li><strong>图标替换</strong>：<code>icon.png</code>可替换为任意图片格式（png&#x2F;jpg&#x2F;svg），只需保证尺寸为 48x48 或 128x128，且在<code>manifest.json</code>中对应文件名一致。</li>
+<li><strong>扩展兼容性</strong>：该结构基于 Manifest V3（现代浏览器标准），兼容 Chrome 88+、Edge 88+、Brave 等主流 Chromium 内核浏览器。</li>
 </ol>
-<p><img src="/../uploads/image-20250927111443719.png" alt="生活亦是如此，正在吃姜丝的人，看不见自己的蒸笼。"></p>
+<h4 id="四、使用说明"><a href="#四、使用说明" class="headerlink" title="四、使用说明"></a>四、使用说明</h4><ol>
+<li><strong>文件准备</strong>：将上述 4 个文件（manifest.json、popup.html、popup.js、content.js）放在同一文件夹，再准备一个名为<code>icon.png</code>的插件图标（任意 48x48&#x2F;128x128 图片即可）。</li>
+<li><strong>插件安装</strong>：<ul>
+<li>打开 Chrome&#x2F;Edge 浏览器，进入<code>chrome://extensions/</code>（Edge 为<code>edge://extensions/</code>）。</li>
+<li>开启右上角「开发者模式」。</li>
+<li>点击「加载已解压的扩展程序」，选择存放文件的文件夹。</li>
+</ul>
+</li>
+<li><strong>功能使用</strong>：<ul>
+<li>点击浏览器工具栏的插件图标，弹出取色器界面。</li>
+<li>点击「开始取色」，鼠标变为十字光标，移动到任意位置可实时预览颜色。</li>
+<li>点击鼠标左键确认取色，颜色值会显示在弹窗中。</li>
+<li>点击「复制十六进制 &#x2F; RGB」按钮，可将颜色值复制到剪贴板，并有 Oat UI 提示反馈。</li>
+</ul>
+</li>
+</ol>
+<h4 id="五、总结"><a href="#五、总结" class="headerlink" title="五、总结"></a>五、总结</h4><ol>
+<li>核心改造点是在<code>popup.html</code>中引入 Oat UI 的 CDN 资源，用 Oat UI 的卡片、按钮、提示组件替代原生 HTML 元素，大幅提升界面美观度和交互体验。</li>
+<li><code>popup.js</code>中适配了 Oat UI 的 Toast 提示组件，替换原有自定义提示，保持交互逻辑不变。</li>
+<li><code>manifest.json</code>补充了 CDN 资源的网络权限，确保 Oat UI 资源能正常加载，核心取色逻辑（content.js）完全复用。</li>
+<li>插件文件结构极简，仅需 5 个核心文件（4 个必选 + 1 个可选图标），无复杂依赖，便于管理和打包。</li>
+<li>所有文件平级存放，符合浏览器扩展的加载规范，无需额外配置路径即可直接加载使用。</li>
+<li>核心功能拆分清晰：配置（manifest）、界面（popup.html）、交互（popup.js）、取色逻辑（content.js），便于后续维护和扩展。</li>
+</ol>
 
                 
             </div>
@@ -442,7 +504,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://dlwin888.github.io/2025/09/27/0927-diary/">https://dlwin888.github.io/2025/09/27/0927-diary/</a>
+                    <a href="https://dlwin888.github.io/2026/03/07/%E5%9F%BA%E4%BA%8EOAT-UI%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8F%96%E8%89%B2%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/">https://dlwin888.github.io/2026/03/07/%E5%9F%BA%E4%BA%8EOAT-UI%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8F%96%E8%89%B2%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -480,8 +542,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/diary/">
-                                    <span class="chip bg-color">diary</span>
+                                <a href="/tags/software/">
+                                    <span class="chip bg-color">software</span>
                                 </a>
                             
                         </div>
@@ -527,17 +589,18 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2025/09/27/0926-diary/">
+                <a href="/2026/03/07/%E5%9F%BA%E4%BA%8EOAT-UI%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8%E5%8F%96%E8%89%B2%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="0926-diary">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="浏览器取色插件开发">
                         
-                        <span class="card-title">0926-diary</span>
+                        <span class="card-title">浏览器取色插件开发</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -547,26 +610,27 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2025-09-27
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2026-03-07
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/diary/" class="post-category">
-                                    diary
+                            <a href="/categories/software/" class="post-category">
+                                    software
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/diary/">
-                        <span class="chip bg-color">diary</span>
+                    <a href="/tags/software/">
+                        <span class="chip bg-color">software</span>
                     </a>
                     
                 </div>
@@ -580,13 +644,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2025/09/25/0925-diary/">
+                <a href="/2026/03/07/260307/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="0925-diary">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="260307">
                         
-                        <span class="card-title">0925-diary</span>
+                        <span class="card-title">260307</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -597,7 +661,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-09-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2026-03-07
                             </span>
                         <span class="publish-author">
                             
