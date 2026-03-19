@@ -372,7 +372,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2026-02-07
+                    2026-03-19
                 </div>
                 
 
@@ -406,8 +406,8 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Android-TCP客户端-本地文件解析应用总结"><a href="#Android-TCP客户端-本地文件解析应用总结" class="headerlink" title="Android TCP客户端+本地文件解析应用总结"></a>Android TCP客户端+本地文件解析应用总结</h1><h2 id="一、整体功能概述"><a href="#一、整体功能概述" class="headerlink" title="一、整体功能概述"></a>一、整体功能概述</h2><p>该Android项目是基于<code>MainActivity.java</code>构建的<strong>TCP客户端+本地文件解析</strong>混合应用，核心能力分为两大核心模块，既支持与服务端的GB协议网络通信，也支持脱离服务端的本地CSV&#x2F;JSON文件解析，适用于文件下载、格式解析、数据校验等场景。</p>
-<h3 id="核心模块划分"><a href="#核心模块划分" class="headerlink" title="核心模块划分"></a>核心模块划分</h3><table>
+                <h3 id="Android-TCP客户端-本地文件解析应用总结"><a href="#Android-TCP客户端-本地文件解析应用总结" class="headerlink" title="Android TCP客户端+本地文件解析应用总结"></a>Android TCP客户端+本地文件解析应用总结</h3><h4 id="一、整体功能概述"><a href="#一、整体功能概述" class="headerlink" title="一、整体功能概述"></a>一、整体功能概述</h4><p>该Android项目是基于<code>MainActivity.java</code>构建的<strong>TCP客户端+本地文件解析</strong>混合应用，核心能力分为两大核心模块，既支持与服务端的GB协议网络通信，也支持脱离服务端的本地CSV&#x2F;JSON文件解析，适用于文件下载、格式解析、数据校验等场景。</p>
+<h5 id="核心模块划分"><a href="#核心模块划分" class="headerlink" title="核心模块划分"></a>核心模块划分</h5><table>
 <thead>
 <tr>
 <th>模块</th>
@@ -423,7 +423,7 @@
 <td>读取工程<code>assets/test_data</code>目录下的CSV&#x2F;JSON文件，解析内容并结构化展示到UI</td>
 </tr>
 </tbody></table>
-<h2 id="二、核心组件与工具类"><a href="#二、核心组件与工具类" class="headerlink" title="二、核心组件与工具类"></a>二、核心组件与工具类</h2><table>
+<h4 id="二、核心组件与工具类"><a href="#二、核心组件与工具类" class="headerlink" title="二、核心组件与工具类"></a>二、核心组件与工具类</h4><table>
 <thead>
 <tr>
 <th>类名</th>
@@ -463,7 +463,7 @@
 <td>全局常量类，定义缓冲区大小、文件保存路径、时间格式、日志标签等通用配置</td>
 </tr>
 </tbody></table>
-<h2 id="三、核心业务流程"><a href="#三、核心业务流程" class="headerlink" title="三、核心业务流程"></a>三、核心业务流程</h2><h3 id="1-TCP通信与文件下载流程"><a href="#1-TCP通信与文件下载流程" class="headerlink" title="1. TCP通信与文件下载流程"></a>1. TCP通信与文件下载流程</h3><pre><code class="mermaid">flowchart TD
+<h4 id="三、核心业务流程"><a href="#三、核心业务流程" class="headerlink" title="三、核心业务流程"></a>三、核心业务流程</h4><h5 id="1-TCP通信与文件下载流程"><a href="#1-TCP通信与文件下载流程" class="headerlink" title="1. TCP通信与文件下载流程"></a>1. TCP通信与文件下载流程</h5><pre><code class="mermaid">flowchart TD
     A[输入IP和端口] --&gt; B[连接服务端]
     B --&gt; C[发送指令完成AES加密认证]
     C --&gt; D[获取服务端文件列表]
@@ -476,7 +476,7 @@
     I --&gt; J[统计结果并输出日志]
     J --&gt; K[断开连接释放资源]
 </code></pre>
-<h3 id="2-本地CSV-JSON解析流程"><a href="#2-本地CSV-JSON解析流程" class="headerlink" title="2. 本地CSV&#x2F;JSON解析流程"></a>2. 本地CSV&#x2F;JSON解析流程</h3><pre><code class="mermaid">flowchart TD
+<h5 id="2-本地CSV-JSON解析流程"><a href="#2-本地CSV-JSON解析流程" class="headerlink" title="2. 本地CSV&#x2F;JSON解析流程"></a>2. 本地CSV&#x2F;JSON解析流程</h5><pre><code class="mermaid">flowchart TD
     A[点击&lt;b&gt;解析全部&lt;/b&gt;按钮] --&gt; B[读取test_data目录下的CSV/JSON文件]:::bluetext
     B --&gt; C[逐文件解析:CSV解析表头和数据行/JSON解析对象数组]:::greentext
     C --&gt; D[结构化展示解析结果到列表]
@@ -488,7 +488,7 @@
     classDef greentext color:#009933,font-size:14px;
     classDef orangetext color:#ff6600;
 </code></pre>
-<h2 id="四、关键特性与优化"><a href="#四、关键特性与优化" class="headerlink" title="四、关键特性与优化"></a>四、关键特性与优化</h2><h3 id="1-UI体验优化"><a href="#1-UI体验优化" class="headerlink" title="1. UI体验优化"></a>1. UI体验优化</h3><ul>
+<h4 id="四、关键特性与优化"><a href="#四、关键特性与优化" class="headerlink" title="四、关键特性与优化"></a>四、关键特性与优化</h4><h5 id="1-UI体验优化"><a href="#1-UI体验优化" class="headerlink" title="1. UI体验优化"></a>1. UI体验优化</h5><ul>
 <li><p>进度可视化：单文件&#x2F;批量下载进度条实时更新，显示「百分比+字节数」双维度进度；</p>
 </li>
 <li><p>日志自动滚动：新增日志后自动定位到底部，无需手动滑动；</p>
@@ -498,7 +498,7 @@
 <li><p>结果统计：解析&#x2F;下载完成后明确展示成功&#x2F;失败数量，提升可读性。</p>
 </li>
 </ul>
-<h3 id="2-稳定性保障"><a href="#2-稳定性保障" class="headerlink" title="2. 稳定性保障"></a>2. 稳定性保障</h3><ul>
+<h5 id="2-稳定性保障"><a href="#2-稳定性保障" class="headerlink" title="2. 稳定性保障"></a>2. 稳定性保障</h5><ul>
 <li><p>线程安全：所有UI更新通过<code>mainHandler</code>实现，避免子线程操作UI导致崩溃；</p>
 </li>
 <li><p>异常处理：IO&#x2F;网络操作全覆盖try-catch，捕获异常并日志输出；</p>
@@ -508,7 +508,7 @@
 <li><p>数据安全：文件大小使用<code>long</code>类型，避免大文件数值溢出。</p>
 </li>
 </ul>
-<h3 id="3-功能完整性"><a href="#3-功能完整性" class="headerlink" title="3. 功能完整性"></a>3. 功能完整性</h3><ul>
+<h5 id="3-功能完整性"><a href="#3-功能完整性" class="headerlink" title="3. 功能完整性"></a>3. 功能完整性</h5><ul>
 <li><p>自动校验：文件下载后自动计算MD5值，日志输出校验结果；</p>
 </li>
 <li><p>目录容错：下载前检查&#x2F;创建保存目录，失败时给出明确提示；</p>
@@ -518,20 +518,20 @@
 <li><p>多格式支持：兼容CSV&#x2F;JSON两种本地文件格式解析。</p>
 </li>
 </ul>
-<h2 id="五、权限与依赖"><a href="#五、权限与依赖" class="headerlink" title="五、权限与依赖"></a>五、权限与依赖</h2><h3 id="1-核心权限（AndroidManifest-xml）"><a href="#1-核心权限（AndroidManifest-xml）" class="headerlink" title="1. 核心权限（AndroidManifest.xml）"></a>1. 核心权限（AndroidManifest.xml）</h3><pre><code class="XML">
+<h4 id="五、权限与依赖"><a href="#五、权限与依赖" class="headerlink" title="五、权限与依赖"></a>五、权限与依赖</h4><h5 id="1-核心权限（AndroidManifest-xml）"><a href="#1-核心权限（AndroidManifest-xml）" class="headerlink" title="1. 核心权限（AndroidManifest.xml）"></a>1. 核心权限（AndroidManifest.xml）</h5><pre><code class="XML">
 &lt;!-- 网络通信必备 --&gt;
 &lt;uses-permission android:name=&quot;android.permission.INTERNET&quot; /&gt;
 &lt;!-- 存储权限（Android 10+可省略，使用应用私有目录） --&gt;
 &lt;uses-permission android:name=&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot; android:maxSdkVersion=&quot;28&quot; /&gt;
 &lt;uses-permission android:name=&quot;android.permission.READ_EXTERNAL_STORAGE&quot; android:maxSdkVersion=&quot;28&quot; /&gt;
 </code></pre>
-<h3 id="2-依赖说明"><a href="#2-依赖说明" class="headerlink" title="2. 依赖说明"></a>2. 依赖说明</h3><ul>
+<h5 id="2-依赖说明"><a href="#2-依赖说明" class="headerlink" title="2. 依赖说明"></a>2. 依赖说明</h5><ul>
 <li><p>无第三方库依赖，仅使用Android原生API和JDK加密&#x2F;IO相关类；</p>
 </li>
 <li><p>兼容Android主流版本（建议minSdkVersion ≥ 21）。</p>
 </li>
 </ul>
-<h2 id="六、可扩展方向"><a href="#六、可扩展方向" class="headerlink" title="六、可扩展方向"></a>六、可扩展方向</h2><table>
+<h4 id="六、可扩展方向"><a href="#六、可扩展方向" class="headerlink" title="六、可扩展方向"></a>六、可扩展方向</h4><table>
 <thead>
 <tr>
 <th>扩展点</th>
@@ -563,7 +563,7 @@
 <td>在UI增加「解析JSON」按钮，触发MockParseApi的JSON解析逻辑</td>
 </tr>
 </tbody></table>
-<h2 id="七、核心使用说明"><a href="#七、核心使用说明" class="headerlink" title="七、核心使用说明"></a>七、核心使用说明</h2><ol>
+<h4 id="七、核心使用说明"><a href="#七、核心使用说明" class="headerlink" title="七、核心使用说明"></a>七、核心使用说明</h4><ol>
 <li><p><strong>TCP功能使用</strong>：输入服务端IP&#x2F;端口 → 点击「连接」完成认证 → 获取文件列表 → 选择单文件&#x2F;批量下载；</p>
 </li>
 <li><p><strong>本地解析功能使用</strong>：将CSV&#x2F;JSON文件放入<code>src/main/assets/test_data</code>目录 → 无需连接服务端，直接点击「解析全部」即可查看结果；</p>
@@ -964,7 +964,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">44.1k</span>
+                        class="white-color">44.8k</span>
             
             
             
