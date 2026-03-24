@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-03-24T02:02:37.675Z</updated>
+  <updated>2026-03-24T03:17:41.674Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>期权投资的四部曲</title>
+    <link href="https://dlwin888.github.io/2026/03/24/%E6%9C%9F%E6%9D%83%E6%8A%95%E8%B5%84%E7%9A%84%E5%9B%9B%E9%83%A8%E6%9B%B2/"/>
+    <id>https://dlwin888.github.io/2026/03/24/%E6%9C%9F%E6%9D%83%E6%8A%95%E8%B5%84%E7%9A%84%E5%9B%9B%E9%83%A8%E6%9B%B2/</id>
+    <published>2026-03-24T03:16:54.000Z</published>
+    <updated>2026-03-24T03:17:41.674Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="期权投资的四部曲：“预期——策略——开仓——善后”"><a href="#期权投资的四部曲：“预期——策略——开仓——善后”" class="headerlink" title="期权投资的四部曲：“预期——策略——开仓——善后”"></a>期权投资的四部曲：“预期——策略——开仓——善后”</h3><h3 id="第一步：预期"><a href="#第一步：预期" class="headerlink" title="第一步：预期"></a><strong>第一步：预期</strong></h3><p><strong>核心：明确你对市场的看法</strong><br>这不是简单的“涨跌”，而是需要具体化：</p><ul><li><strong>方向</strong>：上涨、下跌、盘整？</li><li><strong>幅度</strong>：大涨、小涨、暴跌、缓跌？</li><li><strong>时间</strong>：预期多久实现？</li><li><strong>波动率</strong>：市场波动会加大还是收缩？<br><em>例如：“我认为未来一个月大盘会温和上涨，但波动可能加大。”</em></li></ul><p><strong>要点</strong>：<br>预期是交易的起点，但必须客观，避免主观臆断。可以结合基本面、技术面、市场情绪等分析。</p><hr><h3 id="第二步：策略"><a href="#第二步：策略" class="headerlink" title="第二步：策略"></a><strong>第二步：策略</strong></h3><p><strong>核心：根据预期选择匹配的期权策略</strong><br>期权策略千变万化，必须与预期高度契合：</p><ul><li><strong>看大涨</strong>→买入看涨期权（Long Call）</li><li><strong>看小涨或时间损耗有利</strong>→卖出看跌期权（Short Put）</li><li><strong>看盘整</strong>→卖出宽跨式组合（Short Strangle）</li><li><strong>看波动率上升</strong>→买入跨式组合（Long Stride）</li><li><strong>看温和上涨但防下跌</strong>→牛市价差组合（Bull Spread）<br><em>策略选择需综合考虑风险收益比、成本、时间等因素。</em></li></ul><p><strong>要点</strong>：<br>没有“最好”的策略，只有“最适合”当前预期的策略。初学者建议从基础策略开始。</p><hr><h3 id="第三步：开仓"><a href="#第三步：开仓" class="headerlink" title="第三步：开仓"></a><strong>第三步：开仓</strong></h3><p><strong>核心：执行策略的具体操作</strong><br>开仓不是简单下单，需精细化管理：</p><ul><li><strong>合约选择</strong>：行权价、到期日、流动性</li><li><strong>仓位大小</strong>：根据账户总风险承受力决定，单笔交易通常不建议超过总资金的5%</li><li><strong>下单类型</strong>：市价单还是限价单？注意滑点</li><li><strong>组合单</strong>：复杂策略需同步下单，避免腿部分开成交的风险</li></ul><p><strong>要点</strong>：<br>开仓时就要想好“怎么退出”，避免临时情绪化决策。</p><hr><h3 id="第四步：善后"><a href="#第四步：善后" class="headerlink" title="第四步：善后"></a><strong>第四步：善后</strong></h3><p><strong>核心：持仓后的动态管理与退出</strong><br>这是最容易被忽视但至关重要的环节：</p><ul><li><strong>跟踪调整</strong>：市场变化后，预期是否需修正？策略是否依然有效？</li><li><strong>止盈止损</strong>：提前设定好目标价和最大亏损线，纪律执行</li><li><strong>滚动操作</strong>：临近到期时，移仓到远月或调整行权价</li><li><strong>对冲应对</strong>：行情不利时，是否用其他工具对冲风险？</li><li><strong>复盘总结</strong>：无论盈亏，记录交易逻辑与结果，积累经验</li></ul><p><strong>要点</strong>：<br>善后体现风险管理能力，期权交易“善始善终”才能长期生存。</p><hr><h3 id="总结与提醒"><a href="#总结与提醒" class="headerlink" title="总结与提醒"></a><strong>总结与提醒</strong></h3><p>这四步曲是一个<strong>闭环过程</strong>：</p><ol><li><strong>预期</strong>是导航仪，决定方向；</li><li><strong>策略</strong>是地图，选择路径；</li><li><strong>开仓</strong>是踩油门，控制速度；</li><li><strong>善后</strong>是沿途调整，应对路况。</li></ol><p><strong>重要原则</strong>：</p><ul><li>期权是复杂衍生品，新手务必先学习、模拟再实盘</li><li>永远把风险控制放在首位，避免裸卖空等高危操作</li><li>时间损耗（Theta）是卖方朋友、买方敌人，需时刻关注</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;期权投资的四部曲：“预期——策略——开仓——善后”&quot;&gt;&lt;a href=&quot;#期权投资的四部曲：“预期——策略——开仓——善后”&quot; class=&quot;headerlink&quot; title=&quot;期权投资的四部曲：“预期——策略——开仓——善后”&quot;&gt;&lt;/a&gt;期权投资的四部曲：“预</summary>
+      
+    
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/categories/invest/"/>
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
+    
+  </entry>
   
   <entry>
     <title>财报怎么看</title>
@@ -487,32 +511,6 @@
     
     
     <category term="software" scheme="https://dlwin888.github.io/tags/software/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>260307</title>
-    <link href="https://dlwin888.github.io/2026/03/07/260307/"/>
-    <id>https://dlwin888.github.io/2026/03/07/260307/</id>
-    <published>2026-03-07T07:45:15.000Z</published>
-    <updated>2026-03-07T07:48:38.311Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="260307日记"><a href="#260307日记" class="headerlink" title="260307日记"></a>260307日记</h3><ol><li>真没想到，净值一天时间就直接到1.5了，下个目标翻仓</li><li>投资是普通人对抗上班的高级方式</li></ol><p><img src="/../uploads/image-20260307154718145.png" alt="image-20260307154718145"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;260307日记&quot;&gt;&lt;a href=&quot;#260307日记&quot; class=&quot;headerlink&quot; title=&quot;260307日记&quot;&gt;&lt;/a&gt;260307日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;真没想到，净值一天时间就直接到1.5了，下个目标翻仓&lt;/li&gt;
-&lt;li&gt;投资是普</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
     
   </entry>
   
