@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-03-24T09:00:52.446Z</updated>
+  <updated>2026-03-25T02:44:15.837Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>260325</title>
+    <link href="https://dlwin888.github.io/2026/03/25/260325/"/>
+    <id>https://dlwin888.github.io/2026/03/25/260325/</id>
+    <published>2026-03-25T02:37:41.000Z</published>
+    <updated>2026-03-25T02:44:15.837Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="260325日记"><a href="#260325日记" class="headerlink" title="260325日记"></a>260325日记</h3><ol><li><p>中东局势缓和，原油大跌，账户又开始回撤，搞些期权防守</p></li><li><p>中衍的账号今晚激活，放2W进去专门做做，卖方比率价差，看看收益如何</p></li><li><p>金钱只会流向那些会打理财富的人，你要证明你可以对自己的财富成长负责。</p><blockquote><p>有一次我询问一个成功的基金经理他盈利的秘籍，他的回答如下：<br><em>大部分时候，严控风险，赚到比运营成本多一点的钱。当一个真正的好机会（无风险或低风险套利）来临时，加杠杆尽可能利用这个机会赚足够多的钱，直到这个机会消失，真正的好机会总会很快消失。然后再回到低风险交易，然后利用空闲时间努力寻找下一个好机会。仅此而已，并不是什么秘籍。</em></p></blockquote></li></ol><p><img src="/../uploads/image-20260325104108996.png" alt="黑天鹅保险"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;260325日记&quot;&gt;&lt;a href=&quot;#260325日记&quot; class=&quot;headerlink&quot; title=&quot;260325日记&quot;&gt;&lt;/a&gt;260325日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;中东局势缓和，原油大跌，账户又开始回撤，搞些期权防守&lt;/p&gt;
+&lt;/li&gt;
+</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>吃时间价值的期权策略</title>
+    <link href="https://dlwin888.github.io/2026/03/25/Gang/"/>
+    <id>https://dlwin888.github.io/2026/03/25/Gang/</id>
+    <published>2026-03-25T02:35:35.000Z</published>
+    <updated>2026-03-25T02:37:27.904Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="吃时间价值的期权策略-Theta-Gang"><a href="#吃时间价值的期权策略-Theta-Gang" class="headerlink" title="吃时间价值的期权策略-Theta Gang"></a>吃时间价值的期权策略-Theta Gang</h2><p>原文链接：<a href="http://link.zhihu.com/?target=https://einvestingforbeginners.com/theta-gang-strategies/">https://einvestingforbeginners.com/theta-gang-strategies/</a></p><p><strong>以下全部内容由本人翻译及归纳，相较于原文更加精炼。原文首发于集思录，创作不易，如需转载请首先获得本人授权并标明出处。</strong></p><p>Theta Gang策略指不预测标的涨跌而通过长时间收取时间价值盈利的策略，这类策略组合可以有无数种，但在这里着重推荐4种，这四种组合不仅有着较高的胜率也比较方便期权新手理解。在阅读下面的内容之前，请确保你理解认购与认沽期权的基本概念。</p><p><strong>1，牛市认沽价差</strong><br>1.1，策略构成：<br>1，卖出高行权价认沽合约<br>2，买入等量低行权价认沽合约</p><p>1.2，合约的选择<br>对于该组合，你的最大盈利是两张合约的权利金之差，而你的最大损失则由买入的低价认沽锁定。由于你卖出的认沽合约行权价较买入的认沽合约高，因此采用该组合的时机通常是你认为股价将要上涨。采用组合而非裸卖沽的优势在于你的损失是有限的。特别是当你采用杠杆裸卖沽时，你的下行风险是巨大的，其风险程度可能会远高于你的本金，因此如果希望在卖沽上加杠杆，采用价差组合是非常有必要的。</p><p>一般来说，牛市认沽价差的胜率较高，在选择合约时应在胜率与赔率之间寻找平衡，过于追求其中一项会对策略整体回报有负面影响。</p><p>1.3，应避免的错误<br>a，价差过小<br>过小的价差虽然更加安全，但回报会低得多。若根据到期日计算的资金回报低于资金成本， 则说明价差选择的过于小了。</p><p>b，价差过大<br>如果将买入认沽的行权价设置的过低，虽然最大收益会高一些，但只有在黑天鹅事件出现时，该认沽合约才可能具有价值，这样的价差设置与裸卖沽的风险类似。事实上，你为买入该认沽期权所支付的权利金基本等于白白扔掉。在牛市价差的设置上你可以激进一些，但不要过于贪婪。</p><p>c，不设止盈<br>当你设置一个止盈目标（比如50%）时，一旦你的期权组合达到目标，你就平仓该组合然后寻找下一次交易机会。但如果你不这么做，为了挣到100%的利润，你必须等到组合到期，而组合距离到期日越近，其gamma和肥尾风险越高。因此如果你可以只拿50%的利润，而不必承担这些风险，你会如何做呢？事实上，50%的止盈目标是很多Theta Gang网站成员实盘交易中采用的参数，事实证明它是有效的。</p><p>d，对标的了解不足<br>对于期权标的的理解经常被各种期权指南所忽略，我认为对于标的涨跌的大致判断应该是交易决策的第一步，如果你对标的的涨跌没有任何判断，则你不应进行任何期权交易。</p><p>e，不重视流动性<br>如果你卖出的认沽期权的流动性太差，则在达到你的盈利目标后你也很难平仓你手上的合约，因此在选择合约前永远记得确认一下合约的流动性。</p><p><strong>2，熊市认购价差</strong><br>2.1，策略构成：<br>1，卖出低行权价认购合约<br>2，买入等量高行权价认购合约</p><p>2.2，其他<br>事实上，该策略是牛市认沽价差的“镜像”策略，建仓的时机是你认为股价将要下跌之时。这也呼应了上面所说的：“你必须先对标的的涨跌有一个基本的判断再进行期权交易。”简而言之，如果你看跌的同时想挣时间价值，那么认购熊市价差就是你要的组合。</p><p><strong>3，循环备兑（“车轮”策略）</strong><br>这是我本人最喜欢的策略，这个策略特别适合那些本就想长期持有期权标的的人，从持有心态上说，即使在熊市我依然愿意持有该标的，因此该策略的下行风险相对来说比较容易接受，特别是你坚定认为标的将长期上涨时。</p><p>在以前的文章中，我讨论过卖沽，特别是以足量现金进行的备兑卖沽并非是一个高风险策略。那么在接下来的文章中，我将讨论如何让卖沽变得更具有吸引力。</p><p>3.1，策略构成：<br>1，卖出虚值认沽期权<br>2，如果被指派买入现货，卖出认购期权<br>3，循环上述步骤</p><p>首先要说明的是，裸卖沽是一个高风险策略，它将你的头寸暴露在100%的下行风险中，尽管你收取了一定的权利金作为缓冲垫，但一旦股价跌破缓冲去，你将承受100%的下跌损失。因此大部分期权交易者（特别是那些优秀的）会采用各种办法限制卖沽的下行风险。也许你会认为大跌的情况很少出现，但你要记住通常只有在波动较大的标的上你收取的权利金才会比较可观。</p><p>这个”车轮“策略之所以风险可控而回报可观，正是因为它可以自行循环。切记，这个策略只可用在你长期看好的标的上。当你的卖沽被指派时（通常你会亏损一点），你需要买入现货，一旦现货到手，你应该马上以之前卖沽的行权价卖出认购期权，如此一来，一旦标的出现反弹，你手里的现货被指派走，则你赚取了双份权利金（时间价值）。</p><p>记住以上场景是”比较糟糕“的情况，大多数时候，你的卖沽合约会在到期时变成废纸，或者你会在某个时刻获利平仓，总体而言你可以用这个策略达到70%左右的胜率（特别是在牛市中）。根据美国的统计，虚值期权大约有90%的概率归0。</p><p>再多提一点下行风险，另外一个可能发生的情况是标的大幅下跌后你的卖沽被指派行权，此时你如果卖出同行权价的认购合约只能收到一点点权利金而不足以弥补你的损失，对于这种情况我有2个应对策略：</p><p>1，我会等到股价反弹后再卖出认购合约，记住股市上涨和下跌的天数比例接近5：5，因此持续下跌导致你的卖沽被行权后，大概率市场会有反弹的需求。</p><p>2，卖出更加远期的认购期权，由于到期日约远的认购期权价格越高，因此我可以通过时间增加卖购的收益从而弥补我的损失。</p><p><strong>4，卖铁鹰式</strong><br>该组合就是认沽牛市价差与认购熊市价差的组合，我们之前说过，当你看涨时采用认沽牛市价差作为获取theta的组合，当你看跌时，采用认购熊市价差作为获取theta的组合，而当你既不看涨也不看跌时，可以采用铁鹰式组合。该组合为中性组合，即在标的价格变动最小时获利最大。</p><p>你可以通过复杂的计算来选择该组合的合约，如果你真的想长期用铁鹰式获利，那么我强烈推荐你认真学习期权的希腊字母，并且根据你对未来行情的判断，学会对比每张合约的潜在盈利。</p><p><strong>结语</strong></p><p>你可以通过不断地优化你的期权组合来达到最佳的盈亏比，但你需要认识到决定期权走势的是标的本身，你可以拥有全世界最聪明的期权交易组合但仍然亏钱，那是因为你忽略了标的本身的情况。因此，你应该对标的本身的情况有足够的了解，一旦你做到这点，那么你在期权的theta交易中也会如鱼得水。</p><p>作者：Dr.Chase<br>链接：<a href="https://zhuanlan.zhihu.com/p/445751688">https://zhuanlan.zhihu.com/p/445751688</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;吃时间价值的期权策略-Theta-Gang&quot;&gt;&lt;a href=&quot;#吃时间价值的期权策略-Theta-Gang&quot; class=&quot;headerlink&quot; title=&quot;吃时间价值的期权策略-Theta Gang&quot;&gt;&lt;/a&gt;吃时间价值的期权策略-Theta Gang&lt;/</summary>
+      
+    
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/categories/invest/"/>
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
+    
+  </entry>
   
   <entry>
     <title>有哪些具体的方法可以提高个人的财务认知</title>
@@ -461,56 +512,6 @@
     
     
     <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>260310</title>
-    <link href="https://dlwin888.github.io/2026/03/10/260310/"/>
-    <id>https://dlwin888.github.io/2026/03/10/260310/</id>
-    <published>2026-03-10T03:33:40.000Z</published>
-    <updated>2026-03-17T10:27:11.415Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="260310日记"><a href="#260310日记" class="headerlink" title="260310日记"></a>260310日记</h3><ol><li>相对最高点原油大跌10%，上下40%的振幅，真心可怕</li><li>浮亏4W，减少操作，慢慢出来</li></ol><p><img src="/../uploads/image-20260310113558619.png" alt="image-20260310113558619"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;260310日记&quot;&gt;&lt;a href=&quot;#260310日记&quot; class=&quot;headerlink&quot; title=&quot;260310日记&quot;&gt;&lt;/a&gt;260310日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;相对最高点原油大跌10%，上下40%的振幅，真心可怕&lt;/li&gt;
-&lt;li&gt;浮亏4W</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>美食广告 HTML5 模板</title>
-    <link href="https://dlwin888.github.io/2026/03/09/%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%91%8A-HTML5-%E6%A8%A1%E6%9D%BF/"/>
-    <id>https://dlwin888.github.io/2026/03/09/%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%91%8A-HTML5-%E6%A8%A1%E6%9D%BF/</id>
-    <published>2026-03-09T09:16:37.000Z</published>
-    <updated>2026-03-09T09:24:21.285Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="美食广告-HTML5-模板"><a href="#美食广告-HTML5-模板" class="headerlink" title="美食广告 HTML5 模板"></a>美食广告 HTML5 模板</h3><p>为你制作了一个<strong>响应式、视觉感强</strong>的美食广告 HTML5 模板，包含动态 hover 效果、适配手机 &#x2F; 电脑，可直接替换图片和文案使用。</p><h4 id="完整代码（开箱即用）"><a href="#完整代码（开箱即用）" class="headerlink" title="完整代码（开箱即用）"></a>完整代码（开箱即用）</h4><p><a href="https://m3u8player.com.cn/htmlcss/%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%91%8AHTML5%E6%A8%A1%E6%9D%BF.html">html预览</a></p><pre><code class="html">&lt;!DOCTYPE html&gt;&lt;html lang=&quot;zh-CN&quot;&gt;&lt;head&gt;    &lt;meta charset=&quot;UTF-8&quot;&gt;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;    &lt;title&gt;美味【菜品名】- 舌尖上的治愈&lt;/title&gt;    &lt;!-- 引入外部样式库优化体验 --&gt;    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css&quot;&gt;    &lt;style&gt;        /* 全局样式 */        * &#123;            margin: 0;            padding: 0;            box-sizing: border-box;            font-family: &quot;Microsoft Yahei&quot;, sans-serif;        &#125;                /* 广告主视觉区 */        .food-banner &#123;            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),                         url(&quot;https://picsum.photos/id/292/1920/800&quot;) center/cover no-repeat;            height: 70vh;            display: flex;            flex-direction: column;            justify-content: center;            align-items: center;            color: white;            text-align: center;            padding: 0 20px;        &#125;                .food-banner h1 &#123;            font-size: 3.5rem;            margin-bottom: 20px;            text-shadow: 2px 2px 4px #000;        &#125;                .food-banner p &#123;            font-size: 1.2rem;            margin-bottom: 30px;            max-width: 800px;        &#125;                .btn-order &#123;            background: #ff6b35;            color: white;            padding: 12px 30px;            border: none;            border-radius: 50px;            font-size: 1.1rem;            cursor: pointer;            transition: all 0.3s ease;        &#125;                .btn-order:hover &#123;            background: #e85a26;            transform: translateY(-3px);            box-shadow: 0 5px 15px rgba(255,107,53,0.4);        &#125;                /* 卖点展示区 */        .food-features &#123;            padding: 80px 0;            background: #f9f9f9;        &#125;                .feature-card &#123;            text-align: center;            padding: 30px 20px;            border-radius: 10px;            transition: all 0.3s ease;            margin-bottom: 30px;        &#125;                .feature-card:hover &#123;            transform: translateY(-10px);            box-shadow: 0 10px 20px rgba(0,0,0,0.1);        &#125;                .feature-card i &#123;            font-size: 3rem;            color: #ff6b35;            margin-bottom: 20px;        &#125;                .feature-card h3 &#123;            font-size: 1.5rem;            margin-bottom: 15px;            color: #333;        &#125;                .feature-card p &#123;            color: #666;            line-height: 1.6;        &#125;                /* 菜品展示区 */        .food-showcase &#123;            padding: 80px 0;        &#125;                .food-img &#123;            border-radius: 10px;            overflow: hidden;            margin-bottom: 20px;            height: 250px;        &#125;                .food-img img &#123;            width: 100%;            height: 100%;            object-fit: cover;            transition: transform 0.5s ease;        &#125;                .food-img:hover img &#123;            transform: scale(1.1);        &#125;                .food-showcase h2 &#123;            text-align: center;            margin-bottom: 60px;            font-size: 2.5rem;            color: #333;        &#125;                /* 响应式适配 */        @media (max-width: 768px) &#123;            .food-banner h1 &#123;                font-size: 2.2rem;            &#125;                        .food-banner p &#123;                font-size: 1rem;            &#125;                        .food-showcase h2 &#123;                font-size: 2rem;            &#125;        &#125;    &lt;/style&gt;    &lt;!-- 引入图标库 --&gt;    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css&quot;&gt;&lt;/head&gt;&lt;body&gt;    &lt;!-- 1. 广告主视觉区 --&gt;    &lt;section class=&quot;food-banner&quot;&gt;        &lt;h1&gt;一口沦陷的【招牌菜品名】&lt;/h1&gt;        &lt;p&gt;严选新鲜食材，慢火熬制出舌尖上的治愈味道，每一口都是满满的幸福感&lt;/p&gt;        &lt;button class=&quot;btn-order&quot;&gt;立即抢购&lt;/button&gt;    &lt;/section&gt;    &lt;!-- 2. 核心卖点展示 --&gt;    &lt;section class=&quot;food-features container&quot;&gt;        &lt;div class=&quot;row&quot;&gt;            &lt;div class=&quot;col-md-4&quot;&gt;                &lt;div class=&quot;feature-card&quot;&gt;                    &lt;i class=&quot;bi bi-apple&quot;&gt;&lt;/i&gt;                    &lt;h3&gt;新鲜食材&lt;/h3&gt;                    &lt;p&gt;每日严选当季新鲜食材，拒绝冷冻半成品，保证每一口的原汁原味&lt;/p&gt;                &lt;/div&gt;            &lt;/div&gt;            &lt;div class=&quot;col-md-4&quot;&gt;                &lt;div class=&quot;feature-card&quot;&gt;                    &lt;i class=&quot;bi bi-fire&quot;&gt;&lt;/i&gt;                    &lt;h3&gt;现点现做&lt;/h3&gt;                    &lt;p&gt;拒绝预制菜，下单后即刻制作，热气腾腾送到你手中&lt;/p&gt;                &lt;/div&gt;            &lt;/div&gt;            &lt;div class=&quot;col-md-4&quot;&gt;                &lt;div class=&quot;feature-card&quot;&gt;                    &lt;i class=&quot;bi bi-heart&quot;&gt;&lt;/i&gt;                    &lt;h3&gt;暖心暖胃&lt;/h3&gt;                    &lt;p&gt;匠心调配的味道，不仅满足味蕾，更温暖你的日常&lt;/p&gt;                &lt;/div&gt;            &lt;/div&gt;        &lt;/div&gt;    &lt;/section&gt;    &lt;!-- 3. 菜品展示区 --&gt;    &lt;section class=&quot;food-showcase container&quot;&gt;        &lt;h2&gt;爆款推荐&lt;/h2&gt;        &lt;div class=&quot;row&quot;&gt;            &lt;div class=&quot;col-md-4&quot;&gt;                &lt;div class=&quot;food-img&quot;&gt;                    &lt;img src=&quot;https://picsum.photos/id/1080/600/400&quot; alt=&quot;菜品1&quot;&gt;                &lt;/div&gt;                &lt;h4&gt;【菜品名1】&lt;/h4&gt;                &lt;p&gt;鲜香入味，一口就上头&lt;/p&gt;            &lt;/div&gt;            &lt;div class=&quot;col-md-4&quot;&gt;                &lt;div class=&quot;food-img&quot;&gt;                    &lt;img src=&quot;https://picsum.photos/id/1079/600/400&quot; alt=&quot;菜品2&quot;&gt;                &lt;/div&gt;                &lt;h4&gt;【菜品名2】&lt;/h4&gt;                &lt;p&gt;外酥里嫩，越吃越香&lt;/p&gt;            &lt;/div&gt;            &lt;div class=&quot;col-md-4&quot;&gt;                &lt;div class=&quot;food-img&quot;&gt;                    &lt;img src=&quot;https://picsum.photos/id/1084/600/400&quot; alt=&quot;菜品3&quot;&gt;                &lt;/div&gt;                &lt;h4&gt;【菜品名3】&lt;/h4&gt;                &lt;p&gt;清甜解腻，餐后必备&lt;/p&gt;            &lt;/div&gt;        &lt;/div&gt;    &lt;/section&gt;    &lt;!-- 引入JS库（可选，如需交互增强） --&gt;    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;</code></pre><h4 id="关键修改说明"><a href="#关键修改说明" class="headerlink" title="关键修改说明"></a>关键修改说明</h4><ol><li><strong>替换核心内容</strong>：<ul><li>把所有 <code>【招牌菜品名】</code>&#x2F;<code>【菜品名1/2/3】</code> 替换为你的实际菜品名称（如：麻辣小龙虾、芝士牛肉汉堡）；</li><li>替换图片链接：将 <code>https://picsum.photos/...</code> 换成你的菜品实拍图链接；</li><li>调整文案：可直接复用之前给你的广告文案模板内容。</li></ul></li><li><strong>样式调整</strong>：<ul><li>主视觉区背景色 &#x2F; 按钮色：修改 <code>.btn-order</code> 里的 <code>background</code> 值（如换成品牌色）；</li><li>字体 &#x2F; 字号：调整 <code>font-size</code>&#x2F;<code>font-family</code> 适配你的品牌风格；</li><li>图标替换：可在 <a href="https://icons.getbootstrap.com/">Bootstrap Icons</a> 选择更贴合的图标（如用 <code>bi bi-pepper-hot</code> 表示辣味）。</li></ul></li><li><strong>使用前置条件</strong>：<ul><li>无需本地部署，直接保存为 <code>.html</code> 文件，用浏览器打开即可预览；</li><li>如需上线，上传到服务器或托管平台（如 GitHub Pages、阿里云 OSS）即可。</li></ul></li></ol><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><ol><li>模板包含<strong>主视觉区 + 卖点展示 + 菜品推荐</strong>三大核心模块，适配移动端和 PC 端；</li><li>核心修改点为替换菜品名、图片链接和调整品牌色系，其余代码可直接复用；</li><li>内置动态 hover 效果（按钮上浮、图片放大），提升广告视觉吸引力。</li></ol><h3 id="CodeCanyon-「Delicious-Food-Ads-Template」模板解析"><a href="#CodeCanyon-「Delicious-Food-Ads-Template」模板解析" class="headerlink" title="CodeCanyon 「Delicious Food Ads Template」模板解析"></a>CodeCanyon 「Delicious Food Ads Template」模板解析</h3><p>你提供的链接是 CodeCanyon 上售价 $10 的专业美食广告模板（ID:<a href="https://codecanyon.net/item/delicious-food-ads-template/14496194">14496194</a>），我为你拆解这款模板的核心信息、使用方式，以及适配它的本地化改造方案，帮你快速上手使用。</p><h4 id="一、模板核心信息（官方原版）"><a href="#一、模板核心信息（官方原版）" class="headerlink" title="一、模板核心信息（官方原版）"></a>一、模板核心信息（官方原版）</h4><h4 id="1-模板类型与适用场景"><a href="#1-模板类型与适用场景" class="headerlink" title="1. 模板类型与适用场景"></a>1. 模板类型与适用场景</h4><ul><li><strong>格式</strong>：HTML5 + CSS3 + JavaScript（含 jQuery），支持 Adobe Animate&#x2F;Edge Animate 编辑</li><li><strong>用途</strong>：适用于横幅广告（Banner）、社交媒体广告、网页弹窗广告，适配 300x250、728x90、160x600 等主流广告尺寸</li><li><strong>特色</strong>：含动态动画（食材飘动、文字渐显、按钮交互）、多语言支持、可自定义配色 &#x2F; 图片 &#x2F; 文案，兼容所有现代浏览器</li></ul><h4 id="2-原版模板包含的文件"><a href="#2-原版模板包含的文件" class="headerlink" title="2. 原版模板包含的文件"></a>2. 原版模板包含的文件</h4><pre><code>delicious-food-ads-template/├── animate-files/       # Adobe Animate 源文件（.fla/.xfl）├── html5-output/        # 编译后的 HTML5 广告文件（可直接使用）├── preview/             # 预览图/预览视频├── documentation.pdf    # 官方使用文档└── readme.txt           # 快速上手说明</code></pre><h4 id="3-原版使用限制"><a href="#3-原版使用限制" class="headerlink" title="3. 原版使用限制"></a>3. 原版使用限制</h4><ul><li>需要购买授权（$10）才能商用，未购买仅可用于学习；</li><li>原版为英文界面，需手动修改文案为中文；</li><li>动画源文件编辑需要 Adobe Animate&#x2F;Edge Animate 软件基础。</li></ul><hr><h4 id="二、本地化改造方案（适配中文场景）"><a href="#二、本地化改造方案（适配中文场景）" class="headerlink" title="二、本地化改造方案（适配中文场景）"></a>二、本地化改造方案（适配中文场景）</h4><p>如果你购买了该模板，可按以下步骤改造为中文美食广告，我也提供简化版替代代码（无需付费 &#x2F; 无需专业软件）：</p><h4 id="方案-1：改造原版模板（适合有购买授权的情况）"><a href="#方案-1：改造原版模板（适合有购买授权的情况）" class="headerlink" title="方案 1：改造原版模板（适合有购买授权的情况）"></a>方案 1：改造原版模板（适合有购买授权的情况）</h4><h4 id="步骤-1：修改文案（核心）"><a href="#步骤-1：修改文案（核心）" class="headerlink" title="步骤 1：修改文案（核心）"></a>步骤 1：修改文案（核心）</h4><p>打开 <code>html5-output</code> 文件夹下对应尺寸的 <code>index.html</code>，替换所有英文文案为中文：</p><pre><code>&lt;!-- 原版英文 --&gt;&lt;h2&gt;Delicious Burger&lt;/h2&gt;&lt;p&gt;Only $5.99 | Fresh &amp; Tasty&lt;/p&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Order Now&lt;/a&gt;&lt;!-- 改造后中文 --&gt;&lt;h2&gt;招牌牛肉汉堡&lt;/h2&gt;&lt;p&gt;仅售39元 | 现烤现做 鲜嫩多汁&lt;/p&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;立即下单&lt;/a&gt;</code></pre><h4 id="步骤-2：替换图片-配色"><a href="#步骤-2：替换图片-配色" class="headerlink" title="步骤 2：替换图片 &#x2F; 配色"></a>步骤 2：替换图片 &#x2F; 配色</h4><ul><li>图片：将 <code>html5-output/images/</code> 下的食材图片替换为你的菜品实拍图（保持尺寸一致）；</li><li>配色：修改 <code>css/style.css</code> 中的主色值（原版橙色 <code>#ff7700</code> 可改为品牌色，如火锅红 <code>#e63946</code>）：</li></ul><pre><code class="css">/* 原版 */:root &#123; --primary-color: #ff7700; &#125;/* 改造后 */:root &#123; --primary-color: #e63946; &#125; /* 火锅红 */</code></pre><h4 id="步骤-3：调整动画（可选）"><a href="#步骤-3：调整动画（可选）" class="headerlink" title="步骤 3：调整动画（可选）"></a>步骤 3：调整动画（可选）</h4><p>如需修改动画节奏，用 Adobe Animate 打开 <code>animate-files</code> 下的 <code>.fla</code> 文件，调整「时间轴」上的动画帧即可。</p><h4 id="方案-2：免费替代版（无需购买，开箱即用）"><a href="#方案-2：免费替代版（无需购买，开箱即用）" class="headerlink" title="方案 2：免费替代版（无需购买，开箱即用）"></a>方案 2：免费替代版（无需购买，开箱即用）</h4><p>如果你不想付费购买，我基于该模板的设计风格，制作了<strong>免费中文版</strong>，保留动态效果和适配尺寸，可直接使用：</p><p><a href="https://m3u8player.com.cn/htmlcss/%E7%BE%8E%E9%A3%9F%E5%B9%BF%E5%91%8A-300x250.html">html预览</a></p><pre><code class="html">&lt;!DOCTYPE html&gt;&lt;html lang=&quot;zh-CN&quot;&gt;&lt;head&gt;    &lt;meta charset=&quot;UTF-8&quot;&gt;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;    &lt;title&gt;美食广告 - 300x250&lt;/title&gt;    &lt;style&gt;        /* 适配300x250标准广告尺寸 */        .food-ad &#123;            width: 300px;            height: 250px;            border: 1px solid #eee;            overflow: hidden;            position: relative;            background: #fff;            font-family: &quot;Microsoft Yahei&quot;, sans-serif;        &#125;        /* 背景图+渐变遮罩 */        .ad-bg &#123;            width: 100%;            height: 100%;            background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)),                         url(&quot;https://picsum.photos/id/292/300/250&quot;) center/cover no-repeat;            position: absolute;            top: 0;            left: 0;            animation: bg-zoom 8s infinite ease-in-out;        &#125;        /* 动态缩放动画（复刻原版效果） */        @keyframes bg-zoom &#123;            0% &#123; transform: scale(1); &#125;            50% &#123; transform: scale(1.1); &#125;            100% &#123; transform: scale(1); &#125;        &#125;        /* 文案区域 */        .ad-text &#123;            position: absolute;            bottom: 20px;            left: 20px;            color: white;            z-index: 2;        &#125;        .ad-text h3 &#123;            font-size: 18px;            margin: 0 0 5px 0;            animation: fade-in 2s ease-out;        &#125;        .ad-text p &#123;            font-size: 14px;            margin: 0 0 10px 0;            animation: fade-in 3s ease-out;        &#125;        /* 按钮（复刻原版交互） */        .ad-btn &#123;            display: inline-block;            padding: 6px 15px;            background: #ff7700;            color: white;            text-decoration: none;            border-radius: 4px;            font-size: 14px;            animation: fade-in 4s ease-out;            transition: all 0.3s ease;        &#125;        .ad-btn:hover &#123;            background: #e66a00;            transform: translateY(-2px);        &#125;        @keyframes fade-in &#123;            0% &#123; opacity: 0; transform: translateY(10px); &#125;            100% &#123; opacity: 1; transform: translateY(0); &#125;        &#125;    &lt;/style&gt;&lt;/head&gt;&lt;body&gt;    &lt;div class=&quot;food-ad&quot;&gt;        &lt;div class=&quot;ad-bg&quot;&gt;&lt;/div&gt;        &lt;div class=&quot;ad-text&quot;&gt;            &lt;h3&gt;一口沦陷的招牌小龙虾&lt;/h3&gt;            &lt;p&gt;麻辣鲜香 | 限时特惠 88元/斤&lt;/p&gt;            &lt;a href=&quot;#&quot; class=&quot;ad-btn&quot;&gt;立即抢购&lt;/a&gt;        &lt;/div&gt;    &lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</code></pre><h4 id="替代版使用说明："><a href="#替代版使用说明：" class="headerlink" title="替代版使用说明："></a>替代版使用说明：</h4><ol><li>保存为 <code>.html</code> 文件，直接用浏览器打开即可预览；</li><li>修改尺寸：将 <code>.food-ad</code> 的 <code>width/height</code> 改为 728x90&#x2F;160x600 等其他广告尺寸；</li><li>替换内容：修改图片链接、文案、配色即可适配你的菜品。</li></ol><hr><h4 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h4><ol><li>CodeCanyon 原版模板是专业付费版，含多尺寸 &#x2F; 动画源文件，适合商用（需购买授权），改造核心是替换文案 &#x2F; 图片 &#x2F; 配色；</li><li>免费替代版复刻了原版的动态效果（背景缩放、文字渐显、按钮交互），无需付费 &#x2F; 专业软件，300x250 尺寸可直接使用；</li><li>无论使用哪种版本，重点是适配中文文案和本地菜品特色（如麻辣、鲜香等关键词），并保持视觉风格统一。</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;美食广告-HTML5-模板&quot;&gt;&lt;a href=&quot;#美食广告-HTML5-模板&quot; class=&quot;headerlink&quot; title=&quot;美食广告 HTML5 模板&quot;&gt;&lt;/a&gt;美食广告 HTML5 模板&lt;/h3&gt;&lt;p&gt;为你制作了一个&lt;strong&gt;响应式、视觉感强&lt;/s</summary>
-      
-    
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/categories/web/"/>
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
     
   </entry>
   
