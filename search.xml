@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>260409</title>
+      <link href="/2026/04/09/260409/"/>
+      <url>/2026/04/09/260409/</url>
+      
+        <content type="html"><![CDATA[<h3 id="260409日记"><a href="#260409日记" class="headerlink" title="260409日记"></a>260409日记</h3><ol><li>中东战局的消息，感觉市场已经开始免疫，回归理性，情绪降温</li><li>账户终于开始稳定，不再回撤</li></ol><p><img src="/../uploads/image-20260409105848888.png" alt="image-20260409105848888"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> diary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>期权策略-终极速查表</title>
+      <link href="/2026/04/09/%E6%9C%9F%E6%9D%83%E7%AD%96%E7%95%A5%E3%83%BB%E7%BB%88%E6%9E%81%E9%80%9F%E6%9F%A5%E8%A1%A8/"/>
+      <url>/2026/04/09/%E6%9C%9F%E6%9D%83%E7%AD%96%E7%95%A5%E3%83%BB%E7%BB%88%E6%9E%81%E9%80%9F%E6%9F%A5%E8%A1%A8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="期权策略・终极速查表（胜率-场景-风控-盈亏比）"><a href="#期权策略・终极速查表（胜率-场景-风控-盈亏比）" class="headerlink" title="期权策略・终极速查表（胜率 + 场景 + 风控 + 盈亏比）"></a>期权策略・终极速查表（胜率 + 场景 + 风控 + 盈亏比）</h3><p>直接按<strong>市场判断</strong>查表选用，新手也能秒懂。</p><h4 id="一、高胜率策略（70-85-）｜震荡收租"><a href="#一、高胜率策略（70-85-）｜震荡收租" class="headerlink" title="一、高胜率策略（70%~85%）｜震荡收租"></a>一、高胜率策略（70%~85%）｜震荡收租</h4><table><thead><tr><th align="center">策略</th><th align="center">胜率</th><th align="center">核心判断</th><th align="center">适用场景</th><th align="center">风险</th><th align="center">收益</th><th align="center">关键要点</th></tr></thead><tbody><tr><td align="center">铁鹰 Iron Condor</td><td align="center">80%~85%</td><td align="center">窄幅横盘、低波动</td><td align="center">指数震荡、无大事</td><td align="center">有限（宽止损）</td><td align="center">固定权利金</td><td align="center">IV 低、宽腿、不裸卖</td></tr><tr><td align="center">卖虚值认沽 Cash Secured Put</td><td align="center">75%~80%</td><td align="center">不大跌、愿接货</td><td align="center">想低价买股、慢牛</td><td align="center">有限（跌到 0）</td><td align="center">权利金</td><td align="center">只卖看好标的、备足钱</td></tr><tr><td align="center">备兑开仓 Covered Call</td><td align="center">70%~80%</td><td align="center">持股、慢涨 &#x2F; 震荡</td><td align="center">长期持仓增强</td><td align="center">股价下跌</td><td align="center">权利金 + 小幅涨幅</td><td align="center">卖虚值、不亏股</td></tr></tbody></table><p><strong>特点：小赚常赚，偶亏一次；时间是朋友。</strong></p><hr><h4 id="二、中胜率策略（60-70-）｜温和方向"><a href="#二、中胜率策略（60-70-）｜温和方向" class="headerlink" title="二、中胜率策略（60%~70%）｜温和方向"></a>二、中胜率策略（60%~70%）｜温和方向</h4><table><thead><tr><th align="center">策略</th><th align="center">胜率</th><th align="center">核心判断</th><th align="center">适用场景</th><th align="center">风险</th><th align="center">收益</th></tr></thead><tbody><tr><td align="center">牛市价差 Bull Call Spread</td><td align="center">65%~70%</td><td align="center">温和看涨</td><td align="center">慢牛、震荡上行</td><td align="center">有限</td><td align="center">有限（封顶）</td></tr><tr><td align="center">熊市价差 Bear Put Spread</td><td align="center">65%~70%</td><td align="center">温和看跌</td><td align="center">慢熊、反弹做空</td><td align="center">有限</td><td align="center">有限（封顶）</td></tr><tr><td align="center">保护性认沽 Protective Put</td><td align="center">60%~70%</td><td align="center">持股怕跌</td><td align="center">高位避险、防黑天鹅</td><td align="center">权利金</td><td align="center">无限（涨 - 成本）</td></tr></tbody></table><p><strong>特点：稳、可控、回撤小。</strong></p><hr><h4 id="三、低胜率高盈亏比（30-40-）｜抓大行情"><a href="#三、低胜率高盈亏比（30-40-）｜抓大行情" class="headerlink" title="三、低胜率高盈亏比（30%~40%）｜抓大行情"></a>三、低胜率高盈亏比（30%~40%）｜抓大行情</h4><table><thead><tr><th align="center">策略</th><th align="center">胜率</th><th align="center">核心判断</th><th align="center">适用场景</th><th align="center">风险</th><th align="center">收益</th></tr></thead><tbody><tr><td align="center">买认购 Long Call</td><td align="center">30%~40%</td><td align="center">强烈看涨、突破</td><td align="center">主升浪、政策 &#x2F; 财报</td><td align="center">权利金</td><td align="center">无限</td></tr><tr><td align="center">买认沽 Long Put</td><td align="center">30%~40%</td><td align="center">强烈看跌、破位</td><td align="center">暴跌、熊市加速</td><td align="center">权利金</td><td align="center">无限</td></tr><tr><td align="center">买跨式 Long Straddle</td><td align="center">30%~40%</td><td align="center">大波动、方向不明</td><td align="center">财报前、重大事件</td><td align="center">两份权利金</td><td align="center">无限</td></tr></tbody></table><p><strong>特点：亏小钱、赚大钱；靠盈亏比取胜。</strong></p><hr><h4 id="二、一句话选型口诀"><a href="#二、一句话选型口诀" class="headerlink" title="二、一句话选型口诀"></a>二、一句话选型口诀</h4><ul><li><strong>横盘不动</strong> → 铁鹰（胜率最高）</li><li><strong>想低吸</strong> → 卖认沽</li><li><strong>持股增强</strong> → 备兑</li><li><strong>温和看涨 &#x2F; 跌</strong> → 牛市 &#x2F; 熊市价差</li><li><strong>怕跌避险</strong> → 保护性认沽</li><li><strong>大行情突破</strong> → 买认购 &#x2F; 认沽</li><li><strong>大事前赌波动</strong> → 买跨式</li><li><strong>极窄横盘赚小钱</strong>→ 蝶式最稳最安全</li></ul><hr><h4 id="三、胜率≠赚钱的核心真相"><a href="#三、胜率≠赚钱的核心真相" class="headerlink" title="三、胜率≠赚钱的核心真相"></a>三、胜率≠赚钱的核心真相</h4><ul><li><strong>高胜率 ≠ 高收益</strong>：小赢积累，一次大亏回吐。</li><li><strong>低胜率 ≠ 亏钱</strong>：盈亏比 &gt; 3:1，长期必赚。</li><li>IV（波动率）决定一切：<ul><li>IV 高 → 做<strong>卖方</strong>（卖、铁鹰、备兑）</li><li>IV 低 → 做<strong>买方</strong>（买、跨式）</li></ul></li></ul><h3 id="蝶式期权（Butterfly）完整速查"><a href="#蝶式期权（Butterfly）完整速查" class="headerlink" title="蝶式期权（Butterfly）完整速查"></a>蝶式期权（Butterfly）完整速查</h3><p><strong>胜率：≈75%~85%（极高胜率）</strong></p><p><strong>定位：极致震荡、窄幅横盘、吃时间价值 + 波动率下降</strong></p><h4 id="一、结构（以-Call-为例）"><a href="#一、结构（以-Call-为例）" class="headerlink" title="一、结构（以 Call 为例）"></a>一、结构（以 Call 为例）</h4><p><strong>买 1 低行权价 + 卖 2 中间行权价 + 买 1 高行权价</strong></p><p>（Put 蝶式同理，方向不同，收益结构几乎一样）</p><hr><h4 id="二、核心数据"><a href="#二、核心数据" class="headerlink" title="二、核心数据"></a>二、核心数据</h4><ul><li><strong>胜率</strong>：75%~85%（比铁鹰略窄、胜率略低一点）</li><li><strong>收益</strong>：<strong>有限、固定</strong>（最大收益 &#x3D; 行权间距 - 净权利金）</li><li><strong>风险</strong>：<strong>有限、固定</strong>（最大亏损 &#x3D; 净权利金）</li><li><strong>时间价值（Theta）</strong>：<strong>正</strong>，越临近到期越赚</li><li><strong>波动率（Vega）</strong>：<strong>负</strong>，IV 下跌最舒服</li></ul><hr><h4 id="三、最适合场景"><a href="#三、最适合场景" class="headerlink" title="三、最适合场景"></a>三、最适合场景</h4><ol><li><strong>标的极度横盘、窄幅震荡</strong>（上下空间很小）</li><li><strong>波动率高位回落</strong>（IV 从高变低）</li><li><strong>到期前 1~2 周</strong>（时间衰减最快）</li><li><strong>指数（50ETF&#x2F;300ETF）最适合</strong>，个股波动大不推荐</li></ol><hr><h4 id="四、蝶式-vs-铁鹰（最关键对比）"><a href="#四、蝶式-vs-铁鹰（最关键对比）" class="headerlink" title="四、蝶式 vs 铁鹰（最关键对比）"></a>四、蝶式 vs 铁鹰（最关键对比）</h4><table><thead><tr><th align="center">策略</th><th align="center">胜率</th><th align="center">波动容忍</th><th align="center">收益</th><th align="center">风险</th><th align="center">适合市况</th></tr></thead><tbody><tr><td align="center"><strong>蝶式 Butterfly</strong></td><td align="center">75%~85%</td><td align="center"><strong>极窄</strong></td><td align="center">较低</td><td align="center">小</td><td align="center">纹丝不动、窄震</td></tr><tr><td align="center"><strong>铁鹰 Iron Condor</strong></td><td align="center">80%~85%</td><td align="center"><strong>较宽</strong></td><td align="center">较高</td><td align="center">小</td><td align="center">宽震荡、不暴涨暴跌</td></tr></tbody></table><p>一句话：</p><p><strong>想更稳、空间更大 → 铁鹰</strong></p><p><strong>行情极窄、想赚更确定的小钱 → 蝶式</strong></p><hr><h4 id="五、优缺点"><a href="#五、优缺点" class="headerlink" title="五、优缺点"></a>五、优缺点</h4><p>✅ 优点：</p><ul><li>胜率极高</li><li>盈亏都<strong>完全封顶</strong>，无爆仓风险</li><li>时间是朋友</li><li>资金占用小</li></ul><p>❌ 缺点：</p><ul><li><strong>收益上限很低</strong>（典型 10%~30%）</li><li>一旦突破区间，就亏权利金</li><li>窄区间，稍微一动就不赚钱</li></ul><hr><h4 id="六、一句话总结"><a href="#六、一句话总结" class="headerlink" title="六、一句话总结"></a>六、一句话总结</h4><p><strong>蝶式 &#x3D; 赌 “纹丝不动” 的高胜率小赚策略，稳、安全、收益有限。</strong></p><p>你现在听到的：</p><ul><li>铁鹰</li><li>标准铁鹰</li><li>Iron Condor</li><li>牛市看跌价差 + 熊市看涨价差 组合</li></ul><p><strong>全部是同一个策略，100% 等价，收益结构完全一样。</strong></p><hr><h4 id="为什么会有两个名字？"><a href="#为什么会有两个名字？" class="headerlink" title="为什么会有两个名字？"></a>为什么会有两个名字？</h4><p>只是<strong>描述角度不同</strong>：</p><ol><li><p><strong>直观叫法：铁鹰 &#x2F; 标准铁鹰</strong></p><ul><li><p>卖虚值 Call + 卖虚值 Put（中间）</p></li><li><p>买更虚 Call + 买更虚 Put（保护）</p><p>→ 形状像展翅的鹰，所以叫</p><p>铁鹰。</p></li></ul></li><li><p><strong>结构拆解：牛市价差 + 熊市价差</strong></p><ul><li><p>下方 &#x3D; <strong>牛市看跌价差（Bull Put Spread）</strong></p></li><li><p>上方 &#x3D; <strong>熊市看涨价差（Bear Call Spread）</strong></p><p>→ 两个价差拼起来 &#x3D; 铁鹰。</p></li></ul></li></ol><hr><h4 id="最关键一句话"><a href="#最关键一句话" class="headerlink" title="最关键一句话"></a>最关键一句话</h4><p><strong>“铁鹰” 就是 “标准铁鹰”，标准铁鹰就是 “牛差 + 熊差”。三者完全一样，没有任何区别。</strong></p><p> 铁鹰策略的终极口诀是什么？</p><h4 id="铁鹰策略・终极口诀（最准、最好记）"><a href="#铁鹰策略・终极口诀（最准、最好记）" class="headerlink" title="铁鹰策略・终极口诀（最准、最好记）"></a>铁鹰策略・终极口诀（最准、最好记）</h4><p><strong>上熊差，下牛差，宽震不爆就是它。</strong></p><h4 id="配套一句总诀（把蝶式-铁鹰一起记住）"><a href="#配套一句总诀（把蝶式-铁鹰一起记住）" class="headerlink" title="配套一句总诀（把蝶式 + 铁鹰一起记住）"></a>配套一句总诀（把蝶式 + 铁鹰一起记住）</h4><p><strong>极窄不动做蝶式，宽震收租铁鹰吃。</strong></p><h4 id="极简拆解（一眼懂）"><a href="#极简拆解（一眼懂）" class="headerlink" title="极简拆解（一眼懂）"></a>极简拆解（一眼懂）</h4><ul><li><strong>上熊差</strong>：上方 &#x3D; 熊市看涨价差（Bear Call Spread）</li><li><strong>下牛差</strong>：下方 &#x3D; 牛市看跌价差（Bull Put Spread）</li><li><strong>宽震</strong>：适合大区间震荡</li><li><strong>不爆</strong>：风险有限，永不爆仓</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> invest </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> invest </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>致开户后迷茫的期权投资者</title>
       <link href="/2026/04/08/%E8%87%B4%E5%BC%80%E6%88%B7%E5%90%8E%E8%BF%B7%E8%8C%AB%E7%9A%84%E6%9C%9F%E6%9D%83%E6%8A%95%E8%B5%84%E8%80%85%EF%BC%81/"/>
       <url>/2026/04/08/%E8%87%B4%E5%BC%80%E6%88%B7%E5%90%8E%E8%BF%B7%E8%8C%AB%E7%9A%84%E6%9C%9F%E6%9D%83%E6%8A%95%E8%B5%84%E8%80%85%EF%BC%81/</url>
