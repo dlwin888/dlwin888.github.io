@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-04-12T08:47:26.851Z</updated>
+  <updated>2026-04-14T02:49:59.587Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>260414</title>
+    <link href="https://dlwin888.github.io/2026/04/14/260414/"/>
+    <id>https://dlwin888.github.io/2026/04/14/260414/</id>
+    <published>2026-04-14T01:59:55.000Z</published>
+    <updated>2026-04-14T02:49:59.587Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="260414日记"><a href="#260414日记" class="headerlink" title="260414日记"></a>260414日记</h3><ol><li><p>1677英语第一周</p></li><li><p>基于日线趋势跟踪的卖方反向比率价差策略</p><blockquote><p><strong>卖 2 手 + 买 1 手</strong>（反向比率，偏裸卖、高收益、有限兜底）</p><p>空头趋势：<strong>卖 2 张虚值 &#x2F; 平值 Call + 买 1 张更深虚值 Call</strong></p><p>多头趋势：<strong>卖 2 张虚值 &#x2F; 平值 Put + 买 1 张更深虚值 Put</strong></p><h4 id="通用规则（统一执行）"><a href="#通用规则（统一执行）" class="headerlink" title="通用规则（统一执行）"></a>通用规则（统一执行）</h4><ol><li><p>趋势判断：日线 MA20 压制 &#x3D; 空头 → 统一做 <strong>2 卖 Call+1 买 Call</strong></p></li><li><p>行权价选择</p><ul><li>卖出腿：浅虚值 &#x2F; 近平值 Call（Delta 0.45~0.55），流动性最好</li><li>买入保护腿：<strong>深度虚值 2~3 档</strong> Call（Delta 0.1~0.15），成本极低</li></ul></li><li><p>到期：统一选 <strong>30~40 天 合约期权</strong></p></li><li><p>仓位：单品种轻仓，防止反弹脉冲杀波动率</p></li></ol></blockquote></li></ol><p><img src="/../uploads/image-20260414104947074.png" alt="image-20260414104947074"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;260414日记&quot;&gt;&lt;a href=&quot;#260414日记&quot; class=&quot;headerlink&quot; title=&quot;260414日记&quot;&gt;&lt;/a&gt;260414日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;1677英语第一周&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;基于日线趋势跟踪的卖</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>别成为机器</title>
@@ -45,9 +72,9 @@
     <link href="https://dlwin888.github.io/2026/04/11/1677%E8%B6%85%E9%AB%98%E9%A2%91%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/"/>
     <id>https://dlwin888.github.io/2026/04/11/1677%E8%B6%85%E9%AB%98%E9%A2%91%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/</id>
     <published>2026-04-11T06:32:07.000Z</published>
-    <updated>2026-04-11T01:03:57.947Z</updated>
+    <updated>2026-04-14T02:35:06.987Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="1677超高频英语单词"><a href="#1677超高频英语单词" class="headerlink" title="1677超高频英语单词"></a>1677超高频英语单词</h3><p>Day1</p><p>ruler n. 尺子，直尺；统治者 </p><p>seven num. 七个，七 </p><p>today adv.&#x2F;n. 今天；现今，当代 </p><p>soul n. 灵魂，心灵，精神；某种人 </p><p>song n. 歌曲；歌唱；诗歌；鸣声 </p><p>Day2</p><p>consider v. 考虑；认为 </p><p>sell v. 卖，出售；vt. 推荐，推销 </p><p>pause n.&#x2F;v. 暂停；间歇 </p><p>river n. 河，江 </p><p>ugly adj. 丑陋的；难看的 </p><p>Day3</p><p>delay v.&#x2F;n. 延期，延误，耽搁，推迟 </p><p>distant adj. 遥远的，久远的，远亲的 </p><p>finish v. 完成；结束；用尽 n. 结尾，结束 </p><p>angry adj. 生气的；狂暴的 </p><p>bear v.  忍受，承受；生（孩子）n.熊 </p><p>Day4</p><p>clothing n.（总称）服装 </p><p>welcome v.&#x2F;n. 欢迎，迎接 adj.受欢迎的 </p><p>poor adj. 贫穷的；可怜的；不好的 </p><p>railway n. 铁路；轨道 </p><p>growth n. 成长，生长；增加，增长 </p><p>Day5</p><p>bus n. 公交车，巴士</p><p>pilot n. 飞行员，领航员 v. 驾驶（飞行器，船只）adj. 试点的</p><p>past adj. 过去的，以前的 n. 过去 prep. 经过，路过，超过</p><p>possession n. 拥有；财产</p><p>unit n. 单位，单元</p><p>在过去的几天，我经常错过公交。</p><p>In the past days, I often miss the bus.</p>]]></content>
+    <content type="html"><![CDATA[<h3 id="1677超高频英语单词"><a href="#1677超高频英语单词" class="headerlink" title="1677超高频英语单词"></a>1677超高频英语单词</h3><p>Day1</p><p>ruler n. 尺子，直尺；统治者 </p><p>seven num. 七个，七 </p><p>today adv.&#x2F;n. 今天；现今，当代 </p><p>soul n. 灵魂，心灵，精神；某种人 </p><p>song n. 歌曲；歌唱；诗歌；鸣声 </p><p>Day2</p><p>consider v. 考虑；认为 </p><p>sell v. 卖，出售；vt. 推荐，推销 </p><p>pause n.&#x2F;v. 暂停；间歇 </p><p>river n. 河，江 </p><p>ugly adj. 丑陋的；难看的 </p><p>Day3</p><p>delay v.&#x2F;n. 延期，延误，耽搁，推迟 </p><p>distant adj. 遥远的，久远的，远亲的 </p><p>finish v. 完成；结束；用尽 n. 结尾，结束 </p><p>angry adj. 生气的；狂暴的 </p><p>bear v.  忍受，承受；生（孩子）n.熊 </p><p>Day4</p><p>clothing n.（总称）服装 </p><p>welcome v.&#x2F;n. 欢迎，迎接 adj.受欢迎的 </p><p>poor adj. 贫穷的；可怜的；不好的 </p><p>railway n. 铁路；轨道 </p><p>growth n. 成长，生长；增加，增长 </p><p>Day5</p><p>bus n. 公交车，巴士</p><p>pilot n. 飞行员，领航员 v. 驾驶（飞行器，船只）adj. 试点的</p><p>past adj. 过去的，以前的 n. 过去 prep. 经过，路过，超过</p><p>possession n. 拥有；财产</p><p>unit n. 单位，单元</p><p>在过去的几天，我经常错过公交。</p><p>In the past days, I often miss the bus.</p><p>Day6</p><p>dressn. 连衣裙；（特定种类的）衣服 v. 穿衣服<br>elseadj.&#x2F;adv. 其他的；别的<br>mentionvt.&#x2F;n. 提到；提及<br>hilln. 小山；丘陵<br>unclen. 叔叔；伯父；舅父</p><p>我的叔叔提到他昨天爬上山顶了。</p><p>My uncle mentioned that he climbed to the top of the hill yesterday.</p>]]></content>
     
     
       
@@ -492,30 +519,6 @@
     
     
     <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>AI炒股-恒隆地产</title>
-    <link href="https://dlwin888.github.io/2026/03/28/%E6%81%92%E9%9A%86%E5%9C%B0%E4%BA%A7/"/>
-    <id>https://dlwin888.github.io/2026/03/28/%E6%81%92%E9%9A%86%E5%9C%B0%E4%BA%A7/</id>
-    <published>2026-03-28T00:46:33.000Z</published>
-    <updated>2026-03-28T01:52:21.856Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="恒隆地产"><a href="#恒隆地产" class="headerlink" title="恒隆地产"></a>恒隆地产</h3><p>根据最新的市场数据和财报信息，我对 <strong>恒隆地产 (00101.HK)</strong> 进行了深度分析。</p><p>总体来看，恒隆地产目前处于<strong>“基本面磨底，但零售端显著回暖”</strong>的阶段。虽然股价近期有所回调，但其作为港股高股息资产的代表，依然受到南向资金和部分外资投行的关注。</p><p>以下是详细的分析维度：</p><h3 id="📊-1-核心数据概览（截至-2026年3月27日）"><a href="#📊-1-核心数据概览（截至-2026年3月27日）" class="headerlink" title="📊 1. 核心数据概览（截至 2026年3月27日）"></a>📊 1. 核心数据概览（截至 2026年3月27日）</h3><table><thead><tr><th>指标</th><th>数值</th><th>解读</th></tr></thead><tbody><tr><td><strong>当前股价</strong></td><td><strong>8.66 HKD</strong></td><td>较2月高点（约10.26 HKD）有明显回调，处于近期低位。</td></tr><tr><td><strong>股息率</strong></td><td><strong>约 6.0%</strong></td><td>基于当前股价测算，股息回报率具有吸引力（高于历史平均）。</td></tr><tr><td><strong>市净率 (PB)</strong></td><td><strong>0.39</strong></td><td>股价远低于每股净资产，属于典型的“深度价值”区间。</td></tr><tr><td><strong>市盈率 (PE)</strong></td><td><strong>~24x</strong></td><td>静态PE较高，反映了近期利润下滑的现状。</td></tr><tr><td><strong>南向资金</strong></td><td><strong>近期增持</strong></td><td>3月24日单日增持9.7万股，显示内地资金有抄底迹象。</td></tr></tbody></table><h3 id="📈-2-基本面分析：喜忧参半"><a href="#📈-2-基本面分析：喜忧参半" class="headerlink" title="📈 2. 基本面分析：喜忧参半"></a>📈 2. 基本面分析：喜忧参半</h3><p><strong>✅ 亮点：内地零售强劲复苏</strong> 这是恒隆目前最大的投资逻辑支撑。</p><ul><li><strong>数据说话：</strong> 2025年第四季度，其内地商场的零售额同比增长高达 **18%**，创下历史新高。</li><li><strong>趋势向好：</strong> 2025年全年看，内地商场零售额逐季改善（Q1为-7%，Q4已转正至+18%）。这表明其高端奢侈品组合（如上海恒隆广场、沈阳恒隆等）在消费复苏中韧性极强。</li><li><strong>策略奏效：</strong> 公司推行的“V.3策略”和轻资产模式正在提升回报确定性，且非奢侈品牌的增长被市场低估。</li></ul><p><strong>⚠️ 隐忧：业绩短期承压</strong></p><ul><li><strong>营收下滑：</strong> 2025年年报显示，总收入同比下降 **11.49%**，归母净利润同比下降 **16.12%**。这主要受物业销售业务交付周期及租赁收入短期波动影响。</li><li><strong>股价表现：</strong> 近期股价从10港元上方回落至8.66港元，市场情绪仍受宏观房地产板块整体低迷的拖累。</li></ul><h3 id="💰-3-分红与回报：防御性极强"><a href="#💰-3-分红与回报：防御性极强" class="headerlink" title="💰 3. 分红与回报：防御性极强"></a>💰 3. 分红与回报：防御性极强</h3><p>对于看重现金流的投资者，恒隆地产的“类债券”属性明显：</p><ul><li><strong>分红稳定：</strong> 尽管利润下滑，公司依然维持了 <strong>0.52 HKD&#x2F;股</strong> 的派息（2025财年），派息比率高达82%。</li><li><strong>投行预测：</strong> 兴业证券和申万宏源均预测，2026-2028年每股股息有望维持在 <strong>0.52 HKD</strong> 左右。</li><li><strong>收益率测算：</strong> 按当前8.66港元的股价计算，**股息率约为 6.0%**，远高于银行理财，具备很好的安全垫作用。</li></ul><h3 id="🎯-4-机构观点与目标价"><a href="#🎯-4-机构观点与目标价" class="headerlink" title="🎯 4. 机构观点与目标价"></a>🎯 4. 机构观点与目标价</h3><p>目前投行对恒隆地产的态度以<strong>“看好修复”</strong>为主，认为当前股价被低估：</p><ul><li><strong>小摩 (J.P. Morgan)：</strong> <strong>首选推荐</strong>。将目标价上调至 <strong>12.0 HKD</strong>。理由是内地租户销售复苏将推动估值重估，且公司正努力将浮动租金转化为固定租金，保护收入稳定性。</li><li><strong>中金公司 (CICC)：</strong> 维持“跑赢行业”，目标价 <strong>10.4 HKD</strong>。认为业绩边际企稳，风险偏好变化将带来估值修复。</li><li><strong>申万宏源：</strong> 维持“买入”，指出零售快速改善，且轻资产模式提升了回报确定性。</li></ul><h3 id="💡-5-总结与投资建议"><a href="#💡-5-总结与投资建议" class="headerlink" title="💡 5. 总结与投资建议"></a>💡 5. 总结与投资建议</h3><p><strong>恒隆地产 (00101) 目前的投资逻辑非常清晰：</strong></p><ul><li><strong>如果你是收息党：</strong> 当前 <strong>6%</strong> 左右的股息率配合其稳定的派息记录，是一个不错的防御性配置。市净率仅0.39倍，下行空间有限。</li><li><strong>如果你是博弈反弹：</strong> 股价近期回调至8.66港元，接近历史估值底部。考虑到内地零售数据的强劲（+18%），一旦宏观情绪好转，估值修复的弹性较大（目标价看高至10-12港元）。</li></ul><p><strong>风险提示：</strong></p><ol><li><strong>宏观消费不及预期：</strong> 如果内地奢侈品消费再次降温，将直接打击其租金收入。</li><li><strong>房地产板块情绪：</strong> 港股内房股整体情绪若持续低迷，会压制恒隆的估值修复速度。</li></ol><p><strong>一句话点评：</strong> 业绩底已现，零售端是最大惊喜，当前价格具备较高的<strong>“安全边际+股息回报”</strong>性价比。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;恒隆地产&quot;&gt;&lt;a href=&quot;#恒隆地产&quot; class=&quot;headerlink&quot; title=&quot;恒隆地产&quot;&gt;&lt;/a&gt;恒隆地产&lt;/h3&gt;&lt;p&gt;根据最新的市场数据和财报信息，我对 &lt;strong&gt;恒隆地产 (00101.HK)&lt;/strong&gt; 进行了深度分析。&lt;/p</summary>
-      
-    
-    
-    
-    <category term="invest" scheme="https://dlwin888.github.io/categories/invest/"/>
-    
-    
-    <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
     
   </entry>
   
