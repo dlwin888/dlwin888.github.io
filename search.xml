@@ -4,11 +4,36 @@
   
     
     <entry>
+      <title>260416</title>
+      <link href="/2026/04/16/260416/"/>
+      <url>/2026/04/16/260416/</url>
+      
+        <content type="html"><![CDATA[<h3 id="260416日记"><a href="#260416日记" class="headerlink" title="260416日记"></a>260416日记</h3><ol><li>上月返还4200, 全部投入期权账号</li><li>闲置的工行资金，2W买国债逆回购，挣个彩票钱</li><li>儿子昨晚半夜发烧，吃点退烧药，早上妈妈带着去医院</li></ol><p><img src="/../uploads/image-20260416105440402.png" alt="收到"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> diary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>260414</title>
       <link href="/2026/04/14/260414/"/>
       <url>/2026/04/14/260414/</url>
       
-        <content type="html"><![CDATA[<h3 id="260414日记"><a href="#260414日记" class="headerlink" title="260414日记"></a>260414日记</h3><ol><li><p>1677英语第一周</p></li><li><p>基于日线趋势跟踪的卖方反向比率价差策略</p><blockquote><p><strong>卖 2 手 + 买 1 手</strong>（反向比率，偏裸卖、高收益、有限兜底）</p><p>空头趋势：<strong>卖 2 张虚值 &#x2F; 平值 Call + 买 1 张更深虚值 Call</strong></p><p>多头趋势：<strong>卖 2 张虚值 &#x2F; 平值 Put + 买 1 张更深虚值 Put</strong></p><h4 id="通用规则（统一执行）"><a href="#通用规则（统一执行）" class="headerlink" title="通用规则（统一执行）"></a>通用规则（统一执行）</h4><ol><li><p>趋势判断：日线 MA20 压制 &#x3D; 空头 → 统一做 <strong>2 卖 Call+1 买 Call</strong></p></li><li><p>行权价选择</p><ul><li>卖出腿：浅虚值 &#x2F; 近平值 Call（Delta 0.45~0.55），流动性最好</li><li>买入保护腿：<strong>深度虚值 2~3 档</strong> Call（Delta 0.1~0.15），成本极低</li></ul></li><li><p>到期：统一选 <strong>30~40 天 合约期权</strong></p></li><li><p>仓位：单品种轻仓，防止反弹脉冲杀波动率</p></li></ol></blockquote></li></ol><p><img src="/../uploads/image-20260414104947074.png" alt="image-20260414104947074"></p>]]></content>
+        <content type="html"><![CDATA[<h3 id="260414日记"><a href="#260414日记" class="headerlink" title="260414日记"></a>260414日记</h3><ol><li><p>1677英语第一周</p></li><li><p>基于日线趋势跟踪的卖方反向比率价差策略</p><blockquote><p><strong>卖 2 手 + 买 1 手</strong>（反向比率，偏裸卖、高收益、有限兜底）</p><p>空头趋势：<strong>卖 2 张虚值 &#x2F; 平值 Call + 买 1 张更深虚值 Call</strong></p><p>多头趋势：<strong>卖 2 张虚值 &#x2F; 平值 Put + 买 1 张更深虚值 Put</strong></p><h4 id="通用规则"><a href="#通用规则" class="headerlink" title="通用规则"></a>通用规则</h4><ol><li><p>趋势判断：日线 MA20 压制 &#x3D; 空头 → 统一做 <strong>2 卖 Call+1 买 Call</strong></p></li><li><p>行权价选择</p><ul><li>卖出腿：浅虚值 &#x2F; 近平值 Call（Delta 0.45~0.55），流动性最好</li><li>买入保护腿：<strong>深度虚值 2~3 档</strong> Call（Delta 0.1~0.15），成本极低</li></ul></li><li><p>到期：统一选 <strong>30~40 天 合约期权</strong></p></li><li><p>仓位：单品种轻仓，防止反弹脉冲杀波动率</p></li></ol></blockquote></li></ol><p><img src="/../uploads/image-20260414104947074.png" alt="期权买卖"></p>]]></content>
       
       
       <categories>
