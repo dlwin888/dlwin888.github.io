@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-04-17T06:34:28.422Z</updated>
+  <updated>2026-04-17T06:56:30.346Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>有什么期权交易策略能够稳赚不赔的2</title>
+    <link href="https://dlwin888.github.io/2026/04/17/%E6%9C%89%E4%BB%80%E4%B9%88%E6%9C%9F%E6%9D%83%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5%E8%83%BD%E5%A4%9F%E7%A8%B3%E8%B5%9A%E4%B8%8D%E8%B5%94%E7%9A%842/"/>
+    <id>https://dlwin888.github.io/2026/04/17/%E6%9C%89%E4%BB%80%E4%B9%88%E6%9C%9F%E6%9D%83%E4%BA%A4%E6%98%93%E7%AD%96%E7%95%A5%E8%83%BD%E5%A4%9F%E7%A8%B3%E8%B5%9A%E4%B8%8D%E8%B5%94%E7%9A%842/</id>
+    <published>2026-04-17T03:50:50.000Z</published>
+    <updated>2026-04-17T06:56:30.346Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="有什么期权交易策略能够稳赚不赔的2"><a href="#有什么期权交易策略能够稳赚不赔的2" class="headerlink" title="有什么期权交易策略能够稳赚不赔的2"></a>有什么期权交易策略能够稳赚不赔的2</h3><p>几乎不存在稳赚不赔的策略，每种策略都需要一个假设，如果市场不按照你的预期走，那就得亏钱，但为什么说几乎呢？是因为确实存在一种套利策略盒式套利，通过这种期权组合可以赚取无风险利率就是美债收益率，美股有一个ETF叫BOXX就是做这个策略的，不过直接买美债也行，如果自己手动组合手续费比较高，建议直接BOXX，此外，还有几个个人认为不错的策略(但有风险):</p><ol><li>轮式策略</li></ol><p>选一个好股票，比如GOOG or AAPL，支撑位卖put，万一被行权了持股反手卖成本价call，这样时间拉长来看肯定能赚钱的</p><ol start="2"><li><p>卖铁鹰，也就是卖虚值call 虚值put，两边再买入更虚的call和put对尾部风险进行保护，相当于卖strangle，买更宽的strangle</p></li><li><p>对角价差 diagonal spread</p></li></ol><p>如果是上涨趋势，可以做对角价差，低iv时买入远期平值call，吃delta收益和正vega收益，同时iv很高时卖近期的虚值call，吃iv crush的负vega收益，建议选择一周的时间间隔，theta decay比较快，快要行权的时候去移仓，delta尽量小一点以免被行权，个人喜欢0.15左右，行权概率较低，发财报前一般能卖个好价格，操作的好的话可以把买远期call的成本降到0，相当于免费获得了一张call，或者说以零成本获得100股正股一段时间内的正向收益，不过当然有风险，就是单边下跌，但是要赚钱就得带一点大致的方向判断，方向性风险如果都对冲掉了就赚不到什么钱了。下跌趋势同理，call换成put就行，如果看不清方向，判断要么大涨要么大跌，可以做双向的对角，不做方向判断，相当于买了straddle，不断卖近期strangle降低买入straddle的成本，也就是逐渐把盈亏平衡的范围缩小，涨跌都能赚</p><ol start="4"><li>领式策略 collar</li></ol><p>持有正股，卖出call，以备行权，收权利金，买入put对冲下跌风险</p><ol start="5"><li>反向比率价差策略 Reverse Ratio Spread</li></ol><p>分看涨看跌，看涨的话，简单来说就是卖出低strike call，获得权利金，然后顺着期权链往上找，找到一个权利金为低strike整数倍的call买入，差不多就行，不用太精确，比如低strike call 10块钱，就找个权利金大概为5的，那么就是买2张，2.5就是4张，不能太虚，太虚行权概率极小，手续费也高，盈亏曲线长这样</p><p><img src="D:\my-blog\source\uploads\v2-48d154231aad40624bbf56253e6359c8_720w-17764089164853.webp" alt="img"></p><p>这个好处是初始建仓成本为零，因为是用获得的权利金去买call，下跌零亏损(不考虑手续费)，大涨能赚很多，但是小涨亏钱(概率最大)，所以重点还是对市场判断是否准确，风险还是有的，个人觉得可以拿来押财报大涨，下跌了没有任何损失，但是上涨不及预期就得亏钱。看跌同理，call换成put就行。另外”赌狗”押财报一般使用straddle或者strangle，或者直接梭单腿call put，具体怎么做还得看自己的喜好</p><ol start="6"><li>风险反转 risk reversal</li></ol><p>比如某只股票大跌，但你觉得基本面没有问题，终究会涨回去，而且筑底反弹，你可以卖支撑位的put，用获得的权利金去买一个虚值call，这样净建仓成本是0，等股价反弹，虚值call变成价内，相当于0成本抄底。不过风险就是继续下跌被行权，但是你看好这个股票的话，可以继续持有或者转做wheel策略</p><ol start="7"><li>delta中性策略，也就是gamma scalping，做市商的玩法，通过不断对冲delta保持delta中性，赚二阶偏导的钱，不过需要会写程序，只有在高波动的情况下才能赚到钱，直观一点的话，赚的就是凸性的钱，你需要为市场预期凸性(iv)付出权利金，实际的凸性(rv)高于iv就能赚钱</li></ol><p>以上不构成投资建议，稳赚不赔只有BOXX，以及卖深度虚值期权(行权概率极小极小的那种，但是赚不了几个钱当然)，或者利用程序捕捉定价错误套利，额外分享的几个是我觉得不错的策略，但是各有各的风险，使用需谨慎，祝各位发财</p><p>作者：eudaem<br>链接：<a href="https://www.zhihu.com/question/589532887/answer/1913912697038312025">https://www.zhihu.com/question/589532887/answer/1913912697038312025</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;有什么期权交易策略能够稳赚不赔的2&quot;&gt;&lt;a href=&quot;#有什么期权交易策略能够稳赚不赔的2&quot; class=&quot;headerlink&quot; title=&quot;有什么期权交易策略能够稳赚不赔的2&quot;&gt;&lt;/a&gt;有什么期权交易策略能够稳赚不赔的2&lt;/h3&gt;&lt;p&gt;几乎不存在稳赚不赔的</summary>
+      
+    
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/categories/invest/"/>
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
+    
+  </entry>
   
   <entry>
     <title>260417</title>
@@ -497,30 +521,6 @@
     
     
     <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>成为一个白天生活的人</title>
-    <link href="https://dlwin888.github.io/2026/03/30/%E6%88%90%E4%B8%BA%E4%B8%80%E4%B8%AA%E7%99%BD%E5%A4%A9%E7%94%9F%E6%B4%BB%E7%9A%84%E4%BA%BA/"/>
-    <id>https://dlwin888.github.io/2026/03/30/%E6%88%90%E4%B8%BA%E4%B8%80%E4%B8%AA%E7%99%BD%E5%A4%A9%E7%94%9F%E6%B4%BB%E7%9A%84%E4%BA%BA/</id>
-    <published>2026-03-30T07:37:27.000Z</published>
-    <updated>2026-03-30T07:41:39.699Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="成为一个白天生活的人"><a href="#成为一个白天生活的人" class="headerlink" title="成为一个白天生活的人"></a>成为一个白天生活的人</h3><p><a href="https://herman.bearblog.dev/becoming-a-day-person/">原文链接</a></p><p><em>2026年3月19日</em></p><p>最近有人在一档播客中问我最大的<em>改变</em>是什么，是习惯、思维方式、购买还是环境的变化。我不需要四处寻找答案，因为我已经知道我最大的<em>改变</em>：成为白天的人。</p><p>我的意思是，我是在白天工作，早起，泡好咖啡，和艾玛一起看日出。目睹光明的开始和结束，有种让人脚踏实地的感觉;这让我感觉与这个自然的周期产生共鸣。</p><p>我以前是那种熬夜睡到早上大部分时间的人。直到过去五年，我才开始坚持早起床。</p><p>我大约早上6点自然醒来，趁还有些迷糊时手工磨咖啡，然后在手冲咖啡盛开时，叫醒艾玛看开普敦的日出，那时空气依然清新凉爽，汽车还没破坏声音和空气质量。我们坐着喝咖啡，享受风景，起初通常很沉默，然后互相问候，询问当天的情况，享受美好时光。</p><p><img src="/../uploads/image-1.webp" alt="Morning"></p><p>早晨有空很愉快，因为大多数人还没醒，这让它感觉像是一个秘密、特别的空间来工作。我喜欢慢慢进入一天。我不需要急于求成，而是要有个温和的开始，这让我心情很好。我觉得早上匆忙是我最有压力的事情之一，但我很乐意放下。从起床到去健身房或越野跑大约需要一个小时——你看，住在开普敦有山上的好处。</p><p>我喜欢早晨锻炼，因为这样会被更多承诺和计划打乱。早晨属于我，我想怎么做就怎么用。锻炼后我洗澡，做一顿美味的早餐，打扫厨房，然后开始早上的工作。</p><p>我通常午饭后才打开邮件，这样早晨就能专注于专注的工作，一次做一项任务，没有干扰。午饭后（通常还有小睡时间），我会处理邮件、行政和其他需要处理的任务。这导致当天剩下的时间变得相当混乱和无焦点，但没关系，因为如果早上顺利（通常都会），所有重要的事情都已经完成了。</p><p>我通常在三四点左右关上笔记本，然后以我认为合适的方式享受下午剩下的时光。巧合的是，大约在8：30或9点我开始感到疲倦，因为我已经醒了15个小时。晚上我没有开任何明亮的顶灯，公寓里散发出温暖的光线，向我的身体发出信号，告诉我该开始放松了。而且因为我保持“正常工作时间”，晚上的大脑不会过度活跃（这也帮了我不少忙，因为我不玩手机）。我们通常9：15就上床睡觉，读了大约半小时（目前读的是<em>特里·普拉切特的《怪物军团</em>》）后，我就睡着了。</p><p>这对一些人来说听起来有点早，但权衡是值得的。通常晚上10点以后的活动是看剧集或去酒吧，而我对这些都没什么特别的感情。我知道欧洲人喜欢深夜吃晚饭，但幸运的是这里不是这样，南非人睡觉时间是世界上最早的。</p><p>这并不意味着我偶尔不会熬夜。我喜欢在晚饭时社交，去音乐节、电影院，偶尔也会被拉去看剧院。只是这些都是例外，缺点是即使我睡到凌晨1点，我还是会自然在6点醒来。这就是午睡的意义。</p><p>我并不是建议每个人都变成白天的人（我喜欢独自拥有他们，谢谢你）。多尝试，做最适合自己的选择。这对我影响巨大，我怀疑如果给他们一个真正的早晨机会，很多人也会喜欢早晨。</p><p>--</p><ol><li>观点：关于“晨云雀和夜猫子”的研究往往有些模糊，认为人类无法因遗传原因做出切换。在研究环境中，我相信在X周内切换很难，但研究往往忽视了人们一直在切换。它也忽视了历史上人类大体上是白天生物，因为人工照明（包括火焰）在进化时间中是较新的发明，而我们的夜视能力相当差。所有大型猿类都是昼行性，这也表明我们也是。 <a href="https://herman.bearblog.dev/becoming-a-day-person/#fnref-1">↩</a></li><li>这里有一个<a href="https://worldpopulationreview.com/country-rankings/average-bedtime-by-country">全球睡眠和醒来时间</a><a href="https://herman.bearblog.dev/becoming-a-day-person/#fnref-2">↩</a>的精准排名</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;成为一个白天生活的人&quot;&gt;&lt;a href=&quot;#成为一个白天生活的人&quot; class=&quot;headerlink&quot; title=&quot;成为一个白天生活的人&quot;&gt;&lt;/a&gt;成为一个白天生活的人&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://herman.bearblog.dev/b</summary>
-      
-    
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/categories/web/"/>
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
     
   </entry>
   
