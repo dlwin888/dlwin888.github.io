@@ -1,0 +1,1164 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="铁秃鹰：一个适合散户稳赢的期权策略, 观海听涛">
+    <meta name="description" content="铁秃鹰：一个适合散户稳赢的期权策略最近把Michael Benklifa的小册子《Profiting With Iron Condor Options》刷了两遍（他的《Think Like an Option Trader》可能更为人熟知）">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>铁秃鹰：一个适合散户稳赢的期权策略 | 观海听涛</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+
+
+    <!-- bg-cover style     -->
+
+
+
+<link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+<link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+<link rel="stylesheet" type="text/css" href="/css/matery.css">
+<link rel="stylesheet" type="text/css" href="/css/my.css">
+<link rel="stylesheet" type="text/css" href="/css/dark.css" media="none" onload="if(media!='all')media='all'">
+
+
+
+
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+    <link rel="stylesheet" href="/css/post.css">
+
+
+
+
+    
+
+
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="观海听涛" type="application/atom+xml">
+</head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">观海听涛</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;" class="waves-effect waves-light" onclick="switchNightMode()" title="深色/浅色模式" >
+      <i id="sum-moon-icon" class="fas fa-sun" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">观海听涛</div>
+        <div class="logo-desc">
+            
+            Do something cool
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/dlwin888" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/dlwin888" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">铁秃鹰：一个适合散户稳赢的期权策略</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/invest/">
+                                <span class="chip bg-color">invest</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/invest/" class="post-category">
+                                invest
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2026-03-24
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2026-04-17
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    3.9k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    13 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h2 id="铁秃鹰：一个适合散户稳赢的期权策略"><a href="#铁秃鹰：一个适合散户稳赢的期权策略" class="headerlink" title="铁秃鹰：一个适合散户稳赢的期权策略"></a>铁秃鹰：一个适合散户稳赢的期权策略</h2><p>最近把Michael Benklifa的小册子《Profiting With Iron Condor Options》刷了两遍（他的《Think Like an Option Trader》可能更为人熟知）。</p>
+<p>Michael的这本小册子全篇只围绕一个期权策略做阐述，即“卖出铁秃鹰（Sell Iron Condor Options）”。我这篇笔记就来做个肤浅的总结。另外提醒一点，不要看中文翻译版。</p>
+<p><strong>1、铁秃鹰策略简介</strong></p>
+<p>我接触过很多期权策略，它们试图在Delta，Vega，Gamma以及Theta多个维度上赚钱。典型的“既要…又要…还要”。交易目的越多，策略本身就越脆弱，风控也更加困难。</p>
+<p>铁秃鹰策略只从Theta中获利，且，“不动”是最主要的操作。这很适合散户。散户的资金量小，期权的交易费用占比就较大，因此散户不适合做日内或高频。对于上班族更没有这个精力。铁秃鹰组合构建后，除了触发风控阈值后进行调整以外，大部分时间都是“不动”的状态。就好像一只长时间滑翔的秃鹰，只有机会来临时才会出击。</p>
+<p>一个铁秃鹰组合有四腿：卖出虚值的认购、买入更高行权价的认购、卖出虚值的认沽、买入更低行权价的认沽。这四腿的到期日是一样的。</p>
+<p>举个例子，以2021年2月19日沪市300ETF（510300.SH）收盘数据为基础，做一个6月23日到期的铁秃鹰：买入6750购1份，卖出6500购一份，卖出5000沽一份，买入4900沽一份。得到的到期收益率曲线（白线）及实时收益率曲线（黄线）如下图所示。</p>
+<p><img src="/../uploads/v2-0e88fcc8d7ec33d237fcfd9194f8c229_1440w-17764083911875.jpg" alt="img"></p>
+<p>上面的到期收益率曲线很像一只秃鹰。很显然，铁秃鹰策略就是一个卖方策略，且收益有限、亏损有限。它有点类似于卖宽跨，只不过两侧潜在的无限损失通过更宽的买方限制住了，当然潜在收益也变小了。</p>
+<p><img src="/../uploads/v2-631972eaf72ea0dce4b4a9c223e61d72_1440w-17764083956607.jpg" alt="img"></p>
+<p>看上图，可以发现，铁秃鹰的右翼其实是认购熊市价差，左翼是认沽牛市价差，所以可以用价差策略来释放保证金，以扩大仓位。当然，也可以用中间的双卖组合来释放保证金。</p>
+<p>下面我们详细阐述这个策略。下文中，会等价地使用“铁秃鹰”和“铁鹰”、“进入”和“开仓”、“退出”和“平仓”、“call”和“认购”、“put”和“认沽”这几对术语。</p>
+<p><strong>2、铁秃鹰组合的构建</strong></p>
+<p>构建一个铁秃鹰组合，最主要的两个参数是：到期日、每个腿的行权价。</p>
+<p>下面是作者的一些建议。</p>
+<p><strong>（1）铁鹰的到期日怎么设置？</strong></p>
+<p>铁鹰的每一腿都是同月的。关于组合到期日的设置方式：<strong>最好在1个半月以上。</strong></p>
+<p>行权日越近，虚值合约的价格越小，想要获得足够的利润，那么铁鹰中双卖的行权价距离就不能太远。然而，太近的距离大大增加了负Gamma的风险。如果股价巨幅波动，Theta积累的利润会瞬间被Gamma吞噬。另外，到期日太近、双卖的行权价太近，这两点都会缩小调整铁鹰的空间，遇到突发行情很容易措手不及。到时以更高的价格买入平仓，会使得交易体验很差。</p>
+<p><strong>（2）铁鹰的各腿行权价怎么设置？</strong></p>
+<p>各腿行权价决定了铁鹰的大小：义务仓行权价之间是铁鹰的身体，义务仓之外是两翼。四腿的行权价同时决定了：双卖的行权价距离以及两边的价差。</p>
+<p>作者建议，不管call还是put，<strong>卖出的那一腿合约Delta绝对值在10附近，最好不要超过12。</strong>Delta太低，利润不容易达到预期。Delta太高，双卖的行权距离过近，gamma的风险就提高了。另外一种设置方式，就是双卖的行权价距离大概在当下标的价格的20%左右，并且价格从中间偏离5%时开始调整铁鹰的一翼。</p>
+<p>权利仓的行权价怎么设置？作者建议，<strong>两侧的价差最好在1挡。</strong>比如卖购行权价C1的合约，那么买购比C1高一档的合约，以此两合约作为铁鹰的右翼。左翼类似设置。价差太大，也就是买入的那一腿太虚，可能流动性会不太好。另外，相差一档，对冲效果也更好一点。</p>
+<p><strong>（3）预期收益多少比较合适？</strong></p>
+<p>设置铁鹰时，<strong>两翼权利金价差的和，为整体组合保证金的20%左右比较合适，最好不要低于12%。</strong>太低的话，获取利润的速度太慢，且平仓的费用也许会吞噬不少微薄的利润。</p>
+<p>一般，我们按照上述3点设置的条件可以筛选出一些铁鹰组合，这些铁鹰或近或远、或小或大，没有好坏，全看各自交易偏好。风险偏好低的交易者偏好交易远一些、大一些的铁鹰；风险偏好高，想短期获利的交易者更偏好近一些、小一些的铁鹰。</p>
+<p><strong>3、进入铁秃鹰交易</strong></p>
+<p>铁秃鹰策略的操作很简单，就是建仓和平仓，最多有些或有的调整。那么，首先，什么时候建仓铁秃鹰呢？</p>
+<p>其实，我们可以在任何时点去寻找符合第2节条件的铁秃鹰组合。我们可能找不到一个，那么就不交易了。我们也可能找出多个，那么根据自己的风险偏好选择是否进入其中之一。</p>
+<p>作者还给出了下面的经验之谈以及一些小技巧。</p>
+<p><strong>（1）避开换月期。</strong>一般，一个行权期前后，买方会调仓移仓，远月的波动率会上去，因此建立铁鹰可以避开这些时期。</p>
+<p><strong>（2）隐波脉冲时进入。</strong>在低隐波时进入铁秃鹰，确实容易被升波行情打扰。因此，我们可以挑一些隐波脉冲的时点进入。比如，我们可以给标的的Vix序列计算布林线，当Vix突破布林线上轨时，表明隐波在近20个交易日上升幅度偏离2个标准差，在此处建仓铁秃鹰，对赌隐波后面回归均值。降波会加速达到我们的预期目标，但可欲不可求。</p>
+<p><strong>（3）尽量不要在长假前进入。</strong>像春节、国庆这样的长假，时间损耗是十分可观的，而且市场不交易，价格定格在那里。最为理想的是，时间流逝的同时消息面上又相当平稳。因此很多人会在长假前卖出铁秃鹰。而卖出策略都建立了负Gamma头寸。负Gamma是长假的最大杀手。假期积累的消息（不管正面还是负面的）可能相当可怕，会造成节后的低开或高开（比如2018年劳动节后开市，2020年春节后开市）。</p>
+<p>实际上，买方会害怕权利金下降较快，反而会在假期前卖出平仓，时间的损耗可能在假期前就反应，那时候平仓铁秃鹰可能已经有额外收益。所以尽量不要在假期前卖出铁秃鹰，或者尽量在假期前买入平仓在持的铁秃鹰。</p>
+<p><strong>（4）不要患得患失。</strong>隐波上升时进入铁秃鹰，很有可能被进一步上升的隐波吞噬利润。但是，不要老是等隐波峰值时再进入。等待，是交易者消极的应对方式。特别是趋势性行情，我们的思路容易被单边的上涨或下跌引导，认为隐波会进一步上升，从而偏执地等待峰值出现。不过，往往不会如我们所愿。进入点没有最好的，进入自己的心理伏击区就可以建立头寸。</p>
+<p><strong>4、退出铁秃鹰交易</strong></p>
+<p>进入铁秃鹰其实没有刚性的规则，隐波的阶段性脉冲时点也不以我们的意志为转移。与之相对，“退出”则是铁秃鹰策略中最重要的操作。</p>
+<p>关于退出策略，“不要赚最后一个铜板”这句老生常谈的话同样适用铁秃鹰。具体到一些原则，作者给出了下面几点建议。</p>
+<p><strong>（1）首先，是利润比例。</strong>我们在获得铁秃鹰预期收益的1&#x2F;3，甚至1&#x2F;4时，就可以视情形退出。拿得越久、据行权日越近，就越危险。获得可观的收益，并且不在头寸里久待，是最为理想的交易。</p>
+<p><strong>（2）其次，是时间。</strong>比较合理的退出时间点是距离行权日一个月左右。当然有些交易者反而喜欢进入1个月以内的铁秃鹰，以期通过更快的时间损耗在短时间内带来收益。这里最大的风险就是Gamma带来的风险。铁秃鹰的两个最大的敌人：负Gamma以及升波。我们可以利用升波进入交易，但是负Gamma的威胁是我们需要时刻保持警惕，它会在瞬间吞噬掉你。</p>
+<p><strong>（3）最后，是盈亏平衡点。</strong>我们要时刻监控我们的实时收益率曲线（注意，不是到期收益率曲线），观察它是向上平移、向下平移、左偏还是右偏。在进入盈利区域时，尽快落袋为安。如果市场超出我们的预期发展，那么可以及时在盈亏平衡点平仓掉（股票交易里的成本线平仓）。</p>
+<p><strong>5、调整铁秃鹰</strong></p>
+<p>其实，能不调整最好，达到预期收益后退出就行。调整必然需要成本。但是，在一些风控指标无法再让我们忽视时，调整也不得不进行。下面是一些建议。</p>
+<p><strong>（1）以标的价格偏移为界：</strong>上面说到过一种设置行权价的方式，就是双卖的距离大概为标的价格的20%，也就是标的价格距离两侧每一翼大概10%的距离。我们可以在标的价格距离某一翼5%以内时开始调整组合。</p>
+<p><strong>（2）以Delta阈值为界：</strong>我们进入铁秃鹰时，两翼的义务仓Delta在10左右。当其中一翼的Delta超过25甚至30时，就要引起我们的注意，可以考虑调整铁秃鹰风险暴露较大的那一翼。其实，所有的希腊字母都是波动率的体现，Delta也不例外，Delta大于30，除了位置逼近平值以外，市场恐慌加剧，也会提高Delta。此时，实时收益率曲线在往上移，铁秃鹰组合在亏损中。</p>
+<p><strong>（3）某一翼的剩余价值很微小时：</strong>当市场持续朝某一方向运动，那么另一方向的价值不断减少。因为最多归0，当另一翼价值太小的时候，我们也没有持有它的必要了。我们可以买入平仓，并且将这一翼往中间移仓。新的权利金价差也可以在一定程度上覆盖我们调整另一翼的成本。</p>
+<p><strong>6. 一些误区和疑问梳理</strong></p>
+<p>这一节，梳理一下交易铁秃鹰过程中的误区和疑问。有些误区的解释同样适用于交易其他期权策略。</p>
+<p><strong>（1）隐波和标的价格波动是两回事</strong></p>
+<p>隐波和短期内标的价格的涨跌幅关系不大。比如2020年7月初股市的暴涨，近月平值隐波一度涨到30%；然而1月初的这波上涨，隐波最高也只是摸到25%。隐波更多的是市场的情绪，和价格波动关系不大。</p>
+<p>在一波上涨趋势中，隐波可能反而下降，说明交易者对趋势的持续性不看好。但如18年劳动节后的低开、2020年2月3日的低开，隐波暴涨。说明交易者一致看空后市下降趋势，大量买沽推高隐波。</p>
+<p><strong>（2）所有的技术指标都不具有预测性</strong></p>
+<p>像Vix这种工具，可以帮助我们设置交易时点，但不要假设它们具有预测性。所有指标都是滞后的，预测概率都是50&#x2F;50的。</p>
+<p><strong>（3）Delta和Gamma本质都是隐波的反应</strong></p>
+<p>所有的希腊字母本质都是隐波的反应，不单单是Vega，Delta和Gamma也是隐波的反应。市场情绪起伏较大时，相同价值状态的Delta会升高，实时收益率曲线会上升。进一步讲，我们不管交易什么希腊字母，本质都是在交易市场的情绪。而良好的交易节奏，是抓住机会利用市场的短期恐慌和贪婪，而不是被市场情绪牵着鼻子走。</p>
+<p><strong>（4）不要把降波作为交易目的</strong></p>
+<p>有时候，我们进入在一个较高的隐波，那么降波将加速我们的利润获得，我们达到目的后要及时退出。首先，我们的初衷不是波动率交易，降波是运气，不能作为目的，不然铁鹰就变味了；其次，期待进一步降波是愚蠢的，在波动率反复的时候会打乱交易节奏，且在头寸里待的时间越长就越危险。</p>
+<p><strong>（5）交易的是概率</strong></p>
+<p>期权交易的是概率，错误（或者损失）是自然而然的、且在统计意义上必须存在的。所以，不要期望抹掉回撤，或者赌一次暴利。平均情况下保持正的收益，赚赚，同时亏亏，对长期获利而言是最健康的。</p>
+<p><strong>（6）为什么不直接卖出宽跨式</strong></p>
+<p>其一，当然是为了通过组合保证金降低成本，通常而言，垂直价差的组合保证金要小于卖出跨式的组合保证金。两翼的行权价相差一档，这样可以最小化保证金。</p>
+<p>其二，极端行情下，买购和买沽的两腿对义务仓能起到一定对冲作用。且，在升波和Gamma的干扰下，垂直价差会使账户损益波动小一点，这样也给调整操作留了一点缓冲。</p>
+<p><strong>7、最后一些话</strong></p>
+<p>个人觉得，A股后面将越来越趋向美股和港股，慢涨急跌将成为常态。缓慢的上涨过程将是低波动的温床。激进的买方策略以后将会越来越难做。对于散户而言，有严格风控的卖方策略是更合适的选择。</p>
+<p>我后面会用一个账户做实验，长时间跟踪铁秃鹰策略的情况，相关记录会不定期发布。因为我也是初学阶段，理解非常粗浅，操作难免错误，望小伙伴们多多包涵、不吝指正。</p>
+<p>作者：期权酱<br>链接：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/647737099">https://zhuanlan.zhihu.com/p/647737099</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">dlwin888</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://dlwin888.github.io/2026/03/24/%E9%93%81%E7%A7%83%E9%B9%B0%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E5%90%88%E6%95%A3%E6%88%B7%E7%A8%B3%E8%B5%A2%E7%9A%84%E6%9C%9F%E6%9D%83%E7%AD%96%E7%95%A5/">https://dlwin888.github.io/2026/03/24/%E9%93%81%E7%A7%83%E9%B9%B0%EF%BC%9A%E4%B8%80%E4%B8%AA%E9%80%82%E5%90%88%E6%95%A3%E6%88%B7%E7%A8%B3%E8%B5%A2%E7%9A%84%E6%9C%9F%E6%9D%83%E7%AD%96%E7%95%A5/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">dlwin888</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/invest/">
+                                    <span class="chip bg-color">invest</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2026/03/24/%E5%8F%82%E8%B5%9B%E8%B4%A6%E5%8F%B7%E5%88%86%E6%9E%90/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="参赛账号分析">
+                        
+                        <span class="card-title">参赛账号分析</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2026-03-24
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/invest/" class="post-category">
+                                    invest
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/invest/">
+                        <span class="chip bg-color">invest</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2026/03/24/260324/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="260324">
+                        
+                        <span class="card-title">260324</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2026-03-24
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/diary/" class="post-category">
+                                    diary
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/diary/">
+                        <span class="chip bg-color">diary</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+
+<!-- 代码块收缩 -->
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #BF4643;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='true'
+                   theme='#BF4643'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="/libs/aplayer/Meting.min.js"></script>
+
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2019-2026</span>
+            
+            <a href="/about" target="_blank">dlwin888</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            
+            <br>
+            
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">76.9k</span>
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/dlwin888" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:517086440@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=517086440" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 517086440" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 白天和黑夜主题 -->
+<div class="stars-con">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>  
+</div>
+
+<script>
+    function switchNightMode() {
+        $('<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"></div></div>').appendTo($('body')),
+        setTimeout(function () {
+            $('body').hasClass('DarkMode') 
+            ? ($('body').removeClass('DarkMode'), localStorage.setItem('isDark', '0'), $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon')) 
+            : ($('body').addClass('DarkMode'), localStorage.setItem('isDark', '1'), $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')),
+            
+            setTimeout(function () {
+            $('.Cuteen_DarkSky').fadeOut(1e3, function () {
+                $(this).remove()
+            })
+            }, 2e3)
+        })
+    }
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    
+
+    
+    
+    
+
+    <!-- 雪花特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/snow.js"><\/script>');
+            }
+        </script>
+    
+
+    <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
+    
+
+     
+        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+        <script src="/libs/others/TencentCaptcha.js"></script>
+        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
+    
+
+    <!-- Baidu Analytics -->
+
+<!--script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://umami.m3u8player.com.cn/script.js";
+        hm.setAttribute("data-website-id","40bda7ed-2adb-44db-aeac-0bd7f22ea4ce");
+        hm.defer = true;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script-->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
