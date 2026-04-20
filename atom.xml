@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-04-17T07:29:05.203Z</updated>
+  <updated>2026-04-20T08:38:10.579Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>期权交易市场环境变化时如何正确切换策略</title>
+    <link href="https://dlwin888.github.io/2026/04/20/%E6%9C%9F%E6%9D%83%E4%BA%A4%E6%98%93%E5%B8%82%E5%9C%BA%E7%8E%AF%E5%A2%83%E5%8F%98%E5%8C%96%E6%97%B6%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%88%87%E6%8D%A2%E7%AD%96%E7%95%A5/"/>
+    <id>https://dlwin888.github.io/2026/04/20/%E6%9C%9F%E6%9D%83%E4%BA%A4%E6%98%93%E5%B8%82%E5%9C%BA%E7%8E%AF%E5%A2%83%E5%8F%98%E5%8C%96%E6%97%B6%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%88%87%E6%8D%A2%E7%AD%96%E7%95%A5/</id>
+    <published>2026-04-20T01:07:52.000Z</published>
+    <updated>2026-04-20T08:38:10.579Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="期权交易市场环境变化时如何正确切换策略"><a href="#期权交易市场环境变化时如何正确切换策略" class="headerlink" title="期权交易市场环境变化时如何正确切换策略"></a>期权交易市场环境变化时如何正确切换策略</h3><p><strong>一、一个总原则</strong></p><p><strong>不是行情变了才换策略，是你的优势不在了才换策略。</strong></p><p><strong>二、交易的三种“优势来源”</strong></p><p>所有策略，本质只来自三种优势：</p><p><strong>① 趋势优势（Delta）</strong></p><ul><li>行情单边 </li><li>有持续性</li></ul><p> 适合： 买 Call &#x2F; Put、 牛差 &#x2F; 熊差 、 三箭齐发 </p><p><strong>② 时间优势（Theta）</strong></p><ul><li>横盘 </li><li>波动不大</li></ul><p> 适合： 卖方 、 卖跨 &#x2F; 铁鹰 、收时间价值 </p><p><strong>③ 波动率优势（Vega）</strong></p><ul><li>情绪变化 </li><li>IV 偏离</li></ul><p> 适合：买波动（IV 低） 、 卖波动（IV 高） </p><p><strong>🔥 关键</strong></p><p>所有策略，本质都是在吃 Delta &#x2F; Theta &#x2F; Vega 的某一个优势。</p><p><strong>三、什么时候必须切换策略？</strong></p><p>当你的优势消失，就必须切。</p><p><strong>1️⃣ 趋势 → 震荡</strong></p><p>表现： 突破失败 、 价格来回扫 </p><p>此时： Delta 优势消失</p><p><strong>❌ 错误做法：</strong>继续做多 &#x2F; 做空</p><p><strong>✅ 正确切换：</strong> 转为卖方结构： 卖跨 、铁鹰 、 窄价差 </p><p><strong>2️⃣ 震荡 → 趋势爆发</strong></p><p>表现：突破放量、 连续单边 </p><p>此时： Theta 优势消失、 Gamma 开始主导</p><p><strong>❌ 错误：</strong>继续卖方</p><p><strong>✅ 正确：</strong> 转为买方： 买 Call &#x2F; Put 、 比例价差 、 三箭齐发 </p><p><strong>3️⃣ 低 IV → 高 IV</strong></p><p>表现： IV 快速上升  情绪恐慌 </p><p><strong>❌ 错误：</strong>继续买期权</p><p><strong>✅ 正确：</strong> 转为卖波动： 卖跨 、 做价差 、 铁鹰 </p><p><strong>4️⃣ 高 IV → 降波</strong></p><p>表现 : 情绪释放 、 IV 回落 </p><p><strong>❌ 错误：</strong>继续做卖方</p><p><strong>✅ 正确：</strong> 退出卖方 &#x2F; 转买方</p><p><strong>四、策略切换的三步法（核心执行）</strong></p><p><strong>第一步：识别环境变化</strong></p><p>问自己三件事：</p><ol><li>现在是趋势还是震荡？ </li><li>IV 是在高位还是低位？ </li><li>我的 Greeks 暴露在哪？</li></ol><p><strong>第二步：判断“优势是否还在”</strong></p><p>比如： 做趋势 → 但行情横盘&#x3D; 优势消失 </p><p><strong>第三步：执行切换</strong></p><p>切换不是“乱换”，而是从一个优势切到另一个优势</p><p><strong>五、最关键：如何切换而不破坏一致性？</strong></p><p>这是最关心的点。</p><p><strong>🔥 核心原则</strong></p><p>切换策略，本身就是策略的一部分。</p><p>也就是说你的系统应该是：</p><ul><li>趋势阶段 → 用 A 策略 </li><li>震荡阶段 → 用 B 策略 </li><li>高 IV 阶段 → 用 C 策略</li></ul><p>👉 这才是“一致性”</p><p>在不同环境下，用固定规则切换策略 &#x3D; 一致性</p><p><strong>六、交易决策框架</strong></p><p>👉 行情分类：</p><ul><li>趋势 + 低 IV → 买方向 </li><li>趋势 + 高 IV → 做价差 </li><li>震荡 + 高 IV → 卖波动 </li><li>震荡 + 低 IV → 轻仓等待</li></ul><p>低级交易者：换策略靠感觉</p><p>中级交易者：坚持一个策略<br>高级交易者：  在不同环境下，切换固定策略 </p><p><strong>不是策略不稳定，是你用错了环境。</strong></p><p>作者：管大宇讲期权<br>链接：<a href="https://zhuanlan.zhihu.com/p/2028206758569484891">https://zhuanlan.zhihu.com/p/2028206758569484891</a><br>来源：知乎<br>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p><p>（截至 2026.4.20）：</p><ul><li>螺纹：<strong>震荡偏强、低波动</strong> → 适合<strong>卖方（卖跨 &#x2F; 铁鹰）+ 小幅看涨价差</strong></li><li>PTA：<strong>震荡偏弱、中高波动</strong> → 适合<strong>卖宽跨 &#x2F; 区间铁鹰，轻仓偏空</strong></li><li>豆粕：<strong>震荡偏弱、低波动</strong> → 适合<strong>窄区间卖方，少做单边</strong></li></ul><p>下面分品种按「环境→IV→策略→执行」说清楚，直接能用。</p><hr><h2 id="一、螺纹钢（RB2610）：震荡偏强・低-IV"><a href="#一、螺纹钢（RB2610）：震荡偏强・低-IV" class="headerlink" title="一、螺纹钢（RB2610）：震荡偏强・低 IV"></a>一、螺纹钢（RB2610）：震荡偏强・低 IV</h2><h3 id="环境判断"><a href="#环境判断" class="headerlink" title="环境判断"></a>环境判断</h3><ul><li>价格：3152（+1.24%），短期触底反弹、窄幅收敛（3120–3150）</li><li>趋势：<strong>震荡偏强，非强趋势</strong>；库存去化、表需回升，但地产弱、上行空间有限</li><li>波动率：<strong>低 IV（&lt;40%）、日内波动极小</strong>（十几块钱）</li></ul><h3 id="属于哪类环境"><a href="#属于哪类环境" class="headerlink" title="属于哪类环境"></a>属于哪类环境</h3><p><strong>震荡（偏强）+ 低 IV</strong> → 核心优势在<strong>Theta（时间价值）</strong>，不宜单边买权。</p><h3 id="适合策略（优先级从高到低）"><a href="#适合策略（优先级从高到低）" class="headerlink" title="适合策略（优先级从高到低）"></a>适合策略（优先级从高到低）</h3><ol><li><strong>卖跨式（Short Straddle）</strong>：卖 3150 附近平值 Call+Put，赚时间衰减；止损 3200&#x2F;3100</li><li><strong>铁鹰（Iron Condor）</strong>：卖 3180Call+3120Put，窄区间（60 点），高胜率、降风险</li><li><strong>看涨牛价差（Bull Call Spread）</strong>：买 3150Call、卖 3200Call，偏强时用，低成本、有限风险</li><li><strong>忌</strong>：裸买 Call&#x2F;Put、重仓单边</li></ol><hr><h2 id="二、PTA（TA2609）：震荡偏弱・中高-IV"><a href="#二、PTA（TA2609）：震荡偏弱・中高-IV" class="headerlink" title="二、PTA（TA2609）：震荡偏弱・中高 IV"></a>二、PTA（TA2609）：震荡偏弱・中高 IV</h2><h3 id="环境判断-1"><a href="#环境判断-1" class="headerlink" title="环境判断"></a>环境判断</h3><ul><li>价格：6288（-1.28%），跟随原油波动、聚酯减产保价、开工下滑</li><li>趋势：<strong>震荡偏弱，无趋势</strong>；成本支撑不稳、供需双缩、上下都难持续</li><li>波动率：<strong>中高 IV（50%–60%）</strong>，地缘（美伊）+ 原油导致波动放大</li></ul><h3 id="属于哪类环境-1"><a href="#属于哪类环境-1" class="headerlink" title="属于哪类环境"></a>属于哪类环境</h3><p><strong>震荡（偏弱）+ 高 IV</strong> → 核心优势在<strong>卖波动（高 IV 回落）</strong>，少做方向性。</p><h3 id="适合策略"><a href="#适合策略" class="headerlink" title="适合策略"></a>适合策略</h3><ol><li><strong>卖宽跨式（Short Strangle）</strong>：卖 6500Call+6000Put，高 IV 下卖两头，赚 IV 回落 + 时间衰减</li><li><strong>区间铁鹰</strong>：卖 6600Call+5900Put，宽区间（700 点），高胜率、防突破</li><li><strong>偏弱熊价差（Bear Put Spread）</strong>：买 6300Put、卖 6000Put，轻仓偏空，有限风险</li><li><strong>忌</strong>：裸卖深度虚值、重仓单边</li></ol><hr><h2 id="三、豆粕（M2609）：震荡偏弱・低-IV"><a href="#三、豆粕（M2609）：震荡偏弱・低-IV" class="headerlink" title="三、豆粕（M2609）：震荡偏弱・低 IV"></a>三、豆粕（M2609）：震荡偏弱・低 IV</h2><h3 id="环境判断-2"><a href="#环境判断-2" class="headerlink" title="环境判断"></a>环境判断</h3><ul><li>价格：2957（-0.10%），区间 2900–3000，反复拉锯</li><li>趋势：<strong>震荡偏弱，无趋势</strong>；巴西大豆到港量大、供应宽松、饲料需求弱</li><li>波动率：<strong>低 IV（&lt;40%）</strong>，波动收敛、方向不明</li></ul><h3 id="属于哪类环境-2"><a href="#属于哪类环境-2" class="headerlink" title="属于哪类环境"></a>属于哪类环境</h3><p><strong>震荡（偏弱）+ 低 IV</strong> → 核心优势在<strong>Theta</strong>，窄区间反复，少追单边。</p><h3 id="适合策略-1"><a href="#适合策略-1" class="headerlink" title="适合策略"></a>适合策略</h3><ol><li><strong>窄区间卖跨 &#x2F; 铁鹰</strong>：卖 2980Call+2920Put，60 点区间，高胜率、赚时间</li><li><strong>偏弱 Put 价差</strong>：买 2950Put、卖 2900Put，轻仓偏空，有限风险</li><li><strong>忌</strong>：重仓单边、裸买期权、追突破</li></ol><hr><h2 id="四、三品种策略总览（一眼对照）"><a href="#四、三品种策略总览（一眼对照）" class="headerlink" title="四、三品种策略总览（一眼对照）"></a>四、三品种策略总览（一眼对照）</h2><table><thead><tr><th align="center">品种</th><th align="center">环境</th><th align="center">IV</th><th align="center">核心策略</th><th align="center">区间参考</th></tr></thead><tbody><tr><td align="center">螺纹</td><td align="center">震荡偏强</td><td align="center">低</td><td align="center">卖跨 &#x2F; 铁鹰、牛价差</td><td align="center">3120–3150</td></tr><tr><td align="center">PTA</td><td align="center">震荡偏弱</td><td align="center">中高</td><td align="center">卖宽跨、铁鹰、熊价差</td><td align="center">6000–6500</td></tr><tr><td align="center">豆粕</td><td align="center">震荡偏弱</td><td align="center">低</td><td align="center">窄区间卖方、Put 价差</td><td align="center">2900–3000</td></tr></tbody></table><hr><h2 id="五、当前整体市场结论"><a href="#五、当前整体市场结论" class="headerlink" title="五、当前整体市场结论"></a>五、当前整体市场结论</h2><ul><li>黑色（螺纹）：<strong>震荡偏强 + 低 IV</strong> → 做<strong>时间（Theta）</strong></li><li>化工（PTA）：<strong>震荡偏弱 + 高 IV</strong> → 做<strong>降波（Vega）</strong></li><li>农产品（豆粕）：<strong>震荡偏弱 + 低 IV</strong> → 做<strong>窄区间（Theta）</strong></li></ul><p>一句话：<strong>现在是震荡市，不是趋势市；优先卖方、少做单边；PTA 可多卖波动，螺纹 &#x2F; 豆粕赚时间。</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;期权交易市场环境变化时如何正确切换策略&quot;&gt;&lt;a href=&quot;#期权交易市场环境变化时如何正确切换策略&quot; class=&quot;headerlink&quot; title=&quot;期权交易市场环境变化时如何正确切换策略&quot;&gt;&lt;/a&gt;期权交易市场环境变化时如何正确切换策略&lt;/h3&gt;&lt;p&gt;&lt;s</summary>
+      
+    
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/categories/invest/"/>
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
+    
+  </entry>
   
   <entry>
     <title>有什么期权交易策略能够稳赚不赔的2</title>
@@ -148,9 +172,9 @@
     <link href="https://dlwin888.github.io/2026/04/11/1677%E8%B6%85%E9%AB%98%E9%A2%91%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/"/>
     <id>https://dlwin888.github.io/2026/04/11/1677%E8%B6%85%E9%AB%98%E9%A2%91%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/</id>
     <published>2026-04-11T06:32:07.000Z</published>
-    <updated>2026-04-17T00:41:43.571Z</updated>
+    <updated>2026-04-20T07:41:40.219Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="1677超高频英语单词"><a href="#1677超高频英语单词" class="headerlink" title="1677超高频英语单词"></a>1677超高频英语单词</h3><p>Day1</p><p>ruler n. 尺子，直尺；统治者 </p><p>seven num. 七个，七 </p><p>today adv.&#x2F;n. 今天；现今，当代 </p><p>soul n. 灵魂，心灵，精神；某种人 </p><p>song n. 歌曲；歌唱；诗歌；鸣声 </p><p>Day2</p><p>consider v. 考虑；认为 </p><p>sell v. 卖，出售；vt. 推荐，推销 </p><p>pause n.&#x2F;v. 暂停；间歇 </p><p>river n. 河，江 </p><p>ugly adj. 丑陋的；难看的 </p><p>Day3</p><p>delay v.&#x2F;n. 延期，延误，耽搁，推迟 </p><p>distant adj. 遥远的，久远的，远亲的 </p><p>finish v. 完成；结束；用尽 n. 结尾，结束 </p><p>angry adj. 生气的；狂暴的 </p><p>bear v.  忍受，承受；生（孩子）n.熊 </p><p>Day4</p><p>clothing n.（总称）服装 </p><p>welcome v.&#x2F;n. 欢迎，迎接 adj.受欢迎的 </p><p>poor adj. 贫穷的；可怜的；不好的 </p><p>railway n. 铁路；轨道 </p><p>growth n. 成长，生长；增加，增长 </p><p>Day5</p><p>bus n. 公交车，巴士</p><p>pilot n. 飞行员，领航员 v. 驾驶（飞行器，船只）adj. 试点的</p><p>past adj. 过去的，以前的 n. 过去 prep. 经过，路过，超过</p><p>possession n. 拥有；财产</p><p>unit n. 单位，单元</p><p>在过去的几天，我经常错过公交。</p><p>In the past days, I often miss the bus.</p><p>Day6</p><p>dressn. 连衣裙；（特定种类的）衣服 v. 穿衣服<br>elseadj.&#x2F;adv. 其他的；别的<br>mentionvt.&#x2F;n. 提到；提及<br>hilln. 小山；丘陵<br>unclen. 叔叔；伯父；舅父</p><p>我的叔叔提到他昨天爬上山顶了。</p><p>My uncle mentioned that he climbed to the top of the hill yesterday.</p><p>Day8</p><table><thead><tr><th>loss</th><th align="left">n. 减少；亏损；失败；遗失</th></tr></thead><tbody><tr><td>distance</td><td align="left">n.&#x2F;v. 距离；疏远，间隔</td></tr><tr><td>accept</td><td align="left">vt. 接受；承认</td></tr><tr><td>hang</td><td align="left">v. 悬挂，垂下; 绞死</td></tr><tr><td>hurry</td><td align="left">v.&#x2F;n. 仓促；匆忙，急忙</td></tr></tbody></table><p>他不能接受失去他的工作。</p><p>He can not accept losing his job.</p><p>Day9</p><table><thead><tr><th>quite</th><th>adv. 很；相当</th></tr></thead><tbody><tr><td>officer</td><td>n. 官员；公务员</td></tr><tr><td>mark</td><td>v. 作记号；打分数 n. 记号；分数</td></tr><tr><td>war</td><td>n.&#x2F;v. 战争；冲突，竞争</td></tr><tr><td>outside</td><td>n.&#x2F;adj.&#x2F;prep.&#x2F;adv. 外边，外面</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<h3 id="1677超高频英语单词"><a href="#1677超高频英语单词" class="headerlink" title="1677超高频英语单词"></a>1677超高频英语单词</h3><p>Day1</p><p>ruler n. 尺子，直尺；统治者 </p><p>seven num. 七个，七 </p><p>today adv.&#x2F;n. 今天；现今，当代 </p><p>soul n. 灵魂，心灵，精神；某种人 </p><p>song n. 歌曲；歌唱；诗歌；鸣声 </p><p>Day2</p><p>consider v. 考虑；认为 </p><p>sell v. 卖，出售；vt. 推荐，推销 </p><p>pause n.&#x2F;v. 暂停；间歇 </p><p>river n. 河，江 </p><p>ugly adj. 丑陋的；难看的 </p><p>Day3</p><p>delay v.&#x2F;n. 延期，延误，耽搁，推迟 </p><p>distant adj. 遥远的，久远的，远亲的 </p><p>finish v. 完成；结束；用尽 n. 结尾，结束 </p><p>angry adj. 生气的；狂暴的 </p><p>bear v.  忍受，承受；生（孩子）n.熊 </p><p>Day4</p><p>clothing n.（总称）服装 </p><p>welcome v.&#x2F;n. 欢迎，迎接 adj.受欢迎的 </p><p>poor adj. 贫穷的；可怜的；不好的 </p><p>railway n. 铁路；轨道 </p><p>growth n. 成长，生长；增加，增长 </p><p>Day5</p><p>bus n. 公交车，巴士</p><p>pilot n. 飞行员，领航员 v. 驾驶（飞行器，船只）adj. 试点的</p><p>past adj. 过去的，以前的 n. 过去 prep. 经过，路过，超过</p><p>possession n. 拥有；财产</p><p>unit n. 单位，单元</p><p>在过去的几天，我经常错过公交。</p><p>In the past days, I often miss the bus.</p><p>Day6</p><p>dressn. 连衣裙；（特定种类的）衣服 v. 穿衣服<br>elseadj.&#x2F;adv. 其他的；别的<br>mentionvt.&#x2F;n. 提到；提及<br>hilln. 小山；丘陵<br>unclen. 叔叔；伯父；舅父</p><p>我的叔叔提到他昨天爬上山顶了。</p><p>My uncle mentioned that he climbed to the top of the hill yesterday.</p><p>Day8</p><table><thead><tr><th>loss</th><th align="left">n. 减少；亏损；失败；遗失</th></tr></thead><tbody><tr><td>distance</td><td align="left">n.&#x2F;v. 距离；疏远，间隔</td></tr><tr><td>accept</td><td align="left">vt. 接受；承认</td></tr><tr><td>hang</td><td align="left">v. 悬挂，垂下; 绞死</td></tr><tr><td>hurry</td><td align="left">v.&#x2F;n. 仓促；匆忙，急忙</td></tr></tbody></table><p>他不能接受失去他的工作。</p><p>He can not accept losing his job.</p><p>Day9</p><table><thead><tr><th>quite</th><th>adv. 很；相当</th></tr></thead><tbody><tr><td>officer</td><td>n. 官员；公务员</td></tr><tr><td>mark</td><td>v. 作记号；打分数 n. 记号；分数</td></tr><tr><td>war</td><td>n.&#x2F;v. 战争；冲突，竞争</td></tr><tr><td>outside</td><td>n.&#x2F;adj.&#x2F;prep.&#x2F;adv. 外边，外面</td></tr></tbody></table><p>在外面相当安静。</p><p>It is quite quiet outside.</p><p>Day10</p><table><thead><tr><th>soldier</th><th>n. 军人，士兵；vi. 当兵，坚持干</th></tr></thead><tbody><tr><td>than</td><td>conj.&#x2F;prep. 比</td></tr><tr><td>bucket</td><td>n. 桶，水桶 v. 倾盆而下</td></tr><tr><td>frame</td><td>n. 框架，结构 vt. 配框，设计，建造</td></tr><tr><td>former</td><td>adj. 从前的，前者的；前任的</td></tr></tbody></table><p>这个桶比那一个更大。</p><p>This bucket is larger than that one.</p>]]></content>
     
     
       
@@ -487,32 +511,6 @@
     <summary type="html">&lt;h3 id=&quot;260401日记&quot;&gt;&lt;a href=&quot;#260401日记&quot; class=&quot;headerlink&quot; title=&quot;260401日记&quot;&gt;&lt;/a&gt;260401日记&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;4月的第一天，出师不利，中东战事看起来要偃旗息鼓，账户遭遇大幅回撤&lt;/li&gt;
 &lt;</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>260331</title>
-    <link href="https://dlwin888.github.io/2026/03/31/260331/"/>
-    <id>https://dlwin888.github.io/2026/03/31/260331/</id>
-    <published>2026-03-31T01:42:27.000Z</published>
-    <updated>2026-03-31T01:47:55.594Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="260331日记"><a href="#260331日记" class="headerlink" title="260331日记"></a>260331日记</h3><ol><li>中东战事焦灼，原油涨了又跌，商品跟跌不跟涨，账户继续回撤</li><li>仓位有点高，计划慢慢降下来</li></ol><blockquote><p>巴菲特有一句名言：</p><p>“现金是没有到期日的看涨期权。”<br>Cash is a call option with no expiration date.<br>（摘自传记作者艾丽斯·施罗德的《滚雪球：巴菲特和他的财富人生》）</p></blockquote><p><img src="/../uploads/image-20260331094700760.png" alt="image-20260331094700760"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;260331日记&quot;&gt;&lt;a href=&quot;#260331日记&quot; class=&quot;headerlink&quot; title=&quot;260331日记&quot;&gt;&lt;/a&gt;260331日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;中东战事焦灼，原油涨了又跌，商品跟跌不跟涨，账户继续回撤&lt;/li&gt;
-&lt;li&gt;仓位</summary>
       
     
     
