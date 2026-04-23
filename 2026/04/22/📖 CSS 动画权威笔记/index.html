@@ -4,17 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="260305, 观海听涛">
-    <meta name="description" content="260305日记
-25W目标目标达成
-
-骄傲使人进步，如何在保持骄傲的同时避免自负
-
-清醒的骄傲、有底气的骄傲、不服输的骄傲，真的能让人进步。
-
-不是盲目自大，是相信自己配得上更好
-不是看不起人，是不甘心落后、不愿将就
-不是飘在天上，是用实">
+    <meta name="keywords" content="CSS 动画权威笔记, 观海听涛">
+    <meta name="description" content="📖 CSS 动画权威笔记一、CSS 动画两大核心（90% 动画都靠它）1. transition（过渡动画）作用：两个状态之间的平滑变化（hover &amp;#x2F; 显示隐藏）
+/* 基础写法 */
+transition: 变化属性 时长 ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -26,7 +19,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>260305 | 观海听涛</title>
+    <title>CSS 动画权威笔记 | 观海听涛</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
 
@@ -320,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">260305</h1>
+                    <h1 class="description center-align post-title">CSS 动画权威笔记</h1>
                 </div>
             </div>
         </div>
@@ -349,8 +342,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/diary/">
-                                <span class="chip bg-color">diary</span>
+                            <a href="/tags/css/">
+                                <span class="chip bg-color">css</span>
                             </a>
                         
                     </div>
@@ -361,8 +354,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/diary/" class="post-category">
-                                diary
+                            <a href="/categories/css/" class="post-category">
+                                css
                             </a>
                         
                     </div>
@@ -374,28 +367,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2026-03-05
+                    2026-04-22
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2026-03-05
+                    2026-04-23
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    154
+                    815
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -415,25 +408,190 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="260305日记"><a href="#260305日记" class="headerlink" title="260305日记"></a>260305日记</h3><ol>
-<li><p>25W目标目标达成</p>
-</li>
-<li><p>骄傲使人进步，如何在保持骄傲的同时避免自负</p>
-<blockquote>
-<p><strong>清醒的骄傲、有底气的骄傲、不服输的骄傲，真的能让人进步。</strong></p>
+                <h3 id="📖-CSS-动画权威笔记"><a href="#📖-CSS-动画权威笔记" class="headerlink" title="📖 CSS 动画权威笔记"></a>📖 CSS 动画权威笔记</h3><h2 id="一、CSS-动画两大核心（90-动画都靠它）"><a href="#一、CSS-动画两大核心（90-动画都靠它）" class="headerlink" title="一、CSS 动画两大核心（90% 动画都靠它）"></a>一、CSS 动画两大核心（90% 动画都靠它）</h2><h3 id="1-transition（过渡动画）"><a href="#1-transition（过渡动画）" class="headerlink" title="1. transition（过渡动画）"></a>1. transition（过渡动画）</h3><p><strong>作用</strong>：两个状态之间的平滑变化（hover &#x2F; 显示隐藏）</p>
+<pre><code class="css">/* 基础写法 */
+transition: 变化属性 时长 速度曲线 延迟;
+
+/* 实用写法 */
+transition: all 0.3s ease;
+</code></pre>
+<p><strong>能做什么</strong></p>
 <ul>
-<li>不是盲目自大，是<strong>相信自己配得上更好</strong></li>
-<li>不是看不起人，是<strong>不甘心落后、不愿将就</strong></li>
-<li>不是飘在天上，是<strong>用实力撑住自己的骄傲</strong></li>
+<li>按钮 hover 放大、变色</li>
+<li>弹窗淡入淡出</li>
+<li>滑入滑出侧边栏</li>
+<li>输入框聚焦效果</li>
 </ul>
-<p>真正让人退步的，从来不是骄傲，</p>
-<p>是<strong>傲慢、自负、不思进取、眼高手低</strong>。</p>
-<p>愿你有骄傲的底气，更有配得上它的努力，</p>
-<p>一路昂首，步步向前。</p>
-</blockquote>
-</li>
-</ol>
-<p><img src="/../uploads/image-20260305101116566.png" alt="image-20260305101116566"></p>
+<hr>
+<h3 id="2-keyframes（关键帧动画）"><a href="#2-keyframes（关键帧动画）" class="headerlink" title="2. @keyframes（关键帧动画）"></a>2. @keyframes（关键帧动画）</h3><p><strong>作用</strong>：自定义一段连续动画（循环、自动播放）</p>
+<pre><code class="css">@keyframes 动画名 &#123;
+  from &#123; 初始状态 &#125;
+  to &#123; 结束状态 &#125;
+&#125;
+
+/* 或百分比 */
+@keyframes move &#123;
+  0%  &#123; transform: translateY(0px); &#125;
+  50% &#123; transform: translateY(-10px); &#125;
+  100%&#123; transform: translateY(0px); &#125;
+&#125;
+</code></pre>
+<p><strong>使用</strong></p>
+<pre><code class="css">animation: move 2s infinite;
+</code></pre>
+<p><strong>能做什么</strong></p>
+<ul>
+<li>加载动画</li>
+<li>呼吸灯</li>
+<li>打字机</li>
+<li>脉冲、漂浮、抖动</li>
+</ul>
+<hr>
+<h2 id="二、动画三大神技（必须背下来）"><a href="#二、动画三大神技（必须背下来）" class="headerlink" title="二、动画三大神技（必须背下来）"></a>二、动画三大神技（必须背下来）</h2><h3 id="1-transform（变形）"><a href="#1-transform（变形）" class="headerlink" title="1. transform（变形）"></a>1. transform（变形）</h3><pre><code class="css">transform: translateX(10px);   /* 左右移动 */
+transform: translateY(10px);   /* 上下移动 */
+transform: scale(1.1);         /* 缩放 */
+transform: rotate(45deg);      /* 旋转 */
+transform: skew(10deg);        /* 倾斜 */
+</code></pre>
+<p><strong>所有动画 90% 都靠它！</strong></p>
+<hr>
+<h3 id="2-opacity（透明度）"><a href="#2-opacity（透明度）" class="headerlink" title="2. opacity（透明度）"></a>2. opacity（透明度）</h3><p>淡入淡出必备</p>
+<pre><code class="css">opacity: 0;   /* 隐藏 */
+opacity: 1;   /* 显示 */
+transition: opacity 0.5s;
+</code></pre>
+<hr>
+<h3 id="3-animation-常用组合"><a href="#3-animation-常用组合" class="headerlink" title="3. animation 常用组合"></a>3. animation 常用组合</h3><pre><code class="css">animation: 名称 时长 曲线 延迟 次数 方向;
+
+例子：
+animation: breath 2s ease-in-out infinite;
+</code></pre>
+<p>常用值：</p>
+<ul>
+<li><code>infinite</code> 无限循环</li>
+<li><code>ease</code> 慢快慢（最自然）</li>
+<li><code>linear</code> 匀速</li>
+<li><code>ease-out</code> 快到慢（退场用）</li>
+<li><code>ease-in</code> 慢到快（进场用）</li>
+</ul>
+<hr>
+<h2 id="三、接单最常用-12-个动画模板（直接复制）"><a href="#三、接单最常用-12-个动画模板（直接复制）" class="headerlink" title="三、接单最常用 12 个动画模板（直接复制）"></a>三、接单最常用 12 个动画模板（直接复制）</h2><h3 id="1-按钮-hover"><a href="#1-按钮-hover" class="headerlink" title="1. 按钮 hover"></a>1. 按钮 hover</h3><pre><code class="css">.btn &#123;
+  transition: all 0.3s;
+&#125;
+.btn:hover &#123;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+&#125;
+</code></pre>
+<h3 id="2-加载动画"><a href="#2-加载动画" class="headerlink" title="2. 加载动画"></a>2. 加载动画</h3><pre><code class="css">.loader &#123;
+  width:30px; height:30px;
+  border:3px solid #eee;
+  border-top:3px solid blue;
+  border-radius:50%;
+  animation: spin 1s linear infinite;
+&#125;
+@keyframes spin &#123;
+  to &#123; transform:rotate(360deg) &#125;
+&#125;
+</code></pre>
+<h3 id="3-呼吸灯"><a href="#3-呼吸灯" class="headerlink" title="3. 呼吸灯"></a>3. 呼吸灯</h3><pre><code class="css">.breath &#123;
+  animation: breath 2s infinite;
+&#125;
+@keyframes breath &#123;
+  0%,100% &#123; transform:scale(1); opacity:1; &#125;
+  50% &#123; transform:scale(1.1); opacity:0.7; &#125;
+&#125;
+</code></pre>
+<h3 id="4-漂浮动画"><a href="#4-漂浮动画" class="headerlink" title="4. 漂浮动画"></a>4. 漂浮动画</h3><pre><code class="css">.float &#123;
+  animation: float 2s infinite ease-in-out;
+&#125;
+@keyframes float &#123;
+  0%,100% &#123; transform:translateY(0); &#125;
+  50% &#123; transform:translateY(-8px); &#125;
+&#125;
+</code></pre>
+<h3 id="5-抖动（错误提示）"><a href="#5-抖动（错误提示）" class="headerlink" title="5. 抖动（错误提示）"></a>5. 抖动（错误提示）</h3><pre><code class="css">.shake &#123;
+  animation: shake 0.5s;
+&#125;
+@keyframes shake &#123;
+  0%,100%&#123;transform:translateX(0)&#125;
+  25%&#123;transform:translateX(-5px)&#125;
+  75%&#123;transform:translateX(5px)&#125;
+&#125;
+</code></pre>
+<h3 id="6-淡入上移"><a href="#6-淡入上移" class="headerlink" title="6. 淡入上移"></a>6. 淡入上移</h3><pre><code class="css">.fade-in &#123;
+  opacity:0;
+  transform:translateY(30px);
+  transition:0.8s;
+&#125;
+.fade-in.show &#123;
+  opacity:1;
+  transform:translateY(0);
+&#125;
+</code></pre>
+<h3 id="7-3D-翻转"><a href="#7-3D-翻转" class="headerlink" title="7. 3D 翻转"></a>7. 3D 翻转</h3><pre><code class="css">.flip &#123;
+  transform-style: preserve-3d;
+  transition: 0.6s;
+&#125;
+.flip.active &#123;
+  transform: rotateY(180deg);
+&#125;
+</code></pre>
+<h3 id="8-脉冲扩散"><a href="#8-脉冲扩散" class="headerlink" title="8. 脉冲扩散"></a>8. 脉冲扩散</h3><pre><code class="css">.pulse::after &#123;
+  content:&#39;&#39;;
+  position:absolute;
+  border-radius:50%;
+  animation:pulse 1.5s infinite;
+&#125;
+@keyframes pulse &#123;
+  to&#123;transform:scale(1.5);opacity:0&#125;
+&#125;
+</code></pre>
+<h3 id="9-打字机"><a href="#9-打字机" class="headerlink" title="9. 打字机"></a>9. 打字机</h3><pre><code class="css">.type &#123;
+  width:0;
+  overflow:hidden;
+  white-space:nowrap;
+  border-right:2px solid #000;
+  animation:typing 2s steps(15) forwards;
+&#125;
+</code></pre>
+<h3 id="10-扫光效果"><a href="#10-扫光效果" class="headerlink" title="10. 扫光效果"></a>10. 扫光效果</h3><pre><code class="css">.shine::after &#123;
+  content:&#39;&#39;;
+  position:absolute;
+  left:-100%; width:50%; height:100%;
+  background:linear-gradient(to right,transparent,#fff5,transparent);
+  animation:shine 2s infinite;
+&#125;
+</code></pre>
+<h3 id="11-缩放弹入"><a href="#11-缩放弹入" class="headerlink" title="11. 缩放弹入"></a>11. 缩放弹入</h3><pre><code class="css">.zoom &#123;
+  transform:scale(0.3); opacity:0;
+  transition:0.5s cubic-bezier(0.34,1.56,0.64,1);
+&#125;
+.zoom.show &#123;
+  transform:scale(1); opacity:1;
+&#125;
+</code></pre>
+<h3 id="12-展开-收起"><a href="#12-展开-收起" class="headerlink" title="12. 展开 &#x2F; 收起"></a>12. 展开 &#x2F; 收起</h3><pre><code class="css">.collapse &#123;
+  max-height:0; overflow:hidden;
+  transition:max-height 0.5s;
+&#125;
+.collapse.open &#123;
+  max-height:300px;
+&#125;
+</code></pre>
+<hr>
+<h2 id="四、JS-CSS-动画黄金公式"><a href="#四、JS-CSS-动画黄金公式" class="headerlink" title="四、JS + CSS 动画黄金公式"></a>四、JS + CSS 动画黄金公式</h2><pre><code class="javascript">元素.addEventListener(&#39;点击&#39;, () =&gt; &#123;
+  目标元素.classList.toggle(&#39;动画类名&#39;)
+&#125;)
+</code></pre>
+<p><strong>所有交互动画都靠这一行！</strong></p>
+<hr>
+<h2 id="五、接单动画性能规则（必看）"><a href="#五、接单动画性能规则（必看）" class="headerlink" title="五、接单动画性能规则（必看）"></a>五、接单动画性能规则（必看）</h2><ul>
+<li>只动画：<code>transform</code> 和 <code>opacity</code></li>
+<li>不要动画：<code>width</code> <code>height</code> <code>top</code> <code>left</code> <code>margin</code></li>
+<li>动画越简单，页面越流畅</li>
+<li>循环动画尽量加 <code>will-change: transform</code></li>
+</ul>
 
                 
             </div>
@@ -460,7 +618,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://dlwin888.github.io/2026/03/05/260305/">https://dlwin888.github.io/2026/03/05/260305/</a>
+                    <a href="https://dlwin888.github.io/2026/04/22/%F0%9F%93%96%20CSS%20%E5%8A%A8%E7%94%BB%E6%9D%83%E5%A8%81%E7%AC%94%E8%AE%B0/">https://dlwin888.github.io/2026/04/22/%F0%9F%93%96%20CSS%20%E5%8A%A8%E7%94%BB%E6%9D%83%E5%A8%81%E7%AC%94%E8%AE%B0/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -498,8 +656,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/diary/">
-                                    <span class="chip bg-color">diary</span>
+                                <a href="/tags/css/">
+                                    <span class="chip bg-color">css</span>
                                 </a>
                             
                         </div>
@@ -549,13 +707,13 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2026/03/05/%E8%8B%B9%E6%9E%9CM%E8%8A%AF%E7%89%87%E5%88%B0%E5%BA%95%E5%BC%BA%E5%9C%A8%E5%93%AA/">
+                <a href="/2026/04/23/260423/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="苹果M芯片到底强在哪">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="260423">
                         
-                        <span class="card-title">苹果M芯片到底强在哪</span>
+                        <span class="card-title">260423</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -566,14 +724,14 @@
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2026-03-05
+                            <i class="far fa-clock fa-fw icon-date"></i>2026-04-23
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/software/" class="post-category">
-                                    software
+                            <a href="/categories/diary/" class="post-category">
+                                    diary
                                 </a>
                             
                             
@@ -583,8 +741,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/software/">
-                        <span class="chip bg-color">software</span>
+                    <a href="/tags/diary/">
+                        <span class="chip bg-color">diary</span>
                     </a>
                     
                 </div>
@@ -598,13 +756,13 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2026/03/04/260304/">
+                <a href="/2026/04/22/260422/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="260304">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="260422">
                         
-                        <span class="card-title">260304</span>
+                        <span class="card-title">260422</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -615,7 +773,7 @@
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2026-03-04
+                                <i class="far fa-clock fa-fw icon-date"></i>2026-04-22
                             </span>
                         <span class="publish-author">
                             
