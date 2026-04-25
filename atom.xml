@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-04-24T07:01:03.041Z</updated>
+  <updated>2026-04-25T02:31:35.439Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>260425</title>
+    <link href="https://dlwin888.github.io/2026/04/25/260425/"/>
+    <id>https://dlwin888.github.io/2026/04/25/260425/</id>
+    <published>2026-04-25T02:03:51.000Z</published>
+    <updated>2026-04-25T02:31:35.439Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="260425日记"><a href="#260425日记" class="headerlink" title="260425日记"></a>260425日记</h3><ol><li><h4 id="animate-css"><a href="#animate-css" class="headerlink" title="animate.css"></a><a href="https://github.com/animate-css/animate.css">animate.css</a></h4><p><a href="https://animate.style/">一个开源 CSS 动画库</a>。提供大量现成的网页动画效果，例如淡入淡出、弹跳、滑动、旋转等。只需要给元素添加对应的 CSS 类名，就可以快速实现动画效果，不需要编写复杂的动画代码。</p></li><li><h4 id="vue-naive-admin"><a href="#vue-naive-admin" class="headerlink" title="vue-naive-admin"></a><a href="https://github.com/zclzone/vue-naive-admin">vue-naive-admin</a></h4><p><a href="https://www.isme.top/">项目说明</a>：一款极简风格的基于 Vue3 + Vite + Pinia + Unocss + Naive UI 的轻量级后台管理模板。</p></li><li><h4 id="css-generators"><a href="#css-generators" class="headerlink" title="css-generators"></a><a href="https://css-generators.com/">css-generators</a></h4><p>一个在线 CSS 代码生成器集合网站，快速创建各种 CSS 样式代码。它提供了很多实用的小工具（如形状、分隔线、渐变、加载动画、边框、工具提示等 CSS 效果生成器。</p></li><li><h4 id="WeChat-Markdown-Editor"><a href="#WeChat-Markdown-Editor" class="headerlink" title="WeChat Markdown Editor"></a><a href="https://github.com/doocs/md">WeChat Markdown Editor</a></h4><p>一款高度简洁的微信 Markdown 编辑器，自动即时渲染为微信图文，支持 Markdown 语法、自定义主题样式、内容管理、多图床、AI 助手等特性。</p></li></ol><p><img src="/../uploads/image-20260425100717484.png" alt="纺织工人"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;260425日记&quot;&gt;&lt;a href=&quot;#260425日记&quot; class=&quot;headerlink&quot; title=&quot;260425日记&quot;&gt;&lt;/a&gt;260425日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;h4 id=&quot;animate-css&quot;&gt;&lt;a href=&quot;#animate-c</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>260424</title>
@@ -485,30 +510,6 @@
       
       
     <summary type="html">&lt;h3 id=&quot;期权策略・终极速查表（胜率-场景-风控-盈亏比）&quot;&gt;&lt;a href=&quot;#期权策略・终极速查表（胜率-场景-风控-盈亏比）&quot; class=&quot;headerlink&quot; title=&quot;期权策略・终极速查表（胜率 + 场景 + 风控 + 盈亏比）&quot;&gt;&lt;/a&gt;期权策略・终极速</summary>
-      
-    
-    
-    
-    <category term="invest" scheme="https://dlwin888.github.io/categories/invest/"/>
-    
-    
-    <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>致开户后迷茫的期权投资者</title>
-    <link href="https://dlwin888.github.io/2026/04/08/%E8%87%B4%E5%BC%80%E6%88%B7%E5%90%8E%E8%BF%B7%E8%8C%AB%E7%9A%84%E6%9C%9F%E6%9D%83%E6%8A%95%E8%B5%84%E8%80%85%EF%BC%81/"/>
-    <id>https://dlwin888.github.io/2026/04/08/%E8%87%B4%E5%BC%80%E6%88%B7%E5%90%8E%E8%BF%B7%E8%8C%AB%E7%9A%84%E6%9C%9F%E6%9D%83%E6%8A%95%E8%B5%84%E8%80%85%EF%BC%81/</id>
-    <published>2026-04-08T10:37:13.000Z</published>
-    <updated>2026-04-08T02:37:22.651Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="致开户后迷茫的期权投资者！"><a href="#致开户后迷茫的期权投资者！" class="headerlink" title="致开户后迷茫的期权投资者！"></a>致开户后迷茫的期权投资者！</h3><p>这是一篇**<a href="https://mp.weixin.qq.com/s/Sd0ZhjQoC6DVhvWTjOqIPQ">期权新手入门实操指南</a><strong>，聚焦刚开户散户的迷茫，给出</strong>4 套低风险、易上手、贴合股票思维<strong>的期权交易模式，核心是</strong>用期权给股票持仓增效、降险、稳收益<strong>，不搞复杂策略，强调</strong>大道至简、轻仓起步、先单腿后组合**。</p><hr><h4 id="一、文章核心框架（4-大新手友好模式）"><a href="#一、文章核心框架（4-大新手友好模式）" class="headerlink" title="一、文章核心框架（4 大新手友好模式）"></a>一、文章核心框架（4 大新手友好模式）</h4><h5 id="1-定投-或有卖购（增强收益）"><a href="#1-定投-或有卖购（增强收益）" class="headerlink" title="1. 定投 + 或有卖购（增强收益）"></a>1. 定投 + 或有卖购（增强收益）</h5><ul><li>适用人群：长期定投指数（50&#x2F;300ETF）的散户</li><li>操作：定投积累份额→上方有压力时<strong>卖出虚值认购</strong>收权利金</li><li>逻辑：现货进攻 + 期权收租，不涨赚租金，大涨不亏（行权价高于持仓均价）</li><li>要点：放量突破 &#x2F; 多头排列时<strong>不做卖购</strong>，避免踏空</li></ul><h4 id="2-或有保险（持券买认沽，防大跌）"><a href="#2-或有保险（持券买认沽，防大跌）" class="headerlink" title="2. 或有保险（持券买认沽，防大跌）"></a>2. 或有保险（持券买认沽，防大跌）</h4><ul><li>适用人群：股票多头、怕回调但不想卖股</li><li>操作：持有现货 + 买<strong>轻度虚值认沽</strong></li><li>优势：<ul><li>成本锁定（只亏权利金）</li><li>无保证金压力</li><li>可中途平仓，大跌时认沽升值对冲亏损</li></ul></li><li>时机：<strong>波动率低</strong>、趋势破位前</li></ul><h4 id="3-利息搏黑天鹅（安全试错买方）"><a href="#3-利息搏黑天鹅（安全试错买方）" class="headerlink" title="3. 利息搏黑天鹅（安全试错买方）"></a>3. 利息搏黑天鹅（安全试错买方）</h4><ul><li>适用人群：二级投资者、想体验买方但怕亏本金</li><li>操作：用<strong>闲置利息的小比例</strong>买虚 2-3 档认购 &#x2F; 认沽</li><li>规则：权利金翻倍先止盈一半，剩一半破均线再平</li><li>优点：不亏本金、低代价感受期权盈亏，胜率更高</li></ul><h4 id="4-高隐波-MA20-轮动（卖方轻仓赚降波）"><a href="#4-高隐波-MA20-轮动（卖方轻仓赚降波）" class="headerlink" title="4. 高隐波 + MA20 轮动（卖方轻仓赚降波）"></a>4. 高隐波 + MA20 轮动（卖方轻仓赚降波）</h4><ul><li><p>适用人群：三级投资者、有卖方权限</p></li><li><p>操作：</p><ul><li>隐波 &gt; 30（高位）出手</li><li>价在 MA20 上→轻仓卖沽；价在 MA20 下→轻仓卖购</li><li>选<strong>次月 &#x2F; 次次月虚值</strong>，风险度≤20%</li></ul></li><li><p>逻辑：高隐波卖远月 vega 大，降波收益更稳，MA20 做简单止损</p></li></ul><hr><h4 id="二、文章亮点与优势"><a href="#二、文章亮点与优势" class="headerlink" title="二、文章亮点与优势"></a>二、文章亮点与优势</h4><ol><li><strong>从股票思维切入</strong>：不颠覆原有习惯，只做优化（定投 + 卖购、持券 + 保险），新手易接受</li><li>风险极度可控：<ul><li>买方只用利息，不碰本金</li><li>卖方轻仓、远月、有均线止损</li><li>保险成本封顶，无爆仓风险</li></ul></li><li><strong>可直接落地</strong>：有明确阈值（隐波 &gt; 30、MA20、虚 2-3 档、风险度≤20%），不用猜</li><li><strong>分级适配</strong>：按一 &#x2F; 二 &#x2F; 三级权限给对应策略，不超权限、不违规</li></ol><hr><h4 id="三、可改进-注意点"><a href="#三、可改进-注意点" class="headerlink" title="三、可改进 &#x2F; 注意点"></a>三、可改进 &#x2F; 注意点</h4><ol><li>未明确<strong>合约月份、行权价、仓位配比</strong>的精确数值，新手仍需细化</li><li>卖方只提 MA20 止损，未讲<strong>保证金预警、强行平仓、Delta 对冲</strong>等硬核风控</li><li>对<strong>时间价值损耗、波动率冲高回落</strong>的买方风险提示不足</li><li>策略组合示例少，新手难直接照搬</li></ol><hr><h4 id="四、总结与新手建议"><a href="#四、总结与新手建议" class="headerlink" title="四、总结与新手建议"></a>四、总结与新手建议</h4><p>这篇是<strong>期权入门 “安全驾驶手册”</strong>，不是暴利秘籍，适合<strong>小资金、低风险偏好、从股票转期权</strong>的散户。</p><ul><li>新手执行顺序：定投卖购→保险策略→利息买方→轻仓卖方</li><li>核心口诀：<strong>先保本再求赚，先简单再复杂，先轻仓再节奏</strong></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;致开户后迷茫的期权投资者！&quot;&gt;&lt;a href=&quot;#致开户后迷茫的期权投资者！&quot; class=&quot;headerlink&quot; title=&quot;致开户后迷茫的期权投资者！&quot;&gt;&lt;/a&gt;致开户后迷茫的期权投资者！&lt;/h3&gt;&lt;p&gt;这是一篇**&lt;a href=&quot;https://mp.</summary>
       
     
     
