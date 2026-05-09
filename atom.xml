@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-05-08T08:22:38.989Z</updated>
+  <updated>2026-05-09T08:04:56.772Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>顺趋势期权卖方策略</title>
+    <link href="https://dlwin888.github.io/2026/05/09/%E9%A1%BA%E8%B6%8B%E5%8A%BF%E6%9C%9F%E6%9D%83%E5%8D%96%E6%96%B9%E7%AD%96%E7%95%A5%EF%BC%883%20%E5%A5%97%E5%AE%9E%E6%88%98%E6%96%B9%E6%A1%88%EF%BC%89/"/>
+    <id>https://dlwin888.github.io/2026/05/09/%E9%A1%BA%E8%B6%8B%E5%8A%BF%E6%9C%9F%E6%9D%83%E5%8D%96%E6%96%B9%E7%AD%96%E7%95%A5%EF%BC%883%20%E5%A5%97%E5%AE%9E%E6%88%98%E6%96%B9%E6%A1%88%EF%BC%89/</id>
+    <published>2026-05-09T07:59:50.000Z</published>
+    <updated>2026-05-09T08:04:56.772Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="顺趋势期权卖方策略（3-套实战方案）"><a href="#顺趋势期权卖方策略（3-套实战方案）" class="headerlink" title="顺趋势期权卖方策略（3 套实战方案）"></a>顺趋势期权卖方策略（3 套实战方案）</h2><h3 id="方案-A：顺势裸卖虚值（稳健高胜率）"><a href="#方案-A：顺势裸卖虚值（稳健高胜率）" class="headerlink" title="方案 A：顺势裸卖虚值（稳健高胜率）"></a>方案 A：顺势裸卖虚值（稳健高胜率）</h3><p><strong>适用：明确单边趋势（牛 &#x2F; 熊）</strong></p><h4 id="1-多头趋势（上涨）"><a href="#1-多头趋势（上涨）" class="headerlink" title="1. 多头趋势（上涨）"></a>1. 多头趋势（上涨）</h4><ul><li><p>只卖：虚值看跌期权（Put）</p><ul><li>逻辑：上涨趋势中，跌回去概率低 → 卖 Put 安全</li><li>行权价选择：<strong>Delta 0.15~0.25</strong>（行权概率≈15%~25%）</li><li>到期日：<strong>30~45 天</strong>（Theta 加速期）</li></ul></li></ul><h4 id="2-空头趋势（下跌）"><a href="#2-空头趋势（下跌）" class="headerlink" title="2. 空头趋势（下跌）"></a>2. 空头趋势（下跌）</h4><ul><li>只卖：虚值看涨期权（Call）<ul><li>逻辑：下跌趋势中，涨回去概率低 → 卖 Call 安全</li><li>行权价：<strong>Delta 0.15~0.25</strong></li><li>到期日：<strong>30~45 天</strong></li></ul></li></ul><h4 id="3-止盈"><a href="#3-止盈" class="headerlink" title="3. 止盈"></a>3. 止盈</h4><ul><li>权利金跌 <strong>50%~70%</strong> 平仓</li><li>或持有到 <strong>剩 7 天以内</strong> 平仓</li></ul><h4 id="4-止损（卖方生命线）"><a href="#4-止损（卖方生命线）" class="headerlink" title="4. 止损（卖方生命线）"></a>4. 止损（卖方生命线）</h4><ul><li>单一合约亏损 <strong>≥ 权利金收入的 2 倍</strong> → 立即平仓</li><li>或 <strong>标的突破趋势线 &#x2F; 均线</strong> → 平仓离场</li></ul><hr><h3 id="方案-B：顺势信用价差（低风险、推荐）"><a href="#方案-B：顺势信用价差（低风险、推荐）" class="headerlink" title="方案 B：顺势信用价差（低风险、推荐）"></a>方案 B：顺势信用价差（低风险、推荐）</h3><p><strong>适用：趋势明确但怕黑天鹅 &#x2F; 暴涨暴跌</strong></p><p><strong>最大亏损锁定 → 完美符合 “风险可控”</strong></p><h4 id="1-多头趋势：牛市看跌价差（Bull-Put-Spread）"><a href="#1-多头趋势：牛市看跌价差（Bull-Put-Spread）" class="headerlink" title="1. 多头趋势：牛市看跌价差（Bull Put Spread）"></a>1. 多头趋势：牛市看跌价差（Bull Put Spread）</h4><ul><li>卖：<strong>虚值 1 档 Put（Delta 0.2~0.3）</strong></li><li>买：<strong>更虚值 Put（低 5~10%）</strong> 做保护</li><li>结果：<strong>净收权利金、最大亏损固定</strong></li></ul><h4 id="2-空头趋势：熊市看涨价差（Bear-Call-Spread）"><a href="#2-空头趋势：熊市看涨价差（Bear-Call-Spread）" class="headerlink" title="2. 空头趋势：熊市看涨价差（Bear Call Spread）"></a>2. 空头趋势：熊市看涨价差（Bear Call Spread）</h4><ul><li>卖：<strong>虚值 1 档 Call（Delta 0.2~0.3）</strong></li><li>买：<strong>更虚值 Call（高 5~10%）</strong> 做保护</li><li>结果：<strong>净收权利金、最大亏损固定</strong></li></ul><h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><ul><li>保证金低</li><li>极端行情也<strong>不会爆仓</strong></li><li>胜率依然 <strong>&gt;70%</strong></li></ul><hr><h3 id="方案-C：顺势备兑（持有标的-增强收益）"><a href="#方案-C：顺势备兑（持有标的-增强收益）" class="headerlink" title="方案 C：顺势备兑（持有标的 + 增强收益）"></a>方案 C：顺势备兑（持有标的 + 增强收益）</h3><p><strong>适用：长期看好标的、想增强收益</strong></p><ul><li><p>多头趋势：</p><p>持有标的 + 卖虚值 Call</p><ul><li>赚：标的上涨 + 权利金</li><li>代价：小幅牺牲上方空间（但趋势中很少深度行权）</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;顺趋势期权卖方策略（3-套实战方案）&quot;&gt;&lt;a href=&quot;#顺趋势期权卖方策略（3-套实战方案）&quot; class=&quot;headerlink&quot; title=&quot;顺趋势期权卖方策略（3 套实战方案）&quot;&gt;&lt;/a&gt;顺趋势期权卖方策略（3 套实战方案）&lt;/h2&gt;&lt;h3 id=&quot;方</summary>
+      
+    
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/categories/invest/"/>
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>交易中的概率优势</title>
+    <link href="https://dlwin888.github.io/2026/05/09/%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E6%A6%82%E7%8E%87%E4%BC%98%E5%8A%BF/"/>
+    <id>https://dlwin888.github.io/2026/05/09/%E4%BA%A4%E6%98%93%E4%B8%AD%E7%9A%84%E6%A6%82%E7%8E%87%E4%BC%98%E5%8A%BF/</id>
+    <published>2026-05-09T06:59:50.000Z</published>
+    <updated>2026-05-09T07:55:20.323Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="交易中的概率优势"><a href="#交易中的概率优势" class="headerlink" title="交易中的概率优势"></a>交易中的概率优势</h3><h4 id="一、核心结论"><a href="#一、核心结论" class="headerlink" title="一、核心结论"></a>一、核心结论</h4><p><strong>交易赚钱 &#x3D; 长期坚持有正期望的系统 + 对抗人性 + 利用市场肥尾分布</strong></p><p>你说的 “随便画根线突破做单”，本质就是<strong>极简趋势跟踪</strong>，它之所以能有概率优势，根源就在这里。</p><hr><h4 id="二、逐句翻译"><a href="#二、逐句翻译" class="headerlink" title="二、逐句翻译"></a>二、逐句翻译</h4><h3 id="1-必须长期坚持有概率优势的操作"><a href="#1-必须长期坚持有概率优势的操作" class="headerlink" title="1. 必须长期坚持有概率优势的操作"></a>1. 必须长期坚持有概率优势的操作</h3><ul><li>单次交易是<strong>赌博</strong></li><li>长期重复<strong>正期望系统</strong>才是<strong>生意</strong></li><li>没有优势的操作，做得越久亏得越多</li></ul><h3 id="2-概率优势来自一套完备体系（逻辑闭环）"><a href="#2-概率优势来自一套完备体系（逻辑闭环）" class="headerlink" title="2. 概率优势来自一套完备体系（逻辑闭环）"></a>2. 概率优势来自一套完备体系（逻辑闭环）</h3><ul><li><p>不是一个指标，不是一个技巧</p></li><li><p>是一整套 if-else：</p><p>什么时候开仓、什么时候止损、什么时候止盈、什么时候不做、仓位多少</p></li><li><p>最终<strong>数学期望 &gt; 0</strong>，且<strong>风险可控</strong></p></li></ul><h3 id="3-这是博士级、诺奖级的宏大问题"><a href="#3-这是博士级、诺奖级的宏大问题" class="headerlink" title="3. 这是博士级、诺奖级的宏大问题"></a>3. 这是博士级、诺奖级的宏大问题</h3><ul><li>市场不是物理公式，是<strong>人性的总和</strong></li><li>不可能一篇文章讲完，但<strong>入门路径非常清晰</strong></li></ul><h3 id="4-最简单、最稳的入门：趋势跟踪"><a href="#4-最简单、最稳的入门：趋势跟踪" class="headerlink" title="4. 最简单、最稳的入门：趋势跟踪"></a>4. 最简单、最稳的入门：趋势跟踪</h3><ul><li>不需要预测</li><li>不需要分析消息</li><li>只需要<strong>跟随价格</strong></li></ul><h3 id="5-趋势跟踪为什么有优势？因为市场是肥尾分布"><a href="#5-趋势跟踪为什么有优势？因为市场是肥尾分布" class="headerlink" title="5. 趋势跟踪为什么有优势？因为市场是肥尾分布"></a>5. 趋势跟踪为什么有优势？因为市场是<strong>肥尾分布</strong></h3><p>[肥尾分布示意图]</p><p><strong>肥尾 &#x3D; 小概率的大波动经常发生</strong></p><ul><li><p>正常分布：大涨大跌很少</p></li><li><p>市场分布：极端行情特别多</p><p>→ 趋势跟踪就是</p><p>专门吃这些肥尾大行情</p></li></ul><h3 id="6-肥尾的根源：人性永远不变"><a href="#6-肥尾的根源：人性永远不变" class="headerlink" title="6. 肥尾的根源：人性永远不变"></a>6. 肥尾的根源：人性永远不变</h3><p>作者点出<strong>两个最致命的人性</strong>：</p><ol><li><strong>亏了不止损 → 死扛 → 大亏爆仓</strong></li><li><strong>赚了拿不住 → 小赚就跑 → 吃不到大趋势</strong></li></ol><h3 id="7-交易的终极解法：反人性"><a href="#7-交易的终极解法：反人性" class="headerlink" title="7. 交易的终极解法：反人性"></a>7. 交易的终极解法：<strong>反人性</strong></h3><ul><li><p>别人不止损 → 你<strong>严格止损</strong></p></li><li><p>别人拿不住 → 你</p><p>拿住趋势→ 你就拥有了</p><p>概率优势</p></li></ul><hr><h4 id="三、把这套理论落地到你最开始说的方法"><a href="#三、把这套理论落地到你最开始说的方法" class="headerlink" title="三、把这套理论落地到你最开始说的方法"></a>三、把这套理论落地到你最开始说的方法</h4><p>你说的：</p><blockquote><p>随便画一条线，上穿做多，下穿做空，拿不住就止盈</p></blockquote><p><strong>用教父 Kim 的理论重新包装，就是一套可盈利系统：</strong></p><ol><li><strong>画线 &#x3D; 趋势边界</strong>（不用随便画，用均线 &#x2F; 支撑阻力）</li><li><strong>突破 &#x3D; 趋势启动</strong>（进场）</li><li><strong>反向破线 &#x3D; 止损</strong>（坚决砍，不扛）</li><li><strong>远离线 &#x3D; 拿住盈利</strong>（不吃小波动，吃肥尾）</li><li><strong>长期重复 &#x3D; 正期望</strong></li></ol><p>这就是<strong>所有趋势跟踪大佬的共同逻辑</strong>：</p><p>海龟、布林带、均线突破、唐奇安通道……<strong>底层全是这套</strong>。</p><hr><h4 id="四、最精炼的总结"><a href="#四、最精炼的总结" class="headerlink" title="四、最精炼的总结"></a>四、最精炼的总结</h4><ul><li>市场是<strong>肥尾分布</strong></li><li>人性是<strong>亏扛赚跑</strong></li><li>趋势跟踪是<strong>反人性吃肥尾</strong></li><li>稳定盈利 &#x3D; <strong>正期望系统 + 长期执行 + 严格风控</strong></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;交易中的概率优势&quot;&gt;&lt;a href=&quot;#交易中的概率优势&quot; class=&quot;headerlink&quot; title=&quot;交易中的概率优势&quot;&gt;&lt;/a&gt;交易中的概率优势&lt;/h3&gt;&lt;h4 id=&quot;一、核心结论&quot;&gt;&lt;a href=&quot;#一、核心结论&quot; class=&quot;headerli</summary>
+      
+    
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/categories/invest/"/>
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
+    
+  </entry>
   
   <entry>
     <title>260508</title>
@@ -470,55 +518,6 @@
     
     
     <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>别成为机器</title>
-    <link href="https://dlwin888.github.io/2026/04/12/%E7%BB%BF%E5%8C%96%E8%8D%92%E5%B1%B1%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95/"/>
-    <id>https://dlwin888.github.io/2026/04/12/%E7%BB%BF%E5%8C%96%E8%8D%92%E5%B1%B1%E7%9A%84%E7%AE%80%E5%8D%95%E6%96%B9%E6%B3%95/</id>
-    <published>2026-04-12T07:31:59.000Z</published>
-    <updated>2026-04-12T08:47:26.851Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="绿化荒山的简单方法"><a href="#绿化荒山的简单方法" class="headerlink" title="绿化荒山的简单方法"></a>绿化荒山的简单方法</h3><p><a href="https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined">原文链接</a></p><h1 id="12-000吨被倾倒的橙皮如何发展成无人预料的景观"><a href="#12-000吨被倾倒的橙皮如何发展成无人预料的景观" class="headerlink" title="12,000吨被倾倒的橙皮如何发展成无人预料的景观"></a>12,000吨被倾倒的橙皮如何发展成无人预料的景观</h1><p><a href="https://www.sciencealert.com/environment">环境</a>2017年8月30日</p><p>作者<a href="https://www.sciencealert.com/peter-dockrill">彼得·多克里尔</a></p><p><img src="/../uploads/739-orange-peel-0_600.jpg" alt="丹尼尔·詹岑 &amp; 温妮·哈尔瓦克斯"></p><p>一个曾被遗弃、几乎被遗忘的实验性保护项目，在构思近二十年后，终于取得了惊人的生态胜利。</p><p>该计划曾在1990年代中期，一家果汁公司将1000车废弃橙皮倾倒在哥斯达黎加一片荒芜的牧场，最终使这片荒凉的土地焕发了繁荣茂盛的森林。</p><p>这是一个极大的转折，尤其是该项目仅在第二年就被迫关闭——尽管提前取消，已在3公顷（7英亩）场地上沉积的剥皮使地面生物质增长了176%。</p><p>普林斯顿大学<a href="https://www.princeton.edu/news/2017/08/22/orange-new-green-how-orange-peels-revived-costa-rican-forest">生态学家蒂莫西·特鲁尔说</a>：“这是我听说过的少数可以实现成本为零的碳封存案例之一。”</p><p>“这不仅仅是公司和当地公园的双赢——对所有人来说都是双赢。”</p><p><img src="/../uploads/739-orange-peel-2.jpg" alt="丹尼尔·詹岑 &amp; 温妮·哈尔瓦克斯"></p><p>该计划诞生于1997年，当时普林斯顿大学的研究员丹尼尔·詹岑和温妮·哈尔瓦克斯向哥斯达黎加橙汁制造商Del Oro提出了一个独特的机会。</p><p>如果Del Oro同意将其毗邻<a href="https://en.wikipedia.org/wiki/Guanacaste_Conservation_Area">瓜纳卡斯特保护区</a>的部分土地捐赠给国家公园，公司将被允许免费将其丢弃的橙皮倾倒在公园内退化的土地上。</p><p>果汁公司同意了这笔交易，约12,000吨废橙皮由一千卡车车队运输，被无情地倾倒在几乎死气沉沉的土地上。</p><p>大量富含养分的有机废弃物几乎瞬间影响了土地的肥力。</p><p>“大约六个月后，橙皮已经从橙皮转化成厚厚的黑色壤土，”特鲁尔告诉<a href="https://www.scientificamerican.com/podcast/episode/a-fruitful-experiment-in-land-conservation/?print=true"><em>《科学美国人</em></a>》。</p><p>“有点像是在穿过一个肮脏的阶段，夹杂着那些充满苍蝇幼虫的泥泞物。”</p><p><img src="/../uploads/739-orange-peel-3.jpg" alt="739 橙皮 3"></p><p>尽管开局有希望，但保护实验未能持久，竞争对手TicoFruit起诉Del Oro，<a href="https://www.princeton.edu/news/2017/08/22/orange-new-green-how-orange-peels-revived-costa-rican-forest">指控</a>其竞争对手“亵渎了一个国家公园”。</p><p>哥斯达黎加最高法院支持了TicoFruit，这项雄心勃勃的实验被迫终止，该网站在接下来的15年里基本被遗忘。</p><p>随后，2013年，特鲁尔在访问哥斯达黎加进行其他研究时，决定对该遗址进行评估。</p><p>事实证明，唯一的问题其实是找到这片曾经的荒地——这场荒原旱的景观彻底变成了茂密、藤蔓茂密的丛林，这让他不得不两次前往现场。</p><p>“那块六英尺长、用鲜黄色字体标示该地点的招牌，藤蔓丛生得太严重，我们直到多年后才发现它，”Treuer告诉《<a href="http://www.popsci.com/food-waste-fertilizer"><em>Popular Science</em></a>》，“经过数十次实地考察后。”</p><p><img src="/../uploads/739-orange-peel-1.jpg" alt="739 orange peel 3"></p><p>当将该地点与附近未用橙皮处理的对照区进行比较时，Treuer团队发现他们的实验堆肥堆土壤更肥沃，树木生物量更多，树种种类更丰富——包括一棵巨大的无花果树，<a href="http://www.popsci.com/food-waste-fertilizer#page-2">树干需要三个人</a>一起环绕才能覆盖整个树干。</p><p>至于橙皮如何在短短16年的隔离中如此有效地恢复遗址，没有人完全确定。</p><p>“这是我们尚未得到答案的百万美元问题，”特鲁尔告诉<a href="http://www.popsci.com/food-waste-fertilizer"><em>《大众科学</em></a>》。</p><p>“我强烈怀疑，抑制入侵草与重度退化土壤的恢复之间存在某种协同效应。”</p><p>虽然具体机制目前仍有些神秘，研究人员希望这座废弃的16年橙皮垃圾场的巨大成功能激励其他类似的保护项目。</p><p>尤其是因为，除了处理废弃物和振兴贫瘠景观的双重优势外，更丰富的林地还能从大气中<a href="https://www.sciencealert.com/the-world-is-getting-greener-thanks-to-rising-carbon-dioxide-levels">吸收更多碳</a>——这意味着像这样小块再生土地最终可能帮助拯救地球。</p><p>“真遗憾，我们生活在一个营养有限、退化生态系统和富含养分的废弃物流的世界。我们希望这些事情能稍微融合起来，“特鲁尔告诉《<a href="https://www.scientificamerican.com/podcast/episode/a-fruitful-experiment-in-land-conservation/?print=true"><em>科学美国人</em></a>》。</p><p>“这并不是任何农业公司随意将废弃物倾倒在保护区的许可，但这意味着我们应该开始思考如何进行深思熟虑的实验，看看在他们的系统中是否能实现类似的三赢效果。”</p><p>这些发现发表在<a href="http://onlinelibrary.wiley.com/doi/10.1111/rec.12565/full"><em>《恢复生态学</em></a>》杂志上。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;绿化荒山的简单方法&quot;&gt;&lt;a href=&quot;#绿化荒山的简单方法&quot; class=&quot;headerlink&quot; title=&quot;绿化荒山的简单方法&quot;&gt;&lt;/a&gt;绿化荒山的简单方法&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.sciencealert.com/how-</summary>
-      
-    
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/categories/web/"/>
-    
-    
-    <category term="web" scheme="https://dlwin888.github.io/tags/web/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>1677超高频英语单词</title>
-    <link href="https://dlwin888.github.io/2026/04/11/1677%E8%B6%85%E9%AB%98%E9%A2%91%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/"/>
-    <id>https://dlwin888.github.io/2026/04/11/1677%E8%B6%85%E9%AB%98%E9%A2%91%E8%8B%B1%E8%AF%AD%E5%8D%95%E8%AF%8D/</id>
-    <published>2026-04-11T06:32:07.000Z</published>
-    <updated>2026-05-08T08:29:55.446Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="1677超高频英语单词"><a href="#1677超高频英语单词" class="headerlink" title="1677超高频英语单词"></a>1677超高频英语单词</h3><p>Day1</p><p>ruler n. 尺子，直尺；统治者 </p><p>seven num. 七个，七 </p><p>today adv.&#x2F;n. 今天；现今，当代 </p><p>soul n. 灵魂，心灵，精神；某种人 </p><p>song n. 歌曲；歌唱；诗歌；鸣声 </p><p>Day2</p><p>consider v. 考虑；认为 </p><p>sell v. 卖，出售；vt. 推荐，推销 </p><p>pause n.&#x2F;v. 暂停；间歇 </p><p>river n. 河，江 </p><p>ugly adj. 丑陋的；难看的 </p><p>Day3</p><p>delay v.&#x2F;n. 延期，延误，耽搁，推迟 </p><p>distant adj. 遥远的，久远的，远亲的 </p><p>finish v. 完成；结束；用尽 n. 结尾，结束 </p><p>angry adj. 生气的；狂暴的 </p><p>bear v.  忍受，承受；生（孩子）n.熊 </p><p>Day4</p><p>clothing n.（总称）服装 </p><p>welcome v.&#x2F;n. 欢迎，迎接 adj.受欢迎的 </p><p>poor adj. 贫穷的；可怜的；不好的 </p><p>railway n. 铁路；轨道 </p><p>growth n. 成长，生长；增加，增长 </p><p>Day5</p><p>bus n. 公交车，巴士</p><p>pilot n. 飞行员，领航员 v. 驾驶（飞行器，船只）adj. 试点的</p><p>past adj. 过去的，以前的 n. 过去 prep. 经过，路过，超过</p><p>possession n. 拥有；财产</p><p>unit n. 单位，单元</p><p>在过去的几天，我经常错过公交。</p><p>In the past days, I often miss the bus.</p><p>Day6</p><p>dressn. 连衣裙；（特定种类的）衣服 v. 穿衣服<br>elseadj.&#x2F;adv. 其他的；别的<br>mentionvt.&#x2F;n. 提到；提及<br>hilln. 小山；丘陵<br>unclen. 叔叔；伯父；舅父</p><p>我的叔叔提到他昨天爬上山顶了。</p><p>My uncle mentioned that he climbed to the top of the hill yesterday.</p><p>Day8</p><table><thead><tr><th>loss</th><th align="left">n. 减少；亏损；失败；遗失</th></tr></thead><tbody><tr><td>distance</td><td align="left">n.&#x2F;v. 距离；疏远，间隔</td></tr><tr><td>accept</td><td align="left">vt. 接受；承认</td></tr><tr><td>hang</td><td align="left">v. 悬挂，垂下; 绞死</td></tr><tr><td>hurry</td><td align="left">v.&#x2F;n. 仓促；匆忙，急忙</td></tr></tbody></table><p>他不能接受失去他的工作。</p><p>He can not accept losing his job.</p><p>Day9</p><table><thead><tr><th>quite</th><th>adv. 很；相当</th></tr></thead><tbody><tr><td>officer</td><td>n. 官员；公务员</td></tr><tr><td>mark</td><td>v. 作记号；打分数 n. 记号；分数</td></tr><tr><td>war</td><td>n.&#x2F;v. 战争；冲突，竞争</td></tr><tr><td>outside</td><td>n.&#x2F;adj.&#x2F;prep.&#x2F;adv. 外边，外面</td></tr></tbody></table><p>在外面相当安静。</p><p>It is quite quiet outside.</p><p>Day10</p><table><thead><tr><th>soldier</th><th>n. 军人，士兵；vi. 当兵，坚持干</th></tr></thead><tbody><tr><td>than</td><td>conj.&#x2F;prep. 比</td></tr><tr><td>bucket</td><td>n. 桶，水桶 v. 倾盆而下</td></tr><tr><td>frame</td><td>n. 框架，结构 vt. 配框，设计，建造</td></tr><tr><td>former</td><td>adj. 从前的，前者的；前任的</td></tr></tbody></table><p>这个桶比那一个更大。</p><p>This bucket is larger than that one.</p><p>Day11</p><table><thead><tr><th>praise</th><th>v.&#x2F;n. 赞扬，称赞</th></tr></thead><tbody><tr><td>vegetable</td><td>n.&#x2F;adj. 蔬菜；植物</td></tr><tr><td>sale</td><td>n. 销售；出售；特价，促销</td></tr><tr><td>fall</td><td>v.&#x2F;n. 落下，跌倒，减少；n. 秋天</td></tr><tr><td>defeat</td><td>v.&#x2F;n. 击败；挫败</td></tr></tbody></table><p>如果它打折，我会买下它。</p><p>If it is on sale, I will buy it.</p><p>Day12</p><table><thead><tr><th>kick</th><th>v.&#x2F;n. 踢，踢腿</th></tr></thead><tbody><tr><td>to</td><td>prep. 朝，向；到某处</td></tr><tr><td>lawyer</td><td>n. 律师</td></tr><tr><td>piece</td><td>n. 块；件；条</td></tr><tr><td>anyhow</td><td>adv. 总之；无论如何；不管怎样</td></tr></tbody></table><p>那个律师正在一张纸上写字。</p><p>That lawyer is writing on a piece of paper.</p><p>Day13</p><table><thead><tr><th>like</th><th>v. 喜欢；prep. 好像，如同</th></tr></thead><tbody><tr><td>type</td><td>n. 类型，品种；v. 打字</td></tr><tr><td>real</td><td>adj. 实际的；真实的；实在的</td></tr><tr><td>pole</td><td>n. 杆；极点</td></tr><tr><td>accident</td><td>n. 事故；意外</td></tr></tbody></table><p>你喜欢什么类型的男孩？</p><p>What type of boys do you like?</p><p>Day15</p><table><thead><tr><th>altogether</th><th>adv.&#x2F;n. 完全地；总共；总而言之</th></tr></thead><tbody><tr><td>shout</td><td>v.&#x2F;n. 呼喊；呼叫</td></tr><tr><td>beg</td><td>v. 乞讨；恳求</td></tr><tr><td>someone</td><td>pron. 有人，某人；重要人物</td></tr><tr><td>meaning</td><td>n. 意义；含义；意图</td></tr></tbody></table><p>对不起我没听清，“someone”这个词是什么意思？</p><p>I beg your pardon, whats the meaning of the word “someone”?</p><p>Day16</p><table><thead><tr><th>it</th><th>pron. 它；这；那；指代天气、时间</th></tr></thead><tbody><tr><td>find</td><td>v. 找到，发现；感到，认为</td></tr><tr><td>needle</td><td>n.&#x2F;v. 针；用针缝</td></tr><tr><td>bone</td><td>n. 骨头；（肉、鱼）刺</td></tr><tr><td>coast</td><td>n. 海岸；v. 惯性滑行</td></tr></tbody></table><p>我觉得在海岸散步很有趣。</p><p>I find it fun to walk in the coast.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;1677超高频英语单词&quot;&gt;&lt;a href=&quot;#1677超高频英语单词&quot; class=&quot;headerlink&quot; title=&quot;1677超高频英语单词&quot;&gt;&lt;/a&gt;1677超高频英语单词&lt;/h3&gt;&lt;p&gt;Day1&lt;/p&gt;
-&lt;p&gt;ruler n. 尺子，直尺；统治者 &lt;/p</summary>
-      
-    
-    
-    
-    <category term="english" scheme="https://dlwin888.github.io/categories/english/"/>
-    
-    
-    <category term="english" scheme="https://dlwin888.github.io/tags/english/"/>
     
   </entry>
   
