@@ -65,6 +65,30 @@
   </entry>
   
   <entry>
+    <title>基于趋势跟踪的期权比率价差</title>
+    <link href="https://dlwin888.github.io/2026/05/09/%E5%9F%BA%E4%BA%8E%E8%B6%8B%E5%8A%BF%E8%B7%9F%E8%B8%AA%E7%9A%84%E6%9C%9F%E6%9D%83%E6%AF%94%E7%8E%87%E4%BB%B7%E5%B7%AE%EF%BC%88Ratio%20Spread%EF%BC%89/"/>
+    <id>https://dlwin888.github.io/2026/05/09/%E5%9F%BA%E4%BA%8E%E8%B6%8B%E5%8A%BF%E8%B7%9F%E8%B8%AA%E7%9A%84%E6%9C%9F%E6%9D%83%E6%AF%94%E7%8E%87%E4%BB%B7%E5%B7%AE%EF%BC%88Ratio%20Spread%EF%BC%89/</id>
+    <published>2026-05-09T00:46:33.000Z</published>
+    <updated>2026-05-09T08:09:46.971Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="基于趋势跟踪的期权比率价差（Ratio-Spread）"><a href="#基于趋势跟踪的期权比率价差（Ratio-Spread）" class="headerlink" title="基于趋势跟踪的期权比率价差（Ratio Spread）"></a>基于趋势跟踪的期权比率价差（Ratio Spread）</h2><p>先定核心定位：</p><p><strong>比率价差 &#x3D; 趋势跟踪 + 不对称卖方 + 吃时间价值 + 波动率塌陷</strong></p><p>比普通裸卖、普通信用价差更狠：<strong>顺势吃中段趋势，容错大、收益上限高、利用肥尾但主动控制尾部风险</strong>，完全契合你前面说的「if-else 逻辑闭环、正期望、反人性、肥尾市场」。</p><h4 id="一、先讲本质：什么是期权比率价差"><a href="#一、先讲本质：什么是期权比率价差" class="headerlink" title="一、先讲本质：什么是期权比率价差"></a>一、先讲本质：什么是期权比率价差</h4><p>分两类最常用：</p><ol><li><p><strong>看涨比率价差（Call Ratio Spread）</strong></p><p>买入<strong>1 张低行权价实值 &#x2F; 平值 Call</strong> + 卖出<strong>多张更高行权价虚值 Call</strong></p><p>常见配比：<strong>1 买 2 卖、1 买 3 卖</strong></p></li><li><p><strong>看跌比率价差（Put Ratio Spread）</strong></p><p>买入<strong>1 张高行权价实值 &#x2F; 平值 Put</strong> + 卖出<strong>多张更低行权价虚值 Put</strong></p><p>配比同样：1:2、1:3</p></li></ol><p>核心特征：</p><ul><li>开局<strong>净收权利金</strong>，时间价值天天躺赚</li><li>小幅涨跌都赚钱，<strong>完美适配趋势缓慢走、震荡上行 &#x2F; 下行</strong></li><li>只有<strong>极端反向肥尾行情</strong>才会亏大钱，其余时间优势拉满</li><li>比普通牛市 &#x2F; 熊市价差：<strong>收益更高、容错更大</strong></li><li>比裸卖：<strong>有近端买入期权做第一层保护</strong>，不会无脑黑天鹅爆仓</li></ul><h4 id="二、和趋势跟踪怎么绑定（核心落地规则）"><a href="#二、和趋势跟踪怎么绑定（核心落地规则）" class="headerlink" title="二、和趋势跟踪怎么绑定（核心落地规则）"></a>二、和趋势跟踪怎么绑定（核心落地规则）</h4><h4 id="1-多头趋势（日线均线向上、价格沿趋势线上行）"><a href="#1-多头趋势（日线均线向上、价格沿趋势线上行）" class="headerlink" title="1. 多头趋势（日线均线向上、价格沿趋势线上行）"></a>1. 多头趋势（日线均线向上、价格沿趋势线上行）</h4><p>只做 <strong>Call 比率价差（1 买 2 卖）</strong></p><p>逻辑：</p><p>顺势看涨，标的缓慢上涨最舒服；</p><p>近端买一张 Call 兜底，远端卖两张虚值 Call 收时间价值；</p><p><strong>小幅涨、横盘、微跌都赚钱</strong>，只有<strong>极端暴力大跌</strong>才会大亏。</p><p>参数标准：</p><ul><li>买入：<strong>平值 &#x2F; 轻度实值 Call</strong>（当月或次近月）</li><li>卖出：<strong>高两档～三档虚值 Call</strong></li><li>期限：剩余 25～40 天，Theta 衰减最快</li><li>配比：优先 <strong>1:2</strong>（稳健），激进 1:3</li></ul><h4 id="2-空头趋势（日线均线向下、价格沿趋势线下行）"><a href="#2-空头趋势（日线均线向下、价格沿趋势线下行）" class="headerlink" title="2. 空头趋势（日线均线向下、价格沿趋势线下行）"></a>2. 空头趋势（日线均线向下、价格沿趋势线下行）</h4><p>只做 <strong>Put 比率价差（1 买 2 卖）</strong></p><p>逻辑同理：</p><p>顺势看跌，标的缓慢下跌最赚钱；</p><p>近端买一张 Put 兜底，远端卖两张虚值 Put 收时间价值；</p><p>只有<strong>极端暴力大涨</strong>这种反向肥尾才会受伤。</p><h4 id="3-震荡市"><a href="#3-震荡市" class="headerlink" title="3. 震荡市"></a>3. 震荡市</h4><p><strong>不做标准比率价差</strong>，只做<strong>反向比率（反向比率价差）</strong> 或者铁鹰，普通顺势比率价差震荡容易被来回扫。</p><h4 id="三、比率价差的概率优势（契合教父-Kim-那套逻辑）"><a href="#三、比率价差的概率优势（契合教父-Kim-那套逻辑）" class="headerlink" title="三、比率价差的概率优势（契合教父 Kim 那套逻辑）"></a>三、比率价差的概率优势（契合教父 Kim 那套逻辑）</h4><ol><li><p>市场<strong>肥尾分布</strong>：极端单边暴涨暴跌是小概率，大部分时间是<strong>趋势缓行、震荡</strong></p></li><li><p>人性弱点：大众追涨杀跌、拿不住、不止损</p></li><li><p>比率价差刚好吃<strong>大概率的常态行情</strong>，只回避小概率反向肥尾</p></li><li><p>结构自带：</p><p>多数时间躺赚时间价值，只有极小概率大亏</p><p>只要加</p><p>趋势过滤 + 仓位风控 + 止损规则</p><p>，长期期望必然为正，就是一套完备 if-else 闭环。</p></li></ol><h4 id="四、优缺点对比（一眼看懂为什么好用）"><a href="#四、优缺点对比（一眼看懂为什么好用）" class="headerlink" title="四、优缺点对比（一眼看懂为什么好用）"></a>四、优缺点对比（一眼看懂为什么好用）</h4><table><thead><tr><th align="center">策略</th><th align="center">优点</th><th align="center">缺点</th></tr></thead><tbody><tr><td align="center">普通信用价差</td><td align="center">最大亏损固定、安全</td><td align="center">收益低、盈利空间窄</td></tr><tr><td align="center">裸卖虚值期权</td><td align="center">胜率高、赚 Theta 快</td><td align="center">黑天鹅无兜底、易爆仓</td></tr><tr><td align="center"><strong>比率价差</strong></td><td align="center">顺势容错极大、收益高、有近端期权保护、吃缓趋势最强</td><td align="center">极端反向行情亏损会放大，必须严格止损 &#x2F; 移仓</td></tr></tbody></table><h4 id="五、量化交易完整-if-else-执行规则（可直接编程）"><a href="#五、量化交易完整-if-else-执行规则（可直接编程）" class="headerlink" title="五、量化交易完整 if-else 执行规则（可直接编程）"></a>五、量化交易完整 if-else 执行规则（可直接编程）</h4><h4 id="开仓条件"><a href="#开仓条件" class="headerlink" title="开仓条件"></a>开仓条件</h4><ol><li>大周期日线判定明确单边趋势（20MA 斜率向上 &#x2F; 向下）</li><li>IV 处于中高位，适合卖方吃波动率回落</li><li>不做震荡、不做趋势拐点初期</li></ol><h4 id="配比与行权价"><a href="#配比与行权价" class="headerlink" title="配比与行权价"></a>配比与行权价</h4><ul><li>稳健标配：<strong>1 买 2 卖</strong></li><li>行权间距：间隔 2～3 档虚值</li><li>到期时间：剩余 30 天左右最佳</li></ul><h4 id="止盈规则"><a href="#止盈规则" class="headerlink" title="止盈规则"></a>止盈规则</h4><ol><li>整体组合权利金盈利达到<strong>50%～70%</strong> 直接平仓</li><li>进入最后 7 天末日轮，无论盈亏一律离场</li></ol><h4 id="止损-风控（最关键）"><a href="#止损-风控（最关键）" class="headerlink" title="止损 &amp; 风控（最关键）"></a>止损 &amp; 风控（最关键）</h4><ol><li>标的<strong>有效突破趋势线 &#x2F; 均线</strong>，趋势破坏，直接平仓离场</li><li>组合浮亏达到<strong>初始净权利金的 1.5～2 倍</strong>，无条件止损</li><li>单一品种比率价差仓位，不超过总资金 10%</li><li>一旦出现反向急速拉升 &#x2F; 下跌，<strong>提前移仓展期</strong>，不硬扛</li></ol><h4 id="六、一句话总结"><a href="#六、一句话总结" class="headerlink" title="六、一句话总结"></a>六、一句话总结</h4><p>比率价差，就是<strong>趋势跟踪体系下的进阶卖方</strong>：</p><p>用「1 买多卖」的不对称结构，吃掉市场<strong>大概率的缓趋势行情 + 时间价值 + 波动率塌陷</strong>，只承担小概率反向肥尾风险；</p><p>配上趋势过滤、固定配比、严格止损，就是一套<strong>逻辑闭环、正期望、风险可控</strong>的高阶期权交易系统。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;基于趋势跟踪的期权比率价差（Ratio-Spread）&quot;&gt;&lt;a href=&quot;#基于趋势跟踪的期权比率价差（Ratio-Spread）&quot; class=&quot;headerlink&quot; title=&quot;基于趋势跟踪的期权比率价差（Ratio Spread）&quot;&gt;&lt;/a&gt;基于趋势跟</summary>
+      
+    
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/categories/invest/"/>
+    
+    
+    <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
+    
+  </entry>
+  
+  <entry>
     <title>260508</title>
     <link href="https://dlwin888.github.io/2026/05/08/260508/"/>
     <id>https://dlwin888.github.io/2026/05/08/260508/</id>
@@ -483,33 +507,6 @@
     <summary type="html">&lt;h3 id=&quot;260416日记&quot;&gt;&lt;a href=&quot;#260416日记&quot; class=&quot;headerlink&quot; title=&quot;260416日记&quot;&gt;&lt;/a&gt;260416日记&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;上月返还4200, 全部投入期权账号&lt;/li&gt;
 &lt;li&gt;闲置的工行资金，2W买国</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>260414</title>
-    <link href="https://dlwin888.github.io/2026/04/14/260414/"/>
-    <id>https://dlwin888.github.io/2026/04/14/260414/</id>
-    <published>2026-04-14T01:59:55.000Z</published>
-    <updated>2026-04-14T03:33:28.076Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="260414日记"><a href="#260414日记" class="headerlink" title="260414日记"></a>260414日记</h3><ol><li><p>1677英语第一周</p></li><li><p>基于日线趋势跟踪的卖方反向比率价差策略</p><blockquote><p><strong>卖 2 手 + 买 1 手</strong>（反向比率，偏裸卖、高收益、有限兜底）</p><p>空头趋势：<strong>卖 2 张虚值 &#x2F; 平值 Call + 买 1 张更深虚值 Call</strong></p><p>多头趋势：<strong>卖 2 张虚值 &#x2F; 平值 Put + 买 1 张更深虚值 Put</strong></p><h4 id="通用规则"><a href="#通用规则" class="headerlink" title="通用规则"></a>通用规则</h4><ol><li><p>趋势判断：日线 MA20 压制 &#x3D; 空头 → 统一做 <strong>2 卖 Call+1 买 Call</strong></p></li><li><p>行权价选择</p><ul><li>卖出腿：浅虚值 &#x2F; 近平值 Call（Delta 0.45~0.55），流动性最好</li><li>买入保护腿：<strong>深度虚值 2~3 档</strong> Call（Delta 0.1~0.15），成本极低</li></ul></li><li><p>到期：统一选 <strong>30~40 天 合约期权</strong></p></li><li><p>仓位：单品种轻仓，防止反弹脉冲杀波动率</p></li></ol></blockquote></li></ol><p><img src="/../uploads/image-20260414104947074.png" alt="期权买卖"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;260414日记&quot;&gt;&lt;a href=&quot;#260414日记&quot; class=&quot;headerlink&quot; title=&quot;260414日记&quot;&gt;&lt;/a&gt;260414日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;1677英语第一周&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;基于日线趋势跟踪的卖</summary>
       
     
     
