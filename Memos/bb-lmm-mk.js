@@ -900,7 +900,7 @@ async function updateHTMl(data){
           ${emojiReaction}
         </div>
           <div class="bb-info">
-            <a href="${AppState.memos + bbID}" target="_blank"><span class="datatime">${new Date(memosData[i].displayTime).toLocaleString()}</span></a>
+            <a href="${AppState.memos + bbID}" target="_blank"><span class="datatime">${new Date(memosData[i].createTime).toLocaleString()}</span></a>
             ${datacountDOM}
           </div>
         </div>
