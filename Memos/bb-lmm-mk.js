@@ -646,10 +646,10 @@ if (AppState.bbDom) {
 }
 async function fetchStatus() {
   let statusUrl = AppState.memos+"api/v1";
-  let response = await fetch(statusUrl);
-  if (response.ok || response.status === 404) {
+  //let response = await fetch(statusUrl);
+  //if (response.ok || response.status === 404) {
     AppState.apiV1 = 'v1/'
-  }
+  //}
   let memoOne = Utils.getQueryVariable("memo") || ''
   if(memoOne){
     getMemoOne(memoOne)
