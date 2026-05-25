@@ -92,6 +92,7 @@ const allCSS = `
   box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19);
   transition: all 0.3s ease;
   border: 1px solid #f0f0f0;
+  background: transparent;
 }
 
 .bb-timeline .bb-item:hover {
