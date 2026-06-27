@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>260627</title>
+      <link href="/2026/06/27/260627/"/>
+      <url>/2026/06/27/260627/</url>
+      
+        <content type="html"><![CDATA[<h3 id="260627日记"><a href="#260627日记" class="headerlink" title="260627日记"></a>260627日记</h3><ol><li><p>学习一门新的编程语言rust，优点：无GC，高并发</p><table><thead><tr><th align="left">设计目标</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">内存安全（无 GC）</td><td align="left">通过所有权系统在编译期保证内存安全，无需垃圾回收器</td></tr><tr><td align="left">零成本抽象</td><td align="left">高级语言特性在编译后无运行时开销，与手写底层代码性能一致</td></tr><tr><td align="left">无畏并发</td><td align="left">类型系统和所有权规则在编译期杜绝数据竞争</td></tr><tr><td align="left">实用性</td><td align="left">既能写操作系统内核，也能写 Web 应用，覆盖全栈场景</td></tr><tr><td align="left">强类型推断</td><td align="left">编译器自动推导大部分类型，减少样板代码</td></tr><tr><td align="left">丰富的工具链</td><td align="left">Cargo（包管理+构建）、rustfmt（格式化）、clippy（代码检查）开箱即用</td></tr></tbody></table></li><li><p>晚上回去准备看个新电影，super girl</p></li></ol><p><img src="/../uploads/102ccb46-f01a-4b0b-bb62-73f390352c7f.webp" alt="rust"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> diary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>How to Be Interesting</title>
       <link href="/2026/06/25/How%20to%20Be%20Interesting/"/>
       <url>/2026/06/25/How%20to%20Be%20Interesting/</url>
