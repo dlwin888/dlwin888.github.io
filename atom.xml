@@ -6,7 +6,7 @@
   <link href="https://dlwin888.github.io/atom.xml" rel="self"/>
   
   <link href="https://dlwin888.github.io/"/>
-  <updated>2026-06-29T01:49:10.823Z</updated>
+  <updated>2026-07-06T02:50:37.493Z</updated>
   <id>https://dlwin888.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>260706</title>
+    <link href="https://dlwin888.github.io/2026/07/06/260706/"/>
+    <id>https://dlwin888.github.io/2026/07/06/260706/</id>
+    <published>2026-07-06T02:45:27.000Z</published>
+    <updated>2026-07-06T02:50:37.493Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="260706日记"><a href="#260706日记" class="headerlink" title="260706日记"></a>260706日记</h3><ol><li>程序员最讨厌的事，需求变更，毫无工作兴致</li><li>后室，外国人拍的抽象恐怖电影</li><li><a href="https://www.zahui.top/posts/2026/07/04/youtaifaze.html">犹太商法核心法则</a></li><li>历史最弱巴西队回家</li></ol><p><img src="/../uploads/image-20260706104913270.png" alt="轮回"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;260706日记&quot;&gt;&lt;a href=&quot;#260706日记&quot; class=&quot;headerlink&quot; title=&quot;260706日记&quot;&gt;&lt;/a&gt;260706日记&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;程序员最讨厌的事，需求变更，毫无工作兴致&lt;/li&gt;
+&lt;li&gt;后室，外国人拍的抽象</summary>
+      
+    
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
+    
+    
+    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
+    
+  </entry>
   
   <entry>
     <title>260629</title>
@@ -46,9 +72,9 @@
     <link href="https://dlwin888.github.io/2026/06/27/260627/"/>
     <id>https://dlwin888.github.io/2026/06/27/260627/</id>
     <published>2026-06-27T01:56:22.000Z</published>
-    <updated>2026-06-27T01:59:48.319Z</updated>
+    <updated>2026-07-06T02:49:51.457Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="260627日记"><a href="#260627日记" class="headerlink" title="260627日记"></a>260627日记</h3><ol><li><p>学习一门新的编程语言rust，优点：无GC，高并发</p><table><thead><tr><th align="left">设计目标</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">内存安全（无 GC）</td><td align="left">通过所有权系统在编译期保证内存安全，无需垃圾回收器</td></tr><tr><td align="left">零成本抽象</td><td align="left">高级语言特性在编译后无运行时开销，与手写底层代码性能一致</td></tr><tr><td align="left">无畏并发</td><td align="left">类型系统和所有权规则在编译期杜绝数据竞争</td></tr><tr><td align="left">实用性</td><td align="left">既能写操作系统内核，也能写 Web 应用，覆盖全栈场景</td></tr><tr><td align="left">强类型推断</td><td align="left">编译器自动推导大部分类型，减少样板代码</td></tr><tr><td align="left">丰富的工具链</td><td align="left">Cargo（包管理+构建）、rustfmt（格式化）、clippy（代码检查）开箱即用</td></tr></tbody></table></li><li><p>晚上回去准备看个新电影，super girl</p></li></ol><p><img src="/../uploads/102ccb46-f01a-4b0b-bb62-73f390352c7f.webp" alt="rust"></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="260627日记"><a href="#260627日记" class="headerlink" title="260627日记"></a>260627日记</h3><ol><li><p>学习一门新的编程语言rust，优点：无GC，高并发</p><table><thead><tr><th align="left">设计目标</th><th align="left">说明</th></tr></thead><tbody><tr><td align="left">内存安全（无 GC）</td><td align="left">通过所有权系统在编译期保证内存安全，无需垃圾回收器</td></tr><tr><td align="left">零成本抽象</td><td align="left">高级语言特性在编译后无运行时开销，与手写底层代码性能一致</td></tr><tr><td align="left">无畏并发</td><td align="left">类型系统和所有权规则在编译期杜绝数据竞争</td></tr><tr><td align="left">实用性</td><td align="left">既能写操作系统内核，也能写 Web 应用，覆盖全栈场景</td></tr><tr><td align="left">强类型推断</td><td align="left">编译器自动推导大部分类型，减少样板代码</td></tr><tr><td align="left">丰富的工具链</td><td align="left">Cargo（包管理+构建）、rustfmt（格式化）、clippy（代码检查）开箱即用</td></tr></tbody></table></li><li><p>晚上回去准备看个新电影，<del>super girl</del></p></li></ol><p><img src="/../uploads/102ccb46-f01a-4b0b-bb62-73f390352c7f.webp" alt="rust"></p>]]></content>
     
     
       
@@ -494,31 +520,6 @@
     
     
     <category term="invest" scheme="https://dlwin888.github.io/tags/invest/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>260525</title>
-    <link href="https://dlwin888.github.io/2026/05/25/260525/"/>
-    <id>https://dlwin888.github.io/2026/05/25/260525/</id>
-    <published>2026-05-25T06:54:54.000Z</published>
-    <updated>2026-05-28T02:44:54.253Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="260525日记"><a href="#260525日记" class="headerlink" title="260525日记"></a>260525日记</h3><ol><li>部署自己的<a href="https://memos.m3u8player.com.cn/">说说页面</a></li><li>这奏是私人微博、朋友圈</li><li>集成到<a href="https://dlwin888.github.io/Memos/">个人博客</a>，效果不错</li></ol><p><img src="/../uploads/image-20260525145827446.png" alt="image-20260525145827446"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;260525日记&quot;&gt;&lt;a href=&quot;#260525日记&quot; class=&quot;headerlink&quot; title=&quot;260525日记&quot;&gt;&lt;/a&gt;260525日记&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;部署自己的&lt;a href=&quot;https://memos.m3u8player.c</summary>
-      
-    
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/categories/diary/"/>
-    
-    
-    <category term="diary" scheme="https://dlwin888.github.io/tags/diary/"/>
     
   </entry>
   
