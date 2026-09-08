@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>260908</title>
+      <link href="/2026/09/08/260908/"/>
+      <url>/2026/09/08/260908/</url>
+      
+        <content type="html"><![CDATA[<h3 id="260908日记"><a href="#260908日记" class="headerlink" title="260908日记"></a>260908日记</h3><ol><li>连续忙碌一个月，终于有片刻闲暇</li><li>港股打新历时10个月，终于中了一签，账面盈利覆盖其它浮亏，回本</li><li>研究一下定投标普、纳指，来个两年计划</li></ol><p><img src="/../uploads/image-20260908150807486.png" alt="image-20260908150807486"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> diary </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> diary </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>compare-column</title>
+      <link href="/2026/08/27/compare-column/"/>
+      <url>/2026/08/27/compare-column/</url>
+      
+        <content type="html"><![CDATA[<h1 id="比较两列找出不同"><a href="#比较两列找出不同" class="headerlink" title="比较两列找出不同"></a>比较两列找出不同</h1><p>请完全按照以下步骤操作，**不要用 <code>VSTACK</code> 和 <code>UNIQUE</code>**：</p><hr><h3 id="第1步：把两列数据合并成一列"><a href="#第1步：把两列数据合并成一列" class="headerlink" title="第1步：把两列数据合并成一列"></a>第1步：把两列数据合并成一列</h3><ol><li><strong>复制 A列所有数据</strong> → 点击 <strong>C1</strong> → 右键“粘贴”</li><li><strong>复制 B列所有数据</strong> → 点击 <strong>C列最后一个有数据的下一行</strong>（比如 C101）→ 右键“粘贴”</li></ol><p>现在 C列 包含了 A列 和 B列 的所有数据（上下排列）。</p><hr><h3 id="第2步：删除重复项"><a href="#第2步：删除重复项" class="headerlink" title="第2步：删除重复项"></a>第2步：删除重复项</h3><ol><li>选中 <strong>C列</strong>（点击列标 C）</li><li>点击菜单：<strong>数据</strong> → <strong>删除重复项</strong></li><li>点“确定”</li><li>现在 C列 就是两列合并后的<strong>唯一值清单</strong></li></ol><hr><h3 id="第3步：用-VLOOKUP-匹配-A-列"><a href="#第3步：用-VLOOKUP-匹配-A-列" class="headerlink" title="第3步：用 VLOOKUP 匹配 A 列"></a>第3步：用 VLOOKUP 匹配 A 列</h3><p>在 <strong>D1</strong> 输入：</p><p>excel</p><pre><code>=IFERROR(VLOOKUP(C1, A:A, 1, 0), &quot;&quot;)</code></pre><p>然后<strong>双击 D1 右下角的小黑点</strong>，或按住下拉填充，一直填到 C列 最后一行。</p><hr><h3 id="第4步：用-VLOOKUP-匹配-B-列"><a href="#第4步：用-VLOOKUP-匹配-B-列" class="headerlink" title="第4步：用 VLOOKUP 匹配 B 列"></a>第4步：用 VLOOKUP 匹配 B 列</h3><p>在 <strong>E1</strong> 输入：</p><p>excel</p><pre><code>=IFERROR(VLOOKUP(C1, B:B, 1, 0), &quot;&quot;)</code></pre><p>同样<strong>下拉填充</strong>到 C列 最后一行。</p><hr><h3 id="第5步：完成"><a href="#第5步：完成" class="headerlink" title="第5步：完成"></a>第5步：完成</h3><p>现在：</p><ul><li>C列 &#x3D; 所有唯一值</li><li>D列 &#x3D; 从 A列 匹配到的值（没有就空白）</li><li>E列 &#x3D; 从 B列 匹配到的值（没有就空白）</li></ul><p><strong>删除 C列</strong>（或隐藏），剩下 D列 和 E列 就是您要的<strong>对齐后的两列</strong>。</p><hr><h2 id="图示效果"><a href="#图示效果" class="headerlink" title="图示效果"></a>图示效果</h2><table><thead><tr><th align="left">C列（唯一值）</th><th align="left">D列（来自A）</th><th align="left">E列（来自B）</th></tr></thead><tbody><tr><td align="left">苹果</td><td align="left">苹果</td><td align="left">苹果</td></tr><tr><td align="left">香蕉</td><td align="left">香蕉</td><td align="left"></td></tr><tr><td align="left">草莓</td><td align="left">草莓</td><td align="left">草莓</td></tr><tr><td align="left">橙子</td><td align="left">橙子</td><td align="left">橙子</td></tr><tr><td align="left">西瓜</td><td align="left"></td><td align="left">西瓜</td></tr></tbody></table><p>删除 C列 后，剩下 D列 和 E列 就是您想要的最终结果。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>260731</title>
       <link href="/2026/07/31/260731/"/>
       <url>/2026/07/31/260731/</url>
