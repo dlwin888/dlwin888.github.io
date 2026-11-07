@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>完整分析20261107</title>
+      <link href="/2026/11/07/Ultimate%20Options%20Tracking%20Spreadsheet%E5%AE%8C%E6%95%B4%E5%88%86%E6%9E%9020261107/"/>
+      <url>/2026/11/07/Ultimate%20Options%20Tracking%20Spreadsheet%E5%AE%8C%E6%95%B4%E5%88%86%E6%9E%9020261107/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Ultimate-Options-Tracking-Spreadsheet完整分析20261107"><a href="#Ultimate-Options-Tracking-Spreadsheet完整分析20261107" class="headerlink" title="Ultimate Options Tracking Spreadsheet完整分析20261107"></a>Ultimate Options Tracking Spreadsheet完整分析20261107</h2><h2 id="文件概况"><a href="#文件概况" class="headerlink" title="文件概况"></a>文件概况</h2><table><thead><tr><th>Sheet</th><th>说明</th></tr></thead><tbody><tr><td><strong>Options Tracker</strong></td><td>主表，49 笔真实交易（另有 1 行英文表头混入）</td></tr><tr><td>Options Tracker - SAMPLE</td><td>模板示例数据（13 行），分析中已排除</td></tr></tbody></table><p>交易区间：<strong>2026-09-11 ~ 2026-11-05</strong>，策略以卖 Put &#x2F; 备兑 Call 为主。</p><h2 id="整体业绩（38-笔已平仓）"><a href="#整体业绩（38-笔已平仓）" class="headerlink" title="整体业绩（38 笔已平仓）"></a>整体业绩（38 笔已平仓）</h2><table><thead><tr><th>指标</th><th>数值</th></tr></thead><tbody><tr><td>已实现总盈亏</td><td><strong>+$222.49</strong></td></tr><tr><td>胜率</td><td>**81.6%**（31 胜 &#x2F; 7 负）</td></tr><tr><td>总手续费</td><td>$81.65</td></tr><tr><td>当前持仓</td><td>11 笔未平仓</td></tr></tbody></table><h2 id="分标的盈亏"><a href="#分标的盈亏" class="headerlink" title="分标的盈亏"></a>分标的盈亏</h2><table><thead><tr><th>标的</th><th>交易数</th><th>已实现盈亏</th><th>胜率</th></tr></thead><tbody><tr><td>SOFI</td><td>16</td><td><strong>+$364.9</strong></td><td>92.9%</td></tr><tr><td>BILI</td><td>15</td><td>+$77.7</td><td>81.8%</td></tr><tr><td>PFE</td><td>10</td><td>+$17.7</td><td>77.8%</td></tr><tr><td>F &#x2F; T</td><td>3 &#x2F; 3</td><td>+$11.3 &#x2F; +$6.3</td><td>100%</td></tr><tr><td>KO</td><td>1</td><td>-$22.7</td><td>0%</td></tr><tr><td>NFLX</td><td>1</td><td><strong>-$232.7</strong></td><td>0%</td></tr></tbody></table><p>SOFI 是主要利润来源；NFLX 单笔 Put 亏损 -$232.7，几乎抵消了 PFE&#x2F;F&#x2F;T 的全部利润。</p><h2 id="分策略类型"><a href="#分策略类型" class="headerlink" title="分策略类型"></a>分策略类型</h2><table><thead><tr><th>类型</th><th>笔数</th><th>总盈亏</th><th>单笔均盈亏</th><th>平均持有天数</th></tr></thead><tbody><tr><td>Call</td><td>17</td><td><strong>+$324.0</strong></td><td>+$24.9</td><td>10.7</td></tr><tr><td>Put</td><td>26</td><td>+$150.8</td><td>+$7.9</td><td>6.5</td></tr><tr><td>Stock</td><td>1</td><td>+$95.3</td><td>+$95.3</td><td>1.0</td></tr><tr><td><strong>Assigned（被行权）</strong></td><td>5</td><td><strong>-$347.6</strong></td><td>-$69.5</td><td>1.0</td></tr></tbody></table><p>关键发现：<strong>被行权是唯一亏损的策略类型</strong>，5 笔合计 -$347.6，其中包括最大单笔亏损（BILI 被行权 -$284.1，10-16）。</p><h2 id="月度盈亏（按平仓月）"><a href="#月度盈亏（按平仓月）" class="headerlink" title="月度盈亏（按平仓月）"></a>月度盈亏（按平仓月）</h2><table><thead><tr><th>月份</th><th>平仓数</th><th>盈亏</th></tr></thead><tbody><tr><td>2026-09</td><td>3</td><td>+$86.8</td></tr><tr><td>2026-10</td><td>27</td><td><strong>-$181.3</strong></td></tr><tr><td>2026-11</td><td>8</td><td>+$317.0</td></tr></tbody></table><p>10 月是低谷（NFLX 亏损 + 多笔被行权集中在该月），11 月已明显回升。</p><h2 id="最佳-最差交易"><a href="#最佳-最差交易" class="headerlink" title="最佳 &#x2F; 最差交易"></a>最佳 &#x2F; 最差交易</h2><ul><li>最佳：BILI Put $15（+126.9）、SOFI 正股（+95.3）、BILI Call $17（+91.6）</li><li>最差：BILI Assigned（-284.1）、NFLX Put $70（-232.7）、SOFI Assigned（-113.4）</li></ul><h2 id="当前持仓（11-笔）"><a href="#当前持仓（11-笔）" class="headerlink" title="当前持仓（11 笔）"></a>当前持仓（11 笔）</h2><ul><li><strong>11-04&#x2F;05 新开 7 笔卖 Put</strong>：BILI(12)、T(21)×2、SOFI(15)、F(12)×2、PFE(29.5)</li><li><strong>BILI 备兑 Call 3 笔</strong>（行权价 16&#x2F;17，最远到期 2027-01-15）</li><li><strong>SOFI Call 1 笔</strong>（$22，2027-09-17 到期，偏 LEAP）</li></ul><h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>卖期权策略整体胜率高（81.6%），Call 端贡献利润最多；风险集中在<strong>被行权环节</strong>——5 笔行权亏掉了 Put 端两倍以上的利润。建议关注 BILI 仓位（当前 Put + Call 双头持仓，抵押金占用最大）以及 NFLX 这类高波动标的的头寸控制。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> invest </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> invest </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>261105</title>
       <link href="/2026/11/05/261105/"/>
       <url>/2026/11/05/261105/</url>
